@@ -42,12 +42,14 @@ However, if you check manually and return before using `dest`, that avoids the c
 
 #### <span class="color-purple">Question Box</span>:
 1. what is bsd library. 
-- what is casting. 
-
-
+- what is casting.
+- how null occure sigfault and how to optimize your code from sigfault 
+- gdb debuging
+- free(str)
 
 
 
 
 #### <span class="color-green">Answers Box</span>:
 1. to use it 
+2. - The `const` keyword indicates that the function will not modify the string you pass to it.
