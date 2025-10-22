@@ -79,21 +79,13 @@ this avoid writting outside the buffer and the return value to used to tell the 
 #### <span class="color-purple">Question Box</span>:
 <<<<<<< HEAD
 1. what is bsd library.
-- what is casting.
-- how null occure sigfault and how to optimize your code from sigfault 
-- gdb debuging
-- free(str)
-1. why we use `const char`.
-2. what is exactly a `NULL`
-=======
-1. what is bsd library. 
-2. what is casting. 
-3. why we use `const char`.
-4. what is exactly a `NULL`
-
-
->>>>>>> refs/remotes/origin/main
-
+2. what is casting.
+3. how null occure sigfault and how to optimize your code from sigfault.
+4. gdb debuging
+5. free(str)
+6. why we use `const char`.
+7. what is exactly a `NULL`
+8. what the difference between glibc and bsd.                            
 
 #### <span class="color-green">Answers Box</span>:
 1. to use it 
