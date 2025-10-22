@@ -77,6 +77,7 @@ this avoid writting outside the buffer and the return value to used to tell the 
 
 
 #### <span class="color-purple">Question Box</span>:
+<<<<<<< HEAD
 1. what is bsd library.
 - what is casting.
 - how null occure sigfault and how to optimize your code from sigfault 
@@ -84,6 +85,14 @@ this avoid writting outside the buffer and the return value to used to tell the 
 - free(str)
 1. why we use `const char`.
 2. what is exactly a `NULL`
+=======
+1. what is bsd library. 
+2. what is casting. 
+3. why we use `const char`.
+4. what is exactly a `NULL`
+
+
+>>>>>>> refs/remotes/origin/main
 
 
 #### <span class="color-green">Answers Box</span>:
