@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git help.md",
+                "file": "Welcome.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git help"
+              "title": "Welcome"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "10424350b623bef2",
@@ -172,8 +171,8 @@
   },
   "active": "12b78367b278187d",
   "lastOpenFiles": [
-    "Libft.md",
     "git help.md",
+    "Libft.md",
     "Makefile.md",
     "Data.md",
     "terminal.md",
