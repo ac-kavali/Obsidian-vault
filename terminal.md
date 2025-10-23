@@ -8,5 +8,3 @@ du -sh : to see all size folders . add / to sub directories
 
 
 
-
-# test pull
