@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "terminal.md",
+                "file": "Libft.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "terminal"
+              "title": "Libft"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "10424350b623bef2",
@@ -169,7 +170,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "364eed01b939fc76",
+  "active": "12b78367b278187d",
   "lastOpenFiles": [
     "terminal.md",
     "git temp.md",
