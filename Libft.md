@@ -7,9 +7,9 @@
 
 - **`strncat`** : *it coppy a source string to a destination from the its end to a specifique lent entred in parametter.* 
 
-##### strlcat: 
+#### <span class="color-red">strlcat</span>: 
 take the src and dest and return the size of the size of dest + src truncated 
-#### strlcpy: 
+#### <span class="color-red">strlcpy</span>: 
 **Goal**: Copy up to `size - 1` characters from `src` into `dest`, always null-terminating (`\0`) if `size > 0`.
 **Return value:** Always returns the **length of `src`** (the total number of characters in the source string, not the number copied).
 - the case if `dest[]`'s size = 1, When `strlcpy(dest, src, size)` is called, it calculate the dest size, and it copy `size-1` to `dest` ~ 0, and let 1 element for the `\0` then it fill the only element wity `\0`, and will retun the size of `src`.
@@ -20,7 +20,6 @@ If **either** of these is true, it _returns immediately_ without copying anythin
 However, if you check manually and return before using `dest`, that avoids the crash.    
 - `size == 0` → the function doesn’t copy anything, but it **still returns the length of `src`**.
 - hello 
-
 ##### case 1:
 ```c
 	char dest[3];
@@ -40,12 +39,27 @@ However, if you check manually and return before using `dest`, that avoids the c
 
 
 
+
+#### <span class="color-red">Calloc</span>:
+basicaly the libft use just the `malloc` and `memeset` functions in her source code, but you should optimize the calloc to avoid problem with memory like overflows :
+- the function use the type `size_t` that can hold on a `32-bit system`, `size_t` is typically 32 bits, and `SIZE_MAX` is `2^32 - 1` (approximately 4 billions).....on `64bit systems` can up to 1.8 x 10^19 .
+- then in the case of `(nmemb * size)` > `SIZE_MAX` this will cause a buffer overflow.
+- then, optimize your code :
+```c
+if (nmemb != 0 && size > SIZE_MAX / nmemb) //first thing in the code.
+ return NULL;
+```
+
+
+
+
 #### <span class="color-purple">Question Box</span>:
 1. what is bsd library. 
 - what is casting.
 - how null occure sigfault and how to optimize your code from sigfault 
 - gdb debuging
 - free(str)
+- learn the norm of .h files
 
 
 
