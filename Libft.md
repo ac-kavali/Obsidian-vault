@@ -1,25 +1,19 @@
-- **`strcmp`** : *compare until first difference or \0, when it reach the first difference it return the substraction of strA\[i] - strB\[i]. if they are identic it return 0 , and if one of them ended it return the strA\['\0'] - strB\[i] , or the oposite.* 
-
-- **`strncmp`** :  *it compare just n element in 2 string, used to compare prefixes , if one of string reached max it compar '\\0' and s2\[i].*
 
 
-- **`strcat`** : *it coppy a string to the end of the destination string by finding the `\0` and replace it and what came after by the src string, strncat* 
 
-- **`strncat`** : *it coppy a source string to a destination from the its end to a specifique lent entred in parametter.* 
-
+   
 #### <span class="color-red">strlcat</span>: 
 take the src and dest and return the size of the size of dest + src truncated 
 #### <span class="color-red">strlcpy</span>: 
 **Goal**: Copy up to `size - 1` characters from `src` into `dest`, always null-terminating (`\0`) if `size > 0`.
 **Return value:** Always returns the **length of `src`** (the total number of characters in the source string, not the number copied).
-- the case if `dest[]`'s size = 1, When `strlcpy(dest, src, size)` is called, it calculate the dest size, and it copy `size-1` to `dest` ~ 0, and let 1 element for the `\0` then it fill the only element wity `\0`, and will retun the size of `src`.
+- the case if `dest[]`'s size = 1, When `strlcpy(dest, src, size)` is called, it calculate the dest size, and it copy `size-1` to `dest` ~ 0, and let 1 element for the `\0` then it fill the only element wity `\0`, and will return the size of `src`.
 - `return value` = `strlen(src);`
 - `strlcpy(dest, src, size)` copies a string **only if `size > 0`**.
 If **either** of these is true, it _returns immediately_ without copying anything:
 - - `dest == NULL` → undefined behavior (the function _should not_ be called with NULL).  
 However, if you check manually and return before using `dest`, that avoids the crash.    
-- `size == 0` → the function doesn’t copy anything, but it **still returns the length of `src`**.
-- hello 
+- `size == 0` → the function doesn’t copy anything, but it **still returns the length of `src`**. 
 ##### case 1:
 ```c
 	char dest[3];
