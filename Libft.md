@@ -1,3 +1,6 @@
+
+static functions 
+file discriptor details
 #### <span class="color-red">strlcat</span>: 
 take the src and dest and return the size of the size of dest + src truncated 
 #### <span class="color-red">strlcpy</span>: 
