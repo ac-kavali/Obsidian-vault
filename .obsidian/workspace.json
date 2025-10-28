@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git help.md",
+                "file": "wallpaper.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git help"
+              "title": "wallpaper"
             }
           }
         ],
@@ -200,6 +200,8 @@
   },
   "active": "cefe4356900e5bb9",
   "lastOpenFiles": [
+    "git help.md",
+    "wallpaper.md",
     "Test Your Project.md",
     "itoa mode light.md",
     "Makefile 42 rules.md",
@@ -207,7 +209,6 @@
     "Libft.md",
     "Data.md",
     "Welcome.md",
-    "git help.md",
     "Makefile.md",
     "git temp.md",
     "examshell.md"
