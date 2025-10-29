@@ -1,8 +1,9 @@
 
 static functions 
 file discriptor details
+why the make file default mode run the cc compiler
 #### <span class="color-red">strlcat</span>: 
-take the src and dest and return the size of the size of dest + src truncated 
+take the src and dest and return the size of dest + src if size > dest size if size < dest it return size of size + size of src. 
 #### <span class="color-red">strlcpy</span>: 
 **Goal**: Copy up to `size - 1` characters from `src` into `dest`, always null-terminating (`\0`) if `size > 0`.
 **Return value:** Always returns the **length of `src`** (the total number of characters in the source string, not the number copied).
