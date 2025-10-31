@@ -8,3 +8,9 @@ du -sh : to see all size folders . add / to sub directories
 visual mode : gc to comment in nvim.
 
 gcc to comment 1 line in normal mode.
+
+:Copilot status      # Check if Copilot is active
+:Copilot disable     # Temporarily turn off
+:Copilot enable      # Turn back on
+:Copilot panel       # Open suggestions panel
+:Copilot suggest     # Force suggestions
