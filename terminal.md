@@ -14,3 +14,11 @@ gcc to comment 1 line in normal mode.
 :Copilot enable      # Turn back on
 :Copilot panel       # Open suggestions panel
 :Copilot suggest     # Force suggestions
+
+
+libft test 
+libft file checker 
+libft tester
+libft unit test
+
+what makefile do by default 

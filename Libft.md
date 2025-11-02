@@ -128,14 +128,13 @@ this case if not optimized will cause an buffer overflow, we limit the `len` ins
 1. what is bsd library.
 2. what is casting.
 3. how null occure sigfault and how to optimize your code from sigfault.
-4. gdb debuging
-5. free(str)
-6. why we use `const char`.
-7. what is exactly a `NULL`
-8. what the difference between glibc and bsd. 
-9. learn the norm of .h files
-10. overflows 
+4. free(str)
+5. why we use `const char`.
+6. what is exactly a `NULL`
+7. what the difference between glibc and bsd. 
+8. learn the norm of .h files
+9. overflows 
 
 #### <span class="color-green">Answers Box</span>:
 1. to use it 
-2. - The `const` keyword indicates that the function will not modify the string you pass to it.
+2.  The `const` keyword indicates that the function will not modify the string you pass to it.

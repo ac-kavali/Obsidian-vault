@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bd43a6a7389ea3eb",
+            "id": "2bcd2cc715ea0146",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pointer to pointer.md",
+                "file": "Libft.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pointer to pointer"
+              "title": "Libft"
             }
           }
         ]
@@ -170,18 +170,68 @@
       "command-palette:Open command palette": false
     }
   },
+  "floating": {
+    "id": "e8ba6f0b7962dce9",
+    "type": "floating",
+    "children": [
+      {
+        "id": "a155edf6386ec1fc",
+        "type": "window",
+        "children": [
+          {
+            "id": "1c164e392ea6a766",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "bd43a6a7389ea3eb",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Libft presentation.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Libft presentation"
+                }
+              },
+              {
+                "id": "bcc4e46d51810d0b",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 12,
+        "y": 12,
+        "width": 938,
+        "height": 1056,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "bd43a6a7389ea3eb",
   "lastOpenFiles": [
+    "Libft presentation.md",
+    "Libft.md",
+    "Linked lists.md",
+    "File Descriptor.md",
+    "wallpaper.md",
+    "Makefile 42 rules.md",
+    "Test Your Project.md",
     "git help.md",
     "pointer to pointer.md",
     "terminal.md",
-    "Libft.md",
-    "File Descriptor.md",
-    "Linked lists.md",
-    "Makefile 42 rules.md",
     "Untitled.base",
-    "Test Your Project.md",
-    "wallpaper.md",
     "Untitled 1.base",
     "Data.md",
     "Welcome.md",

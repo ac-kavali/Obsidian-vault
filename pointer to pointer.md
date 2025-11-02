@@ -28,11 +28,11 @@ new->next = NULL;
 ```
 Now you have:
 
-|Variable|Type|Value|Points to|
-|---|---|---|---|
-|`head`|`Node *`|`NULL`|nothing|
-|`ptr_head`|`Node **`|address of `head`|`head`|
-|`new`|`Node *`|address of a Node struct|Node `{data=42, next=NULL}`|
+| Variable   | Type      | Value                    | Points to                   |
+| ---------- | --------- | ------------------------ | --------------------------- |
+| `head`     | `Node  *` | `NULL`                   | nothing                     |
+| `ptr_head` | `Node **` | address of `head`        | `head`                      |
+| `new`      | `Node *`  | address of a Node struct | Node `{data=42, next=NULL}` |
 
 ---
 ### 🧩 Case 1: `**ptr_head = new;` (wrong type)
