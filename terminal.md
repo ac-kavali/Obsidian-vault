@@ -1,4 +1,4 @@
-g - **handle a 16 int from one string**
+ - **handle a 16 int from one string**
 - **backtracking of an recursive verifcation if the number not valid** 
 
 in overlap the problem is the data is overlap befor coppying bro 
