@@ -106,3 +106,25 @@ host23@user$ make main
 ##### That technique in a **Makefile** — <span class="color-cyan">$(SRC.c:.o)</span>
 — is called a **substitution reference** (or **pattern substitution**).
 that tell the make file to take each .c file and remove the suffix .c to and set the .o, this from match object files.
+
+---
+
+### <span class="color-red">File Descriptor</span> 
+## difinition : 
+- a file descriptor is non negative number used by the operating system kernel to identify an open file or other input or output streams
+
+take the libririan like example when you want to access to a book you should ask the librarian to give you a ticket to give you the right to access to the book that you want 
+
+- when you want to read from the book you ask the librarian to read 100 letter from the book and put it in you notebook that is the buffer:
+  ```c 
+  read (3, buffer, 100);
+  ```
+- when you want to write: 
+```c
+write(3, "hello", 5);
+```
+- and when you finish you close the book and the librarian takes your ticket. 
+```c
+close(3);
+```
+

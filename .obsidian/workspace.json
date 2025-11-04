@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "terminal.md",
+                "file": "Libft presentation.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "terminal"
+              "title": "Libft presentation"
             }
           }
         ]
@@ -171,16 +171,16 @@
   },
   "active": "2bcd2cc715ea0146",
   "lastOpenFiles": [
-    "Libft presentation.md",
-    "terminal.md",
-    "Libft.md",
-    "pointer to pointer.md",
-    "Linked lists.md",
-    "File Descriptor.md",
     "wallpaper.md",
     "Makefile 42 rules.md",
     "Test Your Project.md",
     "git help.md",
+    "Libft presentation.md",
+    "File Descriptor.md",
+    "Libft.md",
+    "terminal.md",
+    "pointer to pointer.md",
+    "Linked lists.md",
     "Untitled.base",
     "Untitled 1.base",
     "Data.md",

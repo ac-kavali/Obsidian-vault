@@ -1,5 +1,5 @@
 ## difinition : 
-- a file descriptor is non negative number used by the operating system kernel to identify an open file c or other input or output streams
+- a file descriptor is non negative number used by the operating system kernel to identify an open file or other input or output streams
 
 take the libririan like example when you want to access to a book you should ask the librarian to give you a ticket to give you the right to access to the book that you want 
 
