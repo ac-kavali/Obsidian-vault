@@ -15,7 +15,7 @@
               "state": {
                 "file": "Libft presentation.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Libft presentation"
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "10424350b623bef2",
@@ -171,16 +172,16 @@
   },
   "active": "2bcd2cc715ea0146",
   "lastOpenFiles": [
+    "terminal.md",
+    "git help.md",
+    "Linked lists.md",
     "wallpaper.md",
+    "pointer to pointer.md",
+    "Libft.md",
+    "File Descriptor.md",
+    "Libft presentation.md",
     "Makefile 42 rules.md",
     "Test Your Project.md",
-    "git help.md",
-    "Libft presentation.md",
-    "File Descriptor.md",
-    "Libft.md",
-    "terminal.md",
-    "pointer to pointer.md",
-    "Linked lists.md",
     "Untitled.base",
     "Untitled 1.base",
     "Data.md",

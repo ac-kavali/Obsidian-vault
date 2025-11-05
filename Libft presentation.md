@@ -1,11 +1,6 @@
-
-\- search for libft in github
-\- use all test possible 
-char what happen
-- what the types of overflow 
-- give me an example of buffer overflow
-- what sigfault means 
-
+- dynamic vs static lib 
+- ifndef endi
+- 
 
 
 --- 
@@ -113,7 +108,7 @@ that tell the make file to take each .c file and remove the suffix .c to and set
 ## difinition : 
 - a file descriptor is non negative number used by the operating system kernel to identify an open file or other input or output streams
 
-take the libririan like example when you want to access to a book you should ask the librarian to give you a ticket to give you the right to access to the book that you want 
+take the libririan like example when you want to access to a book you should ask the librarian to give you a ticket to give you the right to access to the book when ever you want 
 
 - when you want to read from the book you ask the librarian to read 100 letter from the book and put it in you notebook that is the buffer:
   ```c 
@@ -128,3 +123,6 @@ write(3, "hello", 5);
 close(3);
 ```
 
+
+---
+### <span class="color-red">Static and dynamic library </span>
