@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Valgrind.md",
+                "file": "B2BR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Valgrind"
+              "title": "B2BR"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "valgrind",
+                "query": "file dis",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "10424350b623bef2",
@@ -173,12 +172,13 @@
   "active": "65f27df7de3c3e51",
   "lastOpenFiles": [
     "GNL.md",
+    "B2BR.md",
+    "Valgrind.md",
     "Part One/File Descriptor.md",
     "Part One/git help.md",
     "Part One/Plan.md",
     "Part One/Libft presentation.md",
     "Pasted image 20251117010451.png",
-    "Valgrind.md",
     "GDB.md",
     "Media/GNL.png",
     "Media/filedisc.png",

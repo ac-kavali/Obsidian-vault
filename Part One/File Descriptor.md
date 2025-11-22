@@ -79,6 +79,8 @@ int fd = open("file.txt", O_CREATE, 0644); //file mode is mondatory(06..)
 - The **fd is just a number**; it’s your program’s handle.
 - The **kernel keeps the real info** in tables and inodes.
 - Once opened, **you never need the file path again** to read/write; the fd is enough.
+### sumary : 
+*When you call `open()`, the kernel first checks the file’s inode permissions to see whether you are allowed to read, write, or execute the file. If you do not have the required permission, `open()` immediately fails. If the permission check succeeds, the kernel creates an entry in the Open File Table. This entry stores the flags you passed to `open()` (such as `O_RDONLY`, `O_WRONLY`, `O_RDWR`, `O_APPEND`, etc.), which control how the file descriptor will behave after the file has been successfully opened. In short: the inode decides _if_ you can access the file, and the Open File Table flags decide _how_ you will use it once it is opened._
 
 ---
 ## <span class="color-red">EOF (end of file) </span> 

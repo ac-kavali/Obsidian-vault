@@ -41,7 +41,8 @@ Implement these first:
 
 **A line ends with:
  - A `\n` is found.
- - EOF is readched with remaining data.
+ - I represent the EOF with : "read define the end of file when no data remain to read it". 
+ - this is simple but what realy happen :                          The file offset advances with each `read()` call. The OS signals end-of-file (EOF) when the current offset reaches the file size—that is, when `file size - offset = 0`.
  ---
 ## <span class="color-yellow">Memory allocataion Concepts</span>
 
@@ -147,7 +148,7 @@ error: size of array is negative
 **<span class="color-yellow">the real protection is : </span>**
 use manualy allocated array in heap 
 ```c 
-if(BUFFER_SIZE <= 0 || fd < 0 || read(fd, 0, 0) < 0)
+if(BUFFER_SIZE <= 0 || fd < 0)
 	return NULL;
 char *buffer= malloc (BUFFER_SIZE + 1)
 
@@ -193,6 +194,34 @@ However, if you use **dynamic memory allocation** instead:
 char *buffer = malloc(BUFFER_SIZE + 1);
 ```
 no stack overflow occurs, because the memory is allocated on the **heap**, which is much larger. This makes the program safer and more flexible for large buffer sizes.
+
+---
+## <span class="color-green">Ownership freeze responsablity</span>
+- **`extract_line` returns memory → do NOT free it there**
+- **Caller of `get_next_line` owns the line → must free it** 
+- Leak is usually **in your test `main()`**, not in the GNL implementation.
+- TL;DR
+**you are not responsible of the line returned in cases of leaks, program owner should free it when it finished.
+
+---
+# <span class="color-green">Malloc Behaviors</span>
+```java
+#include <stdlib.h>   //library
+void *malloc(size_t size);
+//in use
+void *ptr = malloc(size_t size);
+```
+Malloc take size_t line arrgument, taking this example : 
+```c 
+int i;
+...
+char *ptr = malloc (i + 1);
+//this have no problem but assuming that i = INT_MAX
+char *ptr = malloc (i + 1); 
+```
+the `INT_MAX + 1` it wrap over `INT_MIN` ~= -2,147,483,648 and with the implicite casting to size_t be ~= 18,446,744,715,620,679,68
+this is a huge number - `size_t` can hold the number ✅
+Allocating that much memory in practice ❌ — usually impossible
 
 ---
 # Valgrind Memory Debugging Guide
@@ -264,7 +293,21 @@ This means you wrote to memory you shouldn't.
 ```
 
 This means you **allocated memory and never freed it**.
-
+**<span class="color-purple">Other example </span>**
+```python
+==875120== HEAP SUMMARY: 
+==875120== in use at exit: 33 bytes in 11 blocks 
+==875120== total heap usage: 67 allocs, 56 frees, 1,167 bytes allocated ==875120== 
+==875120== 33 bytes in 11 blocks are definitely lost in loss record 1 of 1 ==875120== at 0x4848899: malloc (in/usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==875120== by 0x109256: extract_line (get_next_line.c:29) 
+==875120== by 0x10959E: get_next_line (get_next_line.c:112) 
+==875120== by 0x10988F: main (main.c:10) ==875120==
+```
+`==875120==` : this is the process id of valgrind itself. 
+`33 bytes in 11 blocks` :  `33 bytes` is The total amount of memory still allocated and not freed.
+So your program leaked **33 bytes** in total.
+`in 11 blocks` : A “block” = **one allocation**. So there are **11 separate `malloc` (or similar) calls** whose memory was never freed.
+On average, each block is ~3 bytes here (33 ÷ 11 = 3), probably small allocations like very short strings.
 ## D) Check Summary at the End
 
 The most important part:
@@ -297,3 +340,5 @@ valgrind --track-origins=yes --verbose ./a.out
 ```
 
 This will give you detailed information about where and why the segfault occurred.
+
+## <span class="color-red">the return arguments </span>
