@@ -1,0 +1,9 @@
+app armor controle what app can exicute those binarys and what can do this system call , what can access to this file 
+what app can open a socket ...
+
+where is the profiles : 
+/etc/apparmor.d 
+
+resources : m4nnb3ll...
+also noreplay.gitbook.io/born2beroot/correction...
+ 
