@@ -414,11 +414,15 @@ Number of days of warning before password expires       : 7
 
 It allows a normal user to run commands with root (administrator) priviliges, without logging in as root.
 sudo is a program and it uses a special group (sudo) to control who can use it.Wordpress
+#### <span class="color-purple">1. change time for test issues</span>
+```cs
+timedatectl set-time yyyy-mm-dd
+```
 
-#### <span class="color-purple">1. add or remove a user from sudoers</span>
+#### <span class="color-purple">2. add or remove a user from sudoers</span>
 add : 
 ```c
-usermode -aG sudo username
+usermod -aG sudo username
 ```
 delete :
 ```css
@@ -466,13 +470,13 @@ sudo usermod -aG sudo your_login
 The subject _requires_ that every `sudo` command asks for password.
 - inside `visudo`:
 ```cs
-Defaults        passwd_tries=3
+Defaults        passwd_tries=3 
 Defaults        badpass_message="Wrong password"
 Defaults        logfile="/var/log/sudo/sudo.log"
 Defaults        log_input,log_output
 Defaults        iolog_dir="/var/log/sudo"
 Defaults        requiretty
-Defaults        secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+Defaults        secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
 Defaults        timestamp_timeout=0
 ```
 **`requiretty`**:This setting means: **sudo commands can ONLY be run from an actual TTY (interactive terminal)**, this prevent the background script to use the sudo previliges.
@@ -488,7 +492,7 @@ sudo will not create the directory automaticaly :
 ```cs
 sudo mkdir -p /var/log/sudo 
 ```
-# <span class="color-red">configure new user</span>
+## <span class="color-red">configure new user</span>
 after using
 ```cs
 sudo useradd -m newuser
@@ -523,3 +527,229 @@ sudo apt install bc sysstat
 
 #### `journalctl` is **the tool/command set that lets you read, filter, and query logs stored in systemd’s binary format**.
 and this `_COMM=name` make able to filtre its output to just the command names 
+
+
+--- 
+# <span class="color-green">Super Simple WordPress Setup Guide </span>
+
+### <span class="color-purple">STEP 1: Install the Web Server</span>
+
+```bash
+sudo apt install lighttpd
+```
+
+**What just happened?** You installed a program that shows websites to people on the internet.
+**<span class="color-cyan">lighttpd</span>** is a webserver, it manage client requistes, listens for visitors and shows them web pages.
+
+### <span class="color-purple">STEP 2: Open the Door for Visitors</span>
+
+```bash
+sudo ufw allow 80
+```
+
+You told the firewall to let people visit your website.
+
+### <span class="color-purple">STEP 3: Install the Database</span>
+
+WordPress needs a place to save your posts and settings.
+```bash
+sudo apt install mariadb-server
+```
+You installed a database (like a filing a storage space for your website's information).
+
+### <span class="color-purple">STEP 4: Make the Database Secure</span>
+
+```bash
+sudo mysql_secure_installation
+```
+
+You'll be asked some questions. Here's what to answer:
+
+- **Use unix authentication?** → Type `N` and press Enter
+- **Change root password?** → Type `N` and press Enter
+- **Remove anonymous users?** → Type `Y` and press Enter
+- **Disallow root remote login?** → Type `Y` and press Enter
+- **Remove test database?** → Type `Y` and press Enter
+- **Reload privileges?** → Type `Y` and press Enter
+
+
+
+### <span class="color-purple">STEP 5: Create a Space for WordPress</span>
+
+Now we'll create a special storage area for WordPress.
+**Copy each line one at a time:**
+
+```bash
+sudo mariadb
+```
+
+You're now inside the database. Copy these commands **one by one**:
+
+```sql
+CREATE DATABASE my_wordpress;
+SHOW DATABASES;
+```
+
+```sql
+GRANT ALL ON my_wordpress.* TO 'wpuser'@'localhost' IDENTIFIED BY 'ChangeThisPassword123!' WITH GRANT OPTION;
+```
+
+⚠️ **IMPORTANT:** Change `ChangeThisPassword123!` to your own password!
+
+```sql
+FLUSH PRIVILEGES;
+```
+
+```sql
+exit;
+```
+You created a storage box called "my_wordpress" and gave WordPress a key to access it.
+
+### <span class="color-purple">STEP 6: Install PHP (WordPress's Language) </span>
+
+```bash
+sudo apt install php-cgi php-mysql
+```
+**php-cgi** : PHP Common Gateway Interface, is a php script interpreter
+because the webservices use php in backend like wordpress pages.
+
+WordPress is written in PHP, so you installed the translator that makes it work.
+
+### <span class="color-purple">STEP 7: Download WordPress</span>
+
+```bash
+apt install wget
+```
+
+```bash
+cd /var/www/
+wget http://wordpress.org/latest.tar.gz 
+```
+
+```bash
+tar -xzvf latest.tar.gz
+```
+
+```bash
+rm latest.tar.gz
+```
+
+```bash
+#rename the html file to another name and give the name to the wordpress dir
+mv html/ html_back
+mv wordpress/ html
+```
+
+```bash
+sudo chmod -R 755 html
+```
+`-R` = Recursive
+- It means the command applies **to the folder and everything**
+
+You downloaded WordPress and put it in the right place.
+
+
+
+### <span class="color-purple">STEP 8: Connect WordPress to the Database</span>
+always inside /var/www/html
+```bash
+sudo cp wp-config-sample.php wp-config.php
+```
+
+```bash
+sudo vim wp-config.php
+```
+
+A text editor will open. Find these three lines and change them:
+
+**Change this** with the mariadb database name, user and password.
+
+```php
+define( 'DB_NAME', 'database_name_here' );
+define( 'DB_USER', 'username_here' );
+define( 'DB_PASSWORD', 'password_here' );
+```
+**Save and exit:**
+
+### <span class="color-purple">STEP 9: Make Everything Work Together</span>
+
+```bash
+sudo lighty-enable-mod fastcgi-php
+```
+
+```bash
+sudo service lighttpd force-reload
+```
+
+**What just happened?** You connected PHP to your web server.
+
+
+### <span class="color-purple">STEP 10: Finish the Setup</span>
+
+Open your web browser and go to:
+
+```
+http://YOUR_SERVER_IP
+```
+
+You should see WordPress asking you to:
+
+1. Choose your language
+2. Create your admin account
+3. Name your website
+
+**Follow the steps on screen and you're done!**
+
+
+
+## <span class="color-purple">Log In to Your Website</span>
+
+After setup, visit:
+
+```
+http://YOUR_SERVER_IP/wp-admin
+```
+
+Use the admin username and password you just created.
+
+
+
+### <span class="color-green">Success Checklist</span>
+
+- [ ] Can you see the WordPress setup screen?
+- [ ] Can you create your admin account?
+- [ ] Can you log in to `/wp-admin`?
+
+If you answered YES to all three → **Congratulations! Your WordPress site is live!** 🎊
+
+
+
+### <span class="color-purple">Quick Troubleshooting</span>
+
+**Can't connect to database?**  
+Go back to Step 8 and double-check your password matches Step 5.
+
+**Can't access the website?**  
+Make sure you completed Step 2 (firewall) and your server IP is correct.
+
+**See a blank page?**  
+Run Step 9 again to restart the server.
+
+### <span class="color-purple">What Next?</span>
+
+i shoosed a service that display the state of your service, and resources used by the server `monixtorix`.
+
+**instalation**
+```bash
+sudo apt install monitorix -y
+```
+
+**Enable service**
+```bash 
+systemctl restart monitorix
+```
+
+**Allow the port 8080 Used by the service**
+```bash 
+sudo ufw allow 8080
+```
