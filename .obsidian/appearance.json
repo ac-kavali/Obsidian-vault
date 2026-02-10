@@ -5,5 +5,8 @@
   "enabledCssSnippets": [
     "colors",
     "hide-tab-line"
-  ]
+  ],
+  "theme": "obsidian",
+  "accentColor": "",
+  "cssTheme": "Tokyo Night"
 }

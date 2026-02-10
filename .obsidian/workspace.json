@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "847732c6854df7a3",
+        "id": "53c77eca75b22958",
         "type": "tabs",
         "children": [
           {
-            "id": "4d8ed6b66e687b22",
+            "id": "f048c8532a76137e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "B2BR.md",
-                "mode": "source",
+                "file": "Project/B2BR.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -33,6 +33,7 @@
       {
         "id": "1eef5fe6e198baf0",
         "type": "tabs",
+        "dimension": 63.680154142581884,
         "children": [
           {
             "id": "364eed01b939fc76",
@@ -40,8 +41,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime",
-                "autoReveal": false
+                "sortOrder": "byCreatedTimeReverse",
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -53,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file dis",
+                "query": "bios",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,12 +75,29 @@
               "title": "Bookmarks"
             }
           }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "549908e0566d76c4",
+        "type": "tabs",
+        "dimension": 36.31984585741811,
+        "children": [
+          {
+            "id": "1e19b6aea4decbac",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 351.5
   },
   "right": {
     "id": "10424350b623bef2",
@@ -95,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "B2BR.md",
+                "file": "2026-02-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +123,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for B2BR"
+              "title": "Backlinks for 2026-02-10"
             }
           },
           {
@@ -129,13 +147,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "B2BR.md",
+                "file": "Linux/Package Management.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of B2BR"
+              "title": "Outline of Package Management"
             }
           },
           {
@@ -144,74 +162,109 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "B2BR.md",
+                "file": "Linux/Redirecting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from B2BR"
+              "title": "Outgoing links from Redirecting"
+            }
+          },
+          {
+            "id": "5b16603ad28d650b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
+      },
+      {
+        "id": "a8b20e5188f20cdd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9fa10d8f867ed010",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
-      "switcher:Open quick switcher": false,
+      "switcher:Open quick switcher": true,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true,
+      "publish:Publish changes...": true,
+      "bases:Create new base": false,
+      "audio-recorder:Start/stop recording": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4d8ed6b66e687b22",
+  "active": "f048c8532a76137e",
   "lastOpenFiles": [
-    "Pasted image 20251208143712.png",
-    "B2BR.md",
-    "test.md",
-    "Wordpress page.md",
-    "profiles.md",
-    "Media/hypervisor_types.png",
-    "GNL.md",
-    "Valgrind.md",
-    "Part One/File Descriptor.md",
-    "Part One/git help.md",
-    "Part One/Plan.md",
-    "Part One/Libft presentation.md",
-    "Media/Pasted image 20251117010451.png",
-    "GDB.md",
-    "Media/GNL.png",
-    "Media/filedisc.png",
-    "Part One/Printf.md",
-    "Part One/pointer to pointer.md",
-    "Media/Screenshot from 2025-11-16 03-34-11.png",
-    "Part One/terminal.md",
-    "Media/logpage.jpg",
-    "Untitled 1.md",
-    "Part One",
-    "Part One/Linked lists.md",
-    "Media/cyberpunk.png",
-    "Media",
-    "Untitled.canvas",
+    "Linux/Booting Process.md",
+    "Linux/Package Management.md",
+    "Linux/Environment Variables.md",
+    "Linux/Linux.md",
+    "Linux/Piping.md",
+    "Linux/Redirecting.md",
+    "Linux/Permissions.md",
+    "Linux/Service management.md",
+    "Project/B2BR.md",
+    "Linux/Bash/Bash.md",
+    "Linux/Text Processing.md",
+    "Linux/Disk & Filesystem/Inode.md",
+    "Concepts/Bitwize.md",
+    "Project/Libft.md",
+    "Project/Projects.md",
+    "Modules/Module 05.md",
+    "Modules/Python Dicover.md",
+    "Modules/Python Essentiel Syntax.md",
+    "The PID.md",
+    "2026-02-09.md",
     "Untitled.base",
-    "Untitled 3.base",
-    "Untitled 2.base",
-    "Untitled 1.base",
-    "Makefile 42 rules.md",
-    "Test Your Project.md",
-    "wallpaper.md",
-    "Libft.md",
-    "Data.md",
-    "Welcome.md",
-    "Makefile.md",
-    "git temp.md",
-    "examshell.md"
+    "Media/bitwizeOperators.png",
+    "Media/stack_structure.png",
+    "Media/logpage.jpg",
+    "Linux/Disk & Filesystem/Swap.md",
+    "Excalidraw/My fu* maze.md",
+    "Linux.tar.gz",
+    "Linux/Bash",
+    "Linux/Links.md",
+    "Linux/Disk & Filesystem",
+    "vpn.png",
+    "Concepts/GDB.md",
+    "lastdelast.png",
+    "lastversion.png",
+    "bridge.svg",
+    "100baset-hub.svg",
+    "Maze Algorithm.md",
+    "server.png",
+    "rj45.png",
+    "Concepts/git -h.md",
+    "Recording 20260208163016.m4a",
+    "Excalidraw",
+    "Modules",
+    "Recording 20260208100008.m4a",
+    "Recording 20260208095526.m4a",
+    "Recording 20260208095441.m4a",
+    "Untitled.canvas"
   ]
 }

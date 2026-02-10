@@ -3,5 +3,7 @@
   "foldHeading": false,
   "vimMode": false,
   "spellcheck": false,
-  "tabSize": 6
+  "tabSize": 6,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true
 }

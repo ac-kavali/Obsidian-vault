@@ -1,0 +1,1 @@
+POST, MBR, GRUB, Kernel, Init, and GUI/CLI

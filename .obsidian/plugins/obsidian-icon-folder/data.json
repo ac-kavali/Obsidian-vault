@@ -1,0 +1,54 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "RiMoneyDollarBoxLine",
+      "IcAlbum",
+      "LiRedo",
+      "RiUDiskLine",
+      "RiAuctionFill"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": true,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "custom",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "Linux": {
+    "iconName": "IcLinuxPenguine",
+    "iconColor": "#213e1d"
+  },
+  "Media": "LiBetweenHorizontalStart",
+  "Project": "IcCode",
+  "Modules": "IcPython",
+  "Linux/Disk & Filesystem": "LiDisc",
+  "Linux/Text Processing.md": "RiText",
+  "Linux/Service management.md": "IcServerCrash",
+  "Linux/Permissions.md": "RiAuctionFill",
+  "Linux/Links.md": "RiUDiskLine",
+  "Linux/Redirecting.md": "LiRedo",
+  "Linux/Linux.md": "IcAlbum",
+  "Linux/Environment Variables.md": "RiMoneyDollarBoxLine",
+  "Project/Projects.md": "IcAlbum",
+  "Excalidraw": "IcExca"
+}
