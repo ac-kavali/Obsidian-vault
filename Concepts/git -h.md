@@ -35,11 +35,7 @@ git status
 ### 4. Fix conflicts manually:
 Open each conflicted file; you’ll see something like:
 ```text
-<<<<<<< HEAD
-your changes on this PC
-=======
-changes from remote
->>>>>>> origin/main
+
 
 ```
 Manually edit the file to **keep what you want** and remove those lines.
