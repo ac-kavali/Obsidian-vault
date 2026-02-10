@@ -11,14 +11,14 @@
             "id": "f048c8532a76137e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Concepts/git -h.md",
-                "mode": "preview",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "git -h"
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
             }
           }
         ]
@@ -201,8 +201,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,6 +219,7 @@
   },
   "active": "f048c8532a76137e",
   "lastOpenFiles": [
+    "Concepts/git -h.md",
     "Project/B2BR.md",
     "Linux/Booting Process.md",
     "Linux/Package Management.md",
@@ -259,7 +259,6 @@
     "Maze Algorithm.md",
     "server.png",
     "rj45.png",
-    "Concepts/git -h.md",
     "Recording 20260208163016.m4a",
     "Excalidraw",
     "Modules",
