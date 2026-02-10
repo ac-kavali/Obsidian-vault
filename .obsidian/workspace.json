@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/B2BR.md",
+                "file": "Concepts/git -h.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "B2BR"
+              "title": "git -h"
             }
           }
         ]
@@ -75,8 +75,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "549908e0566d76c4",
@@ -97,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5
+    "width": 351.5,
+    "collapsed": true
   },
   "right": {
     "id": "10424350b623bef2",
@@ -201,7 +201,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,6 +220,7 @@
   },
   "active": "f048c8532a76137e",
   "lastOpenFiles": [
+    "Project/B2BR.md",
     "Linux/Booting Process.md",
     "Linux/Package Management.md",
     "Linux/Environment Variables.md",
@@ -227,7 +229,6 @@
     "Linux/Redirecting.md",
     "Linux/Permissions.md",
     "Linux/Service management.md",
-    "Project/B2BR.md",
     "Linux/Bash/Bash.md",
     "Linux/Text Processing.md",
     "Linux/Disk & Filesystem/Inode.md",
