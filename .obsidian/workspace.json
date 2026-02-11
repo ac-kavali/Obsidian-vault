@@ -11,14 +11,24 @@
             "id": "48cf00c413c5a84e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Linux/Bash/Command Substitution.md",
-                "mode": "preview",
-                "source": false
+                "file": "Media/logpage.jpg"
               },
-              "icon": "lucide-file",
-              "title": "Command Substitution"
+              "icon": "lucide-image",
+              "title": "logpage"
+            }
+          },
+          {
+            "id": "0aaf5622b5b2e9f6",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Media/bitwize_example1.png"
+              },
+              "icon": "lucide-image",
+              "title": "bitwize_example1"
             }
           }
         ]
@@ -54,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bios",
+                "query": "redirecti",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -216,13 +226,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "48cf00c413c5a84e",
+  "active": "364eed01b939fc76",
   "lastOpenFiles": [
-    "Linux/Bash/Command Substitution.md",
-    "Linux/Bash/Standard Streams.md",
-    "Linux/Service management.md",
+    "Modules/Python Dicover.md",
+    "Media/power-on.png",
+    "Media/logpage.jpg",
+    "Linux/Text Processing.md",
+    "Linux/Redirecting.md",
+    "Linux/Linux.md",
+    "Linux/Bash/Substitution.md",
     "Linux/Bash/Needed Commands.md",
     "Linux/Bash/Bash.md",
+    "Linux/Bash/Standard Streams.md",
+    "Linux/Service management.md",
     "Excalidraw/booting_process.excalidraw",
     "Linux/Booting Process.md",
     "Linux/Linux Logs.md",
@@ -233,29 +249,22 @@
     "python_discorver#1.excalidraw",
     "Python2.excalidraw",
     "Bitwize.excalidraw",
-    "Linux/Redirecting.md",
-    "Media/power-on.png",
     "Linux/Environment Variables.md",
     "Linux/Package Management.md",
     "Linux/Disk & Filesystem/Swap.md",
     "Excalidraw/Drawing 2026-02-10 21.08.05.excalidraw.md",
-    "Modules/Python Dicover.md",
     "Concepts/git -h.md",
     "Project/B2BR.md",
-    "Linux/Linux.md",
     "Linux/Piping.md",
     "Linux/Permissions.md",
-    "Linux/Text Processing.md",
     "Linux/Disk & Filesystem/Inode.md",
     "Concepts/Bitwize.md",
     "Project/Libft.md",
     "Project/Projects.md",
     "Modules/Module 05.md",
-    "Modules/Python Essentiel Syntax.md",
     "Untitled.base",
     "Media/bitwizeOperators.png",
     "Media/stack_structure.png",
-    "Media/logpage.jpg",
     "Linux.tar.gz",
     "Linux/Bash",
     "vpn.png",
