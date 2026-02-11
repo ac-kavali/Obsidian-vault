@@ -3,17 +3,23 @@
 > This is a comprehensive guide to command substitution in Linux and Unix-like systems. Command substitution allows you to capture the output of commands and use them as values in variables, arguments, or other commands. This powerful technique is the foundation of dynamic scripting, enabling you to write flexible, automated scripts that adapt to their environment and make decisions based on real-time data.
 
 ## Table of Contents
-
-• [What is Command Substitution](#what-is-command-substitution) 
-• [Syntax and Methods](#syntax-and-methods) • [Storing Command Output in Variables](#storing-command-output-in-variables) • [Using Command Substitution in Practice](#using-command-substitution-in-practice) • [Dynamic Scripting Techniques](#dynamic-scripting-techniques) • [Advanced Patterns and Best Practices](#advanced-patterns-and-best-practices)
-
+- [[#What is Command Substitution]]
+  - [[#Why Use Command Substitution?]]
+  - [[#How It Works]]
+  - [[#Syntax and Methods]]
+  - [[#Storing Command Output in Variables]]
+- [[#Advanced Patterns and Best Practices]]
+  - [[#Nested Command Substitution]]
+  - [[#Process Substitution]]
+  - [[#Error Handling in Command Substitution]]
+  ...
 ---
 
-## What is Command Substitution
+# What is Command Substitution
 
 **Command substitution** is a feature that allows you to run a command and replace it with its output. The shell executes the command in a subshell and substitutes the entire command expression with the standard output (stdout) of that command.
 
-### Why Use Command Substitution?
+## Why Use Command Substitution?
 
 - **Capture command output**: Store results for later use
 - **Dynamic values**: Use real-time system information in your scripts
@@ -30,7 +36,7 @@ echo "Today is $(date +%A)"
 # Output: Today is Wednesday (or whatever day it actually is)
 ```
 
-### How It Works
+## How It Works
 
 1. The shell encounters a command substitution expression
 2. It creates a new subshell
@@ -69,20 +75,6 @@ file_count=$(ls | wc -l)
 kernel_version=$(uname -r)
 ```
 
-**Advantages of $() syntax:**
-
-- Easier to read and understand
-- Can be nested easily
-- Escaping is simpler
-- Works in all modern shells
-
-```bash
-# Nesting is clean and clear
-outer=$(echo "Inner: $(echo "nested")")
-echo $outer
-# Output: Inner: nested
-```
-
 ### Legacy Syntax: Backticks ``
 
 The backtick syntax is older and less preferred:
@@ -109,25 +101,6 @@ outer=`echo "Inner: \`echo "nested"\`"`
 # Notice the required backslash escaping
 ```
 
-### When Output Contains Whitespace
-
-Command substitution **removes trailing newlines** and **collapses internal whitespace** unless quoted:
-
-```bash
-# Without quotes: whitespace collapsed
-files=$(ls -1)
-echo $files
-# Output: file1.txt file2.txt file3.txt (on one line)
-
-# With quotes: whitespace preserved
-files=$(ls -1)
-echo "$files"
-# Output:
-# file1.txt
-# file2.txt
-# file3.txt
-```
-
 ---
 
 ## Storing Command Output in Variables
@@ -145,19 +118,6 @@ current_dir=$(pwd)
 echo "User: $username"
 echo "Host: $hostname"
 echo "Directory: $current_dir"
-```
-
-### Multiple Variable Assignments
-
-```bash
-# Assign multiple variables in sequence
-date_string=$(date +%Y-%m-%d)
-time_string=$(date +%H:%M:%S)
-timestamp=$(date +%s)
-
-echo "Date: $date_string"
-echo "Time: $time_string"
-echo "Unix timestamp: $timestamp"
 ```
 
 ### Capturing Complex Command Output
@@ -317,7 +277,7 @@ echo "Disk usage: $percentage%"
 
 Command substitution enables you to write scripts that adapt to their environment and make intelligent decisions.
 
-### Environment-Aware Scripts
+## Environment-Aware Scripts
 
 ```bash
 #!/bin/bash
@@ -345,7 +305,7 @@ cores=$(nproc 2>/dev/null || sysctl -n hw.ncpu 2>/dev/null || echo 1)
 echo "Using $cores cores for compilation"
 ```
 
-### Dynamic File and Directory Naming
+## Dynamic File and Directory Naming
 
 ```bash
 #!/bin/bash
@@ -368,7 +328,7 @@ echo "Creating backup: $backup_file"
 tar -czf "$backup_file" ~/Documents
 ```
 
-### Conditional Execution Based on System State
+## Conditional Execution Based on System State
 
 ```bash
 #!/bin/bash
@@ -402,7 +362,7 @@ done
 echo "All prerequisites met. Proceeding..."
 ```
 
-### Dynamic Configuration Generation
+## Dynamic Configuration Generation
 
 ```bash
 #!/bin/bash
@@ -436,7 +396,7 @@ EOF
 echo "Configuration generated for $cpu_cores cores, ${total_ram}GB RAM"
 ```
 
-### Automated Deployment Scripts
+## Automated Deployment Scripts
 
 ```bash
 #!/bin/bash
@@ -472,7 +432,7 @@ EOF
 echo "Deployment package created: $deploy_name"
 ```
 
-### Monitoring and Alerting Scripts
+## Monitoring and Alerting Scripts
 
 ```bash
 #!/bin/bash
@@ -509,7 +469,7 @@ if [ "$disk_usage" -gt 90 ]; then
 fi
 ```
 
-### Interactive Scripts with Dynamic Menus
+## Interactive Scripts with Dynamic Menus
 
 ```bash
 #!/bin/bash
@@ -551,11 +511,11 @@ fi
 
 ---
 
-## Advanced Patterns and Best Practices
+# Advanced Patterns and Best Practices
 
 Master these advanced techniques to write more robust and efficient scripts.
 
-### Nested Command Substitution
+## Nested Command Substitution
 
 You can nest command substitution to create complex operations:
 
@@ -572,7 +532,7 @@ echo "User with most files: $top_owner"
 result=$(echo "Processed: $(echo "Raw: $(date)")")
 ```
 
-### Process Substitution
+## Process Substitution
 
 **Process substitution** `<()` creates a temporary file descriptor that can be used as a file:
 
@@ -589,7 +549,7 @@ while read -r line; do
 done < <(find . -name "*.txt")
 ```
 
-### Error Handling in Command Substitution
+## Error Handling in Command Substitution
 
 Always handle potential errors:
 
@@ -611,7 +571,7 @@ output=$(command 2>/dev/null) || output="N/A"
 output=$(command 2>&1)
 ```
 
-### Performance Considerations
+## Performance Considerations
 
 Command substitution creates subshells, which has performance implications:
 
@@ -643,7 +603,7 @@ for file in *.txt; do
 done
 ```
 
-### Quoting Best Practices
+## Quoting Best Practices
 
 ```bash
 # Always quote command substitutions to preserve whitespace
@@ -661,7 +621,7 @@ while IFS= read -r file; do
 done < <(find . -name "* *")
 ```
 
-### Combining with Here Documents
+## Combining with Here Documents
 
 ```bash
 # Use command substitution in here documents
@@ -681,7 +641,7 @@ $(ps aux --sort=-%mem | head -6 | tail -5)
 EOF
 ```
 
-### Creating Reusable Functions
+## Creating Reusable Functions
 
 ```bash
 #!/bin/bash
@@ -717,7 +677,7 @@ if is_service_running nginx; then
 fi
 ```
 
-### Debugging Command Substitution
+## Debugging Command Substitution
 
 ```bash
 # Enable debug mode to see substitutions
@@ -743,7 +703,7 @@ echo "Result: $result"
 
 ---
 
-## Summary
+# Summary
 
 Command substitution is a fundamental technique for dynamic scripting:
 
