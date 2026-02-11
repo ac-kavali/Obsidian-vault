@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiAppsLine",
+      "LiPower",
+      "RiFileHistoryLine",
       "RiMoneyDollarBoxLine",
-      "IcAlbum",
-      "LiRedo",
-      "RiUDiskLine",
-      "RiAuctionFill"
+      "IcAlbum"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -50,5 +50,8 @@
   "Linux/Linux.md": "IcAlbum",
   "Linux/Environment Variables.md": "RiMoneyDollarBoxLine",
   "Project/Projects.md": "IcAlbum",
-  "Excalidraw": "IcExca"
+  "Excalidraw": "IcExca",
+  "Linux/Linux Logs.md": "RiFileHistoryLine",
+  "Linux/Booting Process.md": "LiPower",
+  "Linux/Package Management.md": "RiAppsLine"
 }

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "53c77eca75b22958",
+        "id": "c8922b78dc5a7617",
         "type": "tabs",
         "children": [
           {
-            "id": "f048c8532a76137e",
+            "id": "48cf00c413c5a84e",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "Linux/Bash/Command Substitution.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Command Substitution"
             }
           }
         ]
@@ -96,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5,
-    "collapsed": true
+    "width": 351.5
   },
   "right": {
     "id": "10424350b623bef2",
@@ -217,54 +216,54 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f048c8532a76137e",
+  "active": "48cf00c413c5a84e",
   "lastOpenFiles": [
+    "Linux/Bash/Standard Streams.md",
+    "Linux/Bash/Command Substitution.md",
+    "Linux/Service management.md",
+    "Linux/Bash/Needed Commands.md",
+    "Linux/Bash/Bash.md",
+    "Excalidraw/booting_process.excalidraw",
+    "Linux/Booting Process.md",
+    "Linux/Linux Logs.md",
+    "Excalidraw/Bitwize.excalidraw",
+    "Excalidraw/python_discorver#1.excalidraw",
+    "Excalidraw/My fu* maze.md",
+    "Excalidraw/Python2.excalidraw",
+    "python_discorver#1.excalidraw",
+    "Python2.excalidraw",
+    "Bitwize.excalidraw",
+    "Linux/Redirecting.md",
+    "Media/power-on.png",
+    "Linux/Environment Variables.md",
+    "Linux/Package Management.md",
+    "Linux/Disk & Filesystem/Swap.md",
+    "Excalidraw/Drawing 2026-02-10 21.08.05.excalidraw.md",
+    "Modules/Python Dicover.md",
     "Concepts/git -h.md",
     "Project/B2BR.md",
-    "Linux/Booting Process.md",
-    "Linux/Package Management.md",
-    "Linux/Environment Variables.md",
     "Linux/Linux.md",
     "Linux/Piping.md",
-    "Linux/Redirecting.md",
     "Linux/Permissions.md",
-    "Linux/Service management.md",
-    "Linux/Bash/Bash.md",
     "Linux/Text Processing.md",
     "Linux/Disk & Filesystem/Inode.md",
     "Concepts/Bitwize.md",
     "Project/Libft.md",
     "Project/Projects.md",
     "Modules/Module 05.md",
-    "Modules/Python Dicover.md",
     "Modules/Python Essentiel Syntax.md",
-    "The PID.md",
-    "2026-02-09.md",
     "Untitled.base",
     "Media/bitwizeOperators.png",
     "Media/stack_structure.png",
     "Media/logpage.jpg",
-    "Linux/Disk & Filesystem/Swap.md",
-    "Excalidraw/My fu* maze.md",
     "Linux.tar.gz",
     "Linux/Bash",
-    "Linux/Links.md",
-    "Linux/Disk & Filesystem",
     "vpn.png",
-    "Concepts/GDB.md",
     "lastdelast.png",
     "lastversion.png",
     "bridge.svg",
     "100baset-hub.svg",
-    "Maze Algorithm.md",
     "server.png",
-    "rj45.png",
-    "Recording 20260208163016.m4a",
-    "Excalidraw",
-    "Modules",
-    "Recording 20260208100008.m4a",
-    "Recording 20260208095526.m4a",
-    "Recording 20260208095441.m4a",
     "Untitled.canvas"
   ]
 }
