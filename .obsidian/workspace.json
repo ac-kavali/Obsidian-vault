@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Linux/Bash/Command Substitution.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -218,8 +218,8 @@
   },
   "active": "48cf00c413c5a84e",
   "lastOpenFiles": [
-    "Linux/Bash/Standard Streams.md",
     "Linux/Bash/Command Substitution.md",
+    "Linux/Bash/Standard Streams.md",
     "Linux/Service management.md",
     "Linux/Bash/Needed Commands.md",
     "Linux/Bash/Bash.md",

@@ -27,7 +27,7 @@
 - **Flexibility**: Create scripts that adapt to different environments
 - **Chaining operations**: Use output from one command as input to another
 
-```bash
+```shell
 # Without command substitution (manual)
 echo "Today is Monday"
 
@@ -45,7 +45,7 @@ echo "Today is $(date +%A)"
 5. The entire expression is replaced with the captured output
 6. The parent shell continues with the substituted value
 
-```bash
+```shell
 # Step by step visualization
 current_user=$(whoami)
 # 1. Shell sees $(whoami)
@@ -65,7 +65,7 @@ There are two syntaxes for command substitution in bash. Both work identically, 
 
 The `$()` syntax is the **preferred and recommended method**:
 
-```bash
+```shell
 # Basic syntax
 $(command)
 
@@ -79,7 +79,7 @@ kernel_version=$(uname -r)
 
 The backtick syntax is older and less preferred:
 
-```bash
+```shell
 # Basic syntax
 `command`
 
@@ -95,7 +95,7 @@ kernel_version=`uname -r`
 - Nesting requires escaping
 - Visually ambiguous (looks like quotes)
 
-```bash
+```shell
 # Nesting with backticks is ugly
 outer=`echo "Inner: \`echo "nested"\`"`
 # Notice the required backslash escaping
@@ -109,7 +109,7 @@ Storing command output in variables is the most common use of command substituti
 
 ### Basic Variable Assignment
 
-```bash
+```shell
 # Store simple command output
 username=$(whoami)
 hostname=$(hostname)
