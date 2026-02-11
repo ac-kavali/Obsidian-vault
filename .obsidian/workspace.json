@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "48cf00c413c5a84e",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Media/logpage.jpg"
-              },
-              "icon": "lucide-image",
-              "title": "logpage"
-            }
-          },
-          {
             "id": "0aaf5622b5b2e9f6",
             "type": "leaf",
             "state": {
@@ -151,36 +139,7 @@
             }
           },
           {
-            "id": "65f548c6a6d9a66a",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Linux/Package Management.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Package Management"
-            }
-          },
-          {
-            "id": "597f01b467fedeb3",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Linux/Redirecting.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Redirecting"
-            }
-          },
-          {
-            "id": "5b16603ad28d650b",
+            "id": "bf4a90ec355480ad",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -190,7 +149,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       },
       {
         "id": "a8b20e5188f20cdd",
@@ -226,11 +185,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "364eed01b939fc76",
+  "active": "0aaf5622b5b2e9f6",
   "lastOpenFiles": [
+    "Media/logpage.jpg",
     "Modules/Python Dicover.md",
     "Media/power-on.png",
-    "Media/logpage.jpg",
     "Linux/Text Processing.md",
     "Linux/Redirecting.md",
     "Linux/Linux.md",
