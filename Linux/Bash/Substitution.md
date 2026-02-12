@@ -714,3 +714,5 @@ Command substitution is a fundamental technique for dynamic scripting:
 - **Best practices**: Quote variables, handle errors, consider performance
 
 Master command substitution to write flexible, automated, and intelligent bash scripts that respond to real-world conditions!
+
+[[Bash]]

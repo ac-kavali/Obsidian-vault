@@ -191,7 +191,7 @@ example of aptitude conflict handling :
     3. Cancel the operation
 
 ---
-# <span class="color-green">SSH </span>
+# SSH
 
 **SSH** is a secure protocol that lets you **remotely connect to another computer** through an encrypted terminal.  
 You can use it to run commands, manage servers, transfer files, and administer machines safely over a network.
@@ -231,7 +231,11 @@ verify the listening port on the server:
 ```shell
 sudo ss -tulpn | grep ssh
 ```
-
+**debugging ssh**
+```sh
+ssh -v -p 2343 user@ip 
+ssh -vvv -p 2343 user@ip 
+```
 ### <span class="color-purple">You need also</span> 
 
 - what is **Hostname** : is the name of a device on a network.
@@ -505,6 +509,7 @@ passwd newuser
 configure its shell if needed
 ```cs
 sudo usermod -s /bin/bash username
+sudo chsh -s /bin/zsh #and restart session
 ```
 
 ---

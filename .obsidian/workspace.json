@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c8922b78dc5a7617",
+        "id": "3801bf91a2652996",
         "type": "tabs",
         "children": [
           {
-            "id": "0aaf5622b5b2e9f6",
+            "id": "ab51686eeaa1dde8",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Media/bitwize_example1.png"
+                "file": "Concepts/File Discriptor.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "bitwize_example1"
+              "icon": "lucide-file",
+              "title": "File Discriptor"
             }
           }
         ]
@@ -52,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "redirecti",
+                "query": "open",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +75,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "549908e0566d76c4",
@@ -94,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5
+    "width": 351.5,
+    "collapsed": true
   },
   "right": {
     "id": "10424350b623bef2",
@@ -147,6 +151,35 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "71bbe03462466484",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Linux/Bash/Substitution.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Substitution"
+            }
+          },
+          {
+            "id": "1ef5e09b80deb4dc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Linux/Bash/Substitution.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Substitution"
+            }
           }
         ],
         "currentTab": 2
@@ -185,18 +218,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0aaf5622b5b2e9f6",
+  "active": "ab51686eeaa1dde8",
   "lastOpenFiles": [
+    "Linux/Bash/Data types.md",
+    "Project/B2BR.md",
+    "Linux/Bash/Substitution.md",
+    "Linux/Bash/First scirpt.md",
+    "bash.svg",
+    "Linux/Bash/Variables.md",
+    "Linux/Bash/Script Execution.md",
+    "Linux/Bash/Standard Streams.md",
+    "Linux/Bash/Needed Commands.md",
+    "Media/bitwize_example1.png",
     "Media/logpage.jpg",
     "Modules/Python Dicover.md",
     "Media/power-on.png",
     "Linux/Text Processing.md",
     "Linux/Redirecting.md",
     "Linux/Linux.md",
-    "Linux/Bash/Substitution.md",
-    "Linux/Bash/Needed Commands.md",
     "Linux/Bash/Bash.md",
-    "Linux/Bash/Standard Streams.md",
     "Linux/Service management.md",
     "Excalidraw/booting_process.excalidraw",
     "Linux/Booting Process.md",
@@ -213,14 +253,10 @@
     "Linux/Disk & Filesystem/Swap.md",
     "Excalidraw/Drawing 2026-02-10 21.08.05.excalidraw.md",
     "Concepts/git -h.md",
-    "Project/B2BR.md",
     "Linux/Piping.md",
     "Linux/Permissions.md",
     "Linux/Disk & Filesystem/Inode.md",
     "Concepts/Bitwize.md",
-    "Project/Libft.md",
-    "Project/Projects.md",
-    "Modules/Module 05.md",
     "Untitled.base",
     "Media/bitwizeOperators.png",
     "Media/stack_structure.png",
@@ -230,8 +266,6 @@
     "lastdelast.png",
     "lastversion.png",
     "bridge.svg",
-    "100baset-hub.svg",
-    "server.png",
     "Untitled.canvas"
   ]
 }

@@ -403,3 +403,4 @@ Understanding streams and redirection is fundamental to Linux command-line maste
 - **read command**: Flexible input handling with many options
 
 Master these concepts to write more powerful and flexible shell scripts!
+[[Bash]]
