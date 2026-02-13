@@ -215,7 +215,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370.5
+    "width": 1008.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -231,7 +231,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4fb27ffd9acd9a36",
+  "active": "bf4a90ec355480ad",
   "lastOpenFiles": [
     "Linux/Service management.md",
     "Linux/Redirecting.md",
