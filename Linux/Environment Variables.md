@@ -66,7 +66,16 @@ echo $SHELL
 - If it says `/bin/bash` → your config file is `~/.bashrc`
 - If it says `/bin/zsh` → your config file is `~/.zshrc`
 
+### 2. Edit the config file 
 
+**For Bash**
+```
+vim .bashrc
+```
+**Add the variable at the end of file**
+```
+export ICONS="$HOME/Documents/Obsidian vault/.obsidian/icons/icons"
+```
 
 ---
 
