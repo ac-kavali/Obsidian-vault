@@ -21,7 +21,7 @@ close(3);
 ```
 
 ---
-## <span class="color-red">6. What if the Book Doesn’t Exist Yet?</span>
+## 6. What if the Book Doesn’t Exist Yet?
 
 You can say:
 ```c
@@ -83,7 +83,7 @@ int fd = open("file.txt", O_CREATE, 0644); //file mode is mondatory(06..)
 *When you call `open()`, the kernel first checks the file’s inode permissions to see whether you are allowed to read, write, or execute the file. If you do not have the required permission, `open()` immediately fails. If the permission check succeeds, the kernel creates an entry in the Open File Table. This entry stores the flags you passed to `open()` (such as `O_RDONLY`, `O_WRONLY`, `O_RDWR`, `O_APPEND`, etc.), which control how the file descriptor will behave after the file has been successfully opened. In short: the inode decides _if_ you can access the file, and the Open File Table flags decide _how_ you will use it once it is opened._
 
 ---
-## <span class="color-red">EOF (end of file) </span> 
+## EOF (end of file)
 
 **<span class="color-yellow">No more data will ever come from this fd.</span>**
 \-`read()` returning 0 is the only signal.
@@ -95,7 +95,7 @@ int Get_Next_Line this means:
 ## <span class="color-red">Open file table </span> 
 
 ![[filedisc.png]]
-## <span class="color-red">A) Process & File Descriptors </span>
+## A) Process & File Descriptors 
 ### <span class="color-cyan">Process:</span>
 Think of a process as a running program. In the diagram, you have **Process 1** and **Process 2**. Each process has its **own file descriptor table**.
 ### <span class="color-cyan">File Descriptor Table:</span>
@@ -116,7 +116,7 @@ Think of a process as a running program. In the diagram, you have **Process 1** 
  |>FD 3 of process 2 -> same or different File Table entry depending on whether it's a duplicate(e.g, dup()).
  * If two FDs from different processes point to the same file table entry, they share the file offest.
 
-## <span class="color-red">C) Inode Table </span>
+## C) Inode Table
 
 The inode contains metadata about the actual file:
 -> Each inode stores :

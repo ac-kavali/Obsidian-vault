@@ -10,93 +10,264 @@
  - If the available free memory is fragmented (scattered in small, non-adjacent blocks), you cannot create the array—even if the total free memory is technically large enough.
 
 ---
-### <span class ="color-cyan">1. Declaring a linked list </span>: 
-   ```c
-   typedef struct node {
-	   int data;
-	   struct node *next;
-   }Node;
+## 1. Declaring a Linked List
+
+```c
+typedef struct node {
+    int data;
+    struct node *next;
+} Node;
 ```
 
-\- <span class ="color-pink">typedef</span>: used to create a new type shortcut with nickname used to reference to it.
-\- <span class ="color-cyan">Node</span>:the type nickname created by the `typedef`.
+- **`typedef`**: Used to create a new type shortcut with a nickname used to reference it.
+- **`Node`**: The type nickname created by the `typedef`.
 
-*<span class ="color-orange">note</span>*: **You should define your `struct` type outside of `main()` and outside of any function.**
-Because:
+**Note**: You should define your `struct` type outside of `main()` and outside of any function.
+
+**Why?**
+
 - You want **all functions** (like `create_node`, `print_list`, `add_node`, etc.) to know what a `Node` is.
-- If you declare the `struct` **inside** `main()`, only `main()` can see it — other functions can’t use it.
+- If you declare the `struct` **inside** `main()`, only `main()` can see it — other functions can't use it.
 
---- 
-## <span class ="color-cyan">2. Creating a Node </span>:
-\- before creating the first node, inicial the head, 
-  What `head` really represents
-- `head` is **not** a node itself. 
-- It’s a **pointer that _points to_ the first node** in the list.
-*So* when you first create the list, there are **no nodes yet**.
+---
+
+## 2. Creating a Node
+
+Before creating the first node, initialize the head.
+
+### What `head` Really Represents
+
+- `head` is **not** a node itself.
+- It's a **pointer that points to the first node** in the list.
+- When you first create the list, there are **no nodes yet**.
+
 ```c
 Node *head = NULL;
 ```
 
---- 
-## <span class ="color-cyan">3. Insert New Nodes </span>:
-<span class ="color-purple">A) Never make the head the first node itself because</span>:
-   ### ❌ 1. The list will _never empty_
-   You can’t check:
+---
+
+## 3. Insert New Nodes
+
+### A) Never Make the Head the First Node Itself
+
+**Why?**
+
+#### ❌ Problem 1: The List Will Never Be Empty
+
+You can't check:
+
 ```c
-if(head = NULL);
+if (head == NULL)  // This will never be true
 ```
-you can't detect an empty list anymore — because it always has one node (7).  
+
+You can't detect an empty list anymore — because it always has one node.  
 That makes your `add_head()` and `add_end()` functions **less flexible**.
 
-| Term     | Meaning                               |
-| -------- | ------------------------------------- |
-| **Node** | One element of the list (data + next) |
-| **Head** | Pointer to the first node             |
-| **Next** | Pointer to the next node              |
-| **NULL** | Marks the end of the list             |
-<span class ="color-purple">B) function to insert to head</span>:
-1. Allocating the `new_node`, (failed allocation return `head`).
-2. Identify the data and next for the `new_node`.
-3. return the `new_node`.
+### Key Terms
 
-<span class ="color-purple">C) function to insert to the end</span>:
-4. Allocating the `new_node`.
-5. Identify the data and the next of the `new_nod`.
-6. If no head return the `new_node` it self.
-7. Declare a `tmp` that copy the head for the list traverse.
-8. Traverse the list to find an empty `tmp->next`.
-9. add the `new_node` in the `tmp->next`.
-10. return the head with her new end added.
+|Term|Meaning|
+|---|---|
+|**Node**|One element of the list (data + next)|
+|**Head**|Pointer to the first node|
+|**Next**|Pointer to the next node|
+|**NULL**|Marks the end of the list|
+
+### B) Function to Insert at Head
+
+**Steps:**
+
+1. Allocate the `new_node` (if allocation fails, return `head`).
+2. Set the data and next for the `new_node`.
+3. Return the `new_node`.
+
+```c
+Node *add_head(Node *head, int data) {
+    Node *new_node = malloc(sizeof(Node));
+    if (new_node == NULL)
+        return head;  // Allocation failed
+    
+    new_node->data = data;
+    new_node->next = head;  // Point to current head
+    
+    return new_node;  // New node becomes the head
+}
+```
+
+### C) Function to Insert at End
+
+**Steps:**
+
+1. Allocate the `new_node`.
+2. Set the data and next of the `new_node`.
+3. If no head exists, return the `new_node` itself.
+4. Declare a `tmp` that copies the head for list traversal.
+5. Traverse the list to find an empty `tmp->next`.
+6. Add the `new_node` in the `tmp->next`.
+7. Return the head with the new end added.
+
+```c
+Node *add_end(Node *head, int data) {
+    Node *new_node = malloc(sizeof(Node));
+    if (new_node == NULL)
+        return head;  // Allocation failed
+    
+    new_node->data = data;
+    new_node->next = NULL;
+    
+    // If list is empty, new node becomes head
+    if (head == NULL)
+        return new_node;
+    
+    // Traverse to the end
+    Node *tmp = head;
+    while (tmp->next != NULL) {
+        tmp = tmp->next;
+    }
+    
+    tmp->next = new_node;  // Add new node at end
+    return head;
+}
+```
 
 ---
-## <span class ="color-cyan">4. Use insert functions, print the list </span>:
-<span class ="color-purple">A) calling the insert the insert functions</span>:
-  ```c 
-  typedef struct node {
-	   int data;
-	   struct node *next;
-   }Node;
-   
-  int main(void){
-	Node *head = NULL;
-	
-	head = add_head(head, 3); //insert 3 in the first node.
-	head = add_head(head, 1); //will take place before the 3 node.
-	head = add_end(head, 4); //being at end of list.
-  }
-  ```
 
- <span class ="color-purple">B) Printing the list :</span>
-  ```c
-tmp = head;
-while (tmp)  // Loop continues while current node is NOT NULL
-{
-    printf("%d\n", tmp->value);
-    tmp = tmp->next;
-}
-  ```
-\- The loop check if the current loop is empty if no it print.
+## 4. Use Insert Functions and Print the List
+
+### A) Calling the Insert Functions
+
 ```c
-#include 
-int main  
-``
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct node {
+    int data;
+    struct node *next;
+} Node;
+
+int main(void) {
+    Node *head = NULL;
+    
+    head = add_head(head, 3);  // Insert 3 in the first node
+    head = add_head(head, 1);  // Will take place before the 3 node
+    head = add_end(head, 4);   // Being at end of list
+    
+    // List now: 1 -> 3 -> 4 -> NULL
+    
+    print_list(head);
+    
+    return 0;
+}
+```
+
+### B) Printing the List
+
+```c
+void print_list(Node *head) {
+    Node *tmp = head;
+    
+    while (tmp)  // Loop continues while current node is NOT NULL
+    {
+        printf("%d\n", tmp->data);
+        tmp = tmp->next;
+    }
+}
+```
+
+**How it works:**
+
+- The loop checks if the current node is not empty.
+- If not empty, it prints the data.
+- Then moves to the next node.
+- When `tmp` becomes `NULL`, the loop stops.
+
+---
+
+## Complete Example
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct node {
+    int data;
+    struct node *next;
+} Node;
+
+// Insert at head
+Node *add_head(Node *head, int data) {
+    Node *new_node = malloc(sizeof(Node));
+    if (new_node == NULL)
+        return head;
+    
+    new_node->data = data;
+    new_node->next = head;
+    
+    return new_node;
+}
+
+// Insert at end
+Node *add_end(Node *head, int data) {
+    Node *new_node = malloc(sizeof(Node));
+    if (new_node == NULL)
+        return head;
+    
+    new_node->data = data;
+    new_node->next = NULL;
+    
+    if (head == NULL)
+        return new_node;
+    
+    Node *tmp = head;
+    while (tmp->next != NULL) {
+        tmp = tmp->next;
+    }
+    
+    tmp->next = new_node;
+    return head;
+}
+
+// Print list
+void print_list(Node *head) {
+    Node *tmp = head;
+    
+    while (tmp) {
+        printf("%d -> ", tmp->data);
+        tmp = tmp->next;
+    }
+    printf("NULL\n");
+}
+
+// Main function
+int main(void) {
+    Node *head = NULL;
+    
+    head = add_head(head, 3);
+    head = add_head(head, 1);
+    head = add_end(head, 4);
+    head = add_end(head, 5);
+    
+    printf("Linked List: ");
+    print_list(head);
+    
+    return 0;
+}
+```
+
+**Output:**
+
+```
+Linked List: 1 -> 3 -> 4 -> 5 -> NULL
+```
+
+---
+
+## Summary
+
+**Key Points:**
+- Always initialize head to `NULL`
+- Use `typedef` to create a clean type name
+- Never make head the first node — keep it as a pointer
+- Use helper functions to insert at head or end
+- Always check for `NULL` to detect empty lists
+- Traverse with a temporary pointer to avoid losing the head

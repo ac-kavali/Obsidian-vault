@@ -2,6 +2,7 @@
 >A comprehensive reference guide for essential Linux commands used for text manipulation, searching, and processing.
 
 ## Table of Contents
+
 - [[#File Search Commands|File Search Commands]]
 - [[#Text Manipulation|Text Manipulation]]
 - [[#Text Extraction|Text Extraction]]
@@ -53,7 +54,6 @@ find . -name "*.txt" -exec grep -l "some thing" {} \;
 ### `paste`
 
 Merge lines of files side by side.
-
 ```bash
 # Basic paste (tab-separated by default)
 paste file1.txt file2.txt
@@ -63,7 +63,6 @@ paste -d ',' file1.txt file2.txt
 ```
 
 **Example:**
-
 ```
 file1.txt    file2.txt    Result
 A            1            A    1
