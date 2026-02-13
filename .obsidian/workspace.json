@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4fb27ffd9acd9a36",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Environment Variables.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Environment Variables"
-            }
-          },
-          {
             "id": "ab51686eeaa1dde8",
             "type": "leaf",
             "state": {
@@ -110,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5,
-    "collapsed": true
+    "width": 351.5
   },
   "right": {
     "id": "10424350b623bef2",
@@ -231,11 +216,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bf4a90ec355480ad",
+  "active": "ab51686eeaa1dde8",
   "lastOpenFiles": [
+    "Excalidraw/My fu* maze.md",
+    "Excalidraw/booting_process.excalidraw",
+    "Linux/Booting Process.md",
+    "Linux/Package Management.md",
+    "Linux/Piping.md",
+    "Linux/Environment Variables.md",
     "Linux/Service management.md",
     "Linux/Redirecting.md",
-    "Linux/Piping.md",
     "Linux/awk.md",
     "Linux/Find.md",
     "Linux/Text Processing.md",
@@ -259,13 +249,8 @@
     "Media/logpage.jpg",
     "Modules/Python Dicover.md",
     "Media/power-on.png",
-    "Linux/Linux.md",
-    "Excalidraw/booting_process.excalidraw",
-    "Linux/Booting Process.md",
-    "Linux/Linux Logs.md",
     "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/python_discorver#1.excalidraw",
-    "Excalidraw/My fu* maze.md",
     "Excalidraw/Python2.excalidraw",
     "python_discorver#1.excalidraw",
     "Python2.excalidraw",
