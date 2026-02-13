@@ -182,7 +182,7 @@ tail -f file.txt
 
 ### `sort`
 
-Sort lines of text files (uses ASCII ordering: uppercase before lowercase)
+Sort lines of text files (uses ASCII ordering: uppercase before lowercase).
 
 ```bash
 # Basic sort
