@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiPhoneFindFill",
       "IcBash",
       "RiAppsLine",
       "LiPower",
-      "RiFileHistoryLine",
-      "RiMoneyDollarBoxLine"
+      "RiFileHistoryLine"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -54,5 +54,6 @@
   "Linux/Linux Logs.md": "RiFileHistoryLine",
   "Linux/Booting Process.md": "LiPower",
   "Linux/Package Management.md": "RiAppsLine",
-  "Linux/Bash": "IcBash"
+  "Linux/Bash": "IcBash",
+  "Linux/Find.md": "RiPhoneFindFill"
 }

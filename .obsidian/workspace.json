@@ -8,17 +8,31 @@
         "type": "tabs",
         "children": [
           {
+            "id": "4fb27ffd9acd9a36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Environment Variables.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Environment Variables"
+            }
+          },
+          {
             "id": "ab51686eeaa1dde8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Bash/awk.md",
-                "mode": "source",
+                "file": "Linux/Text Processing.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "awk"
+              "title": "Text Processing"
             }
           }
         ]
@@ -54,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "find",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5
+    "width": 351.5,
+    "collapsed": true
   },
   "right": {
     "id": "10424350b623bef2",
@@ -216,14 +231,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ab51686eeaa1dde8",
+  "active": "4fb27ffd9acd9a36",
   "lastOpenFiles": [
-    "Concepts/git -h.md",
-    "Linux/Bash/awk.md",
+    "Linux/Service management.md",
+    "Linux/Redirecting.md",
+    "Linux/Piping.md",
+    "Linux/awk.md",
     "Linux/Find.md",
-    "Excalidraw/Drawing 2026-02-13 11.14.56.excalidraw.md",
     "Linux/Text Processing.md",
+    "Modules/Polymorphism.md",
     "Project/B2BR.md",
+    "Linux/Bash/Bash.md",
+    "Concepts/git -h.md",
+    "Excalidraw/Drawing 2026-02-13 11.14.56.excalidraw.md",
     "Concepts/pointer to pointer.md",
     "Concepts/Linked lists.md",
     "Concepts/File Discriptor.md",
@@ -239,10 +259,7 @@
     "Media/logpage.jpg",
     "Modules/Python Dicover.md",
     "Media/power-on.png",
-    "Linux/Redirecting.md",
     "Linux/Linux.md",
-    "Linux/Bash/Bash.md",
-    "Linux/Service management.md",
     "Excalidraw/booting_process.excalidraw",
     "Linux/Booting Process.md",
     "Linux/Linux Logs.md",
@@ -253,8 +270,6 @@
     "python_discorver#1.excalidraw",
     "Python2.excalidraw",
     "Bitwize.excalidraw",
-    "Linux/Environment Variables.md",
-    "Linux/Package Management.md",
     "Untitled.base",
     "Media/bitwizeOperators.png",
     "Media/stack_structure.png",

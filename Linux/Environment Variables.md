@@ -1,6 +1,3 @@
-
-# Environment Variables
-
 **Definition:** Key-value pairs that store and give processes and applications the system information needed to work.
 
 ### Viewing Environment Variables
@@ -57,6 +54,22 @@ VARNAME="content"
 # Display variable
 echo $VARNAME  # Output: content
 ```
+
+---
+## Create Custom Env Variable
+### 1. Identify your shell
+
+Run:
+```
+echo $SHELL
+```
+- If it says `/bin/bash` → your config file is `~/.bashrc`
+- If it says `/bin/zsh` → your config file is `~/.zshrc`
+
+
+
+---
+
 
 
 
