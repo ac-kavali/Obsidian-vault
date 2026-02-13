@@ -76,6 +76,13 @@ vim .bashrc
 ```
 export ICONS="$HOME/Documents/Obsidian vault/.obsidian/icons/icons"
 ```
+`export`: means export this variable to every child session.
+
+### 3. Reload the config
+
+```sh
+source .bashrc
+```
 
 ---
 
