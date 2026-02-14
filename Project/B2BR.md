@@ -219,7 +219,7 @@ sudo systemctl enable ssh
 sudo systemctl start ssh
 sudo systemctl restart ssh
 ```
-**to see ip address to connect using other machine :** 
+**to see ip address to connect using other machine:** 
 ```shell
 hostname -I
 ```
