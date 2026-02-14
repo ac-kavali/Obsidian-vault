@@ -33,7 +33,7 @@
       {
         "id": "1eef5fe6e198baf0",
         "type": "tabs",
-        "dimension": 72.80617164898746,
+        "dimension": 40.790742526518805,
         "children": [
           {
             "id": "364eed01b939fc76",
@@ -81,7 +81,7 @@
       {
         "id": "549908e0566d76c4",
         "type": "tabs",
-        "dimension": 27.193828351012538,
+        "dimension": 59.209257473481195,
         "children": [
           {
             "id": "1e19b6aea4decbac",
@@ -97,7 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5
+    "width": 931.5
   },
   "right": {
     "id": "10424350b623bef2",
@@ -217,8 +217,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "37f3fc129d048485",
+  "active": "1e19b6aea4decbac",
   "lastOpenFiles": [
+    "Modules/Module10.md",
+    "Project/B2BR.md",
     "Linux/Service management.md",
     "Linux/Permissions.md",
     "Excalidraw/Bitwize.excalidraw",
@@ -235,7 +237,6 @@
     "Linux/awk.md",
     "Linux/Find.md",
     "Modules/Polymorphism.md",
-    "Project/B2BR.md",
     "Linux/Bash/Bash.md",
     "Concepts/git -h.md",
     "Excalidraw/Drawing 2026-02-13 11.14.56.excalidraw.md",
@@ -249,7 +250,6 @@
     "Linux/Bash/Variables.md",
     "Linux/Bash/Script Execution.md",
     "Linux/Bash/Standard Streams.md",
-    "Linux/Bash/Needed Commands.md",
     "Media/bitwize_example1.png",
     "Media/logpage.jpg",
     "Media/power-on.png",
