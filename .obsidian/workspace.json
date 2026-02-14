@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ssh ",
+                "query": "awk",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "549908e0566d76c4",
@@ -217,7 +217,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ab51686eeaa1dde8",
+  "active": "37f3fc129d048485",
   "lastOpenFiles": [
     "Linux/Service management.md",
     "Linux/Permissions.md",

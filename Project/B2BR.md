@@ -213,17 +213,17 @@ Port 4242
 PermitRootLogin no
 ```
 
-**<span class="color-yellow">start service :</span>**
+**start service **
 ```shell
 sudo systemctl enable ssh
 sudo systemctl start ssh
 sudo systemctl restart ssh
 ```
-to see ip address to connect using other machine : 
+**to see ip address to connect using other machine :** 
 ```shell
 hostname -I
 ```
-check ssh status 
+**check ssh status** 
 ```shell
 sudo systemctl status sshd
 ```
@@ -235,9 +235,10 @@ ssh hostname@ipaddress
 
 **Execute command without login**
 ```sh
-ssh hostname@ipaddress "sh -c "
+ssh hostname@ipaddress "sh -c 'commadn'"
 ```
-verify the listening port on the server:
+
+**verify the listening port on the server:**
 ```shell
 sudo ss -tulpn | grep ssh
 ```
