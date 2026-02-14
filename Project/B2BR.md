@@ -228,6 +228,15 @@ check ssh status
 sudo systemctl status sshd
 ```
 
+**Connect with ssh server
+```sh 
+ssh hostname@ipaddress
+```
+
+**Execute command without login**
+```sh
+ssh hostname@ipaddress "sh -c "
+```
 verify the listening port on the server:
 ```shell
 sudo ss -tulpn | grep ssh
