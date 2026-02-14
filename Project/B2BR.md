@@ -227,6 +227,7 @@ check ssh status
 ```shell
 sudo systemctl status sshd
 ```
+
 verify the listening port on the server:
 ```shell
 sudo ss -tulpn | grep ssh

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Permissions.md",
+                "file": "Project/B2BR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Permissions"
+              "title": "B2BR"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "switch",
+                "query": "ssh ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -207,10 +207,10 @@
     "hiddenItems": {
       "switcher:Open quick switcher": true,
       "graph:Open graph view": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
       "publish:Publish changes...": true,
+      "daily-notes:Open today's daily note": false,
       "bases:Create new base": false,
       "audio-recorder:Start/stop recording": false,
       "obsidian-excalidraw-plugin:New drawing": false,
@@ -219,6 +219,8 @@
   },
   "active": "ab51686eeaa1dde8",
   "lastOpenFiles": [
+    "Linux/Service management.md",
+    "Linux/Permissions.md",
     "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Python2.excalidraw",
@@ -229,7 +231,6 @@
     "Linux/Package Management.md",
     "Linux/Piping.md",
     "Linux/Environment Variables.md",
-    "Linux/Service management.md",
     "Linux/Redirecting.md",
     "Linux/awk.md",
     "Linux/Find.md",
