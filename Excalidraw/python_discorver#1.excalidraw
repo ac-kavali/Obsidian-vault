@@ -1754,8 +1754,8 @@
 			"type": "line",
 			"x": 1387.2493227599205,
 			"y": -761.2441725045014,
-			"width": 441.26662493101117,
-			"height": 301.76257024427844,
+			"width": 446.6046082409166,
+			"height": 298.2039147043414,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -1771,11 +1771,11 @@
 				"type": 2
 			},
 			"seed": 119830134,
-			"version": 196,
-			"versionNonce": 1395533174,
+			"version": 219,
+			"versionNonce": 587800085,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1767802839547,
+			"updated": 1771048377139,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -1784,8 +1784,8 @@
 					0
 				],
 				[
-					-441.26662493101117,
-					301.76257024427844
+					-446.6046082409166,
+					298.2039147043414
 				]
 			],
 			"startBinding": null,
@@ -2000,10 +2000,10 @@
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
 		"currentItemFrameRole": null,
-		"scrollX": 55.69552481995447,
-		"scrollY": 1023.5836857746298,
+		"scrollX": 16.1479047204341,
+		"scrollY": 1508.8571998694167,
 		"zoom": {
-			"value": 0.669042
+			"value": 0.56201
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
@@ -2032,6 +2032,5 @@
 		},
 		"disableContextMenu": false
 	},
-	"prevTextMode": "parsed",
 	"files": {}
 }
