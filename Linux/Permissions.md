@@ -51,11 +51,10 @@ zsh
 
  Switch shell permanently
 ```bash
-```
 chsh -s /bin/bash
 ```
 
- List content of a file with absolute path
+List content of a file with absolute path
 ```bash
 ls /abs/path/file
 ```

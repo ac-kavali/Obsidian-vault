@@ -11,12 +11,14 @@
             "id": "ab51686eeaa1dde8",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Bitwize.excalidraw"
+                "file": "Linux/Permissions.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Bitwize"
+              "icon": "lucide-file",
+              "title": "Permissions"
             }
           }
         ]
@@ -52,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "switch",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +75,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "549908e0566d76c4",
@@ -216,8 +219,8 @@
   },
   "active": "ab51686eeaa1dde8",
   "lastOpenFiles": [
-    "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Bitwize.excalidraw",
+    "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Python2.excalidraw",
     "Linux/Text Processing.md",
     "Excalidraw/My fu* maze.md",
