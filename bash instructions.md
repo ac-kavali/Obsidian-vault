@@ -5,4 +5,6 @@
 - [ ] if statements & comparing string and numbers
 - [ ] check if argument exist with 
 - [ ] taking command line arguments
-- [ ] the that hold the number of argument 
+- [ ] the that hold the number of argument
+- [ ] array
+- [ ] 
