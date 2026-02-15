@@ -1,8 +1,8 @@
 - [ ] variables
-
-
 - [ ] how to create a fucntion 
 - [ ] how to call a command inside a script 
 - [ ] loops
 - [ ] if statements & comparing string and numbers
 - [ ] check if argument exist with 
+- [ ] taking command line arguments
+- [ ] the that hold the number of argument 
