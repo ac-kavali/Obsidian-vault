@@ -105,6 +105,7 @@
       {
         "id": "2b5c95463662bc95",
         "type": "tabs",
+        "dimension": 45.370370370370374,
         "children": [
           {
             "id": "6f1f7733ce304638",
@@ -185,6 +186,7 @@
       {
         "id": "a8b20e5188f20cdd",
         "type": "tabs",
+        "dimension": 54.629629629629626,
         "children": [
           {
             "id": "9fa10d8f867ed010",
@@ -216,7 +218,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ab51686eeaa1dde8",
+  "active": "bf4a90ec355480ad",
   "lastOpenFiles": [
     "Linux/Bash/Needed Commands.md",
     "Untitled.md",
