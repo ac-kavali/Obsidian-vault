@@ -48,7 +48,7 @@ find . -type l
 ---
 ## Search by Size
 
-### Bigger than 
+### Bigger than
 ```sh
 find . -size +100M
 ```

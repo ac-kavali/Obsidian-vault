@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bash instructions.md",
-                "mode": "source",
+                "file": "Linux/Find.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "bash instructions"
+              "title": "Find"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "command substi",
+                "query": "find",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,7 +75,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "549908e0566d76c4",
@@ -96,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 352.5
+    "width": 352.5,
+    "collapsed": true
   },
   "right": {
     "id": "10424350b623bef2",
