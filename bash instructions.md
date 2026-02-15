@@ -6,5 +6,6 @@
 - [ ] check if argument exist with 
 - [ ] taking command line arguments
 - [ ] the that hold the number of argument
-- [ ] array
+- [ ] array and operations like add or remove elements
+- [ ] setting `{}` around your variable concedered as good practice
 - [ ] 

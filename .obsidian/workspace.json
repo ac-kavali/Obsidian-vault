@@ -11,14 +11,14 @@
             "id": "ab51686eeaa1dde8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "bash instructions.md",
-                "mode": "source",
-                "source": false
+                "aFile": "bash instructions.md",
+                "bFile": "bash instructions.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "bash instructions"
+              "icon": "diff",
+              "title": "Diff: bash instructions  (Working Tree)"
             }
           }
         ]
@@ -220,8 +220,8 @@
   },
   "active": "ab51686eeaa1dde8",
   "lastOpenFiles": [
-    "Resources.md",
     "bash instructions.md",
+    "Resources.md",
     "Linux/Bash/Substitution.md",
     "Linux/Bash/Script Execution.md",
     "Linux/Bash/Needed Commands.md",
