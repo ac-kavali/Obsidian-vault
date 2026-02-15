@@ -8,4 +8,4 @@
 - [ ] the that hold the number of argument
 - [ ] array and operations like add or remove elements and print array len
 - [ ] setting `{}` around your variable concedered as good practice
-- [ ] 
+- [ ] the use of $((expression arethmetic))
