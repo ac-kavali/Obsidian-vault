@@ -1,2 +1,5 @@
+- [ ] variables
 - [ ] how to create a fucntion 
 - [ ] how to call a command inside a script 
+- [ ] loops
+- [ ] if statements & comparing
