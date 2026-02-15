@@ -4,5 +4,5 @@
 - [ ] how to create a fucntion 
 - [ ] how to call a command inside a script 
 - [ ] loops
-- [ ] if statements & comparing
-**in bash you mainly compare strings using **test** (`[ ]`) or `[[ ]]`.**
+- [ ] if statements & comparing string and numbers
+- [ ] check if argument exist with 
