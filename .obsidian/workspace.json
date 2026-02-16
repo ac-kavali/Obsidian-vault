@@ -11,14 +11,10 @@
             "id": "ab51686eeaa1dde8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "kitty conf.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "kitty conf"
+              "title": "New tab"
             }
           }
         ]
@@ -218,7 +214,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ab51686eeaa1dde8",
+  "active": "364eed01b939fc76",
   "lastOpenFiles": [
     "Linux/Text Processing.md",
     "kitty conf.md",
