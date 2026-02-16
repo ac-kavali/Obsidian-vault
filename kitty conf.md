@@ -1,0 +1,45 @@
+```bash
+# Font settings
+font_family JetBrainsMono Nerd Font
+bold_font        no
+italic_font      no
+bold_italic_font auto
+font_size        14.0
+
+# Colors
+# Green text
+foreground #00E5FF
+# Black background
+background #000000
+
+# Transparency
+background_opacity 0.7
+
+# Default window size (columns x rows)
+initial_window_width  114c
+initial_window_height 27c
+
+# Key mappings
+map f11 toggle_fullscreen
+#map ctrl+c copy_to_clipboard
+#map ctrl+v paste_from_clipboard
+
+
+window_border_width 0
+
+remember_window_size no
+
+enable_audio_bell no
+dynamic_background_opacity no
+
+# Set default window size
+initial_window_width 1000
+initial_window_height 1000
+# Disable the Ctrl+Shift+E URL detection
+map ctrl+shift+e no_op
+
+map ctrl+shift+\
+    launch --location=vsplit
+
+allow_remote_control yes
+```
