@@ -11,10 +11,14 @@
             "id": "ab51686eeaa1dde8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Resources.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Resources"
             }
           }
         ]
@@ -214,10 +218,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "364eed01b939fc76",
+  "active": "ab51686eeaa1dde8",
   "lastOpenFiles": [
-    "Linux/Text Processing.md",
     "kitty conf.md",
+    "Linux/Text Processing.md",
     "Linux/Find.md",
     "bash instructions.md",
     "Resources.md",
