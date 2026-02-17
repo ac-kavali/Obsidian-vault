@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a47567fa85b12c9d",
+        "id": "c7bfbf29fac78975",
         "type": "tabs",
         "children": [
           {
-            "id": "c289ee5c070cea20",
+            "id": "9e6046e07629f417",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Package Management.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Package Management"
             }
           }
         ]
@@ -50,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "user manageme",
+                "query": "Package manage",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 352.5
+    "width": 352.5,
+    "collapsed": true
   },
   "right": {
     "id": "10424350b623bef2",
@@ -215,7 +220,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bf4a90ec355480ad",
+  "active": "9e6046e07629f417",
   "lastOpenFiles": [
     "Linux/Text Processing.md",
     "Resources.md",
