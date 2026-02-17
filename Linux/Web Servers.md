@@ -14,10 +14,12 @@ They are mostly written in **C** or **C++**
 *PHP or Perl would be too slow for building the core web server engine.*
 
 ---
-# 
+# Server-side Scripting language
+
 Languages like:
 - PHP
 - Perl
 - Python
 - Ruby
 are used to build:
+*The web application not the server itself*
