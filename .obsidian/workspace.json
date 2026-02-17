@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3801bf91a2652996",
+        "id": "a47567fa85b12c9d",
         "type": "tabs",
         "children": [
           {
-            "id": "ab51686eeaa1dde8",
+            "id": "c289ee5c070cea20",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Text Processing.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Text Processing"
+              "title": "New tab"
             }
           }
         ]
@@ -54,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "grep",
+                "query": "user manageme",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 352.5,
-    "collapsed": true
+    "width": 352.5
   },
   "right": {
     "id": "10424350b623bef2",
@@ -220,11 +215,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ab51686eeaa1dde8",
+  "active": "bf4a90ec355480ad",
   "lastOpenFiles": [
+    "Linux/Text Processing.md",
     "Resources.md",
     "kitty conf.md",
-    "Linux/Text Processing.md",
     "Linux/Find.md",
     "bash instructions.md",
     "Linux/Bash/Substitution.md",
