@@ -75,8 +75,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "549908e0566d76c4",
@@ -97,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 352.5,
-    "collapsed": true
+    "width": 352.5
   },
   "right": {
     "id": "10424350b623bef2",
@@ -220,7 +218,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9e6046e07629f417",
+  "active": "364eed01b939fc76",
   "lastOpenFiles": [
     "Linux/Text Processing.md",
     "Resources.md",
