@@ -23,3 +23,9 @@ Languages like:
 - Ruby
 are used to build:
 *The web application not the server itself*
+
+#### Example:
+- Apache (written in C) receives a request
+- It passes the request to PHP
+- PHP generates dynamic HTML
+- Apache sends the response back to the client
