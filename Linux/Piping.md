@@ -22,3 +22,4 @@ this line contains "Desktop"
 ## Tips and Best Practices
 
 1. **Use piping** to combine commands for powerful workflows
+

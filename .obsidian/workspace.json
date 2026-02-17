@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Package Management.md",
-                "mode": "preview",
+                "file": "Linux/Piping.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Package Management"
+              "title": "Piping"
             }
           }
         ]
@@ -218,8 +218,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "364eed01b939fc76",
+  "active": "9e6046e07629f417",
   "lastOpenFiles": [
+    "Linux/Linux.md",
+    "Linux/Piping.md",
+    "Linux/Package Management.md",
     "Linux/Text Processing.md",
     "Resources.md",
     "kitty conf.md",
@@ -238,8 +241,6 @@
     "Excalidraw/My fu* maze.md",
     "Excalidraw/booting_process.excalidraw",
     "Linux/Booting Process.md",
-    "Linux/Package Management.md",
-    "Linux/Piping.md",
     "Linux/Environment Variables.md",
     "Linux/Redirecting.md",
     "Linux/awk.md",
@@ -249,7 +250,6 @@
     "Excalidraw/Drawing 2026-02-13 11.14.56.excalidraw.md",
     "Concepts/pointer to pointer.md",
     "Concepts/Linked lists.md",
-    "Concepts/File Discriptor.md",
     "bash.svg",
     "Media/bitwize_example1.png",
     "Media/logpage.jpg",
