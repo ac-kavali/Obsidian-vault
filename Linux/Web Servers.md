@@ -29,3 +29,25 @@ are used to build:
 - It passes the request to PHP
 - PHP generates dynamic HTML
 - Apache sends the response back to the client
+---
+## Java-script
+
+Is a programing/scripting language, originaly created to run inside the browser to make websites interactive.
+
+---
+## Node.js
+
+
+**Node.js** is a **runtime environment** that allows you to run JavaScript **outside the browser**.
+### The Relationship (Very Important)
+
+**Node.js runs JavaScript**
+Think like this:
+- JavaScript = the language
+- Node.js = the machine that executes that language outside the browser
+Just like:
+- C language → compiled by GCC
+- Python → executed by Python interpreter
+- JavaScript → executed by browser OR Node.js
+
+**PHP is not just a language —it also comes with a **built-in web server since PHP 5.4.**
