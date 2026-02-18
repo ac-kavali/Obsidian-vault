@@ -75,8 +75,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "549908e0566d76c4",
@@ -97,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 352.5,
-    "collapsed": true
+    "width": 352.5
   },
   "right": {
     "id": "10424350b623bef2",
@@ -220,8 +218,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9e6046e07629f417",
+  "active": "364eed01b939fc76",
   "lastOpenFiles": [
+    "Networking",
     "Project/B2BR.md",
     "Linux/Web Servers.md",
     "Linux/Piping.md",
@@ -251,7 +250,6 @@
     "Linux/Bash/Bash.md",
     "Concepts/git -h.md",
     "Excalidraw/Drawing 2026-02-13 11.14.56.excalidraw.md",
-    "Concepts/pointer to pointer.md",
     "bash.svg",
     "Media/bitwize_example1.png",
     "Media/logpage.jpg",
