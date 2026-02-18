@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Untitled.md",
+                "file": "Networking/Basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Basics"
             }
           }
         ]
@@ -221,7 +221,7 @@
   "active": "9e6046e07629f417",
   "lastOpenFiles": [
     "Linux/Bash/bash instructions.md",
-    "Networking/Untitled.md",
+    "Networking/Basics.md",
     "Resources.md",
     "Linux/Web Servers.md",
     "Networking",
