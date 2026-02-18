@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 352.5
+    "width": 352.5,
+    "collapsed": true
   },
   "right": {
     "id": "10424350b623bef2",
@@ -218,6 +219,7 @@
   },
   "active": "9e6046e07629f417",
   "lastOpenFiles": [
+    "Media/pngegg.png",
     "Networking/Basics.md",
     "Media/laptop.svg",
     "Media/ip-phone.svg",
