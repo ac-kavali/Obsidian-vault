@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Web Servers.md",
+                "file": "Linux/Bash/bash instructions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Web Servers"
+              "title": "bash instructions"
             }
           }
         ]
@@ -218,19 +218,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "364eed01b939fc76",
+  "active": "9e6046e07629f417",
   "lastOpenFiles": [
+    "Resources.md",
+    "Linux/Bash/bash instructions.md",
+    "Linux/Web Servers.md",
     "Networking",
     "Project/B2BR.md",
-    "Linux/Web Servers.md",
     "Linux/Piping.md",
     "Linux/Linux.md",
     "Linux/Package Management.md",
     "Linux/Text Processing.md",
-    "Resources.md",
     "kitty conf.md",
     "Linux/Find.md",
-    "bash instructions.md",
     "Linux/Bash/Substitution.md",
     "Linux/Bash/Script Execution.md",
     "Linux/Bash/Needed Commands.md",
@@ -261,7 +261,6 @@
     "Media/bitwizeOperators.png",
     "Media/stack_structure.png",
     "Linux.tar.gz",
-    "Linux/Bash",
     "vpn.png",
     "lastdelast.png",
     "lastversion.png",
