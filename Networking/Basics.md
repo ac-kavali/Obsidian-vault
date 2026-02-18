@@ -8,4 +8,4 @@
 ## Network Components
 
 1. End Devices
-2. Network Media
+2. Network Med

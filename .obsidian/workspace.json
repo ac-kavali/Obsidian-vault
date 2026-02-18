@@ -109,8 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 352.5,
-    "collapsed": true
+    "width": 352.5
   },
   "right": {
     "id": "10424350b623bef2",
@@ -234,8 +233,13 @@
   },
   "active": "ed1d0de16548cc38",
   "lastOpenFiles": [
-    "Networking/Basics.excalidraw.md",
+    "macintosh.svg",
+    "ip-phone.svg",
+    "laptop.svg",
+    "Media/Wireless.png",
     "Networking/Network_basics.md",
+    "Media/cables.png",
+    "Networking/Basics.excalidraw.md",
     "Excalidraw/Drawing 2026-02-13 11.14.56.excalidraw.md",
     "Networking/Basics.md",
     "Linux/Bash/bash instructions.md",
@@ -264,7 +268,6 @@
     "Linux/Environment Variables.md",
     "Linux/Redirecting.md",
     "Linux/awk.md",
-    "Modules/Polymorphism.md",
     "bash.svg",
     "Media/bitwize_example1.png",
     "Media/logpage.jpg",
@@ -276,10 +279,6 @@
     "Media/bitwizeOperators.png",
     "Media/stack_structure.png",
     "Linux.tar.gz",
-    "vpn.png",
-    "lastdelast.png",
-    "lastversion.png",
-    "bridge.svg",
     "Untitled.canvas"
   ]
 }
