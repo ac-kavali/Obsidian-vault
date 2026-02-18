@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Basics"
             }
+          },
+          {
+            "id": "ed1d0de16548cc38",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Networking/Network_basics.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Network_basics"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +109,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 352.5
+    "width": 352.5,
+    "collapsed": true
   },
   "right": {
     "id": "10424350b623bef2",
@@ -218,10 +232,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9e6046e07629f417",
+  "active": "ed1d0de16548cc38",
   "lastOpenFiles": [
-    "Linux/Bash/bash instructions.md",
+    "Networking/Basics.excalidraw.md",
+    "Networking/Network_basics.md",
+    "Excalidraw/Drawing 2026-02-13 11.14.56.excalidraw.md",
     "Networking/Basics.md",
+    "Linux/Bash/bash instructions.md",
     "Resources.md",
     "Linux/Web Servers.md",
     "Networking",
@@ -248,9 +265,6 @@
     "Linux/Redirecting.md",
     "Linux/awk.md",
     "Modules/Polymorphism.md",
-    "Linux/Bash/Bash.md",
-    "Concepts/git -h.md",
-    "Excalidraw/Drawing 2026-02-13 11.14.56.excalidraw.md",
     "bash.svg",
     "Media/bitwize_example1.png",
     "Media/logpage.jpg",

@@ -7,4 +7,5 @@
 
 ## Network Components
 
-1. End Devices 
+1. End Devices
+2. Network Media
