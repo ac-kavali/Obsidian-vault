@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Subnetting.md",
+                "file": "Networking/OSI Model.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Subnetting"
+              "title": "OSI Model"
             }
           }
         ],
@@ -111,7 +111,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 352.5
+    "width": 352.5,
+    "collapsed": true
   },
   "right": {
     "id": "10424350b623bef2",
@@ -235,8 +236,9 @@
   },
   "active": "89e076f41193e750",
   "lastOpenFiles": [
-    "Networking/ARP.md",
     "Networking/Subnetting.md",
+    "Networking/OSI Model.md",
+    "Networking/ARP.md",
     "Networking/Network Types.md",
     "Networking/Basics.md",
     "Excalidraw/ARP.md",
@@ -275,7 +277,6 @@
     "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Python2.excalidraw",
-    "Excalidraw/My fu* maze.md",
     "Excalidraw/booting_process.excalidraw",
     "python_discorver#1.excalidraw",
     "Python2.excalidraw",
