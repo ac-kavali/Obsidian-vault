@@ -84,7 +84,7 @@ This table is the key tool for subnetting. It maps bit positions to their subnet
 |---|---|---|---|---|---|---|---|---|
 |B |17 | 18 | 19 | 20 |21 |22 |23 |24 | 
 |C |25 |26 | 27 |28 | 29 |30 |31 |32 | 
-|Hosts|128 | 64 | 32 |16 |8 | 4 |2 | 1| 
+|range|128 | 64 | 32 |16 |8 | 4 |2 | 1| 
 |Sbnet|128 |192| 224| 240| 248| 252| 254| 255|
 
 ---
