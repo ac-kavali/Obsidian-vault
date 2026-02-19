@@ -367,9 +367,9 @@ TCP provides **reliable, ordered, error-checked** delivery. It is **connection-o
 ```
 Client                          Server
   |                                |
-  |---- SYN (seq=x) -------------->|   Step 1: Client requests connection
-  |<--- SYN-ACK (seq=y, ack=x+1) -|   Step 2: Server acknowledges + responds
-  |---- ACK (ack=y+1) ------------>|   Step 3: Client confirms -- connection open
+  |---- SYN (seq=x) -------------->| Step1: Client requests connection
+  |<--- SYN-ACK (seq=y, ack=x+1) --| Step2: Server acknowledges + responds
+  |---- ACK (ack=y+1) ------------>| Step 3: Client confirms -- connection open
   |                                |
   |==== Data Transfer ============>|
   |                                |
@@ -383,13 +383,13 @@ Client                          Server
  0                   1                   2                   3
  0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
 +---------------------------+---------------------------------------+
-|      Source Port (16)     |         Destination Port (16)        |
+|      Source Port (16)     |         Destination Port (16)         |
 +---------------------------+---------------------------------------+
 |                      Sequence Number (32)                         |
 +-------------------------------------------------------------------+
-|                    Acknowledgment Number (32)                      |
+|                    Acknowledgment Number (32)                     |
 +--------+----------+-----------------------------------------------+
-| Offset | Reserved |  Flags: URG ACK PSH RST SYN FIN              |
+| Offset | Reserved |  Flags: URG ACK PSH RST SYN FIN               |
 +--------+----------+-------------------+---------------------------+
 |          Window Size (16)             |         Checksum (16)     |
 +---------------------------------------+---------------------------+
