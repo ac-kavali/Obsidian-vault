@@ -4,22 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "c7bfbf29fac78975",
+        "id": "e75d6a3a3444e6d7",
         "type": "tabs",
         "children": [
           {
-            "id": "9e6046e07629f417",
+            "id": "0ff105e973d1aeea",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Networking/Network_basics.md"
+                "file": "Networking/ARP.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Network_basics"
+              "icon": "lucide-file",
+              "title": "ARP"
+            }
+          },
+          {
+            "id": "89e076f41193e750",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/Subnetting.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Subnetting"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,8 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 352.5,
-    "collapsed": true
+    "width": 352.5
   },
   "right": {
     "id": "10424350b623bef2",
@@ -217,17 +233,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9e6046e07629f417",
+  "active": "89e076f41193e750",
   "lastOpenFiles": [
-    "Media/pngegg.png",
+    "Networking/ARP.md",
+    "Networking/Subnetting.md",
+    "Networking/Network Types.md",
     "Networking/Basics.md",
-    "Media/laptop.svg",
-    "Media/ip-phone.svg",
-    "Media/macintosh.svg",
-    "Networking/Network_basics.md",
-    "Media/fiber_optic.png",
-    "Media/Wireless.png",
-    "Media/cables.png",
+    "Excalidraw/ARP.md",
+    "Media/ARP3.png",
+    "Media/Screenshot from 2026-02-19 01-22-52.png",
+    "Media/ARP2.png",
+    "Media/Screenshot from 2026-02-19 01-11-41.png",
+    "Media/ARP1.png",
+    "Media/Screenshot from 2026-02-19 00-56-42.png",
+    "Screenshot from 2026-02-19 00-56-42.png",
+    "Media/Wifi.png",
+    "Media/vpn.png",
+    "Media/switch.svg",
+    "Media/info.txt",
+    "Excalidraw/Untitled.md",
+    "Excalidraw/Network_basics.md",
     "Networking/Basics.excalidraw.md",
     "Excalidraw/Drawing 2026-02-13 11.14.56.excalidraw.md",
     "Linux/Bash/bash instructions.md",
@@ -252,19 +277,10 @@
     "Excalidraw/Python2.excalidraw",
     "Excalidraw/My fu* maze.md",
     "Excalidraw/booting_process.excalidraw",
-    "Linux/Booting Process.md",
-    "Linux/Environment Variables.md",
-    "Linux/Redirecting.md",
-    "Linux/awk.md",
-    "bash.svg",
-    "Media/bitwize_example1.png",
-    "Media/logpage.jpg",
-    "Media/power-on.png",
     "python_discorver#1.excalidraw",
     "Python2.excalidraw",
     "Bitwize.excalidraw",
     "Untitled.base",
-    "Linux.tar.gz",
     "Untitled.canvas"
   ]
 }
