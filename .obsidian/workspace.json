@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/OSI Model.md",
-                "mode": "preview",
+                "file": "Introduction.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "OSI Model"
+              "title": "Introduction"
             }
           }
         ],
@@ -111,8 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 352.5,
-    "collapsed": true
+    "width": 352.5
   },
   "right": {
     "id": "10424350b623bef2",
@@ -234,7 +233,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bf4a90ec355480ad",
+  "active": "89e076f41193e750",
   "lastOpenFiles": [
     "Networking/Subnetting.md",
     "Networking/OSI Model.md",
