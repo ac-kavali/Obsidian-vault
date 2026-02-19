@@ -259,7 +259,7 @@ Client                                    Server
   |                                          |
   |<--- ServerHello -------------------------|
   |<--- Certificate -------------------------|
-  |<--- CertificateVerify ------------------|
+  |<--- CertificateVerify -------------------|
   |<--- Finished ----------------------------|
   |     (selected cipher suite, key share,   |
   |      certificate for authentication)     |
@@ -267,7 +267,7 @@ Client                                    Server
   |  [Both sides derive session keys         |
   |   using ECDHE shared secret]             |
   |                                          |
-  |---- Finished ---------------------------->|
+  |---- Finished --------------------------->|
   |                                          |
   |==== Encrypted Application Data =========>|
 ```
@@ -369,8 +369,8 @@ Client                          Server
   |                                |
   |---- SYN (seq=x) -------------->| Step1: Client requests connection
   |<--- SYN-ACK (seq=y, ack=x+1) --| Step2: Server acknowledges + responds
-  |---- ACK (ack=y+1) ------------>| Step 3: Client confirms -- connection open
-  |                                |
+  |---- ACK (ack=y+1) ------------>| Step 3: Client confirms -- connection 
+  |                                |                                   open
   |==== Data Transfer ============>|
   |                                |
   |---- FIN ---------------------->|   Teardown begins
