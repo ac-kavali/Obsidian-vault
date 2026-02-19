@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction.md",
-                "mode": "source",
+                "file": "Networking/OSI Model.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Introduction"
+              "title": "OSI Model"
             }
           }
         ],
@@ -233,15 +233,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "89e076f41193e750",
+  "active": "bf4a90ec355480ad",
   "lastOpenFiles": [
-    "Networking/OSI Model.md",
-    "Introduction.md",
-    "Web",
     "Networking/Subnetting.md",
+    "Networking/OSI Model.md",
+    "Networking/Network scaning.md",
+    "Networking/Application, Presentation.md",
+    "Networking/Basics.md",
     "Networking/ARP.md",
     "Networking/Network Types.md",
-    "Networking/Basics.md",
+    "Introduction.md",
+    "Web",
     "Excalidraw/ARP.md",
     "Media/ARP3.png",
     "Media/Screenshot from 2026-02-19 01-22-52.png",
@@ -272,8 +274,6 @@
     "Linux/Bash/Substitution.md",
     "Linux/Bash/Script Execution.md",
     "Linux/Bash/Needed Commands.md",
-    "Modules/Module10.md",
-    "Linux/Service management.md",
     "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Python2.excalidraw",
