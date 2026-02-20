@@ -13,12 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction.md",
+                "file": "Http Protocol.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction"
+              "title": "Http Protocol"
+            }
+          },
+          {
+            "id": "3536f8ea0297f1b3",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-02-20 10.58.15.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-02-20 10.58.15.excalidraw"
             }
           },
           {
@@ -35,7 +47,8 @@
               "title": "Introduction"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -232,10 +245,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bf4a90ec355480ad",
+  "active": "3536f8ea0297f1b3",
   "lastOpenFiles": [
-    "www.beiruteyecenter.com/uploads/3794_1008_4334.pdf.md",
+    "Media/bitwizeOperators.png",
+    "Media/bitwize_example1.png",
+    "Media/bitwize_example2.png",
+    "Media/stack_structure.png",
+    "Media/filedisc.png",
+    "Media/GNL.png",
+    "Media/logpage.jpg",
+    "Excalidraw/Drawing 2026-02-20 10.58.15.excalidraw.md",
+    "Http Protocol.md",
     "Introduction.md",
+    "www.beiruteyecenter.com/uploads/3794_1008_4334.pdf.md",
     "www.beiruteyecenter.com/uploads",
     "www.beiruteyecenter.com",
     "Networking/ARP.md",
@@ -251,12 +273,6 @@
     "Media/Screenshot from 2026-02-19 01-22-52.png",
     "Media/ARP2.png",
     "Media/Screenshot from 2026-02-19 01-11-41.png",
-    "Media/ARP1.png",
-    "Media/Screenshot from 2026-02-19 00-56-42.png",
-    "Screenshot from 2026-02-19 00-56-42.png",
-    "Media/Wifi.png",
-    "Media/vpn.png",
-    "Media/switch.svg",
     "Media/info.txt",
     "Excalidraw/Untitled.md",
     "Excalidraw/Network_basics.md",
@@ -272,8 +288,6 @@
     "Linux/Package Management.md",
     "Linux/Text Processing.md",
     "kitty conf.md",
-    "Linux/Find.md",
-    "Linux/Bash/Substitution.md",
     "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Python2.excalidraw",
