@@ -17,3 +17,9 @@ then developer tools then start learning the popular web vulnirablities
 ---
 2) Use Burp Suite's "Repeater" tool to manually craft requests and see how changing a GET to a POST, or modifying a User-Agent header, affects the server's response . Understand the difference between cookies and sessions.
 ---
+## other resources
+
+- [Article](<https://karrab7.com/articles/Pentest-Methodology-in-2026-Web-Apps>)
+- [Try hack me lofi room](<https://tryhackme.com/room/lofi>)
+- [Port Swiger academy](https://portswigger.net/web-security/request-smuggling/advanced/lab-request-smuggling-0cl-request-smuggling)
+- [Try Hack me ]([https://tryhackme.com/room/howwebsiteswork?ref=blog.tryhackme.com](https://tryhackme.com/room/howwebsiteswork?ref=blog.tryhackme.com "https://tryhackme.com/room/howwebsiteswork?ref=blog.tryhackme.com")) 

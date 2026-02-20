@@ -216,7 +216,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 498.5
+    "width": 393.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -232,7 +232,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0ff105e973d1aeea",
+  "active": "bf4a90ec355480ad",
   "lastOpenFiles": [
     "www.beiruteyecenter.com/uploads/3794_1008_4334.pdf.md",
     "Introduction.md",
