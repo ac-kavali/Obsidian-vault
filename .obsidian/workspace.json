@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "b2b",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -234,7 +234,10 @@
   },
   "active": "0ff105e973d1aeea",
   "lastOpenFiles": [
+    "www.beiruteyecenter.com/uploads/3794_1008_4334.pdf.md",
     "Introduction.md",
+    "www.beiruteyecenter.com/uploads",
+    "www.beiruteyecenter.com",
     "Networking/ARP.md",
     "Networking/Subnetting.md",
     "Networking/OSI Model.md",
@@ -271,15 +274,11 @@
     "kitty conf.md",
     "Linux/Find.md",
     "Linux/Bash/Substitution.md",
-    "Linux/Bash/Script Execution.md",
-    "Linux/Bash/Needed Commands.md",
     "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Python2.excalidraw",
     "Excalidraw/booting_process.excalidraw",
     "python_discorver#1.excalidraw",
-    "Python2.excalidraw",
-    "Bitwize.excalidraw",
     "Untitled.canvas"
   ]
 }
