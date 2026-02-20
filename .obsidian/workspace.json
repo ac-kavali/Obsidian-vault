@@ -22,29 +22,15 @@
             }
           },
           {
-            "id": "3536f8ea0297f1b3",
+            "id": "89e076f41193e750",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2026-02-20 10.58.15.excalidraw.md"
+                "file": "Excalidraw/Http.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2026-02-20 10.58.15.excalidraw"
-            }
-          },
-          {
-            "id": "89e076f41193e750",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Introduction.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Introduction"
+              "title": "Http"
             }
           }
         ],
@@ -245,8 +231,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3536f8ea0297f1b3",
+  "active": "89e076f41193e750",
   "lastOpenFiles": [
+    "Introduction.md",
+    "Excalidraw/Http.md",
+    "Excalidraw/ARP.md",
+    "Excalidraw/My fu* maze.md",
+    "Excalidraw/booting_process.excalidraw",
     "Media/bitwizeOperators.png",
     "Media/bitwize_example1.png",
     "Media/bitwize_example2.png",
@@ -254,9 +245,7 @@
     "Media/filedisc.png",
     "Media/GNL.png",
     "Media/logpage.jpg",
-    "Excalidraw/Drawing 2026-02-20 10.58.15.excalidraw.md",
     "Http Protocol.md",
-    "Introduction.md",
     "www.beiruteyecenter.com/uploads/3794_1008_4334.pdf.md",
     "www.beiruteyecenter.com/uploads",
     "www.beiruteyecenter.com",
@@ -268,11 +257,9 @@
     "Networking/Basics.md",
     "Networking/Network Types.md",
     "Web",
-    "Excalidraw/ARP.md",
     "Media/ARP3.png",
     "Media/Screenshot from 2026-02-19 01-22-52.png",
     "Media/ARP2.png",
-    "Media/Screenshot from 2026-02-19 01-11-41.png",
     "Media/info.txt",
     "Excalidraw/Untitled.md",
     "Excalidraw/Network_basics.md",
@@ -291,7 +278,6 @@
     "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Python2.excalidraw",
-    "Excalidraw/booting_process.excalidraw",
     "python_discorver#1.excalidraw",
     "Untitled.canvas"
   ]
