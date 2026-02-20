@@ -25,12 +25,14 @@
             "id": "89e076f41193e750",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Http.md"
+                "file": "Http Protocol.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Http"
+              "icon": "lucide-file",
+              "title": "Http Protocol"
             }
           }
         ],
@@ -233,8 +235,14 @@
   },
   "active": "89e076f41193e750",
   "lastOpenFiles": [
-    "Introduction.md",
     "Excalidraw/Http.md",
+    "Http Protocol.md",
+    "Introduction.md",
+    "Web/JavaScript",
+    "Web/Untitled.md",
+    "Web/HTML/Introduction.md",
+    "Web/CSS",
+    "Web/HTML",
     "Excalidraw/ARP.md",
     "Excalidraw/My fu* maze.md",
     "Excalidraw/booting_process.excalidraw",
@@ -245,7 +253,6 @@
     "Media/filedisc.png",
     "Media/GNL.png",
     "Media/logpage.jpg",
-    "Http Protocol.md",
     "www.beiruteyecenter.com/uploads/3794_1008_4334.pdf.md",
     "www.beiruteyecenter.com/uploads",
     "www.beiruteyecenter.com",
@@ -272,13 +279,7 @@
     "Project/B2BR.md",
     "Linux/Piping.md",
     "Linux/Linux.md",
-    "Linux/Package Management.md",
-    "Linux/Text Processing.md",
-    "kitty conf.md",
     "Excalidraw/Bitwize.excalidraw",
-    "Excalidraw/python_discorver#1.excalidraw",
-    "Excalidraw/Python2.excalidraw",
-    "python_discorver#1.excalidraw",
     "Untitled.canvas"
   ]
 }
