@@ -1,0 +1,6 @@
+- what means listning(use the example of a call center that wait a call)
+- what is the part that is responsible of shoosing the port based on the prefix (http/https)
+- how they work and how they are devloped and built
+- setup a web server on your local host 
+- how it understand the request (http(s) request)
+- how it treath databases
