@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/Web servers.md",
+                "file": "Web/HTTP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Web servers"
+              "title": "HTTP"
             }
           }
         ],
@@ -233,12 +233,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "abcbfde55c684828",
+  "active": "364eed01b939fc76",
   "lastOpenFiles": [
-    "Web/HTTP.md",
     "Web/Web servers.md",
+    "Web/HTTP.md",
     "Networking/Ports.md",
-    "Excalidraw/Http.md",
+    "Media/Excalidraw/Http.md",
     "Web/Introduction.md",
     "Networking/Basics.md",
     "Networking/ARP.md",
@@ -249,7 +249,7 @@
     "Networking/Application, Presentation.md",
     "Networking/DNS.md",
     "Web/HTML/Introduction.md",
-    "Excalidraw/ARP.md",
+    "Media/Excalidraw/ARP.md",
     "Web/Burpsuite/Get_started.md",
     "Untitled.md",
     "Web/Burpsuite/Untitled",
@@ -257,8 +257,8 @@
     "Web/JavaScript",
     "Web/CSS",
     "Web/HTML",
-    "Excalidraw/My fu* maze.md",
-    "Excalidraw/booting_process.excalidraw",
+    "Media/Excalidraw/My fu* maze.md",
+    "Media/Excalidraw/booting_process.excalidraw",
     "Media/bitwizeOperators.png",
     "Media/bitwize_example1.png",
     "Media/bitwize_example2.png",
@@ -275,7 +275,7 @@
     "Media/ARP2.png",
     "Media/info.txt",
     "Excalidraw/Untitled.md",
-    "Excalidraw/Network_basics.md",
+    "Media/Excalidraw/Network_basics.md",
     "Networking/Basics.excalidraw.md",
     "Excalidraw/Drawing 2026-02-13 11.14.56.excalidraw.md",
     "Linux/Bash/bash instructions.md",
