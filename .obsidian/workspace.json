@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/ARP.md",
+                "file": "Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ARP"
+              "title": "Introduction"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "Introduction"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -233,16 +232,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "89e076f41193e750",
+  "active": "0ff105e973d1aeea",
   "lastOpenFiles": [
+    "Networking/ARP.md",
+    "Introduction.md",
     "Networking/Subnetting.md",
     "Networking/OSI Model.md",
     "Networking/Network scaning.md",
     "Networking/Application, Presentation.md",
     "Networking/Basics.md",
-    "Networking/ARP.md",
     "Networking/Network Types.md",
-    "Introduction.md",
     "Web",
     "Excalidraw/ARP.md",
     "Media/ARP3.png",
