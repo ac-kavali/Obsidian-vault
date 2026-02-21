@@ -96,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 352.5
+    "width": 300.5
   },
   "right": {
     "id": "10424350b623bef2",
@@ -218,7 +218,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ba81e395d26b9896",
+  "active": "bf4a90ec355480ad",
   "lastOpenFiles": [
     "Web/Introduction.md",
     "Web/Web servers.md",
