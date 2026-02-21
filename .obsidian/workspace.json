@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/HTTP.md",
+                "file": "Web/Web servers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTTP"
+              "title": "Web servers"
             }
           }
         ],
@@ -233,10 +233,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "364eed01b939fc76",
+  "active": "abcbfde55c684828",
   "lastOpenFiles": [
-    "Web/Web servers.md",
+    "Web/HTML/Introduction.md",
     "Web/HTTP.md",
+    "Web/Web servers.md",
     "Networking/Ports.md",
     "Media/Excalidraw/Http.md",
     "Web/Introduction.md",
@@ -248,7 +249,6 @@
     "Networking/Network scaning.md",
     "Networking/Application, Presentation.md",
     "Networking/DNS.md",
-    "Web/HTML/Introduction.md",
     "Media/Excalidraw/ARP.md",
     "Web/Burpsuite/Get_started.md",
     "Untitled.md",
