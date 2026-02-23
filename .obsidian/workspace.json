@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/HTML/Introduction.md",
+                "file": "Web/JavaScript/Introduction.md",
                 "mode": "source",
                 "source": false
               },
@@ -96,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 300.5,
+    "collapsed": true
   },
   "right": {
     "id": "10424350b623bef2",
@@ -218,12 +219,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bf4a90ec355480ad",
+  "active": "ba81e395d26b9896",
   "lastOpenFiles": [
+    "Cars.md",
+    "Web/JavaScript/Introduction.md",
+    "Web/HTML/Basics.md",
+    "Web/PHP",
+    "Web/HTML/Introduction.md",
     "Web/Introduction.md",
     "Web/Web servers.md",
     "Project/B2BR.md",
-    "Web/HTML/Introduction.md",
     "Web/HTTP.md",
     "Networking/Ports.md",
     "Media/Excalidraw/Http.md",
@@ -237,7 +242,6 @@
     "Networking/DNS.md",
     "Media/Excalidraw/ARP.md",
     "Web/Burpsuite/Get_started.md",
-    "Untitled.md",
     "Web/Burpsuite/Untitled",
     "Web/Burpsuite",
     "Web/JavaScript",
@@ -259,13 +263,10 @@
     "Media/ARP3.png",
     "Media/Screenshot from 2026-02-19 01-22-52.png",
     "Media/ARP2.png",
-    "Media/info.txt",
     "Excalidraw/Untitled.md",
     "Media/Excalidraw/Network_basics.md",
     "Networking/Basics.excalidraw.md",
     "Excalidraw/Drawing 2026-02-13 11.14.56.excalidraw.md",
-    "Linux/Bash/bash instructions.md",
-    "Resources.md",
     "Untitled.canvas"
   ]
 }
