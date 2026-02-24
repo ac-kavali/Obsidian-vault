@@ -13,10 +13,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/My fu* maze.md"
+                "file": "Excalidraw/python_discorver#1.excalidraw"
               },
               "icon": "excalidraw-icon",
-              "title": "My fu* maze"
+              "title": "python_discorver#1"
             }
           }
         ]
@@ -219,12 +219,13 @@
   "active": "ba81e395d26b9896",
   "lastOpenFiles": [
     "Excalidraw/Bitwize.excalidraw",
+    "Excalidraw/My fu* maze.md",
+    "Excalidraw/booting_process.excalidraw",
+    "Excalidraw/Network_basics.md",
+    "Excalidraw/ARP.md",
+    "Excalidraw/Http.md",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Python2.excalidraw",
-    "Excalidraw/Http.md",
-    "Excalidraw/ARP.md",
-    "Excalidraw/Network_basics.md",
-    "Excalidraw/booting_process.excalidraw",
     "Web/CSS/Get started.md",
     "Web/JavaScript/Introduction.md",
     "Cars.md",
@@ -250,7 +251,6 @@
     "Web/JavaScript",
     "Web/CSS",
     "Web/HTML",
-    "Excalidraw/My fu* maze.md",
     "Media/bitwizeOperators.png",
     "Media/bitwize_example1.png",
     "Media/bitwize_example2.png",
@@ -259,7 +259,6 @@
     "Media/GNL.png",
     "Media/logpage.jpg",
     "www.beiruteyecenter.com/uploads/3794_1008_4334.pdf.md",
-    "www.beiruteyecenter.com/uploads",
     "Media/ARP3.png",
     "Media/Screenshot from 2026-02-19 01-22-52.png",
     "Media/ARP2.png",
