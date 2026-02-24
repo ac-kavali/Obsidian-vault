@@ -1,4 +1,4 @@
 - [ ] cc : cubic capacity 
-- [ ] FWD
-- [ ] RWD
+- [ ] FWD : Forwared-Wheel Drive
+- [ ] RWD : Rear-Wheel Drive
 - [ ] 

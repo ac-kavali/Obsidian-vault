@@ -11,12 +11,14 @@
             "id": "ba81e395d26b9896",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/python_discorver#1.excalidraw"
+                "file": "Web/CSS/Part-1.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "python_discorver#1"
+              "icon": "lucide-file",
+              "title": "Part-1"
             }
           }
         ]
@@ -218,21 +220,22 @@
   },
   "active": "ba81e395d26b9896",
   "lastOpenFiles": [
+    "Web/CSS/Get started.md",
+    "Web/CSS/Part-1.md",
+    "Web/JavaScript/Introduction.md",
+    "Web/Introduction.md",
+    "Web/HTML/Basics.md",
+    "Web/HTML/Introduction.md",
+    "Cars.md",
+    "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/My fu* maze.md",
     "Excalidraw/booting_process.excalidraw",
     "Excalidraw/Network_basics.md",
     "Excalidraw/ARP.md",
     "Excalidraw/Http.md",
-    "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Python2.excalidraw",
-    "Web/CSS/Get started.md",
-    "Web/JavaScript/Introduction.md",
-    "Cars.md",
-    "Web/HTML/Basics.md",
     "Web/PHP",
-    "Web/HTML/Introduction.md",
-    "Web/Introduction.md",
     "Web/Web servers.md",
     "Project/B2BR.md",
     "Web/HTTP.md",
