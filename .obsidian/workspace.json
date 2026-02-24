@@ -42,7 +42,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byCreatedTimeReverse",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -220,12 +220,13 @@
   },
   "active": "ba81e395d26b9896",
   "lastOpenFiles": [
-    "Web/CSS/Get started.md",
-    "Web/CSS/Part-1.md",
-    "Web/JavaScript/Introduction.md",
-    "Web/Introduction.md",
-    "Web/HTML/Basics.md",
     "Web/HTML/Introduction.md",
+    "Web/HTML/Basics.md",
+    "Web/JavaScript/Introduction.md",
+    "Linux/Package Management.md",
+    "Web/CSS/Part-1.md",
+    "Web/CSS/Get started.md",
+    "Web/Introduction.md",
     "Cars.md",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Bitwize.excalidraw",
@@ -265,7 +266,6 @@
     "Media/ARP3.png",
     "Media/Screenshot from 2026-02-19 01-22-52.png",
     "Media/ARP2.png",
-    "Excalidraw/Untitled.md",
     "Untitled.canvas"
   ]
 }
