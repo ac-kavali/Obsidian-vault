@@ -5,7 +5,7 @@ When someone says:
 
 > “Top bug bounty hunters usually master 1 backend stack”
 
-They mean this 👇
+They mean this 
 
 ### 🔧 What is a “backend stack”?
 
@@ -43,7 +43,7 @@ And THAT is where bug bounty power comes from.
 
 ---
 
-### 🧠 Why this helps in bug bounty
+### Why this helps in bug bounty
 
 Most vulnerabilities are not “magic hacker tricks”.
 
