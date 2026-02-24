@@ -202,7 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 393.5
+    "width": 510.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,7 +218,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ba81e395d26b9896",
+  "active": "bf4a90ec355480ad",
   "lastOpenFiles": [
     "Web/JavaScript/Introduction.md",
     "Web/CSS/Get started.md",
