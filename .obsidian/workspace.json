@@ -11,14 +11,12 @@
             "id": "ba81e395d26b9896",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Web/CSS/Get started.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/My fu* maze.md"
               },
-              "icon": "lucide-file",
-              "title": "Get started"
+              "icon": "excalidraw-icon",
+              "title": "My fu* maze"
             }
           }
         ]
@@ -218,10 +216,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bf4a90ec355480ad",
+  "active": "ba81e395d26b9896",
   "lastOpenFiles": [
-    "Web/JavaScript/Introduction.md",
+    "Excalidraw/Bitwize.excalidraw",
+    "Excalidraw/python_discorver#1.excalidraw",
+    "Excalidraw/Python2.excalidraw",
+    "Excalidraw/Http.md",
+    "Excalidraw/ARP.md",
+    "Excalidraw/Network_basics.md",
+    "Excalidraw/booting_process.excalidraw",
     "Web/CSS/Get started.md",
+    "Web/JavaScript/Introduction.md",
     "Cars.md",
     "Web/HTML/Basics.md",
     "Web/PHP",
@@ -231,7 +236,6 @@
     "Project/B2BR.md",
     "Web/HTTP.md",
     "Networking/Ports.md",
-    "Media/Excalidraw/Http.md",
     "Networking/Basics.md",
     "Networking/ARP.md",
     "Networking/Network Types.md",
@@ -240,15 +244,13 @@
     "Networking/Network scaning.md",
     "Networking/Application, Presentation.md",
     "Networking/DNS.md",
-    "Media/Excalidraw/ARP.md",
     "Web/Burpsuite/Get_started.md",
     "Web/Burpsuite/Untitled",
     "Web/Burpsuite",
     "Web/JavaScript",
     "Web/CSS",
     "Web/HTML",
-    "Media/Excalidraw/My fu* maze.md",
-    "Media/Excalidraw/booting_process.excalidraw",
+    "Excalidraw/My fu* maze.md",
     "Media/bitwizeOperators.png",
     "Media/bitwize_example1.png",
     "Media/bitwize_example2.png",
@@ -258,14 +260,10 @@
     "Media/logpage.jpg",
     "www.beiruteyecenter.com/uploads/3794_1008_4334.pdf.md",
     "www.beiruteyecenter.com/uploads",
-    "www.beiruteyecenter.com",
-    "Web",
     "Media/ARP3.png",
     "Media/Screenshot from 2026-02-19 01-22-52.png",
     "Media/ARP2.png",
     "Excalidraw/Untitled.md",
-    "Media/Excalidraw/Network_basics.md",
-    "Networking/Basics.excalidraw.md",
     "Untitled.canvas"
   ]
 }
