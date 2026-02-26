@@ -24,4 +24,4 @@ to remove a wall you need a random cell shoosen by a random function and the dir
 ```py
 dr, dc = walls[direction]
 ```
-use bitwize Not`~`to remove a wall
+use bitwize Not `~` to remove a wall 
