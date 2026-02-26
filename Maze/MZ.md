@@ -1,0 +1,21 @@
+- config file.-> key-value
+- random maze with hash for reproducibilty 
+- 4 constants walls.
+- 42 isolated cells
+- The maze should be perfect or not following the flag 
+- Output file with hexadecimal digit representing the opened and closed walls 
+---
+## Cells navigation
+
+### Cells representations
+
+a grid represent with the next 2 dimentionnal list.
+**example 3x3 grid**:
+```py
+grid = [
+[0xF, 0xF, 0xF],
+[0xF, 0xF, 0xF],
+[0xF, 0xF, 0xF],
+]
+```
+the 0xF represent a 

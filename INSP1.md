@@ -94,7 +94,6 @@ For each vulnerability:
 That’s how real skill forms.
 
 ---
-
 #### Phase 4 — Expand Language Awareness (Optional)
 
 After Node.js mastery:
@@ -107,7 +106,6 @@ Not to master them — but to understand how backend frameworks look.
 Once you understand backend architecture, languages become just syntax.
 
 ---
-
 ## Important Reality
 
 Top bug bounty hunters usually:
