@@ -21,4 +21,7 @@ grid = [
 the 0xF represent 1111 indicate that all the walls are close.
 
 to remove a wall you need a random cell shoosen by a random function and the direction of the wall to remove.
-
+```py
+dr, dc = walls[direction]
+```
+use bitwize Not`~` to remove a wall
