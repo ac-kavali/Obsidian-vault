@@ -27,3 +27,9 @@ to remove a wall you need a random cell shoosen by a random function and the dir
 use bitwize Not `~` to remove a wall 
 
 - [ ] Understand list comprehension
+- [ ] Underdtand random generator.
+
+
+---
+# Random generator
+
