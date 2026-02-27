@@ -33,3 +33,5 @@ use bitwize Not `~` to remove a wall
 ---
 # Random generator
 
+## Random method 
+**to use random method you should import random module**
