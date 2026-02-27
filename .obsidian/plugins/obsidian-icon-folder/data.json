@@ -40,7 +40,6 @@
   },
   "Media": "LiBetweenHorizontalStart",
   "Project": "IcCode",
-  "Modules": "IcPython",
   "Linux/Disk & Filesystem": "LiDisc",
   "Linux/Text Processing.md": "RiText",
   "Linux/Service management.md": "IcServerCrash",
@@ -58,5 +57,6 @@
   "Linux/Piping.md": "IcPip",
   "Networking": "LiNetwork",
   "Web": "RiWordpressLine",
-  "Excalidraw": "IcExca"
+  "Excalidraw": "IcExca",
+  "Python": "IcPython"
 }
