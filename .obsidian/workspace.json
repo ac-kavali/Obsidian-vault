@@ -201,7 +201,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 510.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
