@@ -684,16 +684,21 @@ because here we don't have any i to change
 
 this concept is about to use the `map`, `lamda` , or use a loop to create a list or dictionary where is a incomprehesive syntax to be understood by unexpericed people, instead the comprihensive way is simple:
 
-syntax:
-**1️⃣ Iterate over numbers and put them in a list or dict**: 
-LIST
+## List
+**Syntax**:
+```python
+[expression for item in iterable]
+```
+**example:**
 ```python
 numbers = range(5)  # 0, 1, 2, 3, 4
 squared_list = [x * x for x in numbers]
 print(squared_list)
 # Output: [0, 1, 4, 9, 16] 
 ```
-DICT
+
+## Dict
+**Syntax**:
 ```python
 numbers = range(5)
 squared_dict = {x: x * x for x in numbers}
@@ -708,8 +713,7 @@ print(unique_squared)
 # Output: {1, 4, 9, 16}
 ```
 
-
-
+ 
 **2️⃣ Iterate over a list of dicts, skip some elements (like age), get just the name**
 ```python
 people = [
