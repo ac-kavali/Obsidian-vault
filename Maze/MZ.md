@@ -33,5 +33,8 @@ use bitwize Not `~` to remove a wall
 ---
 # Random generator
 
-## Random method 
-**to use random method you should import random module**
+`random` is a built-in Python module that lets you generate **pseudo-random numbers**. to use random method you should import random module
+## Randit  
+
+
+****
