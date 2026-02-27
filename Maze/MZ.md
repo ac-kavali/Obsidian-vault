@@ -41,7 +41,6 @@ random.randint(a, b)
 ```
 
 ## Random
-
 `random.random` Generate Random Float (0 to 1)
 
 
