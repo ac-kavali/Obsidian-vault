@@ -11,14 +11,12 @@
             "id": "91b01f1c7444ea05",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Python/Python Essentiel Syntax.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/prim.excalidraw"
               },
-              "icon": "lucide-file",
-              "title": "Python Essentiel Syntax"
+              "icon": "excalidraw-icon",
+              "title": "prim"
             }
           }
         ]
@@ -222,10 +220,13 @@
   "active": "91b01f1c7444ea05",
   "lastOpenFiles": [
     "Excalidraw/prim.excalidraw",
+    "Excalidraw/My fu* maze.md",
+    "Excalidraw/Http.md",
+    "Python/Comprhensive.md",
+    "Python/Python Essentiel Syntax.md",
     "Maze/MZ.md",
     "Maze/Rules.md",
     "Python/Random.md",
-    "Python/Python Essentiel Syntax.md",
     "Python/Modules.md",
     "Python/Module 05.md",
     "Python/Module10.md",
@@ -242,12 +243,9 @@
     "Web/JavaScript/Introduction.md",
     "Web/CSS/Get started.md",
     "Networking/OSI Model.md",
-    "Excalidraw/Http.md",
     "Web/CSS/Part-1.md",
     "Web/HTML/Introduction.md",
     "Web/HTML/Basics.md",
-    "Linux/Package Management.md",
-    "Web/Introduction.md",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/booting_process.excalidraw",
@@ -256,7 +254,6 @@
     "Web/Burpsuite/Untitled",
     "Web/Burpsuite",
     "Web/JavaScript",
-    "Web/CSS",
     "Media/bitwizeOperators.png",
     "Media/bitwize_example1.png",
     "Media/bitwize_example2.png",
