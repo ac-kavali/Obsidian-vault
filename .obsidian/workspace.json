@@ -11,14 +11,12 @@
             "id": "91b01f1c7444ea05",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Cars.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/prim.excalidraw"
               },
-              "icon": "lucide-file",
-              "title": "Cars"
+              "icon": "excalidraw-icon",
+              "title": "prim"
             }
           }
         ]
@@ -218,10 +216,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "91b01f1c7444ea05",
+  "active": "585756856fe9f8c7",
   "lastOpenFiles": [
-    "INSP.md",
     "Excalidraw/prim.excalidraw",
+    "INSP.md",
+    "Cars.md",
     "Maze/Rules.md",
     "Python/Random.md",
     "Excalidraw/My fu* maze.md",
@@ -246,7 +245,6 @@
     "Networking/OSI Model.md",
     "Web/CSS/Part-1.md",
     "Web/HTML/Introduction.md",
-    "Web/HTML/Basics.md",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/booting_process.excalidraw",
