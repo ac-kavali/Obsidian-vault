@@ -5,7 +5,10 @@ generate random integer in a range (a-b)
 random.randint(a, b)
 ```
 
-## Random
+## random.Random
+`Random` is a **class**.
+
+## random.random
 `random.random` Generate Random Float (0 to 1)
 ```py
 random.random()

@@ -11,12 +11,14 @@
             "id": "91b01f1c7444ea05",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/prim.excalidraw"
+                "file": "Python/Random.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "prim"
+              "icon": "lucide-file",
+              "title": "Random"
             }
           }
         ]
@@ -52,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Random",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -73,7 +75,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "549908e0566d76c4",
@@ -94,8 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5,
-    "collapsed": true
+    "width": 300.5
   },
   "right": {
     "id": "10424350b623bef2",
@@ -219,13 +221,13 @@
   },
   "active": "91b01f1c7444ea05",
   "lastOpenFiles": [
+    "Maze/Rules.md",
     "Excalidraw/prim.excalidraw",
     "Excalidraw/My fu* maze.md",
     "Excalidraw/Http.md",
     "Python/Comprhensive.md",
     "Python/Python Essentiel Syntax.md",
     "Maze/MZ.md",
-    "Maze/Rules.md",
     "Python/Random.md",
     "Python/Modules.md",
     "Python/Module 05.md",
