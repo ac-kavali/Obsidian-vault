@@ -11,14 +11,12 @@
             "id": "91b01f1c7444ea05",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Python/Random.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/prim.excalidraw"
               },
-              "icon": "lucide-file",
-              "title": "Random"
+              "icon": "excalidraw-icon",
+              "title": "prim"
             }
           }
         ]
@@ -222,13 +220,13 @@
   "active": "91b01f1c7444ea05",
   "lastOpenFiles": [
     "Maze/Rules.md",
+    "Python/Random.md",
     "Excalidraw/prim.excalidraw",
     "Excalidraw/My fu* maze.md",
     "Excalidraw/Http.md",
     "Python/Comprhensive.md",
     "Python/Python Essentiel Syntax.md",
     "Maze/MZ.md",
-    "Python/Random.md",
     "Python/Modules.md",
     "Python/Module 05.md",
     "Python/Module10.md",

@@ -7,6 +7,11 @@ random.randint(a, b)
 
 ## random.Random
 `Random` is a **class**.
+make you able to create you own Random instance and you can use the random methods directly with the object created 
+```python
+rng = random.Random()  
+rng.random()
+```
 
 ## random.random
 `random.random` Generate Random Float (0 to 1)
