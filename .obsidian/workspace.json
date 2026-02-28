@@ -11,12 +11,14 @@
             "id": "91b01f1c7444ea05",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/prim.excalidraw"
+                "file": "Cars.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "prim"
+              "icon": "lucide-file",
+              "title": "Cars"
             }
           }
         ]
@@ -73,8 +75,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "549908e0566d76c4",
@@ -219,9 +220,10 @@
   },
   "active": "91b01f1c7444ea05",
   "lastOpenFiles": [
+    "INSP.md",
+    "Excalidraw/prim.excalidraw",
     "Maze/Rules.md",
     "Python/Random.md",
-    "Excalidraw/prim.excalidraw",
     "Excalidraw/My fu* maze.md",
     "Excalidraw/Http.md",
     "Python/Comprhensive.md",
@@ -239,7 +241,6 @@
     "Python/Module 6.md",
     "Python/Polymorphism.md",
     "INSP1.md",
-    "INSP.md",
     "Web/JavaScript/Introduction.md",
     "Web/CSS/Get started.md",
     "Networking/OSI Model.md",
