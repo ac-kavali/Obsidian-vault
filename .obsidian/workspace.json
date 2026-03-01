@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f3cedfbfad7a1f88",
+        "id": "3c79f13dd4ec099c",
         "type": "tabs",
         "children": [
           {
-            "id": "91b01f1c7444ea05",
+            "id": "05703d3d5a4618ed",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/prim.excalidraw"
-              },
-              "icon": "excalidraw-icon",
-              "title": "prim"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -52,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Random",
+                "query": "vertual",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -216,15 +214,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "91b01f1c7444ea05",
+  "active": "364eed01b939fc76",
   "lastOpenFiles": [
-    "latest_maybe.png",
-    "toseenow3.png",
+    "Python/module08.md",
     "Maze/Rules.md",
     "Maze/MZ.md",
-    "Excalidraw/prim.excalidraw",
-    "INSP.md",
     "Cars.md",
+    "INSP1.md",
+    "INSP.md",
+    "Excalidraw/prim.excalidraw",
+    "latest_maybe.png",
+    "toseenow3.png",
     "Python/Random.md",
     "Excalidraw/My fu* maze.md",
     "Excalidraw/Http.md",
@@ -241,7 +241,6 @@
     "Project/B2BR.md",
     "Python/Module 6.md",
     "Python/Polymorphism.md",
-    "INSP1.md",
     "Web/JavaScript/Introduction.md",
     "Web/CSS/Get started.md",
     "Networking/OSI Model.md",
@@ -263,7 +262,6 @@
     "Media/GNL.png",
     "Media/logpage.jpg",
     "Media/ARP3.png",
-    "Media/Screenshot from 2026-02-19 01-22-52.png",
     "Untitled.canvas"
   ]
 }
