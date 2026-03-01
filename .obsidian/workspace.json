@@ -8,13 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "05703d3d5a4618ed",
+            "id": "81340589c945e8dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/prim&bfs.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "prim&bfs"
             }
           }
         ]
@@ -214,17 +216,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "364eed01b939fc76",
+  "active": "81340589c945e8dc",
   "lastOpenFiles": [
+    "Excalidraw/prim&bfs.md",
+    "Pasted Image 20260301172227_941.png",
+    "Excalidraw/primsss.excalidraw",
+    "toseenow3.png",
+    "Media/latest_maybe.png",
     "Python/module08.md",
     "Maze/Rules.md",
     "Maze/MZ.md",
     "Cars.md",
     "INSP1.md",
     "INSP.md",
-    "Excalidraw/prim.excalidraw",
-    "latest_maybe.png",
-    "toseenow3.png",
     "Python/Random.md",
     "Excalidraw/My fu* maze.md",
     "Excalidraw/Http.md",
@@ -244,8 +248,6 @@
     "Web/JavaScript/Introduction.md",
     "Web/CSS/Get started.md",
     "Networking/OSI Model.md",
-    "Web/CSS/Part-1.md",
-    "Web/HTML/Introduction.md",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/booting_process.excalidraw",
@@ -261,7 +263,6 @@
     "Media/filedisc.png",
     "Media/GNL.png",
     "Media/logpage.jpg",
-    "Media/ARP3.png",
     "Untitled.canvas"
   ]
 }
