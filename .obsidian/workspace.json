@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "3c79f13dd4ec099c",
+        "id": "5fa8aa1dfca242ac",
         "type": "tabs",
         "children": [
           {
-            "id": "81340589c945e8dc",
+            "id": "e66ac0f4bee9a0a2",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/prim&bfs.md"
+                "file": "Excalidraw/bfs.md"
               },
               "icon": "excalidraw-icon",
-              "title": "prim&bfs"
+              "title": "bfs"
             }
           }
         ]
@@ -216,9 +216,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "81340589c945e8dc",
+  "active": "364eed01b939fc76",
   "lastOpenFiles": [
-    "Excalidraw/prim&bfs.md",
+    "Excalidraw/bfs.md",
+    "Excalidraw/Untitled.md",
+    "Excalidraw/prim.md",
     "Pasted Image 20260301172227_941.png",
     "Excalidraw/primsss.excalidraw",
     "toseenow3.png",
@@ -247,7 +249,6 @@
     "Python/Polymorphism.md",
     "Web/JavaScript/Introduction.md",
     "Web/CSS/Get started.md",
-    "Networking/OSI Model.md",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/booting_process.excalidraw",
