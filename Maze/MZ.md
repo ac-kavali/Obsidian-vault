@@ -25,7 +25,10 @@ the 0xF represent 1111 indicate that all the walls are closed.
 ## Remove a Wall
 you need:
 - Cell like `grid[r][c]`.
-- A wall 
+- A wall `North` 
+- Map the wall into binary form:
+  `wall_bit[NORTH]`
+- Use bitwize 
 ```py
 
 ```
