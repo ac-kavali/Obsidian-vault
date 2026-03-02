@@ -11,12 +11,14 @@
             "id": "e66ac0f4bee9a0a2",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Network_basics.md"
+                "file": "Maze/MZ.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Network_basics"
+              "icon": "lucide-file",
+              "title": "MZ"
             }
           }
         ]
@@ -218,10 +220,12 @@
   },
   "active": "e66ac0f4bee9a0a2",
   "lastOpenFiles": [
+    "Excalidraw/prim.md",
+    "Maze/Rules.md",
+    "Excalidraw/Network_basics.md",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Python2.excalidraw",
     "Excalidraw/Bitwize.excalidraw",
-    "Excalidraw/prim.md",
     "Excalidraw/My fu* maze.md",
     "Excalidraw/Http.md",
     "Excalidraw/bfs.md",
@@ -237,7 +241,6 @@
     "Excalidraw/primsss.excalidraw",
     "toseenow3.png",
     "Python/module08.md",
-    "Maze/Rules.md",
     "Maze/MZ.md",
     "Cars.md",
     "INSP1.md",
