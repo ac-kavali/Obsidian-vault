@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5fa8aa1dfca242ac",
+        "id": "b2c81619b74312dd",
         "type": "tabs",
         "children": [
           {
-            "id": "e66ac0f4bee9a0a2",
+            "id": "50721b040ebf71cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -75,8 +75,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "549908e0566d76c4",
@@ -219,13 +218,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e66ac0f4bee9a0a2",
+  "active": "50721b040ebf71cd",
   "lastOpenFiles": [
-    "Concepts/Bitwize.md",
+    "Cars.md",
+    "INSP1.md",
+    "Networking/Subnetting.md",
+    "Networking/Network Types.md",
+    "Networking/ARP.md",
+    "Networking/Basics.md",
+    "Excalidraw/Network_basics.md",
+    "Networking/OSI Model.md",
+    "Networking/Network scaning.md",
+    "Networking/Application, Presentation.md",
+    "Networking/DNS.md",
+    "Networking/Ports.md",
+    "[[.md",
     "Maze/MZ.md",
+    "Concepts/Bitwize.md",
     "Excalidraw/prim.md",
     "Maze/Rules.md",
-    "Excalidraw/Network_basics.md",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Python2.excalidraw",
     "Excalidraw/Bitwize.excalidraw",
@@ -244,23 +255,11 @@
     "Excalidraw/primsss.excalidraw",
     "toseenow3.png",
     "Python/module08.md",
-    "Cars.md",
-    "INSP1.md",
     "INSP.md",
     "Python/Random.md",
     "Python/Comprhensive.md",
     "Python/Python Essentiel Syntax.md",
-    "Python/Modules.md",
-    "Python/Module 05.md",
-    "Python/Module10.md",
     "Maze",
-    "Linux/Bash/First scirpt.md",
-    "Python/Module 04.md",
-    "Linux/Disk & Filesystem/Inode.md",
-    "Project/B2BR.md",
-    "Python/Module 6.md",
-    "Python/Polymorphism.md",
-    "Web/JavaScript/Introduction.md",
     "Excalidraw/booting_process.excalidraw",
     "Web/PHP",
     "Web/Burpsuite/Untitled",
