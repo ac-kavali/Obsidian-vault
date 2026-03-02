@@ -22,19 +22,19 @@ grid = [
 ```
 the 0xF represent 1111 indicate that all the walls are closed.
 
+---
 ## Remove a Wall
 you need:
 - Cell like `grid[r][c]`.
 - A wall `North` 
 - Map the wall into binary form:
   `wall_bit[NORTH]`
-- Use bitwize 
+- Use `& ~` bitwize opperations to eleminate the wall
 ```py
-
+grid[r][c] &= ~wall_bit[NORTH]
 ```
-use bitwize  to remove a wall 
 
-
+---
 ```py
 if (a, b) not in points:
 print("Not inside!")
