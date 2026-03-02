@@ -1,3 +1,5 @@
+
+# Rules
 - config file.-> key-value
 - random maze with hash for reproducibilty 
 - 4 constants walls.
@@ -24,7 +26,7 @@ to remove a wall you need a random cell shoosen by a random function and the dir
 ```py
 
 ```
-use bitwize Not `~` to remove a wall 
+use bitwize  to remove a wall 
 
 
 ```py
