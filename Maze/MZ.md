@@ -22,7 +22,10 @@ grid = [
 ```
 the 0xF represent 1111 indicate that all the walls are closed.
 
-to remove a wall you need a random cell shoosen by a random function and the direction of the wall to remove.
+## Remove a Wall
+you need:
+- Cell like `grid[r][c]`.
+- A wall 
 ```py
 
 ```
