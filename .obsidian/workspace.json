@@ -13,10 +13,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/bfs.md"
+                "file": "Excalidraw/Network_basics.md"
               },
               "icon": "excalidraw-icon",
-              "title": "bfs"
+              "title": "Network_basics"
             }
           }
         ]
@@ -216,15 +216,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "364eed01b939fc76",
+  "active": "e66ac0f4bee9a0a2",
   "lastOpenFiles": [
-    "Excalidraw/bfs.md",
-    "Excalidraw/Untitled.md",
+    "Excalidraw/python_discorver#1.excalidraw",
+    "Excalidraw/Python2.excalidraw",
+    "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/prim.md",
-    "Pasted Image 20260301172227_941.png",
+    "Excalidraw/My fu* maze.md",
+    "Excalidraw/Http.md",
+    "Excalidraw/bfs.md",
+    "Media/maze_exmpl.png",
+    "Media/ARP3.png",
+    "Media/ARP1.png",
+    "Media/data.png",
+    "Media/pngegg.png",
+    "Media/nic.png",
+    "Media/fiber_optic.png",
+    "Web/Pasted Image 20260301172227_941.png",
+    "Excalidraw/Untitled.md",
     "Excalidraw/primsss.excalidraw",
     "toseenow3.png",
-    "Media/latest_maybe.png",
     "Python/module08.md",
     "Maze/Rules.md",
     "Maze/MZ.md",
@@ -232,8 +243,6 @@
     "INSP1.md",
     "INSP.md",
     "Python/Random.md",
-    "Excalidraw/My fu* maze.md",
-    "Excalidraw/Http.md",
     "Python/Comprhensive.md",
     "Python/Python Essentiel Syntax.md",
     "Python/Modules.md",
@@ -248,22 +257,12 @@
     "Python/Module 6.md",
     "Python/Polymorphism.md",
     "Web/JavaScript/Introduction.md",
-    "Web/CSS/Get started.md",
-    "Excalidraw/python_discorver#1.excalidraw",
-    "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/booting_process.excalidraw",
-    "Excalidraw/Python2.excalidraw",
     "Web/PHP",
     "Web/Burpsuite/Untitled",
     "Web/Burpsuite",
     "Web/JavaScript",
     "Media/bitwizeOperators.png",
-    "Media/bitwize_example1.png",
-    "Media/bitwize_example2.png",
-    "Media/stack_structure.png",
-    "Media/filedisc.png",
-    "Media/GNL.png",
-    "Media/logpage.jpg",
     "Untitled.canvas"
   ]
 }
