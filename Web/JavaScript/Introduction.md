@@ -34,3 +34,16 @@ These frameworks provide pre-written code to:
 - Make apps scalable and maintainable
 
 |>They help build serious, production-level applications.
+
+### Back-End Development
+With Node.js, JavaScript can run on the server side.
+That means:
+- Handling requests
+- Processing data
+- Connecting to databases
+- Building APIs
+So JavaScript is not just front-end anymore — it can power the entire stack.
+
+**And More than this, like APIs and Web Games**
+
+---
