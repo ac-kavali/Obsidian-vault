@@ -18,6 +18,6 @@ That’s it. That’s the whole game.
 - `addEventListener`
 - `fetch` <- Verry important.
 **Learn From**
-[MDN](https://developer.mozilla.org/fr/docs/Web/JavaScript), [freecodecamp](https://www.freecodecamp.org/learn/javascript-v9/), or search "HTTP crash course"
+[MDN](https://developer.mozilla.org/fr/docs/Web/JavaScript), [freecodecamp](https://www.freecodecamp.org/learn/javascript-v9/), [javascript-guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide) or search "HTTP crash course"
 
 ---
