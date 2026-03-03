@@ -47,3 +47,14 @@ So JavaScript is not just front-end anymore — it can power the entire stack.
 **And More than this, like APIs and Web Games**
 
 ---
+## ECMA Script 
+
+before know java-script you should have an idea about **ECMA-script**
+where javascript is just an implementation of ECMAScript.
+
+JavaScript created in 1995 for browser, but ECMAScript was created after 2 years as the official standardized specification of JavaScript:
+- **JavaScript** = implementation.
+- **ECMAScript** = specification(the rulebook)
+you can say that javascript follow ECMAScript rules and specifications
+---
+
