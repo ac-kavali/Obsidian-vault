@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/Framework.md",
+                "file": "Web/JavaScript/DOM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Framework"
+              "title": "DOM"
             }
           }
         ]
@@ -221,20 +221,20 @@
   },
   "active": "50721b040ebf71cd",
   "lastOpenFiles": [
-    "Web/JavaScript/DOM.md",
-    "Web/Framework.md",
-    "Web/Web Project.md",
-    "Web/JavaScript/Coding JS.md",
     "Web/Introduction.md",
-    "Web/JavaScript/Introduction.md",
-    "Web/JavaScript/Todo.md",
+    "Web/Web Project.md",
+    "Web/Framework.md",
+    "Web/Web servers.md",
     "Web/HTTP.md",
+    "Web/JavaScript/Todo.md",
+    "Web/JavaScript/Coding JS.md",
+    "Web/JavaScript/DOM.md",
+    "Web/JavaScript/Introduction.md",
     "INSP.md",
     "INSP1.md",
     "Linux/Package Management.md",
     "Project/B2BR.md",
     "Web/HTML/Introduction.md",
-    "Web/Web servers.md",
     "Excalidraw/Http.md",
     "Web/HTML/Basics.md",
     "Web/CSS/Get started.md",
