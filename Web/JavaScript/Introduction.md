@@ -11,7 +11,7 @@
 ## Diffinition
 
 JavaScript is a scripting language or programming language used on both the server-side and client-side to create engaging website elements.
-[Full Difinition](https://brainstation.io/learn/javascript/what-is-javascript-used-for#what-is-javascript-used-for)
+[Full Difinition](https://brainstation.io/learn/javascript/what-is-javascript-used-for#what-is-javascript-used-for) and memory resuscitationز
 
 ## Uses of JavaScript
 ### On the Front-End (Browser Side)

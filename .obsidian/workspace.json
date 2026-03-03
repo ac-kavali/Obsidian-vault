@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/JavaScript/Introduction.md",
-                "mode": "preview",
+                "file": "Web/Framework.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction"
+              "title": "Framework"
             }
           }
         ]
@@ -96,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5
+    "width": 283.5
   },
   "right": {
     "id": "10424350b623bef2",
@@ -219,16 +219,23 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "364eed01b939fc76",
+  "active": "50721b040ebf71cd",
   "lastOpenFiles": [
+    "Web/JavaScript/DOM.md",
+    "Web/Framework.md",
+    "Web/Web Project.md",
+    "Web/JavaScript/Coding JS.md",
+    "Web/Introduction.md",
+    "Web/JavaScript/Introduction.md",
+    "Web/JavaScript/Todo.md",
+    "Web/HTTP.md",
+    "INSP.md",
+    "INSP1.md",
     "Linux/Package Management.md",
     "Project/B2BR.md",
-    "Web/JavaScript/Introduction.md",
-    "Web/Introduction.md",
     "Web/HTML/Introduction.md",
     "Web/Web servers.md",
     "Excalidraw/Http.md",
-    "Web/HTTP.md",
     "Web/HTML/Basics.md",
     "Web/CSS/Get started.md",
     "Web/CSS/Part-1.md",
@@ -240,13 +247,6 @@
     "Maze/MZ.md",
     "Cars.md",
     "Python/Comprhensive.md",
-    "Python/Random.md",
-    "Python/Python Essentiel Syntax.md",
-    "Python/Python Dicover.md",
-    "Python/Python.md",
-    "Python/Module 05.md",
-    "INSP1.md",
-    "Networking/Subnetting.md",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Python2.excalidraw",
     "Excalidraw/Bitwize.excalidraw",

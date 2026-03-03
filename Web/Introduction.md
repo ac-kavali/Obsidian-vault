@@ -22,3 +22,44 @@ then developer tools then start learning the popular web vulnirablities
 - [Try hack me lofi room](<https://tryhackme.com/room/lofi>)
 - [Port Swiger academy](https://portswigger.net/web-security/request-smuggling/advanced/lab-request-smuggling-0cl-request-smuggling)
 - [Try Hack me ]([https://tryhackme.com/room/howwebsiteswork?ref=blog.tryhackme.com](https://tryhackme.com/room/howwebsiteswork?ref=blog.tryhackme.com "https://tryhackme.com/room/howwebsiteswork?ref=blog.tryhackme.com")) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+**Realizing Data Base*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
