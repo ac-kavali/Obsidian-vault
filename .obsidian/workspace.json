@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maze/MZ.md",
-                "mode": "source",
+                "file": "Web/CSS/Get started.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MZ"
+              "title": "Get started"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bi",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -96,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 372.5,
+    "collapsed": true
   },
   "right": {
     "id": "10424350b623bef2",
@@ -220,7 +221,22 @@
   },
   "active": "50721b040ebf71cd",
   "lastOpenFiles": [
+    "Web/CSS/Part-1.md",
+    "Web/HTTP.md",
+    "Web/CSS/Get started.md",
+    "Linux/Find.md",
+    "Linux/Permissions.md",
+    "Linux/Environment Variables.md",
+    "Python/Module 04.md",
+    "Excalidraw/prim.md",
+    "Maze/MZ.md",
     "Cars.md",
+    "Python/Comprhensive.md",
+    "Python/Random.md",
+    "Python/Python Essentiel Syntax.md",
+    "Python/Python Dicover.md",
+    "Python/Python.md",
+    "Python/Module 05.md",
     "INSP1.md",
     "Networking/Subnetting.md",
     "Networking/Network Types.md",
@@ -231,18 +247,9 @@
     "Networking/Network scaning.md",
     "Networking/Application, Presentation.md",
     "Networking/DNS.md",
-    "Networking/Ports.md",
-    "[[.md",
-    "Maze/MZ.md",
-    "Concepts/Bitwize.md",
-    "Excalidraw/prim.md",
-    "Maze/Rules.md",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Python2.excalidraw",
     "Excalidraw/Bitwize.excalidraw",
-    "Excalidraw/My fu* maze.md",
-    "Excalidraw/Http.md",
-    "Excalidraw/bfs.md",
     "Media/maze_exmpl.png",
     "Media/ARP3.png",
     "Media/ARP1.png",
@@ -251,14 +258,8 @@
     "Media/nic.png",
     "Media/fiber_optic.png",
     "Web/Pasted Image 20260301172227_941.png",
-    "Excalidraw/Untitled.md",
     "Excalidraw/primsss.excalidraw",
     "toseenow3.png",
-    "Python/module08.md",
-    "INSP.md",
-    "Python/Random.md",
-    "Python/Comprhensive.md",
-    "Python/Python Essentiel Syntax.md",
     "Maze",
     "Excalidraw/booting_process.excalidraw",
     "Web/PHP",

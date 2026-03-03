@@ -84,4 +84,4 @@ Output:
 It **stores the result** of the function call (called the accumulator)  
 then, it **reuses that result** as input for the next step with the next value.
  
-[[Modules]]
+[[Python]]

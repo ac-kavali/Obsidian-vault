@@ -1,7 +1,8 @@
 Illustrations:[[prim]]
 # Rules
 - config file.-> key-value
-- random maze with hash for reproducibilty 
+- random maze with hash for reproducibilty
+	
 - 4 constants walls.
 - 42 isolated cells
 - The maze should be perfect or not following the flag 
@@ -18,7 +19,7 @@ grid = [
 [0xF, 0xF, 0xF],
 ]
 ```
-the 0xF represent 1111 indicate that all the walls are closed.
+The 0xF Represent 1111 indicate that all the walls are closed.
 
 ---
 ## Remove a Wall
@@ -42,3 +43,7 @@ neighbor_r, neighbor_c = current_r + Mov[EAST[1]]
 if (a, b) not in points:
 print("Not inside!")
 ```
+
+if (x, y) in 42_maze_patern:
+	raise ConfigError("")
+exept ConfigError as e:
