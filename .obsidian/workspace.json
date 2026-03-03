@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Package Management.md",
+                "file": "Web/JavaScript/Introduction.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Package Management"
+              "title": "Introduction"
             }
           }
         ]
@@ -96,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.5
+    "width": 321.5
   },
   "right": {
     "id": "10424350b623bef2",
@@ -215,11 +215,13 @@
       "bases:Create new base": false,
       "audio-recorder:Start/stop recording": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false
     }
   },
   "active": "364eed01b939fc76",
   "lastOpenFiles": [
+    "Linux/Package Management.md",
     "Project/B2BR.md",
     "Web/JavaScript/Introduction.md",
     "Web/Introduction.md",
@@ -245,7 +247,6 @@
     "Python/Module 05.md",
     "INSP1.md",
     "Networking/Subnetting.md",
-    "Networking/Network Types.md",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Python2.excalidraw",
     "Excalidraw/Bitwize.excalidraw",
