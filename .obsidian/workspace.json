@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/CSS/Get started.md",
+                "file": "Web/HTML/Basics.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Get started"
+              "title": "Basics"
             }
           }
         ]
@@ -220,9 +220,9 @@
   },
   "active": "50721b040ebf71cd",
   "lastOpenFiles": [
+    "Web/CSS/Get started.md",
     "Web/CSS/Part-1.md",
     "Web/HTTP.md",
-    "Web/CSS/Get started.md",
     "Linux/Find.md",
     "Linux/Permissions.md",
     "Linux/Environment Variables.md",
