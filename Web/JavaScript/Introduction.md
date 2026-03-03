@@ -7,3 +7,4 @@
 - Fetching data using `fetch()`
 - Dynamic UI updates
 
+---

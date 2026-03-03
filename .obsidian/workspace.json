@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Web/JavaScript/Introduction.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -202,7 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 267.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -221,10 +221,14 @@
   "active": "50721b040ebf71cd",
   "lastOpenFiles": [
     "Web/HTML/Introduction.md",
+    "Web/JavaScript/Introduction.md",
+    "Web/Introduction.md",
+    "Web/Web servers.md",
+    "Excalidraw/Http.md",
+    "Web/HTTP.md",
     "Web/HTML/Basics.md",
     "Web/CSS/Get started.md",
     "Web/CSS/Part-1.md",
-    "Web/HTTP.md",
     "Linux/Find.md",
     "Linux/Permissions.md",
     "Linux/Environment Variables.md",
@@ -242,10 +246,6 @@
     "Networking/Subnetting.md",
     "Networking/Network Types.md",
     "Networking/ARP.md",
-    "Networking/Basics.md",
-    "Excalidraw/Network_basics.md",
-    "Networking/OSI Model.md",
-    "Networking/Network scaning.md",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Python2.excalidraw",
     "Excalidraw/Bitwize.excalidraw",
