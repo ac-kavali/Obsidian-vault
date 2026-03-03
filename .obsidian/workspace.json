@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/HTML/Basics.md",
+                "file": "Web/JavaScript/Introduction.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Basics"
+              "title": "Introduction"
             }
           }
         ]
@@ -220,6 +220,8 @@
   },
   "active": "50721b040ebf71cd",
   "lastOpenFiles": [
+    "Web/HTML/Introduction.md",
+    "Web/HTML/Basics.md",
     "Web/CSS/Get started.md",
     "Web/CSS/Part-1.md",
     "Web/HTTP.md",
@@ -244,8 +246,6 @@
     "Excalidraw/Network_basics.md",
     "Networking/OSI Model.md",
     "Networking/Network scaning.md",
-    "Networking/Application, Presentation.md",
-    "Networking/DNS.md",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Python2.excalidraw",
     "Excalidraw/Bitwize.excalidraw",
