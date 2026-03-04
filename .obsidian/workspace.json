@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/JavaScript/Todo.md",
+                "file": "Web/HTML/Basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Todo"
+              "title": "Basics"
             }
           }
         ]
@@ -221,11 +221,11 @@
   },
   "active": "50721b040ebf71cd",
   "lastOpenFiles": [
+    "Web/JavaScript/Todo.md",
     "Web/Web Project.md",
     "Web/HTML/Introduction.md",
     "Web/HTML/Basics.md",
     "Web/JavaScript/DOM.md",
-    "Web/JavaScript/Todo.md",
     "Web/JavaScript/Coding JS.md",
     "Web/JavaScript/Introduction.md",
     "Web/Introduction.md",
