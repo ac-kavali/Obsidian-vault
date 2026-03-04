@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/Introduction.md",
+                "file": "Web/JavaScript/DOM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction"
+              "title": "DOM"
             }
           }
         ]
@@ -202,7 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -221,11 +221,12 @@
   },
   "active": "50721b040ebf71cd",
   "lastOpenFiles": [
-    "Web/JavaScript/Introduction.md",
-    "Web/JavaScript/Coding JS.md",
-    "Web/JavaScript/DOM.md",
     "Web/JavaScript/Todo.md",
+    "Web/JavaScript/Coding JS.md",
+    "Web/JavaScript/Introduction.md",
+    "Web/HTML/Basics.md",
     "Web/Introduction.md",
+    "Web/JavaScript/DOM.md",
     "Web/Web Project.md",
     "Web/Framework.md",
     "Web/Web servers.md",
@@ -236,7 +237,6 @@
     "Project/B2BR.md",
     "Web/HTML/Introduction.md",
     "Excalidraw/Http.md",
-    "Web/HTML/Basics.md",
     "Web/CSS/Get started.md",
     "Web/CSS/Part-1.md",
     "Linux/Find.md",
