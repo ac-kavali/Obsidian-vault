@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/HTML/Introduction.md",
+                "file": "Web/Web Project.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction"
+              "title": "Web Project"
             }
           }
         ]
@@ -221,6 +221,7 @@
   },
   "active": "50721b040ebf71cd",
   "lastOpenFiles": [
+    "Web/HTML/Introduction.md",
     "Web/HTML/Basics.md",
     "Web/JavaScript/DOM.md",
     "Web/JavaScript/Todo.md",
@@ -235,7 +236,6 @@
     "INSP1.md",
     "Linux/Package Management.md",
     "Project/B2BR.md",
-    "Web/HTML/Introduction.md",
     "Excalidraw/Http.md",
     "Web/CSS/Get started.md",
     "Web/CSS/Part-1.md",
