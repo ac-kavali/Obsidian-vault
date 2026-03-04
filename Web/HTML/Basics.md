@@ -2,4 +2,4 @@ You can find the full path here in [w3school](https://www.w3schools.com/html/htm
 
 ---
 ## Nav 
-The `<nav>` element means "navigation". it is used to contain links that help users navigate through the website 
+The `<nav>` element is a sementic tag means "navigation". it is used to contain links that help users navigate through the website 
