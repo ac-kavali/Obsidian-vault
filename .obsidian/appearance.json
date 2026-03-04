@@ -1,7 +1,7 @@
 {
-  "interfaceFontFamily": "JetBrainsMono Nerd Font",
+  "interfaceFontFamily": "Caladea",
   "baseFontSize": 17,
-  "textFontFamily": "JetBrainsMono Nerd Font",
+  "textFontFamily": "Caladea",
   "enabledCssSnippets": [
     "colors",
     "hide-tab-line"
