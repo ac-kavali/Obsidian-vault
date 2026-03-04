@@ -1,4 +1,8 @@
 You can find the full path here in [w3school](https://www.w3schools.com/html/html_basic.asp) and [freecodecamp](https://www.freecodecamp.org/learn/responsive-web-design-v9/workshop-curriculum-outline/step-2) courses
+## Web pages designe
+In a simple multi-page website, every page has its own HTML file.
+example
+
 
 ---
 ## Nav 
