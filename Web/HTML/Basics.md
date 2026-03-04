@@ -3,7 +3,19 @@ You can find the full path here in [w3school](https://www.w3schools.com/html/htm
 In a simple multi-page website, every page has its own HTML file.
 example
 
-
+website/
+│
+├── index.html      (home page)
+├── login.html
+├── settings.html
+├── profile.html
+├── explore.html
+│
+├── css/
+│   └── style.css
+│
+└── js/
+    └── script.js
 ---
 ## Nav 
 The `<nav>` element is a sementic tag means "navigation". it is used to contain links that help users navigate through the website like top menu header of the page ...
