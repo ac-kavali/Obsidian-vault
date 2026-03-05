@@ -11,12 +11,14 @@
             "id": "50721b040ebf71cd",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Http.md"
+                "file": "INSP.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Http"
+              "icon": "lucide-file",
+              "title": "INSP"
             }
           }
         ]
@@ -219,7 +221,10 @@
   },
   "active": "50721b040ebf71cd",
   "lastOpenFiles": [
+    "Web/HTTP.md",
     "INSP.md",
+    "Web/Web servers.md",
+    "Excalidraw/Http.md",
     "Cars.md",
     "Web/HTML/Basics.md",
     "Web/HTML/Introduction.md",
@@ -230,12 +235,9 @@
     "Web/JavaScript/Introduction.md",
     "Web/Introduction.md",
     "Web/Framework.md",
-    "Web/Web servers.md",
-    "Web/HTTP.md",
     "INSP1.md",
     "Linux/Package Management.md",
     "Project/B2BR.md",
-    "Excalidraw/Http.md",
     "Web/CSS/Get started.md",
     "Web/CSS/Part-1.md",
     "Linux/Find.md",
