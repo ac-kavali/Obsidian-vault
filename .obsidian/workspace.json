@@ -11,14 +11,12 @@
             "id": "50721b040ebf71cd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Web/HTML/Basics.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Http.md"
               },
-              "icon": "lucide-file",
-              "title": "Basics"
+              "icon": "excalidraw-icon",
+              "title": "Http"
             }
           }
         ]
@@ -221,10 +219,12 @@
   },
   "active": "50721b040ebf71cd",
   "lastOpenFiles": [
+    "INSP.md",
+    "Cars.md",
+    "Web/HTML/Basics.md",
+    "Web/HTML/Introduction.md",
     "Web/JavaScript/Todo.md",
     "Web/Web Project.md",
-    "Web/HTML/Introduction.md",
-    "Web/HTML/Basics.md",
     "Web/JavaScript/DOM.md",
     "Web/JavaScript/Coding JS.md",
     "Web/JavaScript/Introduction.md",
@@ -232,7 +232,6 @@
     "Web/Framework.md",
     "Web/Web servers.md",
     "Web/HTTP.md",
-    "INSP.md",
     "INSP1.md",
     "Linux/Package Management.md",
     "Project/B2BR.md",
@@ -245,7 +244,6 @@
     "Python/Module 04.md",
     "Excalidraw/prim.md",
     "Maze/MZ.md",
-    "Cars.md",
     "Python/Comprhensive.md",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Python2.excalidraw",

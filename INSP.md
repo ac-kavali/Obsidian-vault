@@ -1,6 +1,4 @@
 
-Short answer? Yeah… that statement makes sense — but it’s incomplete.
-
 When someone says:
 
 > “Top bug bounty hunters usually master 1 backend stack”
