@@ -1,4 +1,4 @@
-
+st 
 When someone says:
 
 > “Top bug bounty hunters usually master 1 backend stack”

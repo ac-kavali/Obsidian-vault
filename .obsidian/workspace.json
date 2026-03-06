@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "b2c81619b74312dd",
+        "id": "3107e36e4492c2e4",
         "type": "tabs",
         "children": [
           {
-            "id": "50721b040ebf71cd",
+            "id": "9d3b10410f32c7e1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "INSP.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/python_discorver#1.excalidraw"
               },
-              "icon": "lucide-file",
-              "title": "INSP"
+              "icon": "excalidraw-icon",
+              "title": "python_discorver#1"
             }
           }
         ]
@@ -54,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "wrap",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -219,10 +217,19 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "50721b040ebf71cd",
+  "active": "9d3b10410f32c7e1",
   "lastOpenFiles": [
-    "Web/HTTP.md",
+    "Excalidraw/Bitwize.excalidraw",
+    "Excalidraw/Network_basics.md",
+    "Excalidraw/ARP.md",
+    "Excalidraw/My fu* maze.md",
+    "Excalidraw/bfs.md",
+    "Excalidraw/prim.md",
     "INSP.md",
+    "Project/GNL.md",
+    "Excalidraw/booting_process.excalidraw",
+    "Networking/OSI Model.md",
+    "Web/HTTP.md",
     "Web/Web servers.md",
     "Excalidraw/Http.md",
     "Cars.md",
@@ -239,17 +246,8 @@
     "Linux/Package Management.md",
     "Project/B2BR.md",
     "Web/CSS/Get started.md",
-    "Web/CSS/Part-1.md",
-    "Linux/Find.md",
-    "Linux/Permissions.md",
-    "Linux/Environment Variables.md",
-    "Python/Module 04.md",
-    "Excalidraw/prim.md",
-    "Maze/MZ.md",
-    "Python/Comprhensive.md",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Python2.excalidraw",
-    "Excalidraw/Bitwize.excalidraw",
     "Media/maze_exmpl.png",
     "Media/ARP3.png",
     "Media/ARP1.png",
@@ -261,7 +259,6 @@
     "Excalidraw/primsss.excalidraw",
     "toseenow3.png",
     "Maze",
-    "Excalidraw/booting_process.excalidraw",
     "Web/PHP",
     "Web/Burpsuite/Untitled",
     "Web/Burpsuite",
