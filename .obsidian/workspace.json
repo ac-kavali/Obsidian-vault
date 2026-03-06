@@ -11,12 +11,14 @@
             "id": "9d3b10410f32c7e1",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/python_discorver#1.excalidraw"
+                "file": "Web/CSS/Get started.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "python_discorver#1"
+              "icon": "lucide-file",
+              "title": "Get started"
             }
           }
         ]
@@ -219,6 +221,11 @@
   },
   "active": "9d3b10410f32c7e1",
   "lastOpenFiles": [
+    "Web/CSS/Part-1.md",
+    "Web/CSS/Part-2.md",
+    "Web/CSS/Get started.md",
+    "Web/Burpsuite/Get_started.md",
+    "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/Network_basics.md",
     "Excalidraw/ARP.md",
@@ -243,10 +250,6 @@
     "Web/Introduction.md",
     "Web/Framework.md",
     "INSP1.md",
-    "Linux/Package Management.md",
-    "Project/B2BR.md",
-    "Web/CSS/Get started.md",
-    "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Python2.excalidraw",
     "Media/maze_exmpl.png",
     "Media/ARP3.png",
