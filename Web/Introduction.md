@@ -1,7 +1,6 @@
 Starting with 
 
 ## Questions 
-# Questions in this topic 
 - What represent the buttons and there behavior 
 - How Java-script controls the DOM and the DOM methods used 
 - Web hosting and cloud information
