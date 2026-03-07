@@ -4,7 +4,7 @@ Starting with
 - What represent the buttons and there behavior 
 - How Java-script controls the DOM and the DOM methods used 
 - Web hosting and cloud information
-- 
+- I need you to create the full scenario starting from the http until the server behavior.
 
 ---
 - JavaScript (ES6+)
