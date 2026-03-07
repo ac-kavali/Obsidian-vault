@@ -33,7 +33,7 @@ then developer tools then start learning the popular web vulnirablities
 - [Try hack me lofi room](<https://tryhackme.com/room/lofi>)
 - [Port Swiger academy](https://portswigger.net/web-security/request-smuggling/advanced/lab-request-smuggling-0cl-request-smuggling)
 - [Try Hack me ](https://tryhackme.com/path/outline/web)
-
+- [Reading MDN web articl](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works)
 
 
 
