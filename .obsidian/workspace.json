@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/CSS/Get started.md",
-                "mode": "source",
+                "file": "Web/Burpsuite/Get_started.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Get started"
+              "title": "Get_started"
             }
           }
         ]
@@ -202,7 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 400.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,11 +219,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9d3b10410f32c7e1",
+  "active": "bf4a90ec355480ad",
   "lastOpenFiles": [
+    "Web/CSS/Get started.md",
     "Web/CSS/Part-1.md",
     "Web/CSS/Part-2.md",
-    "Web/CSS/Get started.md",
     "Web/Burpsuite/Get_started.md",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Bitwize.excalidraw",
