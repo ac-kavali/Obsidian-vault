@@ -4,4 +4,7 @@
 ---
 ## Nodes 
 The browser load an html file, but it not work with html as text, instead it convert
-the HTML into a structure called Document Object Module, 
+the HTML into a structure called Document Object Module, consisting of Nodes
+where each node represent an html element (</a>, </h>, </img>)
+
+--- 
