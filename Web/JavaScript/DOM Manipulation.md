@@ -6,5 +6,13 @@
 The browser load an html file, but it not work with html as text, instead it convert
 the HTML into a structure called Document Object Module, consisting of Nodes
 where each node represent an html element (</a>, </h>, </img>)
+*Example*:
+```js
+const title = document.querySelector("h1");
+```
+- `document` → represents the **entire HTML page (DOM)** loaded in the browser.
+- `.querySelector("h1")` → searches the DOM for the **first `<h1>` element**.
+- `title` → becomes a **reference (variable pointing to that DOM node)**.
+
 
 --- 
