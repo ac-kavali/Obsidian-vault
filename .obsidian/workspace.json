@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/CSS/Part-2.md",
+                "file": "Web/JavaScript/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Part-2"
+              "title": "Untitled"
             }
           }
         ]
@@ -221,8 +221,13 @@
   },
   "active": "9d3b10410f32c7e1",
   "lastOpenFiles": [
-    "Web/CSS/Part-1.md",
+    "Web/JavaScript/Coding JS.md",
+    "Web/JavaScript/Untitled.md",
+    "Web/JavaScript/DOM.md",
+    "Web/JavaScript/Todo.md",
+    "Web/JavaScript/Introduction.md",
     "Web/CSS/Part-2.md",
+    "Web/CSS/Part-1.md",
     "Web/Burpsuite/Get_started.md",
     "Web/CSS/Get started.md",
     "Excalidraw/python_discorver#1.excalidraw",
@@ -242,14 +247,9 @@
     "Cars.md",
     "Web/HTML/Basics.md",
     "Web/HTML/Introduction.md",
-    "Web/JavaScript/Todo.md",
     "Web/Web Project.md",
-    "Web/JavaScript/DOM.md",
-    "Web/JavaScript/Coding JS.md",
-    "Web/JavaScript/Introduction.md",
     "Web/Introduction.md",
     "Web/Framework.md",
-    "INSP1.md",
     "Excalidraw/Python2.excalidraw",
     "Media/maze_exmpl.png",
     "Media/ARP3.png",

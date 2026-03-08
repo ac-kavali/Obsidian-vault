@@ -1,7 +1,7 @@
 {
   "interfaceFontFamily": "DejaVu Sans",
   "baseFontSize": 17,
-  "textFontFamily": "Caladea",
+  "textFontFamily": "DejaVu Sans",
   "enabledCssSnippets": [
     "colors",
     "hide-tab-line"
