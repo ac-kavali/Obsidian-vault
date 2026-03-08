@@ -212,7 +212,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 380.5
+    "width": 267.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -229,10 +229,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9d3b10410f32c7e1",
+  "active": "a9fe7250485c708a",
   "lastOpenFiles": [
-    "Networking/DNS.md",
     "Excalidraw/dns.md",
+    "Networking/DNS.md",
     "Networking/Ports.md",
     "Media/dns_layers.png",
     "dns_layers.png",
