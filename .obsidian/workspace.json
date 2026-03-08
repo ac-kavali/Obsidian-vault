@@ -11,28 +11,29 @@
             "id": "9d3b10410f32c7e1",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Http.md"
+                "file": "Networking/DNS.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Http"
+              "icon": "lucide-file",
+              "title": "DNS"
             }
           },
           {
             "id": "aef9fd372253f6fe",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "image",
               "state": {
-                "file": "Excalidraw/dns.md"
+                "file": "Media/modem.svg"
               },
-              "icon": "excalidraw-icon",
-              "title": "dns"
+              "icon": "lucide-image",
+              "title": "modem"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -230,10 +231,22 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "364eed01b939fc76",
+  "active": "9d3b10410f32c7e1",
   "lastOpenFiles": [
-    "Excalidraw/Http.md",
     "Excalidraw/dns.md",
+    "Media/dns_layers.png",
+    "dns_layers.png",
+    "Excalidraw/Http.md",
+    "Media/modem.svg",
+    "Media/router.svg",
+    "Media/server.png",
+    "Media/small-hub.svg",
+    "Media/power-on.png",
+    "Media/ARP1.png",
+    "Media/maze_exmpl.png",
+    "Media/ARP3.png",
+    "media/info.txt",
+    "media",
     "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Network_basics.md",
@@ -260,24 +273,11 @@
     "Cars.md",
     "Web/HTML/Basics.md",
     "Web/HTML/Introduction.md",
-    "Web/Web Project.md",
     "Excalidraw/Python2.excalidraw",
-    "Media/maze_exmpl.png",
-    "Media/ARP3.png",
-    "Media/ARP1.png",
-    "Media/data.png",
-    "Media/pngegg.png",
-    "Media/nic.png",
-    "Media/fiber_optic.png",
-    "Web/Pasted Image 20260301172227_941.png",
     "Excalidraw/primsss.excalidraw",
-    "toseenow3.png",
     "Maze",
     "Web/PHP",
     "Web/Burpsuite/Untitled",
-    "Web/Burpsuite",
-    "Web/JavaScript",
-    "Media/bitwizeOperators.png",
     "Untitled.canvas"
   ]
 }
