@@ -14,5 +14,10 @@ const title = document.querySelector("h1");
 - `.querySelector("h1")` → searches the DOM for the **first `<h1>` element**.
 - `title` → becomes a **reference (variable pointing to that DOM node)**.
 
+```js
+title.textContent = "Hello";
+```
+Here we used the title constant to directly modify the `h1` Node in the DOM.
+And this way how js works 
 
 --- 
