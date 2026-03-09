@@ -39,12 +39,14 @@
             "id": "73990518c21a2140",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Impress-me.md"
+                "file": "Web/CSS/Part-2.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Impress-me"
+              "icon": "lucide-file",
+              "title": "Part-2"
             }
           }
         ],
@@ -248,6 +250,10 @@
   },
   "active": "73990518c21a2140",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Web/CSS/Part-2.md",
+    "Excalidraw/dns.md",
+    "Excalidraw/Impress-me.md",
     "Media/ImpressMe.png",
     "Media/explore.svg",
     "Media/search-bar.png",
@@ -257,12 +263,9 @@
     "Media/settings.svg",
     "Media/profile.svg",
     "Media/messages.svg",
-    "Excalidraw/Impress-me.md",
     "Media/color-replaced.png",
-    "Media/kali-tiles-purple.jpg",
     "Networking/DNS.md",
     "Networking/Ports.md",
-    "Excalidraw/dns.md",
     "Excalidraw/Http.md",
     "media/info.txt",
     "media",
@@ -278,7 +281,6 @@
     "Web/JavaScript/Coding JS.md",
     "Web/JavaScript/Todo.md",
     "Web/JavaScript/Introduction.md",
-    "Web/CSS/Part-2.md",
     "Web/CSS/Part-1.md",
     "Web/Burpsuite/Get_started.md",
     "Web/CSS/Get started.md",
