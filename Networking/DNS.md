@@ -1,5 +1,23 @@
 **Domaine Name System** 
 is a hierarchical system that translates domain names into IP addresses, enabling computers and network devicese to locate and communicate with each other in the internet.
 ![[dns_layers.png]]
+> This is just an example where the Recursive DNS server may not be the ISP 
+> it belong on your dns configuration, that is often getten from the DHCP config
+> from your router, like if the dns ip server is 8.8.8.8, it means that you use google dns servers if its 1.1.1.1 , means you use cloudflare ...
 
 ## Domain Heirarchy
+### TLD Servers: 
+A TLD (_top-level domain_) is the most generic [domain](https://developer.mozilla.org/en-US/docs/Glossary/Domain) in the Internet's hierarchical [DNS](https://developer.mozilla.org/en-US/docs/Glossary/DNS) (domain name system). A TLD is the final component of a [domain name](https://developer.mozilla.org/en-US/docs/Glossary/Domain_name), for example, "org" in `developer.mozilla.org`.
+
+Top level domains are known and managed by **TLD Servers** like Nasa, IANNA ROOT dns Servers.
+
+#### Generic Top Level Domains: 
+GTLD represent a type of domain names that represent specific feilds: like **.com** that represent comercial use , **.edu** represent educationnal use, **.org** represent 
+an organizations websites ...etc
+#### Country Code Top Level Domains:
+ccTLD used for geographical purposes, for example, **.ca** for sites based in canada
+**.usa** for usa , **.ja** for japan and so on.
+
+--- 
+## The registrant 
+The **registrant** is the **person or organization that owns (uses) the domain name**.

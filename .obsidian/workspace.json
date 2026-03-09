@@ -11,27 +11,44 @@
             "id": "9d3b10410f32c7e1",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/dns.md"
+                "file": "Networking/DNS.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "dns"
+              "icon": "lucide-file",
+              "title": "DNS"
             }
           },
           {
-            "id": "aef9fd372253f6fe",
+            "id": "bd77739f2977a69a",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Media/modem.svg"
+                "file": "Networking/DNS.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "modem"
+              "icon": "lucide-file",
+              "title": "DNS"
+            }
+          },
+          {
+            "id": "73990518c21a2140",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-03-09 19.41.18.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-03-09 19.41.18.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -229,22 +246,24 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a9fe7250485c708a",
+  "active": "73990518c21a2140",
   "lastOpenFiles": [
-    "Excalidraw/dns.md",
+    "color-replaced.png",
+    "kali-tiles-purple.jpg",
+    "ai.png",
+    "web.png",
+    "gaming.png",
+    "car.png",
+    "cybersecurity.png",
+    "settings.svg",
+    "profile.svg",
+    "messages.svg",
+    "home.svg",
     "Networking/DNS.md",
+    "Excalidraw/Drawing 2026-03-09 19.41.18.excalidraw.md",
     "Networking/Ports.md",
-    "Media/dns_layers.png",
-    "dns_layers.png",
+    "Excalidraw/dns.md",
     "Excalidraw/Http.md",
-    "Media/modem.svg",
-    "Media/router.svg",
-    "Media/server.png",
-    "Media/small-hub.svg",
-    "Media/power-on.png",
-    "Media/ARP1.png",
-    "Media/maze_exmpl.png",
-    "Media/ARP3.png",
     "media/info.txt",
     "media",
     "Excalidraw/Bitwize.excalidraw",
@@ -270,8 +289,6 @@
     "Web/HTTP.md",
     "Web/Web servers.md",
     "Cars.md",
-    "Web/HTML/Basics.md",
-    "Web/HTML/Introduction.md",
     "Excalidraw/Python2.excalidraw",
     "Excalidraw/primsss.excalidraw",
     "Maze",
