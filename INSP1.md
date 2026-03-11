@@ -135,3 +135,43 @@ Since you're 19 and building long-term:
 After 1–2 years of this?
 
 You’ll be dangerous in a good way.
+
+
+
+--- 
+# Draft 2.4
+## Core Components of Client-Server Architecture
+
+### 1. Client
+
+- Browser, mobile app, desktop app, or CLI tool
+- Sends requests, renders responses
+- Stores: cookies, tokens, local storage, session data
+
+### 2. Server
+
+- Web server (Nginx, Apache), App server (Node.js, Django, etc.)
+- Handles business logic, authentication, routing
+- Returns responses (HTML, JSON, files, etc.)
+
+### 3. Network / Communication Layer
+
+- HTTP/HTTPS protocol
+- DNS resolution
+- TCP/IP stack
+- TLS/SSL encryption
+
+### 4. Database Layer
+
+- SQL (MySQL, PostgreSQL) or NoSQL (MongoDB, Redis)
+- Stores user data, credentials, application state
+
+### 5. Authentication & Session Management
+
+- Cookies, JWT tokens, OAuth
+- Sessions stored server-side or client-side
+
+### 6. APIs
+
+- REST, GraphQL, WebSockets, gRPC
+- The bridge between client and server logic

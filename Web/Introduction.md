@@ -45,7 +45,7 @@ then developer tools then start learning the popular web vulnirablities
 
 
 ## Client-Server Module 
-
+==focus on : Structure, components, infrastructure ==
 ### The process:
 - User enters a URL in the browser (example: www.example.com).
 - Browser performs a DNS lookup to convert the domain name into an IP address.

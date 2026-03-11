@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/Introduction.md",
+                "file": "Web/Client-Server Arch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction"
+              "title": "Client-Server Arch"
             }
           },
           {
@@ -249,12 +249,15 @@
   },
   "active": "9d3b10410f32c7e1",
   "lastOpenFiles": [
+    "Web/Introduction.md",
+    "Web/Client-Server Arch.md",
+    "INSP1.md",
+    "INSP.md",
     "Web/Requests.md",
     "Web/Framework.md",
     "Web/Web servers.md",
     "Web/HTTP.md",
     "Networking/DNS.md",
-    "Web/Introduction.md",
     "Web/CSS/Part-2.md",
     "Excalidraw/Http.md",
     "Web/Web Project.md",
@@ -286,9 +289,6 @@
     "Web/JavaScript/Coding JS.md",
     "Web/JavaScript/Todo.md",
     "Web/JavaScript/Introduction.md",
-    "Web/CSS/Part-1.md",
-    "Web/Burpsuite/Get_started.md",
-    "Web/CSS/Get started.md",
     "Excalidraw/booting_process.excalidraw",
     "Excalidraw/Python2.excalidraw",
     "Excalidraw/primsss.excalidraw",
