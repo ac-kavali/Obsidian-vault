@@ -44,3 +44,10 @@ then developer tools then start learning the popular web vulnirablities
 - 
 
 
+## Client-Server Module 
+
+- User enters a URL in the browser (example: www.example.com).
+- Browser performs a DNS lookup to convert the domain name into an IP address.
+- Browser establishes a connection and sends an HTTP/HTTPS request to the server using that IP.
+- Server responds with website resources like HTML, CSS, JavaScript, and images.
+- Browser renders the webpage by processing these files and displaying the content.

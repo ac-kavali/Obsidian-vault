@@ -13,24 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/DNS.md",
+                "file": "Web/Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DNS"
+              "title": "Introduction"
             }
           },
           {
             "id": "bd77739f2977a69a",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Http.md"
+                "file": "Web/Introduction.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Http"
+              "icon": "lucide-file",
+              "title": "Introduction"
             }
           },
           {
@@ -39,16 +41,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/CSS/Part-2.md",
+                "file": "Web/Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Part-2"
+              "title": "Introduction"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,8 +124,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "10424350b623bef2",
@@ -247,18 +247,18 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "bd77739f2977a69a",
+  "active": "9d3b10410f32c7e1",
   "lastOpenFiles": [
-    "Excalidraw/Http.md",
     "Web/Requests.md",
-    "Web/Introduction.md",
     "Web/Framework.md",
-    "Web/Web Project.md",
-    "Web/HTTP.md",
     "Web/Web servers.md",
-    "Excalidraw/Impress-me.md",
+    "Web/HTTP.md",
     "Networking/DNS.md",
+    "Web/Introduction.md",
     "Web/CSS/Part-2.md",
+    "Excalidraw/Http.md",
+    "Web/Web Project.md",
+    "Excalidraw/Impress-me.md",
     "Web/JavaScript/DOM Manipulation.md",
     "Untitled.md",
     "Excalidraw/dns.md",
