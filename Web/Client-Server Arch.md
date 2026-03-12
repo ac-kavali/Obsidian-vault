@@ -1,5 +1,5 @@
 # Client-Server Module 
-==focus on : Structure, components, infrastructure ==
+
 ## The process:
 - User enters a URL in the browser (example: www.example.com).
 - Browser performs a DNS lookup to convert the domain name into an IP address.
@@ -28,3 +28,49 @@ then :
 The process cannot access kernel memory directly.
 Instead, the kernel exposes the socket to the process through a **file descriptor**.
 after the process runs on the CPU and can trigger a system call. The CPU switches to kernel mode, the kernel executes the requested operation (like creating a socket), and then the kernel returns a file descriptor to the process.
+
+The whole cycle : 
+```s
+Running
+↓
+Process calls accept()
+↓
+Kernel blocks process
+↓
+Client connects
+↓
+Kernel wakes process
+↓
+accept() returns new file descriptor (client_fd)
+↓
+Process calls recv(client_fd)
+↓
+Kernel blocks if no data
+↓
+Packet arrives
+↓
+Kernel wakes process
+↓
+recv() returns the received data
+```
+
+**You will not use The syscalls directly** 
+```
+YOU WORK HERE (Backend Dev)
+        ↓
+[ Your Code - Python/Node.js/Go/Java ]
+        ↓
+[ Web Framework - Django/Express/Spring ]
+        ↓
+[ HTTP Library ]
+        ↓
+[ Language Runtime / Standard Library ]
+        ↓
+[ libc / OS Library ]
+        ↓
+[ System Calls - accept(), recv(), send() ]  ← rarely touched
+        ↓
+[ Kernel / OS ]
+        ↓
+[ Network Hardware ]
+```
