@@ -13,8 +13,7 @@
 
 **Network**: The socket and the Network infrastructure used, starting from DNS Resolution till protocols like the http(s) and tls, ssh , tcp, ip used make a reliable connection between the client and server.
 
-**API**: 
-
+**API**: An API (Application Programming Interface) is a contract that specifies how a client sends requests to a server and how the server returns responses.
 
 ## Listning processes :
 When a process is listening on a port, the OS kernel manages incoming packets.  
