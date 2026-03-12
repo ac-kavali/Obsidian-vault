@@ -8,14 +8,14 @@ class Man:
 	attribute
 	
 	method()
-	method()
+	method() 
 ```
 
 ## Object
 Is the fundamental abstraction for data, created as instance of a class, Everything in Python—including numbers, strings, lists, functions, and even classes themselves—is an object.
 **Create an object(incetance) from a class**
 ```python
-object = Class() 
+object = Class()  
 ```
 ## Attributes
 In Python, an **attribute** is a value associated with an object that can be accessed using dot notation (`object.attribute`).
@@ -24,11 +24,11 @@ In Python, an **attribute** is a value associated with an object that can be acc
 They are created **when the class is defined**, not when objects are created.
 ```python
 class Dog:
-    legs = 4
+    legs = 4 
 ```
 To use it:
 ```python
-Dog.legs
+Dog.legs 
 ```
 
 #### Instance Attributes:
@@ -38,12 +38,14 @@ class Dog:
     def __init__(self, name, age):
         self.name = name  # instance attribute
         self.age = age    # instance attribute
+
 ```
 To use them:
 ```python
 bob = Dog("Bob", 3)
 print(bob.name)
 print(bob.age)
+
 ```
 ---
 ## **Strings**

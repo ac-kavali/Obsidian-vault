@@ -298,9 +298,9 @@
       "settings": {
         "codeblock": {
           "lineNumbers": false,
-          "unwrapLines": true,
+          "unwrapLines": false,
           "wrapLinesActive": true,
-          "curvature": 16
+          "curvature": 8
         },
         "gutter": {
           "highlight": true,
@@ -308,26 +308,26 @@
         },
         "header": {
           "title": {
-            "textFont": "",
+            "textFont": "Jetbrains Nerd Font",
             "textBold": false,
-            "textItalic": true
+            "textItalic": false
           },
           "languageTag": {
             "display": "none",
             "textFont": "",
-            "textBold": true,
+            "textBold": false,
             "textItalic": false
           },
           "languageIcon": {
             "display": "none",
-            "displayColour": true
+            "displayColour": false
           },
           "externalReference": {
-            "displayRepository": true,
-            "displayVersion": true,
-            "displayTimestamp": true
+            "displayRepository": false,
+            "displayVersion": false,
+            "displayTimestamp": false
           },
-          "fontSize": 14,
+          "fontSize": 6,
           "foldPlaceholder": ""
         },
         "highlights": {
@@ -347,9 +347,9 @@
         "advanced": {
           "gradientHighlights": false,
           "gradientHighlightsColourStop": "70%",
-          "languageBorderColour": true,
+          "languageBorderColour": false,
           "languageBorderWidth": 5,
-          "iconSize": 28
+          "iconSize": 10
         }
       },
       "colours": {
@@ -364,9 +364,9 @@
             "activeTextColour": "--text-muted"
           },
           "header": {
-            "backgroundColour": "--code-background",
+            "backgroundColour": "#2C0C41",
             "title": {
-              "textColour": "--code-comment"
+              "textColour": "#1D1751"
             },
             "languageTag": {
               "backgroundColour": "--code-background",
@@ -398,7 +398,7 @@
         },
         "dark": {
           "codeblock": {
-            "backgroundColour": "#381D72",
+            "backgroundColour": "#120725A6",
             "textColour": "--code-normal"
           },
           "gutter": {
@@ -407,9 +407,9 @@
             "activeTextColour": "--text-muted"
           },
           "header": {
-            "backgroundColour": "--code-background",
+            "backgroundColour": "#2C0C41",
             "title": {
-              "textColour": "--code-comment"
+              "textColour": "#1D1751"
             },
             "languageTag": {
               "backgroundColour": "--code-background",
@@ -447,9 +447,9 @@
     "settings": {
       "codeblock": {
         "lineNumbers": false,
-        "unwrapLines": true,
+        "unwrapLines": false,
         "wrapLinesActive": true,
-        "curvature": 10
+        "curvature": 8
       },
       "gutter": {
         "highlight": true,
@@ -458,25 +458,25 @@
       "header": {
         "title": {
           "textFont": "Jetbrains Nerd Font",
-          "textBold": true,
-          "textItalic": true
+          "textBold": false,
+          "textItalic": false
         },
         "languageTag": {
-          "display": "if_header_shown",
+          "display": "none",
           "textFont": "",
-          "textBold": true,
+          "textBold": false,
           "textItalic": false
         },
         "languageIcon": {
-          "display": "always",
-          "displayColour": true
+          "display": "none",
+          "displayColour": false
         },
         "externalReference": {
-          "displayRepository": true,
-          "displayVersion": true,
-          "displayTimestamp": true
+          "displayRepository": false,
+          "displayVersion": false,
+          "displayTimestamp": false
         },
-        "fontSize": 9,
+        "fontSize": 6,
         "foldPlaceholder": ""
       },
       "highlights": {
@@ -498,7 +498,7 @@
         "gradientHighlightsColourStop": "70%",
         "languageBorderColour": false,
         "languageBorderWidth": 5,
-        "iconSize": 18
+        "iconSize": 10
       }
     },
     "colours": {
