@@ -13,7 +13,6 @@ var old = true;       // old way, avoid if possible
 ```
 
 ---
-
 ## 2. Data Types
 
 ### 🔤 Strings

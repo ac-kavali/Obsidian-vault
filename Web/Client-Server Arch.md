@@ -13,9 +13,8 @@
 
 **Network**: The socket and the Network infrastructure used, starting from DNS Resolution till protocols like the http(s) and tls, ssh , tcp, ip used make a reliable connection between the client and server.
 
-<<<<<<< HEAD
 **API**: 
-=======
+
 
 ## Listning processes :
 When a process is listening on a port, the OS kernel manages incoming packets.  
