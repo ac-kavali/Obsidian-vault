@@ -74,3 +74,6 @@ YOU WORK HERE (Backend Dev)
         ↓
 [ Network Hardware ]
 ```
+
+here we talking about the api that you wrote it using js or python ... and a framwork like django , laravel, express.js
+As an API developer with Django, Laravel, or Express — your entire job is: **read the request, run your logic, query the database, send a response.** The framework is your silent partner handling everything beneath that. You think in **HTTP, JSON, routes, and business logic** — never in sockets or system calls.
