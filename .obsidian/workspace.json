@@ -11,12 +11,14 @@
             "id": "9d3b10410f32c7e1",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/booting_process.excalidraw"
+                "file": "Web/HTTP.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "booting_process"
+              "icon": "lucide-file",
+              "title": "HTTP"
             }
           },
           {
@@ -31,8 +33,7 @@
               "title": "Http"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -230,13 +231,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "86d2d6057e9ba7c9",
+  "active": "9d3b10410f32c7e1",
   "lastOpenFiles": [
+    "Excalidraw/prim.md",
+    "Excalidraw/dns.md",
+    "Excalidraw/Impress-me.md",
+    "Excalidraw/booting_process.excalidraw",
+    "Excalidraw/Http.md",
     "Web/HTTP.md",
     "Web/Client-Server Arch.md",
     "Web/Introduction.md",
     "Web/API.md",
-    "Excalidraw/Http.md",
     "Networking/OSI Model.md",
     "INSP.md",
     "INSP1.md",
@@ -248,9 +253,6 @@
     "Web/JavaScript/DOM Manipulation.md",
     "Web/JavaScript/Coding JS.md",
     "conflict-files-obsidian-git.md",
-    "Excalidraw/Impress-me.md",
-    "Excalidraw/booting_process.excalidraw",
-    "Excalidraw/dns.md",
     "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/bfs.md",
     "Excalidraw/python_discorver#1.excalidraw",
