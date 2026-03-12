@@ -25,12 +25,14 @@
             "id": "86d2d6057e9ba7c9",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Http.md"
+                "file": "Web/Client-Server Arch.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Http"
+              "icon": "lucide-file",
+              "title": "Client-Server Arch"
             }
           }
         ],
@@ -234,6 +236,7 @@
   },
   "active": "86d2d6057e9ba7c9",
   "lastOpenFiles": [
+    "Excalidraw/Http.md",
     "Web/HTTP.md",
     "Web/API.md",
     "INSP1.md",
@@ -252,7 +255,6 @@
     "Web/Web servers.md",
     "Networking/DNS.md",
     "Web/CSS/Part-2.md",
-    "Excalidraw/Http.md",
     "Web/Web Project.md",
     "Excalidraw/Impress-me.md",
     "Web/JavaScript/DOM Manipulation.md",
