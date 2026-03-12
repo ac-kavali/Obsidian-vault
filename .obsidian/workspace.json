@@ -23,15 +23,18 @@
             "id": "86d2d6057e9ba7c9",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Impress-me.md"
+                "file": "Web/Client-Server Arch.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Impress-me"
+              "icon": "lucide-file",
+              "title": "Client-Server Arch"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -229,13 +232,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9d3b10410f32c7e1",
+  "active": "86d2d6057e9ba7c9",
   "lastOpenFiles": [
-    "Web/API.md",
+    "Excalidraw/Http.md",
     "Excalidraw/Impress-me.md",
+    "Excalidraw/booting_process.excalidraw",
+    "Web/API.md",
     "Excalidraw/dns.md",
     "Excalidraw/Bitwize.excalidraw",
-    "Excalidraw/Http.md",
     "Excalidraw/bfs.md",
     "Excalidraw/python_discorver#1.excalidraw",
     "Web/Framework.md",
@@ -270,7 +274,6 @@
     "Media/color-replaced.png",
     "media/info.txt",
     "media",
-    "Excalidraw/booting_process.excalidraw",
     "Excalidraw/Python2.excalidraw",
     "Excalidraw/primsss.excalidraw",
     "Maze",

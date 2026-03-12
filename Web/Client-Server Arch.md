@@ -12,3 +12,5 @@
 **Server**: A hug resources device, handle requests that cam from the client side, using server side process, and returning the documents requested from the client side .
 
 **Network**: The socket and the Network infrastructure used, starting from DNS Resolution till protocols like the http(s) and tls, ssh , tcp, ip used make a reliable connection between the client and server.
+
+**API**: 
