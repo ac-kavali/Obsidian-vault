@@ -298,7 +298,7 @@
       "settings": {
         "codeblock": {
           "lineNumbers": false,
-          "unwrapLines": false,
+          "unwrapLines": true,
           "wrapLinesActive": true,
           "curvature": 8
         },
@@ -309,25 +309,25 @@
         "header": {
           "title": {
             "textFont": "Jetbrains Nerd Font",
-            "textBold": false,
-            "textItalic": false
+            "textBold": true,
+            "textItalic": true
           },
           "languageTag": {
-            "display": "none",
+            "display": "always",
             "textFont": "",
-            "textBold": false,
-            "textItalic": false
+            "textBold": true,
+            "textItalic": true
           },
           "languageIcon": {
-            "display": "none",
-            "displayColour": false
+            "display": "always",
+            "displayColour": true
           },
           "externalReference": {
-            "displayRepository": false,
-            "displayVersion": false,
-            "displayTimestamp": false
+            "displayRepository": true,
+            "displayVersion": true,
+            "displayTimestamp": true
           },
-          "fontSize": 6,
+          "fontSize": 8,
           "foldPlaceholder": ""
         },
         "highlights": {
@@ -349,7 +349,7 @@
           "gradientHighlightsColourStop": "70%",
           "languageBorderColour": false,
           "languageBorderWidth": 5,
-          "iconSize": 10
+          "iconSize": 16
         }
       },
       "colours": {
@@ -447,7 +447,7 @@
     "settings": {
       "codeblock": {
         "lineNumbers": false,
-        "unwrapLines": false,
+        "unwrapLines": true,
         "wrapLinesActive": true,
         "curvature": 8
       },
@@ -458,25 +458,25 @@
       "header": {
         "title": {
           "textFont": "Jetbrains Nerd Font",
-          "textBold": false,
-          "textItalic": false
+          "textBold": true,
+          "textItalic": true
         },
         "languageTag": {
-          "display": "none",
+          "display": "always",
           "textFont": "",
-          "textBold": false,
-          "textItalic": false
+          "textBold": true,
+          "textItalic": true
         },
         "languageIcon": {
-          "display": "none",
-          "displayColour": false
+          "display": "always",
+          "displayColour": true
         },
         "externalReference": {
-          "displayRepository": false,
-          "displayVersion": false,
-          "displayTimestamp": false
+          "displayRepository": true,
+          "displayVersion": true,
+          "displayTimestamp": true
         },
-        "fontSize": 6,
+        "fontSize": 8,
         "foldPlaceholder": ""
       },
       "highlights": {
@@ -498,7 +498,7 @@
         "gradientHighlightsColourStop": "70%",
         "languageBorderColour": false,
         "languageBorderWidth": 5,
-        "iconSize": 10
+        "iconSize": 16
       }
     },
     "colours": {
