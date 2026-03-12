@@ -25,12 +25,14 @@
             "id": "86d2d6057e9ba7c9",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Http.md"
+                "file": "Web/Framework.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Http"
+              "icon": "lucide-file",
+              "title": "Framework"
             }
           }
         ],
@@ -234,6 +236,7 @@
   },
   "active": "86d2d6057e9ba7c9",
   "lastOpenFiles": [
+    "INSP.md",
     "Web/HTTP.md",
     "Web/API.md",
     "INSP1.md",
@@ -246,7 +249,6 @@
     "Networking/Subnetting.md",
     "Networking/OSI Model.md",
     "Web/Introduction.md",
-    "INSP.md",
     "Web/Requests.md",
     "Web/Framework.md",
     "Web/Web servers.md",
