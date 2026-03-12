@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/JavaScript/Coding JS.md",
+                "file": "Web/Client-Server Arch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Coding JS"
+              "title": "Client-Server Arch"
             }
           }
         ],
@@ -234,6 +234,13 @@
   },
   "active": "86d2d6057e9ba7c9",
   "lastOpenFiles": [
+    "Web/JavaScript/Introduction.md",
+    "touse.png",
+    "color-replaced.png",
+    "touse 2.png",
+    "touse 1.png",
+    "Web/JavaScript/DOM Manipulation.md",
+    "Web/JavaScript/Coding JS.md",
     "Web/Client-Server Arch.md",
     "conflict-files-obsidian-git.md",
     "Excalidraw/Http.md",
@@ -259,20 +266,12 @@
     "Web/Requests.md",
     "Web/Web servers.md",
     "Networking/DNS.md",
-    "Web/CSS/Part-2.md",
-    "Web/Web Project.md",
-    "Web/JavaScript/DOM Manipulation.md",
-    "Untitled.md",
     "Media/ImpressMe.png",
     "Media/explore.svg",
     "Media/search-bar.png",
     "Media/web.png",
     "Media/gaming.png",
     "Media/cybersecurity.png",
-    "Media/settings.svg",
-    "Media/profile.svg",
-    "Media/messages.svg",
-    "Media/color-replaced.png",
     "media/info.txt",
     "media",
     "Excalidraw/Python2.excalidraw",

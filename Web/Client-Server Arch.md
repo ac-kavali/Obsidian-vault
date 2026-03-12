@@ -27,3 +27,4 @@ then :
 
 The process cannot access kernel memory directly.
 Instead, the kernel exposes the socket to the process through a **file descriptor**.
+after the process runs on the CPU and can trigger a system call. The CPU switches to kernel mode, the kernel executes the requested operation (like creating a socket), and then the kernel returns a file descriptor to the process.

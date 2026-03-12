@@ -58,5 +58,4 @@ JavaScript created in 1995 for browser, but ECMAScript was created after 2 years
 - **JavaScript** = implementation.
 - **ECMAScript** = specification(the rulebook)
 you can say that javascript follow ECMAScript rules and specifications
----
 
