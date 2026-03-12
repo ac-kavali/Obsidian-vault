@@ -47,3 +47,5 @@ print("Not inside!")
 if (x, y) in 42_maze_patern:
 	raise ConfigError("")
 exept ConfigError as e:
+
+---

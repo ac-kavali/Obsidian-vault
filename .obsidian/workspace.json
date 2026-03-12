@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/HTTP.md",
+                "file": "Project/MZ.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTTP"
+              "title": "MZ"
             }
           },
           {
@@ -233,12 +233,16 @@
   },
   "active": "9d3b10410f32c7e1",
   "lastOpenFiles": [
+    "Project/B2BR.md",
+    "Project/Libft.md",
+    "Project/Projects.md",
+    "Project/MZ.md",
+    "Web/HTTP.md",
     "Excalidraw/prim.md",
     "Excalidraw/dns.md",
     "Excalidraw/Impress-me.md",
     "Excalidraw/booting_process.excalidraw",
     "Excalidraw/Http.md",
-    "Web/HTTP.md",
     "Web/Client-Server Arch.md",
     "Web/Introduction.md",
     "Web/API.md",
@@ -262,10 +266,6 @@
     "Python/Module10.md",
     "Networking/Basics.md",
     "Networking/Network Types.md",
-    "Networking/Subnetting.md",
-    "Web/Requests.md",
-    "Web/Web servers.md",
-    "Networking/DNS.md",
     "Media/ImpressMe.png",
     "Media/explore.svg",
     "Media/search-bar.png",
@@ -276,7 +276,7 @@
     "media",
     "Excalidraw/Python2.excalidraw",
     "Excalidraw/primsss.excalidraw",
-    "Maze",
+    "Project/Maze",
     "Web/PHP",
     "Web/Burpsuite/Untitled",
     "Untitled.canvas"
