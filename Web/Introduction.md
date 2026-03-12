@@ -13,8 +13,6 @@ Starting with
 - Frontend<-> backend
 - Cookies/LocalStorage
 - Forms 
-
-
 - command injection
 - BURBSUIT
 - developer toolkit
