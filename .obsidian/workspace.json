@@ -23,12 +23,14 @@
             "id": "86d2d6057e9ba7c9",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Http.md"
+                "file": "Web/HTTP.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Http"
+              "icon": "lucide-file",
+              "title": "HTTP"
             }
           }
         ],
@@ -86,7 +88,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "549908e0566d76c4",
@@ -232,7 +235,9 @@
   },
   "active": "86d2d6057e9ba7c9",
   "lastOpenFiles": [
+    "Excalidraw/Http.md",
     "Web/HTTP.md",
+    "Networking/OSI Model.md",
     "Web/Client-Server Arch.md",
     "INSP.md",
     "INSP1.md",
@@ -244,7 +249,6 @@
     "Web/JavaScript/DOM Manipulation.md",
     "Web/JavaScript/Coding JS.md",
     "conflict-files-obsidian-git.md",
-    "Excalidraw/Http.md",
     "Excalidraw/Impress-me.md",
     "Excalidraw/booting_process.excalidraw",
     "Web/API.md",
@@ -259,7 +263,6 @@
     "Networking/Basics.md",
     "Networking/Network Types.md",
     "Networking/Subnetting.md",
-    "Networking/OSI Model.md",
     "Web/Introduction.md",
     "Web/Requests.md",
     "Web/Web servers.md",

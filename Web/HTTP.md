@@ -1,3 +1,3 @@
 [Insperation](Excalidraw/Http.md)
-- search the part where the browser parse the url, and deciding what to do depending of prefix, format like its a web address, seash queary , or local file 
-- send the yourself into dns part after realizing it exactly where you explain that the os give the respnsablity of resolving the domain name into ip to the os 
+## HTTP: Hypertext Transfer Protocol
+**HTTP** is an [application-layer](https://en.wikipedia.org/wiki/Application_Layer) protocol for transmitting hypermedia documents, such as HTML. It was designed for communication between web browsers and web servers, but it can also be used for other purposes, such as machine-to-machine communication, programmatic access to APIs, and more.
