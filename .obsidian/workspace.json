@@ -11,11 +11,13 @@
             "id": "9d3b10410f32c7e1",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/bfs.md"
+                "file": "Excalidraw/bfs.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
+              "icon": "lucide-file",
               "title": "bfs"
             }
           },
@@ -85,8 +87,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "549908e0566d76c4",
@@ -233,19 +234,24 @@
   "active": "9d3b10410f32c7e1",
   "lastOpenFiles": [
     "Excalidraw/bfs.md",
+    "Excalidraw/prim.md",
+    "Web/WebServer/Web servers.md",
+    "Web/WebServer/Client-Server Arch.md",
+    "Web/WebServer",
+    "Web/Introduction.md",
+    "Project/Libft.md",
+    "Project/GNL.md",
+    "Linux/Permissions.md",
+    "Concepts/Bitwize.md",
     "Project/MZ.md",
     "Python/Python Essentiel Syntax.md",
     "Project/B2BR.md",
-    "Project/Libft.md",
     "Project/Projects.md",
     "Web/HTTP.md",
-    "Excalidraw/prim.md",
     "Excalidraw/dns.md",
     "Excalidraw/Impress-me.md",
     "Excalidraw/booting_process.excalidraw",
     "Excalidraw/Http.md",
-    "Web/Client-Server Arch.md",
-    "Web/Introduction.md",
     "Web/API.md",
     "Networking/OSI Model.md",
     "INSP.md",
@@ -260,11 +266,6 @@
     "conflict-files-obsidian-git.md",
     "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/python_discorver#1.excalidraw",
-    "Web/Framework.md",
-    "Networking/Ports.md",
-    "Networking/Application, Presentation.md",
-    "Python/Module10.md",
-    "Networking/Basics.md",
     "Media/ImpressMe.png",
     "Media/explore.svg",
     "Media/search-bar.png",
@@ -277,7 +278,6 @@
     "Excalidraw/primsss.excalidraw",
     "Project/Maze",
     "Web/PHP",
-    "Web/Burpsuite/Untitled",
     "Untitled.canvas"
   ]
 }
