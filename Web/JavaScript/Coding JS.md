@@ -12,6 +12,8 @@ const age = 25;       // cannot be changed
 var old = true;       // old way, avoid if possible
 ```
 
+==[Practice Js](https://www.boot.dev/)
+
 ---
 ## 2. Data Types
 

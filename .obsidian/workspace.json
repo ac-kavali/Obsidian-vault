@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Excalidraw/bfs.md",
-                "mode": "source",
+                "file": "Web/JavaScript/Introduction.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "bfs"
+              "title": "Introduction"
             }
           },
           {
@@ -32,8 +32,23 @@
               "icon": "excalidraw-icon",
               "title": "Http"
             }
+          },
+          {
+            "id": "ab5bf2075ca00506",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/JavaScript/Coding JS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Coding JS"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -231,14 +246,22 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9d3b10410f32c7e1",
+  "active": "ab5bf2075ca00506",
   "lastOpenFiles": [
-    "Excalidraw/bfs.md",
-    "Excalidraw/prim.md",
+    "Excalidraw/Http.md",
+    "Web/HTTP.md",
+    "Excalidraw/Drawing 2026-03-13 20.25.30.excalidraw.md",
+    "Excalidraw/Drawing 2026-03-13 22.17.21.excalidraw.md",
+    "Screenshot from 2026-03-13 22-16-34.png",
+    "Web/JavaScript/Introduction.md",
+    "Web/Requests.md",
+    "Web/Introduction.md",
+    "Web/JavaScript/DOM Manipulation.md",
     "Web/WebServer/Web servers.md",
     "Web/WebServer/Client-Server Arch.md",
+    "Excalidraw/bfs.md",
+    "Excalidraw/prim.md",
     "Web/WebServer",
-    "Web/Introduction.md",
     "Project/Libft.md",
     "Project/GNL.md",
     "Linux/Permissions.md",
@@ -247,23 +270,16 @@
     "Python/Python Essentiel Syntax.md",
     "Project/B2BR.md",
     "Project/Projects.md",
-    "Web/HTTP.md",
     "Excalidraw/dns.md",
     "Excalidraw/Impress-me.md",
     "Excalidraw/booting_process.excalidraw",
-    "Excalidraw/Http.md",
     "Web/API.md",
     "Networking/OSI Model.md",
     "INSP.md",
-    "INSP1.md",
-    "Web/JavaScript/Introduction.md",
     "touse.png",
     "color-replaced.png",
     "touse 2.png",
     "touse 1.png",
-    "Web/JavaScript/DOM Manipulation.md",
-    "Web/JavaScript/Coding JS.md",
-    "conflict-files-obsidian-git.md",
     "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/python_discorver#1.excalidraw",
     "Media/ImpressMe.png",
@@ -271,7 +287,6 @@
     "Media/search-bar.png",
     "Media/web.png",
     "Media/gaming.png",
-    "Media/cybersecurity.png",
     "media/info.txt",
     "media",
     "Excalidraw/Python2.excalidraw",
