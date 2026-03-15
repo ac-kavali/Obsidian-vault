@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Networking/DNS.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -73,8 +73,7 @@
               "title": "Http"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -272,7 +271,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "2a8635482f10749e",
+  "active": "86d2d6057e9ba7c9",
   "lastOpenFiles": [
     "Excalidraw/dns.md",
     "Networking/DNS.md",
