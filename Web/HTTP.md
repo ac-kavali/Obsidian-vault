@@ -19,4 +19,14 @@ each line in the http requests and responses ends with `\r`:Carriage Return and,
 
 ## HTTP Response
  The message a server sends back to a client after receiving and processing the request by the server (API).
- 
+
+**Status Line**: This is the first line of every HTTP response and contains three elements
+- HTTP Version.
+- Status Code.
+- Reason Phrase
+
+**Header**: fields in an HTTP response message that pass additional context and metadata Key:Value about the response or the server itself, give the browser information about the response content like `Content-Type`, `Set-Cookie`, `Cache-Control` ...
+
+**CRLF**: like the request the crlf line separate the header from the body.
+
+**Body**: The body contains the actual content being returned, if any. Not all responses have a body — for example, `204 No Content` or `304 Not Modified` typically don't.
