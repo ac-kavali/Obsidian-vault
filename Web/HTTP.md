@@ -8,3 +8,8 @@
 - The client sends its request, and waits for the answer.
 - The server processes the request, sending back its answer, providing a status code and appropriate data.
 
+## Request components 
+
+
+
+

@@ -29,9 +29,10 @@ ccTLD used for geographical purposes, for example, **.ca** for sites based in ca
 **Who runs them:** Companies like GoDaddy, Namecheap, Hostinger, etc.
 **Relation to authoritative servers:** If you use their DNS, the registrar’s servers act as the authoritative servers for your domain. If you run your own DNS, the registrar just tells the TLD where your servers are.
 
-## The registry 
+## The registry (TLD provider)
 **Registry (TLD operator):**  
-An organization responsible for **running the name servers for a top-level domain (TLD)** and maintaining the database of all domain names registered under that TLD.
+An organization responsible for **running the name servers for a top-level domain (TLD)** and maintaining the database of all domain names registered under that TLD. It not store the ip address of the domain name, but store the **Authoritative Name Server** for the domain.
+
 
 --- 
 ## The registrant 
