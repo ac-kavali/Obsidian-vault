@@ -6,6 +6,7 @@
       {
         "id": "3107e36e4492c2e4",
         "type": "tabs",
+        "dimension": 35.714285714285715,
         "children": [
           {
             "id": "86d2d6057e9ba7c9",
@@ -76,18 +77,6 @@
             }
           },
           {
-            "id": "049ee8507fbaa2ec",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Http.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Http"
-            }
-          },
-          {
             "id": "8ab3fa18cc73097b",
             "type": "leaf",
             "state": {
@@ -102,7 +91,26 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
+      },
+      {
+        "id": "5687995a269d530c",
+        "type": "tabs",
+        "dimension": 64.28571428571429,
+        "children": [
+          {
+            "id": "049ee8507fbaa2ec",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Http.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Http"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -301,10 +309,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "2eeb4c40ebd7de1d",
+  "active": "049ee8507fbaa2ec",
   "lastOpenFiles": [
-    "Excalidraw/Http.md",
     "Web/HTTP.md",
+    "Excalidraw/Http.md",
     "Web/WebServer/Client-Server Arch.md",
     "INSP.md",
     "Networking/DNS.md",
