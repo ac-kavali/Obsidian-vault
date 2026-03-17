@@ -93,12 +93,14 @@
             "id": "049ee8507fbaa2ec",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Http.md"
+                "file": "Web/JavaScript/Coding JS.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Http"
+              "icon": "lucide-file",
+              "title": "Coding JS"
             }
           }
         ],
@@ -114,7 +116,7 @@
       {
         "id": "1eef5fe6e198baf0",
         "type": "tabs",
-        "dimension": 48.5053037608486,
+        "dimension": 68.37029893924783,
         "children": [
           {
             "id": "364eed01b939fc76",
@@ -161,7 +163,7 @@
       {
         "id": "549908e0566d76c4",
         "type": "tabs",
-        "dimension": 51.4946962391514,
+        "dimension": 31.62970106075217,
         "children": [
           {
             "id": "1e19b6aea4decbac",
@@ -177,7 +179,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 270.5
+    "width": 328.5
   },
   "right": {
     "id": "10424350b623bef2",
@@ -300,7 +302,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ab5bf2075ca00506",
+  "active": "364eed01b939fc76",
   "lastOpenFiles": [
     "Excalidraw/Http.md",
     "Web/HTTP.md",
