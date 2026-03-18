@@ -11,8 +11,9 @@ let name = "Alice";   // can be changed
 const age = 25;       // cannot be changed
 var old = true;       // old way, avoid if possible
 ```
+**Why you should avoid var**: `let` is used instead of var because `var` is function-scoped, while let is block-scoped—matching how developers expect variables to behave.
 
-==[Practice Js](https://www.boot.dev/)
+==[Practice Js](https://www.boot.dev/)==
 
 ---
 ## 2. Data Types
