@@ -232,5 +232,7 @@ console.log(y); // ❌ Error — y doesn't exist here
 ```
 
 ---
+## Functions Syntax
 
-> 💡 **Tip:** The best way to learn JS is to open your browser console (`F12`) and experiment with these examples directly!
+![[js_functions.png|697]]
+
