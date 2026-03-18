@@ -237,3 +237,105 @@ console.log(y); // ❌ Error — y doesn't exist here
 
 ![[js_functions.png|697]]
 
+---
+# Numbers in JavaScript
+
+In JavaScript, **all numbers share a single type**: `number`.  
+Unlike many other languages (Java, Python, C...), there is **no distinction** between `Float` and `Integer` — everything is a 64-bit floating-point value under the hood (IEEE 754).
+
+```javascript
+typeof 42;      // "number"
+typeof 3.14;    // "number"
+typeof -7;      // "number"
+```
+
+---
+
+## Basic Operations
+
+### Integer ÷ Integer
+```javascript
+let a = 10;
+let b = 3;
+
+let result = a / b;
+console.log(result); // 3.3333333333333335
+```
+> Unlike Java or C, JavaScript does **not** truncate the result — it returns a float automatically.
+
+---
+
+### Float ÷ Integer
+```javascript
+let price = 9.99;
+let quantity = 2;
+
+let total = price / quantity;
+console.log(total); // 4.995
+```
+
+---
+
+### Integer ÷ Float
+```javascript
+let distance = 100;
+let speed = 2.5;
+
+let time = distance / speed;
+console.log(time); // 40
+```
+> The result happens to be a whole number, but it's still of type `number` — not a special integer type.
+
+---
+
+### Float ÷ Float
+```javascript
+let x = 7.5;
+let y = 2.5;
+
+let ratio = x / y;
+console.log(ratio); // 3
+```
+
+---
+
+## Checking the Type
+```javascript
+let intVal   = 10 / 2;     // 5
+let floatVal = 10 / 3;     // 3.3333...
+
+console.log(typeof intVal);   // "number"
+console.log(typeof floatVal); // "number"
+```
+
+Both return `"number"` — JavaScript makes **no distinction** at the type level.
+
+---
+
+## Useful Built-ins
+
+If you ever need to enforce integer-like behavior, JavaScript provides helpers:
+
+```javascript
+let n = 7 / 2;              // 3.5
+
+Math.floor(n);              // 3  → round down
+Math.ceil(n);               // 4  → round up
+Math.round(n);              // 4  → nearest integer
+Math.trunc(n);              // 3  → remove decimal part
+parseInt(n);                // 3  → parse as integer
+n.toFixed(2);               // "3.50" → fixed decimal (returns a string)
+```
+
+---
+
+## Key Takeaway
+
+| Language   | Integer type | Float type |
+|------------|-------------|------------|
+| Java / C#  | `int`       | `float` / `double` |
+| Python     | `int`       | `float`    |
+| **JavaScript** | ❌ none | ❌ none — just `number` |
+
+> In JavaScript, **the type system doesn't care** whether your number has decimals or not — you do all the distinguishing yourself through logic and built-in methods.
+
