@@ -1,0 +1,60 @@
+# JavaScript `switch` Fall-Through Behavior
+
+## 📌 What is Fall-Through?
+
+In JavaScript, a `switch` statement does **not stop automatically** after finding a matching `case`.
+
+👉 Once a match is found, JavaScript:
+
+- Starts executing that case
+- Continues executing the next cases
+- Stops only when it sees a `break` or `return`
+
+This behavior is called **fall-through**.
+
+---
+
+## 🔍 Example (Without `break`)
+
+```js
+let x = 2;
+
+switch (x) {
+  case 1:
+    console.log("One");
+  case 2:
+    console.log("Two");
+  case 3:
+    console.log("Three");
+}
+```
+
+
+Output:
+Two
+Three
+🧠 Explanation:
+
+case 2 matches → execution starts here
+
+JavaScript does not check the next cases
+
+It continues and runs case 3 as well
+
+🛑 How to Stop Fall-Through
+
+Use break to stop execution:
+
+switch (x) {
+  case 1:
+    console.log("One");
+    break;
+  case 2:
+    console.log("Two");
+    break;
+  case 3:
+    console.log("Three");
+    break;
+}
+Output:
+Two
