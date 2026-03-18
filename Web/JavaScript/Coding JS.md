@@ -339,3 +339,207 @@ n.toFixed(2);               // "3.50" → fixed decimal (returns a string)
 
 > In JavaScript, **the type system doesn't care** whether your number has decimals or not — you do all the distinguishing yourself through logic and built-in methods.
 
+# JavaScript Quirks You Must Know
+
+---
+
+## 1. `undefined` — Declared but Empty
+
+When you declare a variable without assigning a value, JavaScript automatically sets it to `undefined`.
+
+```javascript
+let x;
+console.log(x); // undefined
+```
+
+It exists, it's just... empty. JavaScript is not mad at you. Yet.
+
+---
+
+## 2. `ReferenceError` — Never Declared At All
+
+Try to use a variable that was **never declared**, and JavaScript will crash immediately.
+
+```javascript
+console.log(ghost); // ❌ ReferenceError: ghost is not defined
+```
+
+> JavaScript: *"I have never seen this variable in my life."*
+
+---
+
+### `undefined` vs `ReferenceError` — Side by Side
+
+```javascript
+let x;
+console.log(x);      // undefined   ✅ (declared, no value)
+console.log(ghost);  // ❌ ReferenceError (never declared)
+```
+
+They **sound** the same in English, but one is a value, the other is a full crash. Classic JavaScript.
+
+---
+
+## 3. `const` — No Declaration Without a Value
+
+`const` is strict. You **must** assign a value at the moment of declaration. No exceptions.
+
+```javascript
+const PI;           // ❌ SyntaxError: Missing initializer in const declaration
+const PI = 3.14;    // ✅
+```
+
+This makes sense — if a variable can never be reassigned, what would it even mean to declare it empty?
+
+```javascript
+const name = "Alice";
+name = "Bob";       // ❌ TypeError: Assignment to constant variable
+```
+
+`const` is JavaScript's way of saying: *"Commit now, or don't show up."*
+
+---
+
+## 4. `null` vs `undefined` — The Eternal Confusion
+
+Both mean "no value" — but they mean it differently.
+
+| | `undefined` | `null` |
+|---|---|---|
+| **Set by** | JavaScript automatically | You, the developer, intentionally |
+| **Meaning** | "This was never given a value" | "This intentionally has no value" |
+| **Type** | `"undefined"` | `"object"` *(yes, this is a famous JS bug)* |
+
+```javascript
+let a;
+console.log(a);          // undefined  (JS set this)
+console.log(typeof a);   // "undefined"
+
+let b = null;
+console.log(b);          // null       (you set this)
+console.log(typeof b);   // "object"   ← famous JS quirk, don't panic
+```
+
+### Equality trap:
+```javascript
+null == undefined    // true  ✅ (loose equality)
+null === undefined   // false ❌ (strict equality — different types)
+```
+
+> Rule of thumb: use `null` when **you** want to say "empty on purpose". `undefined` is what JavaScript says when it doesn't know.
+
+---
+
+## 5. Strings + Numbers — JavaScript's Revenge
+
+This is where JavaScript earns its reputation.
+
+In most languages, mixing strings and numbers in math is an error.  
+In JavaScript? It's a *creative choice*.
+
+### The `+` operator — the traitor
+```javascript
+"5" + 3     // "53"  ← string concatenation, not math!
+"5" + "3"   // "53"
+5   + 3     // 8     ← only actual math when both are numbers
+```
+
+> `+` sees a string and immediately switches to **concatenation mode**. No warning. No error. Pure chaos.
+
+### Other operators — surprisingly fine
+```javascript
+"10" - 2    // 8   ✅ JS converts the string automatically
+"10" * 2    // 20  ✅
+"10" / 2    // 5   ✅
+"10" ** 2   // 100 ✅
+```
+
+> `-`, `*`, `/` have no string version, so JS is forced to convert. `+` is the only traitor.
+
+---
+
+## 6. Use Explicit Conversions — The Right Way
+
+Don't rely on JavaScript's automatic coercion. Convert explicitly before doing math.
+
+### String → Number
+```javascript
+Number("42")        // 42
+Number("3.14")      // 3.14
+Number("")          // 0   ← careful!
+Number("hello")     // NaN ← Not a Number
+
+parseInt("42px")    // 42  ← ignores non-numeric suffix
+parseFloat("3.14")  // 3.14
+
++"42"               // 42  ← shorthand with unary +
+```
+
+### Number → String
+```javascript
+String(42)          // "42"
+(42).toString()     // "42"
+(3.14).toFixed(1)   // "3.1"
+```
+
+### Safe math with string numbers
+```javascript
+let input = "20";   // came from a form or user input
+
+// ❌ Wrong
+let result = input + 5;           // "205"
+
+// ✅ Right
+let result = Number(input) + 5;   // 25
+let result = parseInt(input) + 5; // 25
+let result = +input + 5;          // 25
+```
+
+---
+
+## Quick Reference Cheatsheet
+
+```javascript
+// undefined
+let x;
+console.log(x);              // undefined
+
+// ReferenceError
+console.log(notDeclared);    // ❌ ReferenceError
+
+// const without value
+const y;                     // ❌ SyntaxError
+
+// null vs undefined
+let a = null;                // intentional empty
+let b;                       // automatic empty
+
+// string + number trap
+"5" + 3                      // "53" ❌
+Number("5") + 3              // 8   ✅
+```
+
+---
+
+## Key Takeaway
+
+> JavaScript was built for flexibility — but flexibility without awareness leads to bugs.  
+> Always declare your variables, always initialize your `const`, know the difference between `null` and `undefined`, and **never trust `+` with strings near numbers**.
+
+# JavaScript Equality Operators: `==` vs `===`
+
+JavaScript provides two main operators for comparing values: **loose equality** (`==`) and **strict equality** (`===`).
+
+---
+
+## 1. Loose Equality (`==`)
+
+- Compares **values** after **type coercion**.
+- JavaScript converts the operands to the same type before comparing.
+
+**Examples:**
+```js
+42 == "42"         // true, string converted to number
+0 == false         // true, false converted to 0
+null == undefined  // true, special rule
+
