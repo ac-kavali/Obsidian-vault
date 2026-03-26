@@ -1,6 +1,5 @@
-# ∞ Infinity in JavaScript
-
 JavaScript has a special numeric value called `Infinity` — a global constant representing a value greater than any finite number. There's also `-Infinity` for the negative counterpart.
+
 
 ---
 
