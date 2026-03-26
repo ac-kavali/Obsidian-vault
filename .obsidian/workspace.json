@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/JavaScript/Coding JS-0.md",
-                "mode": "preview",
+                "file": "Linux/Bash/Variables.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Coding JS-0"
+              "title": "Variables"
             }
           },
           {
@@ -97,16 +97,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/JavaScript/Coding JS.md",
-                "mode": "preview",
+                "file": "Project/B2BR.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Coding JS"
+              "title": "B2BR"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -134,6 +134,16 @@
             }
           },
           {
+            "id": "37f3fc129d048485",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
             "id": "d0cc911a7481dbdb",
             "type": "leaf",
             "state": {
@@ -148,16 +158,6 @@
               },
               "icon": "lucide-search",
               "title": "Search"
-            }
-          },
-          {
-            "id": "37f3fc129d048485",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
             }
           }
         ]
@@ -304,11 +304,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8ab3fa18cc73097b",
+  "active": "049ee8507fbaa2ec",
   "lastOpenFiles": [
+    "Linux/Service management.md",
+    "Linux/Bash/Variables.md",
+    "Linux/Web Servers.md",
+    "Linux/Permissions.md",
+    "Linux/awk.md",
+    "Web/JavaScript/Coding JS-0.md",
     "Web/JavaScript/Coding Js-2.md",
     "Web/JavaScript/Coding JS-1.md",
-    "Web/JavaScript/Coding JS-0.md",
     "Web/HTTP.md",
     "Excalidraw/Http.md",
     "Excalidraw/Drawing 2026-03-26 06.30.16.excalidraw.md",
@@ -330,12 +335,7 @@
     "Web/JavaScript/DOM Manipulation.md",
     "Web/WebServer/Web servers.md",
     "Excalidraw/bfs.md",
-    "Excalidraw/prim.md",
     "Web/WebServer",
-    "Project/Libft.md",
-    "Project/GNL.md",
-    "Linux/Permissions.md",
-    "Concepts/Bitwize.md",
     "Excalidraw/booting_process.excalidraw",
     "touse.png",
     "color-replaced.png",

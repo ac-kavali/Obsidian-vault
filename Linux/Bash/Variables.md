@@ -2,7 +2,7 @@
 
 ### Introduction
 
-> This is a comprehensive guide to understanding the difference between environment variables and bash variables in Linux and Unix-like systems. While they may seem similar, these two types of variables have distinct characteristics, scopes, and use cases. Understanding the difference is crucial for writing effective shell scripts, configuring applications, and managing your system properly.
+> This is a comprehensive guide to understanding the difference between environment variables and bash variables in Linux and Unix-like systems. While they may seem similar, these two types of variables have distinct characteristics, scopes, and use cases. Understanding the difference is crucial for writing effective shell scripts, configuring applications, and  managing your system properly.
 
 ## Table of Contents
 

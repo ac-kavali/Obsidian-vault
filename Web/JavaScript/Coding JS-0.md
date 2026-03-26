@@ -45,6 +45,7 @@ let name = 'Alice';
 let message = `Hi, ${name}!`; // template literal
 ```
 
+new line can be used just with backticks, 
 ### ✅ Booleans
 
 Only two values: `true` or `false`.
