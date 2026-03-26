@@ -67,12 +67,14 @@
             "id": "ab5bf2075ca00506",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Http.md"
+                "file": "Web/JavaScript/Coding Js-2.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Http"
+              "icon": "lucide-file",
+              "title": "Coding Js-2"
             }
           },
           {
@@ -302,11 +304,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3863b6ce1ad32df1",
+  "active": "ab5bf2075ca00506",
   "lastOpenFiles": [
     "Excalidraw/Http.md",
-    "Web/HTTP.md",
+    "Web/JavaScript/Coding Js-2.md",
     "Excalidraw/Drawing 2026-03-26 06.30.16.excalidraw.md",
+    "Web/HTTP.md",
     "Web/JavaScript/Coding JS-0.md",
     "Web/JavaScript/Coding JS-1.md",
     "Web/JavaScript/Conding-Js-1",
@@ -333,7 +336,6 @@
     "Project/GNL.md",
     "Linux/Permissions.md",
     "Concepts/Bitwize.md",
-    "Project/MZ.md",
     "Excalidraw/booting_process.excalidraw",
     "touse.png",
     "color-replaced.png",
