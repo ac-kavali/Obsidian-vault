@@ -56,7 +56,7 @@
               "type": "markdown",
               "state": {
                 "file": "Web/JavaScript/Coding JS-1.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -75,6 +75,18 @@
               },
               "icon": "lucide-file",
               "title": "HTTP"
+            }
+          },
+          {
+            "id": "91a9b091d5a3a66a",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-03-26 06.30.16.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-03-26 06.30.16.excalidraw"
             }
           },
           {
@@ -106,7 +118,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -304,8 +316,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "2eeb4c40ebd7de1d",
+  "active": "91a9b091d5a3a66a",
   "lastOpenFiles": [
+    "Web/HTTP.md",
+    "Excalidraw/Drawing 2026-03-26 06.30.16.excalidraw.md",
     "Web/JavaScript/Coding JS-0.md",
     "Web/JavaScript/Coding JS-1.md",
     "Web/JavaScript/Conding-Js-1",
@@ -314,7 +328,6 @@
     "Web/WebServer/Client-Server Arch.md",
     "Media/js_functions.png",
     "Excalidraw/Http.md",
-    "Web/HTTP.md",
     "INSP1.md",
     "Excalidraw/dns.md",
     "Linux/Bash/Needed Commands.md",
@@ -335,7 +348,6 @@
     "Linux/Permissions.md",
     "Concepts/Bitwize.md",
     "Project/MZ.md",
-    "Python/Python Essentiel Syntax.md",
     "Excalidraw/booting_process.excalidraw",
     "touse.png",
     "color-replaced.png",
