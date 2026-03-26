@@ -10,7 +10,7 @@ it a friendly use operating system for staping a server easly and from the instr
 | Use                 | entreprise, web hosting, professional use | community projects, servers, education |
 
 ---
-# <span class="color-green">Vertualisation </span>
+# Vertualisation
 
 **Virtualization** is a technology that lets you run **multiple operating systems** on a _single_ physical computer **at the same time**.
 A **Virtual Machine (VM)** is a _fake computer_ that runs inside your real computer.
@@ -18,7 +18,7 @@ in simple way : **Virtualization** = technique to create isolated computers insi
 **Virtual Machine** = one of those isolated computers
 
 ---
-# <span class="color-green">Hypervisors </span>
+# Hypervisors 
 
 A **hypervisor** is a piece of software that enables a user to create and run one or more virtual machines simultaneously. A hypervisor is also known as the virtual machine monitor (VMM) and controls the resources of the host machine and allocates to each VM the resources it needs (memory, CPU...), making sure that these VM's do not interfere with each other.
 
@@ -141,7 +141,7 @@ sda (30.8GB Physical Disk)
 - `1` = Read-only mode
 
 ---
-# <span class="color-green">Server </span>
+# Server
 
 A **server** is a computer — often with stronger resources — that **responds to requests from client devices** by providing specific services such as websites, email, DNS, files, databases, or applications.
 

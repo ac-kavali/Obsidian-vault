@@ -45,7 +45,17 @@ let name = 'Alice';
 let message = `Hi, ${name}!`; // template literal
 ```
 
-new line can be used just with backticks, 
+- **new line can be used just with backticks "\`"**
+if you used newline in `"` or `'` :
+```js
+let text = "Hello
+World";
+```
+output:
+```
+Uncaught SyntaxError: Invalid or unexpected token
+```
+
 ### ✅ Booleans
 
 Only two values: `true` or `false`.
