@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/HTTP.md",
-                "mode": "source",
+                "file": "Web/JavaScript/Coding JS-0.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTTP"
+              "title": "Coding JS-0"
             }
           },
           {
@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -304,14 +304,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ab5bf2075ca00506",
+  "active": "8ab3fa18cc73097b",
   "lastOpenFiles": [
     "Web/JavaScript/Coding Js-2.md",
     "Web/JavaScript/Coding JS-1.md",
+    "Web/JavaScript/Coding JS-0.md",
+    "Web/HTTP.md",
     "Excalidraw/Http.md",
     "Excalidraw/Drawing 2026-03-26 06.30.16.excalidraw.md",
-    "Web/HTTP.md",
-    "Web/JavaScript/Coding JS-0.md",
     "Web/JavaScript/Conding-Js-1",
     "Networking/DNS.md",
     "INSP.md",
