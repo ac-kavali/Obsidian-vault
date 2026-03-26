@@ -7,6 +7,7 @@
 - [[#Advanced Patterns|Advanced Patterns]]
 - [[#Common Pitfalls|Common Pitfalls]]
 - [[#Real-World Examples|Real-World Examples]]
+- [[#Automatic Semicolon Insertion (ASI)]]
 - [[#Summary|Summary]]
 
 ---
@@ -336,6 +337,32 @@ paginate(allUsers); // page 1, 10 per page
 paginate(allUsers, 3); // page 3, 10 per page
 paginate(allUsers, 1, 25); // page 1, 25 per page
 ```
+
+---
+## Automatic Semicolon Insertion (ASI)
+
+JavaScript doesn't require you to write semicolons — the engine inserts them automatically in certain situations. This is called **Automatic Semicolon Insertion (ASI)**. While convenient, it comes with subtle rules that can produce completely unexpected behavior if you're not aware of them.
+
+
+### How ASI Works
+
+The JS parser inserts a semicolon when it encounters a line break and determines the current statement cannot legally continue onto the next line.
+
+js
+
+```js
+// What you write:
+const a = 1
+const b = 2
+console.log(a + b)
+
+// What JS sees:
+const a = 1;
+const b = 2;
+console.log(a + b);
+```
+
+Simple cases like these work fine. The problems start at the edges.
 
 ---
 
