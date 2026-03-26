@@ -56,7 +56,7 @@
               "type": "markdown",
               "state": {
                 "file": "Web/JavaScript/Coding JS.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -105,7 +105,8 @@
               "title": "Coding JS"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -303,15 +304,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "364eed01b939fc76",
+  "active": "bf4a90ec355480ad",
   "lastOpenFiles": [
+    "Web/JavaScript/Conding-Js-1",
+    "Networking/DNS.md",
     "INSP.md",
     "Web/WebServer/Client-Server Arch.md",
     "Web/JavaScript/Coding JS.md",
     "Media/js_functions.png",
     "Excalidraw/Http.md",
     "Web/HTTP.md",
-    "Networking/DNS.md",
     "INSP1.md",
     "Excalidraw/dns.md",
     "Linux/Bash/Needed Commands.md",
