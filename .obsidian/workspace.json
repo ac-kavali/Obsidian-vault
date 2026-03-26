@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/JavaScript/Coding JS.md",
+                "file": "Web/JavaScript/Coding JS-1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Coding JS"
+              "title": "Coding JS-1"
             }
           },
           {
@@ -306,11 +306,12 @@
   },
   "active": "2eeb4c40ebd7de1d",
   "lastOpenFiles": [
+    "Web/JavaScript/Coding JS-0.md",
+    "Web/JavaScript/Coding JS-1.md",
     "Web/JavaScript/Conding-Js-1",
     "Networking/DNS.md",
     "INSP.md",
     "Web/WebServer/Client-Server Arch.md",
-    "Web/JavaScript/Coding JS.md",
     "Media/js_functions.png",
     "Excalidraw/Http.md",
     "Web/HTTP.md",
@@ -351,7 +352,6 @@
     "Excalidraw/Python2.excalidraw",
     "Excalidraw/primsss.excalidraw",
     "Project/Maze",
-    "Web/PHP",
     "Untitled.canvas"
   ]
 }
