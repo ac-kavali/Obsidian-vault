@@ -110,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5
+    "width": 328.5,
+    "collapsed": true
   },
   "right": {
     "id": "10424350b623bef2",
@@ -233,7 +234,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "2eeb4c40ebd7de1d",
+  "active": "bf4a90ec355480ad",
   "lastOpenFiles": [
     "Web/JavaScript/String Methods,Slicing.md",
     "Web/JavaScript/Coding JS-0.md",
