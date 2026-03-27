@@ -1,4 +1,3 @@
-
 ## Table of content
 - [[#What Are Default Parameters?|What Are Default Parameters?]]
 - [[#Basic Syntax|Basic Syntax]]
