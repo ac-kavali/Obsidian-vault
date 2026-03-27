@@ -35,7 +35,7 @@ var old = true;       // old way, avoid if possible
 ---
 ## 2. Data Types
 
-### 🔤 Strings
+###  Strings
 
 Text wrapped in quotes.
 
@@ -56,7 +56,19 @@ output:
 Uncaught SyntaxError: Invalid or unexpected token
 ```
 
-### ✅ Booleans
+Unicode is a system that assigns a **unique number** to almost every character used in writing systems worldwide.
+JavaScript uses **UTF-16**, meaning it assigns **16 bits (2 bytes)** for each string element (technically called a "code unit").
+ **The complication**
+- Unicode has **more than 65,536 characters**—over 143,000 characters now.
+- Some characters, especially emojis and less common symbols, **cannot fit in a single 16-bit unit**.
+- JavaScript handles these using **two 16-bit elements** (called a _surrogate pair_).
+**Example**
+
+| Variable | Value  | What it is           | Code units         | `.length` |
+| -------- | ------ | -------------------- | ------------------ | --------- |
+| `str1`   | `"A"`  | A basic Latin letter | 1                  | `1`       |
+| `str2`   | `"😃"` | An emoji             | 2 (surrogate pair) | `2`       |
+###  Booleans
 
 Only two values: `true` or `false`.
 
@@ -65,7 +77,7 @@ let isLoggedIn = true;
 let hasError = false;
 ```
 
-### 🔢 Numbers
+###  Numbers
 
 Integers and decimals — no distinction needed.
 
@@ -75,7 +87,7 @@ let price = 9.99;
 let negative = -5;
 ```
 
-### 📋 Arrays
+###  Arrays
 
 Ordered lists of values.
 
@@ -86,7 +98,7 @@ fruits.length;    // 3
 fruits.push("mango"); // adds to end
 ```
 
-### 🗂️ Objects
+###  Objects
 
 Key-value pairs — like a record or dictionary.
 
@@ -101,7 +113,7 @@ person.name;       // "Alice"
 person["age"];     // 25
 ```
 
-### 🔣 Symbols
+###  Symbols
 
 Unique, immutable identifiers — rarely needed for beginners.
 
@@ -111,7 +123,7 @@ let anotherId = Symbol("id");
 id === anotherId; // false — always unique!
 ```
 
-### 💬 Comments
+###  Comments
 
 Notes in your code that JS ignores.
 
