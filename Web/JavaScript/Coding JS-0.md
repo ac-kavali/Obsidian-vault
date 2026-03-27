@@ -32,6 +32,34 @@ var old = true;       // old way, avoid if possible
 
 ==[Practice Js](https://www.boot.dev/)==
 
+#### Always Declare Variables in JavaScript
+
+JavaScript lets you write `x = 10` without any keyword — but you shouldn't.
+
+### Why It's Dangerous
+
+Skipping `let`, `const`, or `var` creates an **implicit global variable**, meaning it's accessible everywhere in your app, even from inside functions. This leads to:
+
+- **Accidental overwrites** — two parts of your code sharing the same global name
+- **Strict mode errors** — `"use strict"` throws a `ReferenceError` on undeclared variables
+- **Unpredictable bugs** — especially in larger codebases
+
+### Which Keyword to Use
+
+|Keyword|Use when...|
+|---|---|
+|`const`|Value never changes — **default choice**|
+|`let`|Value will be reassigned|
+|`var`|Legacy code only|
+
+### Rule of Thumb
+
+```
+const first → let if needed → var only for old code → never omit
+```
+
+> Omitting the keyword is a legacy quirk, not a feature. Always declare explicitly.
+
 ---
 ## 2. Data Types
 

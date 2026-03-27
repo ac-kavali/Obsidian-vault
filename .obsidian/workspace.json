@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Web/JavaScript/Coding JS-0.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -235,12 +235,12 @@
   },
   "active": "2eeb4c40ebd7de1d",
   "lastOpenFiles": [
-    "Web/JavaScript/String Methods,Slicing.md",
     "Web/JavaScript/Classes and Objects.md",
+    "Web/JavaScript/Coding JS-0.md",
+    "Web/JavaScript/String Methods,Slicing.md",
     "Web/JavaScript/Coding JS-1.md",
     "Web/WebServer/Client-Server Arch.md",
     "Networking/DNS.md",
-    "Web/JavaScript/Coding JS-0.md",
     "Linux/kali-setup.md",
     "Web/JavaScript/Coding Js-2.md",
     "Media/latest.jpg",
