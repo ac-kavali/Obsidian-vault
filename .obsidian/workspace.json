@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/JavaScript/Coding JS-1.md",
-                "mode": "preview",
+                "file": "Web/JavaScript/Untitled.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Coding JS-1"
+              "title": "Untitled"
             }
           },
           {
@@ -110,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5,
-    "collapsed": true
+    "width": 328.5
   },
   "right": {
     "id": "10424350b623bef2",
@@ -234,11 +233,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "bf4a90ec355480ad",
+  "active": "2eeb4c40ebd7de1d",
   "lastOpenFiles": [
-    "Web/JavaScript/String Methods,Slicing.md",
     "Web/JavaScript/Coding JS-0.md",
+    "Web/JavaScript/Untitled.md",
     "Web/JavaScript/Coding JS-1.md",
+    "Web/JavaScript/String Methods,Slicing.md",
     "Web/JavaScript/Classes and Objects.md",
     "Web/WebServer/Client-Server Arch.md",
     "Networking/DNS.md",
@@ -266,7 +266,6 @@
     "Web/JavaScript/Todo.md",
     "Excalidraw/Drawing 2026-03-13 20.25.30.excalidraw.md",
     "Excalidraw/Drawing 2026-03-13 22.17.21.excalidraw.md",
-    "Web/Requests.md",
     "Web/WebServer",
     "Excalidraw/booting_process.excalidraw",
     "touse.png",
