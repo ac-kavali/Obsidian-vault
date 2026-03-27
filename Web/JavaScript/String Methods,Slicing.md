@@ -1,7 +1,12 @@
 Strings in JavaScript come with a rich set of built-in methods for searching, transforming, and extracting text.
 
----
+## Table of Content:
+- [[#Common String Methods|Common String Methods]]
+- [[#String Slicing|String Slicing]]
+- [[#Quick Comparison: `slice` vs `substring`|Quick Comparison: `slice` vs `substring`]]
+- [[#Tips|Tips]]
 
+---
 ## Common String Methods
 
 ### Case Conversion
