@@ -28,14 +28,15 @@
               "type": "markdown",
               "state": {
                 "file": "Web/JavaScript/Coding JS-0.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Coding JS-0"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -233,11 +234,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "2eeb4c40ebd7de1d",
+  "active": "364eed01b939fc76",
   "lastOpenFiles": [
+    "Media/Screenshot from 2026-03-28 22-05-40.png",
+    "Web/JavaScript/Coding JS-0.md",
     "Web/JavaScript/Coding JS-1.md",
     "Web/JavaScript/Arrays.md",
-    "Web/JavaScript/Coding JS-0.md",
     "Web/JavaScript/String Methods,Slicing.md",
     "Web/JavaScript/Classes and Objects.md",
     "Web/WebServer/Client-Server Arch.md",
@@ -265,7 +267,6 @@
     "Web/JavaScript/Introduction.md",
     "Web/JavaScript/Todo.md",
     "Excalidraw/Drawing 2026-03-13 20.25.30.excalidraw.md",
-    "Excalidraw/Drawing 2026-03-13 22.17.21.excalidraw.md",
     "Web/WebServer",
     "Excalidraw/booting_process.excalidraw",
     "touse.png",

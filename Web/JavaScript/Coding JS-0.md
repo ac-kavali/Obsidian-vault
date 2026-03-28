@@ -472,16 +472,15 @@ name = "Bob";       // ❌ TypeError: Assignment to constant variable
 `const` is JavaScript's way of saying: *"Commit now, or don't show up."*
 
 ---
-
 ## 4. `null` vs `undefined` — The Eternal Confusion
 
 Both mean "no value" — but they mean it differently.
 
-| | `undefined` | `null` |
-|---|---|---|
-| **Set by** | JavaScript automatically | You, the developer, intentionally |
-| **Meaning** | "This was never given a value" | "This intentionally has no value" |
-| **Type** | `"undefined"` | `"object"` *(yes, this is a famous JS bug)* |
+|             | `undefined`                    | `null`                                      |
+| ----------- | ------------------------------ | ------------------------------------------- |
+| **Set by**  | JavaScript automatically       | You, the developer, intentionally           |
+| **Meaning** | "This was never given a value" | "This intentionally has no value"           |
+| **Type**    | `"undefined"`                  | `"object"` *(yes, this is a famous JS bug)* |
 
 ```javascript
 let a;
@@ -500,6 +499,8 @@ null === undefined   // false ❌ (strict equality — different types)
 ```
 
 > Rule of thumb: use `null` when **you** want to say "empty on purpose". `undefined` is what JavaScript says when it doesn't know.
+
+![[Screenshot from 2026-03-28 22-05-40.png]]
 
 ---
 
