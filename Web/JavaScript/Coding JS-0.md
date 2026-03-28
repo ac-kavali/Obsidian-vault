@@ -19,6 +19,11 @@
 - [[#1. Loose Equality (`==`)|1. Loose Equality (==)]]
 
 ---
+**Tool usefull:**
+```js
+Object.getOwnPropertyNames(Object/Constructor/function)
+```
+This function is usefull to get all object propreties and methods as a disctionnary, the similar one in `python` is `dir()`.
 ## 1. Variables
 
 Variables store data. Use `let`, `const`, or `var` to declare them.

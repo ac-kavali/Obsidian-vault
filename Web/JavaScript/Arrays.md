@@ -421,7 +421,7 @@ people.reduce((groups, person) => {
 ---
 
 ## Sorting & Ordering
-
+JavaScript’s default `.sort()` does **lexicographical (dictionary-like) sorting**,
 ```js
 // Strings (alphabetical)
 ["banana", "apple", "cherry"].sort();

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/JavaScript/Arrays.md",
+                "file": "Web/JavaScript/Coding JS-0.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Arrays"
+              "title": "Coding JS-0"
             }
           },
           {
@@ -235,9 +235,9 @@
   },
   "active": "2eeb4c40ebd7de1d",
   "lastOpenFiles": [
-    "Web/JavaScript/Coding JS-0.md",
-    "Web/JavaScript/Arrays.md",
     "Web/JavaScript/Coding JS-1.md",
+    "Web/JavaScript/Arrays.md",
+    "Web/JavaScript/Coding JS-0.md",
     "Web/JavaScript/String Methods,Slicing.md",
     "Web/JavaScript/Classes and Objects.md",
     "Web/WebServer/Client-Server Arch.md",
