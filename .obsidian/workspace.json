@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/JavaScript/Introduction.md",
-                "mode": "source",
+                "file": "Web/WebServer/Client-Server Arch.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction"
+              "title": "Client-Server Arch"
             }
           },
           {
@@ -235,6 +235,7 @@
   },
   "active": "2eeb4c40ebd7de1d",
   "lastOpenFiles": [
+    "Web/JavaScript/Introduction.md",
     "Web/JavaScript/String Methods,Slicing.md",
     "Web/JavaScript/Memory Usage.md",
     "Web/JavaScript/Coding JS-0.md",
@@ -263,7 +264,6 @@
     "Media/kali-problem.jpg",
     "Linux/Service management.md",
     "Linux/Web Servers.md",
-    "Linux/Permissions.md",
     "Web/JavaScript/Conding-Js-1",
     "Media/js_functions.png",
     "Screenshot from 2026-03-13 22-16-34.png",

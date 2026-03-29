@@ -1,6 +1,8 @@
-#### TODO
-### What it is used for:
+## Definition:
+JavaScript is a scripting language or programming language used on both the server-side and client-side to create engaging website elements.
+[Full Difinition](https://brainstation.io/learn/javascript/what-is-javascript-used-for#what-is-javascript-used-for) and memory resuscitation
 
+## Uses of JavaScript
 - Manipulating the DOM
 - Handling clicks
 - Animations
@@ -8,20 +10,13 @@
 - Fetching data using `fetch()`
 - Dynamic UI updates
 
----
-## Diffinition
-
-JavaScript is a scripting language or programming language used on both the server-side and client-side to create engaging website elements.
-[Full Difinition](https://brainstation.io/learn/javascript/what-is-javascript-used-for#what-is-javascript-used-for) and memory resuscitationز
-
-## Uses of JavaScript
 ### On the Front-End (Browser Side)
 JavaScript allows developers to:
 - Create interactive elements (buttons, menus, animations)
 - Update content without reloading the page
 - Validate forms before sending data
 - Add multimedia and visual effects
-|> Basically, it controls **user interaction and behavior** on a webpage.
+ Basically, it controls **user interaction and behavior** on a webpage.
 
 
 ### Building Web & Mobile Applications
@@ -34,7 +29,7 @@ These frameworks provide pre-written code to:
 - Improve structure
 - Make apps scalable and maintainable
 
-|>They help build serious, production-level applications.
+**They help build serious, production-level applications.**
 
 ### Back-End Development
 With Node.js, JavaScript can run on the server side.
