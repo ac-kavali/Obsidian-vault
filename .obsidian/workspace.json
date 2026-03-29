@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/JavaScript/Coding JS-1.md",
+                "file": "Web/JavaScript/Arrays.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Coding JS-1"
+              "title": "Arrays"
             }
           },
           {
@@ -235,15 +235,15 @@
   },
   "active": "2eeb4c40ebd7de1d",
   "lastOpenFiles": [
+    "Web/JavaScript/Functions&Parameters.md",
     "Web/JavaScript/Get-started.md",
-    "Web/JavaScript/Coding JS-1.md",
+    "Web/JavaScript/Special-Numbers.md",
     "Web/JavaScript/Introduction.md",
     "Project/B2BR.md",
     "Web/WebServer/Client-Server Arch.md",
     "Web/JavaScript/String Methods,Slicing.md",
     "Web/JavaScript/Memory Usage.md",
     "Web/JavaScript/DOM.md",
-    "Web/JavaScript/Coding Js-2.md",
     "Web/JavaScript/Random.md",
     "Web/JavaScript/Errors.md",
     "Linux/Linux Logs.md",

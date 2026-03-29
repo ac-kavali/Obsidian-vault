@@ -1,4 +1,5 @@
 ## Table of content
+- [[#Functions Syntax]]
 - [[#What Are Default Parameters?|What Are Default Parameters?]]
 - [[#Basic Syntax|Basic Syntax]]
 - [[#How JavaScript Evaluates Default Parameters|How JavaScript Evaluates Default Parameters]]
@@ -10,6 +11,9 @@
 - [[#Summary|Summary]]
 
 ---
+## Functions Syntax
+
+![[js_functions.png|697]]
 
 ## What Are Default Parameters?
 

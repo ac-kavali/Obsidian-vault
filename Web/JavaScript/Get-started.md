@@ -306,11 +306,6 @@ console.log(y); // ❌ Error — y doesn't exist here
 ```
 
 ---
-## Functions Syntax
-
-![[js_functions.png|697]]
-
----
 # Numbers in JavaScript
 
 In JavaScript, **all numbers share a single type**: `number`.  
