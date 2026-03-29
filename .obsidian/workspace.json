@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/JavaScript/Coding JS-0.md",
+                "file": "Web/JavaScript/Errors.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Coding JS-0"
+              "title": "Errors"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "B2BR"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,8 +89,7 @@
               "title": "Search"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "549908e0566d76c4",
@@ -235,9 +233,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ab5bf2075ca00506",
+  "active": "2eeb4c40ebd7de1d",
   "lastOpenFiles": [
     "Linux/Linux Logs.md",
+    "Web/JavaScript/Errors.md",
+    "Project/B2BR.md",
+    "Web/JavaScript/Coding JS-0.md",
     "Linux/Bash/Bash.md",
     "Linux/Bash/Needed Commands.md",
     "Linux/Bash/First scirpt.md",
@@ -246,7 +247,6 @@
     "Linux/Bash/Data types.md",
     "Linux/Bash/bash instructions.md",
     "Linux/Bash/Variables.md",
-    "Web/JavaScript/Coding JS-0.md",
     "Media/Screenshot from 2026-03-28 22-05-40.png",
     "Web/JavaScript/Coding JS-1.md",
     "Web/JavaScript/Arrays.md",
@@ -259,13 +259,11 @@
     "Media/latest.jpg",
     "Media/kali-problem.jpg",
     "Linux/Service management.md",
-    "Project/B2BR.md",
     "Linux/Web Servers.md",
     "Linux/Permissions.md",
     "Linux/awk.md",
     "Web/HTTP.md",
     "Excalidraw/Http.md",
-    "Excalidraw/Drawing 2026-03-26 06.30.16.excalidraw.md",
     "Web/JavaScript/Conding-Js-1",
     "Media/js_functions.png",
     "Screenshot from 2026-03-13 22-16-34.png",
