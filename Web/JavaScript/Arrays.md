@@ -34,10 +34,16 @@ Arrays are **zero-indexed**: the first element is at index `0`.
 ## Creating Arrays
 
 ### Array Literal (most common)
-
+means **creating an array using square brackets `[]` directly**,
 ```js
 const fruits = ["apple", "banana", "cherry"];
 ```
+or empty:
+```js
+const fruits = [];
+arr.push("banana"); //Adding values 
+```
+
 
 ### `Array()` Constructor
 
