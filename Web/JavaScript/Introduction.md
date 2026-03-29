@@ -1,5 +1,4 @@
 #### TODO
-- [ ] being familiar with js variable and syntax
 ### What it is used for:
 
 - Manipulating the DOM

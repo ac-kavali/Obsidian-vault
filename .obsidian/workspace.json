@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/JavaScript/Random.md",
+                "file": "Web/JavaScript/Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Random"
+              "title": "Introduction"
             }
           },
           {
@@ -235,11 +235,16 @@
   },
   "active": "2eeb4c40ebd7de1d",
   "lastOpenFiles": [
-    "Web/JavaScript/Errors.md",
+    "Web/JavaScript/String Methods,Slicing.md",
+    "Web/JavaScript/Memory Usage.md",
+    "Web/JavaScript/Coding JS-0.md",
+    "Web/JavaScript/DOM.md",
+    "Web/JavaScript/Coding JS-1.md",
+    "Web/JavaScript/Coding Js-2.md",
     "Web/JavaScript/Random.md",
+    "Web/JavaScript/Errors.md",
     "Linux/Linux Logs.md",
     "Project/B2BR.md",
-    "Web/JavaScript/Coding JS-0.md",
     "Linux/Bash/Bash.md",
     "Linux/Bash/Needed Commands.md",
     "Linux/Bash/First scirpt.md",
@@ -249,21 +254,16 @@
     "Linux/Bash/bash instructions.md",
     "Linux/Bash/Variables.md",
     "Media/Screenshot from 2026-03-28 22-05-40.png",
-    "Web/JavaScript/Coding JS-1.md",
     "Web/JavaScript/Arrays.md",
-    "Web/JavaScript/String Methods,Slicing.md",
     "Web/JavaScript/Classes and Objects.md",
     "Web/WebServer/Client-Server Arch.md",
     "Networking/DNS.md",
     "Linux/kali-setup.md",
-    "Web/JavaScript/Coding Js-2.md",
     "Media/latest.jpg",
     "Media/kali-problem.jpg",
     "Linux/Service management.md",
     "Linux/Web Servers.md",
     "Linux/Permissions.md",
-    "Linux/awk.md",
-    "Web/HTTP.md",
     "Web/JavaScript/Conding-Js-1",
     "Media/js_functions.png",
     "Screenshot from 2026-03-13 22-16-34.png",
