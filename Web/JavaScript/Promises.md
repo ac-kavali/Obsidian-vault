@@ -78,11 +78,9 @@ processUserInput(greet);
 Here we pass `greet` function as a parameter to the `processUserInput` function to be executed later.
 
 ---
-## JavaScript Events
-**Events** are actions or occurrences that happen in the browser, often triggered by user interactions (like clicks, keypresses, or form submissions) or by the browser itself (like page loading or resizing).
-
-
-
+## Events
+**Events** are actions or occurrences that happen in the browser, often triggered by user interactions (like clicks, keypresses, or form submissions) or by the browser itself (like page loading).
+Callbacks are often used in JavaScript, especially in **event handling**:
 
 When you write:
 ```js
