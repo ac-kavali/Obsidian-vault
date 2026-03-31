@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Web/JavaScript/Promises.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -33,7 +33,7 @@
       {
         "id": "1eef5fe6e198baf0",
         "type": "tabs",
-        "dimension": 68.37029893924783,
+        "dimension": 65.99229287090559,
         "children": [
           {
             "id": "364eed01b939fc76",
@@ -78,12 +78,12 @@
         ]
       },
       {
-        "id": "549908e0566d76c4",
+        "id": "8813d4198908e99f",
         "type": "tabs",
-        "dimension": 31.62970106075217,
+        "dimension": 34.00770712909441,
         "children": [
           {
-            "id": "1e19b6aea4decbac",
+            "id": "45862676a191decc",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -207,22 +207,23 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": true,
-      "graph:Open graph view": false,
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
       "publish:Publish changes...": true,
+      "graph:Open graph view": false,
       "daily-notes:Open today's daily note": false,
       "bases:Create new base": false,
       "audio-recorder:Start/stop recording": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "ab5bf2075ca00506",
   "lastOpenFiles": [
-    "Web/JavaScript/Memory Usage.md",
+    "Linux/Redirecting.md",
     "Web/JavaScript/Promises.md",
+    "Web/JavaScript/Memory Usage.md",
     "Web/JavaScript/Functions&Parameters.md",
     "Project/B2BR.md",
     "Media/ARP3.png",
@@ -247,7 +248,6 @@
     "Web/JavaScript/Special-Numbers.md",
     "Linux/awk.md",
     "Linux/Bash/bash instructions.md",
-    "Linux/Bash/Data types.md",
     "Media/Screenshot from 2026-03-28 22-05-40.png",
     "Media/latest.jpg",
     "Media/kali-problem.jpg",

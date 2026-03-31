@@ -11,6 +11,7 @@ Asynchronous is how JavaScript can allow some code to run in the background, and
 By default, JavaScript runs code _from top to bottom_ and left to right.
 And async programing can change this.
 
+---
 ## Why Async Code
 
 _Some tasks take time to finish_ (network requests, timers, user interaction).
@@ -34,9 +35,9 @@ JavaScript is single-threaded, so it delegates async work to external APIs — i
 |File I/O (Node)|Node’s libuv / OS| no, async|
 The JS engine only receives the result (or a notification that something is ready), at which point it runs the callback — which is typically a quick operation that doesn't block other tasks.
 
-
+---
 ## SetTimout
-Is a _node/browser API_ that lets you schedule a function to run after a certain delay (in milliseconds).
+Is a _node/browser API_ that lets you schedule a function to run after a certain delay (in milliseconds), it schedules the callback **repeatedly**, every N milliseconds.
 **Syntax**
 ```js
 setTimeout(functionToRun, delayInMs);
@@ -55,13 +56,28 @@ const intervalId = setInterval(() => {
 }, 1000);
 ```
 
-- `ClearInterval`: used to stop the 
+- `ClearInterval`: used to stop the function callback, without it will stay infinitly executed.
 
+---
+## Callbacks
+A **callback** is simply a function passed as an argument to another function, which can be called **at some point** by that function.
 
+_exmaple_
+```js
+function greet(name) {
+  console.log("Hello " + name);
+}
 
+function processUserInput(callback) {
+  const name = "Ahmed";
+  callback(name);
+}
 
+processUserInput(greet);
+```
+Here we pass `greet` function as a parameter to the `processUserInput` function to be executed later.
 
-
+---
 ## JavaScript Events
 **Events** are actions or occurrences that happen in the browser, often triggered by user interactions (like clicks, keypresses, or form submissions) or by the browser itself (like page loading or resizing).
 
