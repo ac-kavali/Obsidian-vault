@@ -79,7 +79,7 @@ Here we pass `greet` function as a parameter to the `processUserInput` function 
 
 ---
 ## Events
-**Events** are actions or occurrences that happen in the browser, often triggered by user interactions (like clicks, keypresses, or form submissions) or by the browser itself (like page loading).
+An **event** is something that happens in your program that JavaScript can react to. like user click or typing, page loads, data arrive, timer finish 
 Callbacks are often used in JavaScript, especially in **event handling**:
 
 When you write:
