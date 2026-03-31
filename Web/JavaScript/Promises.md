@@ -35,6 +35,33 @@ JavaScript is single-threaded, so it delegates async work to external APIs — i
 The JS engine only receives the result (or a notification that something is ready), at which point it runs the callback — which is typically a quick operation that doesn't block other tasks.
 
 
+## SetTimout
+Is a _node/browser API_ that lets you schedule a function to run after a certain delay (in milliseconds).
+**Syntax**
+```js
+setTimeout(functionToRun, delayInMs);
+```
+- `functionToRun` → the function you want to execute later
+- `delayInMs` → how long to wait (in milliseconds) before running the function
+```js
+let counter = 0;
+
+const intervalId = setInterval(() => {
+  counter++;
+  console.log("Counter:", counter);
+  if(counter === 5) {
+    clearInterval(intervalId); // stop after 5 times
+  }
+}, 1000);
+```
+
+- `ClearInterval` 
+
+
+
+
+
+
 ## JavaScript Events
 **Events** are actions or occurrences that happen in the browser, often triggered by user interactions (like clicks, keypresses, or form submissions) or by the browser itself (like page loading or resizing).
 
