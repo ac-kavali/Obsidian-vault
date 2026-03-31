@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Web/JavaScript/Promises.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -219,7 +219,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ab5bf2075ca00506",
+  "active": "bf4a90ec355480ad",
   "lastOpenFiles": [
     "Web/JavaScript/Memory Usage.md",
     "Web/JavaScript/Promises.md",
