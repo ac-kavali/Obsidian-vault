@@ -55,7 +55,7 @@ const intervalId = setInterval(() => {
 }, 1000);
 ```
 
-- `ClearInterval` 
+- `ClearInterval`: used to stop the 
 
 
 
