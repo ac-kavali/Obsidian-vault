@@ -32,7 +32,7 @@ JavaScript is single-threaded, so it delegates async work to external APIs — i
 |Network request|Browser / Node APIs|❌ no, async|
 |Timer (`setTimeout`)|Browser / Node APIs|❌ no, async|
 |File I/O (Node)|Node’s libuv / OS|❌ no, async|
-Yes, that's correct. The JS engine only receives the result (or a notification that something is ready), at which point it runs the callback — which is typically a quick operation that doesn't block other tasks.
+The JS engine only receives the result (or a notification that something is ready), at which point it runs the callback — which is typically a quick operation that doesn't block other tasks.
 
 
 ## JavaScript Events
