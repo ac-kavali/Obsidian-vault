@@ -13,25 +13,25 @@ And async programing can change this.
 
 ## Why Async Code
 
-**Some tasks take time to finish** (network requests, timers, user input).
+_Some tasks take time to finish_ (network requests, timers, user interaction).
 **To stay responsive**, JavaScript can use **async programming**.
 **Asynchronous flow** refers to how JavaScript allows certain operations to **run in the background** and let their results be **handled when they are ready**.
 If JavaScript waited for these tasks, the page would freeze.
 Asych code lets the rest of the program continue to run.
 Async code does not run immediately:
-- **Timers** run after a specified number of milliseconds
-- **Events** run when triggered by an event
-- **Network requests** run when the data arrives
+- **Timers** run after a specified number of milliseconds.
+- **Events** run when triggered by an event or interaction.
+- **Network requests** run when the data arrives.
 
 ### Async with single thread
 JavaScript is single-threaded, so it delegates async work to external APIs — in the browser or Node.js — which handle four things on its behalf: network requests, timers, user interactions, and I/O operations. Once any of those finish, the result is handed back to JavaScript to process.
 
 |Task type|Who handles it|Is it blocking JS?|
 |---|---|---|
-|Calculation / math / loops|JS engine|✅ yes, blocks|
-|Network request|Browser / Node APIs|❌ no, async|
-|Timer (`setTimeout`)|Browser / Node APIs|❌ no, async|
-|File I/O (Node)|Node’s libuv / OS|❌ no, async|
+|Calculation / math / loops|JS engine| yes, blocks|
+|Network request|Browser / Node APIs| no, async|
+|Timer (`setTimeout`)|Browser / Node APIs| no, async|
+|File I/O (Node)|Node’s libuv / OS| no, async|
 The JS engine only receives the result (or a notification that something is ready), at which point it runs the callback — which is typically a quick operation that doesn't block other tasks.
 
 
