@@ -3,6 +3,8 @@
 - [[#What Are Default Parameters?|What Are Default Parameters?]]
 - [[#Basic Syntax|Basic Syntax]]
 - [[#How JavaScript Evaluates Default Parameters|How JavaScript Evaluates Default Parameters]]
+- [[#Anonymous Functions]]
+- [[#Arrow Functions]]
 - [[#Checking if a Variable Was Not Given to a Function|Checking if a Variable Was Not Given to a Function]]
 - [[#Advanced Patterns|Advanced Patterns]]
 - [[#Common Pitfalls|Common Pitfalls]]
@@ -83,7 +85,48 @@ createRect(5, 20); // { width: 5, height: 20 }
 > ⚠️ A parameter can only reference parameters that come **before** it in the list.
 
 ---
+## Anonymous Functions
 
+**Definition:**  
+An **anonymous function** is a function **without a name**, usually used when the function is needed only once or passed as an argument.
+
+Example:
+```js
+const greet = function () {
+  console.log("Hello");
+};
+
+greet();
+```
+
+Callback:
+```js
+setTimeout(function () {
+  console.log("Hi after 1 second");
+}, 1000);
+```
+
+
+---
+## Arrow Functions
+**Definition:**  
+The `=>` syntax is used to create an **arrow function**, which is a shorter way to write a function expression.
+
+_Basic Example:_
+```js
+const greet = () => {
+  console.log("Hello");
+};
+```
+_Equivalent to :_
+```js
+const greet = function () {
+  console.log("Hello");
+};
+```
+Just instead of typing funtions keyword you use the arrow symbol`=>`. 
+
+---
 ## Checking if a Variable Was Not Given to a Function
 
 This is a very common need — you want to know whether the caller **actually passed** an argument, or left it out entirely.

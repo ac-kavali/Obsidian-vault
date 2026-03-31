@@ -17,9 +17,10 @@ They are mostly written in **C** or **C++**
 # Server-side Scripting language
 
 Languages like:
+- JS
+- Python
 - PHP
 - Perl
-- Python
 - Ruby
 are used to build:
 *The web application not the server itself*

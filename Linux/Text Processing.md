@@ -10,9 +10,6 @@
 - [[#Advanced Text Processing|Advanced Text Processing]]
 - [[#Regular Expressions|Regular Expressions]]
 - [[#Tips and Best Practices|Tips and Best Practices]]
-- [[#Contributing|Contributing]]
-- [[#License|License]]
-
 
 ---
 
@@ -439,13 +436,3 @@ Test and learn regex patterns at: [regex101.com](https://regex101.com/)
 3. **Sort before using `uniq`** for accurate duplicate removal
 4. **Use `grep -E`** for extended regex without escaping special characters
 5. **Test regex patterns** on sample data before applying to important files
-
----
-
-## Contributing
-
-Feel free to suggest improvements or additional commands!
-
-## License
-
-This guide is provided as-is for educational purposes.

@@ -1,12 +1,11 @@
-# Environment Variables vs Bash Variables
-
-### Introduction
-
-> This is a comprehensive guide to understanding the difference between environment variables and bash variables in Linux and Unix-like systems. While they may seem similar, these two types of variables have distinct characteristics, scopes, and use cases. Understanding the difference is crucial for writing effective shell scripts, configuring applications, and  managing your system properly.
-
 ## Table of Contents
-
-
+- [[#What are Variables in Bash]]
+- [[#Bash Variables (Local/Shell Variables)]]
+- [[#Environment Variables]]
+- [[#Key Differences]]
+- [[#Working with Variables]]
+- [[#Best Practices]]
+- [[#Summary]]
 ---
 
 # What are Variables in Bash
@@ -16,7 +15,6 @@ Variables in bash are named storage locations that hold data. They allow you to 
 ## Basic Concept
 
 A variable consists of:
-
 - **Name**: An identifier (case-sensitive)
 - **Value**: The data stored in the variable
 - **Scope**: Where the variable can be accessed
