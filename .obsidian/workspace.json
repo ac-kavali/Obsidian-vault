@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INSP1.md",
+                "file": "Web/JavaScript/Promises.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "INSP1"
+              "title": "Promises"
             }
           }
         ]
@@ -96,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5
+    "width": 281.5
   },
   "right": {
     "id": "10424350b623bef2",
@@ -219,13 +219,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3caf8fc11b0b9a32",
+  "active": "364eed01b939fc76",
   "lastOpenFiles": [
-    "INSP.md",
     "INSP1.md",
+    "INSP.md",
+    "Excalidraw/Drawing 2026-04-01 02.24.57.excalidraw.md",
     "ob.tar.gz",
     "z",
-    "Excalidraw/Drawing 2026-04-01 02.24.57.excalidraw.md",
     "Web/JavaScript/Promises.md",
     "Media/settimeout.png",
     "Media/Screenshot from 2026-04-01 03-37-13.png",
