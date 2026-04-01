@@ -37,13 +37,22 @@ The JS engine only receives the result (or a notification that something is read
 
 ---
 ## SetTimout
-Is a _node/browser API_ that lets you schedule a function to run after a certain delay (in milliseconds), it schedules the callback **repeatedly**, every N milliseconds.
+Is a Asynchronous Operation provided by (Browser/node API) that lets you schedule a function to run after a certain delay (in milliseconds), 
 **Syntax**
 ```js
 setTimeout(functionToRun, delayInMs);
 ```
 - `functionToRun` → the function you want to execute later
 - `delayInMs` → how long to wait (in milliseconds) before running the function
+
+
+- `ClearInterval`: used to stop the function callback, without it will stay infinitly executed.
+
+---
+## SetInterval 
+
+
+Example:
 ```js
 let counter = 0;
 
@@ -56,9 +65,6 @@ const intervalId = setInterval(() => {
 }, 1000);
 ```
 
-- `ClearInterval`: used to stop the function callback, without it will stay infinitly executed.
-
----
 ## Callbacks
 A **callback** is simply a function passed as an argument to another function, which can be called **at some point** by that function.
 
