@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Web/JavaScript/Async Programing.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -221,12 +221,12 @@
   },
   "active": "3caf8fc11b0b9a32",
   "lastOpenFiles": [
+    "Web/JavaScript/Async Programing.md",
     "INSP1.md",
     "INSP.md",
     "Excalidraw/Drawing 2026-04-01 02.24.57.excalidraw.md",
     "ob.tar.gz",
     "z",
-    "Web/JavaScript/Async Programing.md",
     "Media/settimeout.png",
     "Media/Screenshot from 2026-04-01 03-37-13.png",
     "Media/js_empty_var.png",

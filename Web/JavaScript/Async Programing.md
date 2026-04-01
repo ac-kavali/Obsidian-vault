@@ -140,15 +140,24 @@ a(function() {
 ```
 Promises let you write the **same logic in a cleaner way**.
 
+**Syntax**
+```js
+const promise = new Promise((resolve, reject) => {  
+// async task  
+   if (success) {  
+	  resolve(value);  
+	} else {  
+  reject(error);  
+  }  
+});
+```
+
 👉 `Promise` is actually a **constructor function (or class)** in JavaScript.
 So using `new` means:
 > “Create a new instance (object) of Promise”
 
 ### Promises has 3 States
 A promise can be in one of three exclusive states:
-- **Pending:**  
-    The initial state; the operation has started but is neither fulfilled nor rejected.
-- **Fulfilled:**  
-    The operation completed successfully, and a value is available.
-- **Rejected:**  
-    The operation failed, and a reason (error) is available
+- **Pending:** : The initial state; the operation has started but is neither fulfilled nor rejected.
+- **Fulfilled:** The operation completed successfully, and a value is available.
+- **Rejected:** :The operation failed, and a reason (error) is available
