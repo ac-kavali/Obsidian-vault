@@ -91,18 +91,7 @@ Here we pass `greet` function as a parameter to the `processUserInput` function 
 An **event** is something that happens in your program that JavaScript can react to. like user click or typing, page loads, data arrive, timer finish 
 Callbacks are often used in JavaScript, especially in **event handling**:
 
-When you write:
-```js
-const p = new Promise((resolve, reject) => {  
-  // async work  
-});
-```
-👉 `Promise` is actually a **constructor function (or class)** in JavaScript.
-
-So using `new` means:
-
-> “Create a new instance (object) of Promise”
-### Event Listner 
+## Event Listner 
 The event listner is the built-in function that takes an `event type` like the `"click"`, and a [[#Event Handler|`event handler`]], to be executed when an en event happens.
 ```js
 button.addEventListener("click", function () {  
@@ -125,7 +114,7 @@ this is a `callback` but not an `Event Handler`!
  
 
 ---
-### Event Handler
+## Event Handler
 An **event handler** is a **function (callback) that runs when an event happens**. sent as a the seconde parameter of the `eventListner`.
 this simple term represent what exactly happens : 
 - “When X happens → run this function”
@@ -150,6 +139,11 @@ a(function() {
 });
 ```
 Promises let you write the **same logic in a cleaner way**.
+
+👉 `Promise` is actually a **constructor function (or class)** in JavaScript.
+So using `new` means:
+> “Create a new instance (object) of Promise”
+
 ### Promises has 3 States
 A promise can be in one of three exclusive states:
 - **Pending:**  
