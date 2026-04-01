@@ -129,3 +129,24 @@ this is a `callback` but not an `Event Handler`!
 An **event handler** is a **function (callback) that runs when an event happens**. sent as a the seconde parameter of the `eventListner`.
 this simple term represent what exactly happens : 
 - “When X happens → run this function”
+
+---
+## Promises
+**JavaScript Promises** were created to make **asynchronous JavaScript easier** to use.
+Before promises, JS used **callbacks** to make a nested async function, where one depend on the result of the other, and if they are more than 2 functions, being hard to read and debug, and this problem called callback hell.
+
+**Callbacks Hell**
+```js
+a(function() {
+  b(function() {
+    c(function() {
+      d(function() {
+        e(function() {
+          // 💀 nightmare
+        });
+      });
+    });
+  });
+});
+```
+
