@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/JavaScript/Promises.md",
-                "mode": "source",
-                "source": false
+                "file": "Web/JavaScript/Async Programing.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Promises"
+              "title": "Async Programing"
             }
           }
         ]
@@ -219,14 +219,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "364eed01b939fc76",
+  "active": "3caf8fc11b0b9a32",
   "lastOpenFiles": [
     "INSP1.md",
     "INSP.md",
     "Excalidraw/Drawing 2026-04-01 02.24.57.excalidraw.md",
     "ob.tar.gz",
     "z",
-    "Web/JavaScript/Promises.md",
+    "Web/JavaScript/Async Programing.md",
     "Media/settimeout.png",
     "Media/Screenshot from 2026-04-01 03-37-13.png",
     "Media/js_empty_var.png",

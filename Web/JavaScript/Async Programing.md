@@ -150,7 +150,7 @@ a(function() {
 });
 ```
 Promises let you write the **same logic in a cleaner way**.
-### Promise States
+### Promises has 3 States
 A promise can be in one of three exclusive states:
 - **Pending:**  
     The initial state; the operation has started but is neither fulfilled nor rejected.
