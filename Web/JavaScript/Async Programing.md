@@ -163,3 +163,33 @@ A promise can be in one of three exclusive states:
 - **Rejected:** :The operation failed, and a reason (error) is available
 
 ### Resolve & Reject
+**Resolve** You call `resolve(value)` when everything worked fine.
+```js
+resolve("Data loaded");
+```
+**Reject** You call `reject(value)` when something goes wrong.
+```js 
+reject("Error");
+```
+example:
+```js
+// A simple promise that resolves or rejects randomly
+const myPromise = new Promise((resolve, reject) => {
+  const success = Math.random() > 0.5; // 50% chance
+
+  if (success) {
+    resolve("Yay! It worked!");
+  } else {
+    reject("Oops! Something went wrong.");
+  }
+});
+
+// Using .then() for success and .catch() for error
+myPromise
+  .then(result => {
+    console.log("Success:", result);
+  })
+  .catch(error => {
+    console.error("Error:", error);
+  });
+```
