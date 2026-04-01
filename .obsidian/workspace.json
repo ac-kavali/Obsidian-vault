@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INSP.md",
+                "file": "INSP1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "INSP"
+              "title": "INSP1"
             }
           }
         ]
@@ -221,6 +221,7 @@
   },
   "active": "3caf8fc11b0b9a32",
   "lastOpenFiles": [
+    "INSP.md",
     "INSP1.md",
     "ob.tar.gz",
     "z",
@@ -252,7 +253,6 @@
     "Linux/Service management.md",
     "Linux/Text Processing.md",
     "Linux/Bash/Variables.md",
-    "Linux/Bash/If statement.md",
     "Media/latest.jpg",
     "Media/kali-problem.jpg",
     "Web/JavaScript/Conding-Js-1",
