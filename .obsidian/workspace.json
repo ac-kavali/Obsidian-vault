@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Web/JavaScript/Async Programing.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -221,6 +221,9 @@
   },
   "active": "3caf8fc11b0b9a32",
   "lastOpenFiles": [
+    "Web/JavaScript/Functions&Parameters.md",
+    "Web/JavaScript/Special-Numbers.md",
+    "Web/JavaScript/Get-started.md",
     "Web/JavaScript/Async Programing.md",
     "INSP1.md",
     "INSP.md",
@@ -241,7 +244,6 @@
     "Untitled.md",
     "Linux/Redirecting.md",
     "Web/JavaScript/Memory Usage.md",
-    "Web/JavaScript/Functions&Parameters.md",
     "Project/B2BR.md",
     "Media/ARP3.png",
     "Networking/ARP.md",
@@ -251,8 +253,6 @@
     "Networking/Subnetting.md",
     "Networking/Network scaning.md",
     "Linux/Service management.md",
-    "Linux/Text Processing.md",
-    "Linux/Bash/Variables.md",
     "Media/latest.jpg",
     "Media/kali-problem.jpg",
     "Web/JavaScript/Conding-Js-1",

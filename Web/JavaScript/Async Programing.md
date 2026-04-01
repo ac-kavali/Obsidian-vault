@@ -1,4 +1,16 @@
-#### Async **Programming**
+## Table of content
+- [[#Async **Programming**|Async Programming]]
+- [[#Why Async Code|Why Async Code]]
+- [[#SetTimout|SetTimout]]
+- [[#SetInterval|SetInterval]]
+- [[#Callbacks|Callbacks]]
+- [[#Events|Events]]
+- [[#Event Listner|Event Listner]]
+- [[#Event Handler|Event Handler]]
+- [[#Promises|Promises]]
+
+
+## Async **Programming**
 JavaScript executes code one line at a time. Each line must finish before the next line can run.
 
 Asynchronous is how JavaScript can allow some code to run in the background, and let their results be handled when they are ready.
@@ -193,3 +205,23 @@ myPromise
     console.error("Error:", error);
   });
 ```
+`.then`, `.catch` are two promis object methods
+**.Then** Runs when the promis resolves successfully.
+**.Catch** Runs when the promis is rejected. 
+- **.finally(onFinally):**  
+    This handler is called when the promise is settled (either fulfilled or rejected), regardless of the outcome. It's useful for cleanup operations.
+
+---
+**result** Just a variable name or the function parameter and it takes its value from the return of the promise if it resolved, in this case its "Yay! It worked!".
+
+- Both `.then()` and `.catch()` expect **functions** as arguments.
+- You **cannot pass a non-function** (like a string or number) directly; it won’t work.
+- `.then()` can take **two functions**; `.catch()` takes only **one**.
+- Both return a **new Promise**, so you can chain them.
+
+```js
+mypromise
+  .then(result => console.log(result))
+  .catch(error => console.log(error));
+```
+Always attach a `.catch()` **to the promise chain**:
