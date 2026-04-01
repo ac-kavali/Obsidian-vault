@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Promises"
             }
+          },
+          {
+            "id": "3caf8fc11b0b9a32",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-04-01 02.24.57.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-04-01 02.24.57.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -219,10 +232,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ab5bf2075ca00506",
+  "active": "3caf8fc11b0b9a32",
   "lastOpenFiles": [
-    "Linux/Redirecting.md",
+    "Untitled.md",
+    "Excalidraw/Drawing 2026-04-01 02.24.57.excalidraw.md",
     "Web/JavaScript/Promises.md",
+    "Linux/Redirecting.md",
     "Web/JavaScript/Memory Usage.md",
     "Web/JavaScript/Functions&Parameters.md",
     "Project/B2BR.md",
@@ -246,8 +261,6 @@
     "Linux/Bash/Needed Commands.md",
     "Linux/Bash/Bash.md",
     "Web/JavaScript/Special-Numbers.md",
-    "Linux/awk.md",
-    "Linux/Bash/bash instructions.md",
     "Media/Screenshot from 2026-03-28 22-05-40.png",
     "Media/latest.jpg",
     "Media/kali-problem.jpg",
