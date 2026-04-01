@@ -94,6 +94,7 @@ So using `new` means:
 
 > “Create a new instance (object) of Promise”
 ### Event Listner 
-The event listner is the built-in function that takes an `` 
+The event listner is the built-in function that takes an `event type` like the `"click"` and a `event handler` to 
 
 ### Event Handler
+An **event handler** is a **function (callback) that runs when an event happens**. sent as a the seconde parameter of the `eventListner`.
