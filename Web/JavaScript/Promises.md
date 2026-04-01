@@ -96,9 +96,26 @@ So using `new` means:
 ### Event Listner 
 The event listner is the built-in function that takes an `event type` like the `"click"`, and a [[#Event Handler|`event handler`]], to be executed when an en event happens.
 ```js
-
+button.addEventListener("click", function () {  
+console.log("Button clicked!");  
+});
 ```
+- `"click"` → the event
+- `function () { ... }` → the event handler
+Let me say it clearly:
 
+_Every event handler is a callback function,  
+but not every callback is an event handler._
+Why, in this example 
+```js
+setTimeout(()=>{
+	console.log("Time Finished"})
+}, 2000);
+```
+this is a `callback` but not an `Event Handler`!
+ 
+
+---
 ### Event Handler
 An **event handler** is a **function (callback) that runs when an event happens**. sent as a the seconde parameter of the `eventListner`.
 this simple term represent what exactly happens : 
