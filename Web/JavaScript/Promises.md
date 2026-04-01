@@ -46,11 +46,10 @@ setTimeout(functionToRun, delayInMs);
 - `delayInMs` → how long to wait (in milliseconds) before running the function
 
 
-- `ClearInterval`: used to stop the function callback, without it will stay infinitly executed.
 
 ---
 ## SetInterval 
-
+Is a function provided by the browser or Node.js that repeatedly schedules a callback function to be executed every specified delay (in milliseconds), in an asynchronous way.
 
 Example:
 ```js
@@ -64,7 +63,11 @@ const intervalId = setInterval(() => {
   }
 }, 1000);
 ```
+- `ClearInterval`: used to stop the function callback, without it will stay infinitly executed.
+- It **does NOT run just once**.
+- It schedules the callback **repeatedly**, every N milliseconds.
 
+---
 ## Callbacks
 A **callback** is simply a function passed as an argument to another function, which can be called **at some point** by that function.
 
