@@ -4,7 +4,6 @@ You need to master **web fundamentals + one backend stack deeply**.
 If you understand the architecture, switching languages becomes easy.
 
 ---
-
 ## First — What Actually Matters in Web Security
 
 Before choosing Node, Python, or PHP, you must understand:

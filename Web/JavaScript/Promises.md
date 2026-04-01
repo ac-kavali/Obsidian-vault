@@ -149,4 +149,12 @@ a(function() {
   });
 });
 ```
-
+Promises let you write the **same logic in a cleaner way**.
+### Promise States
+A promise can be in one of three exclusive states:
+- **Pending:**  
+    The initial state; the operation has started but is neither fulfilled nor rejected.
+- **Fulfilled:**  
+    The operation completed successfully, and a value is available.
+- **Rejected:**  
+    The operation failed, and a reason (error) is available
