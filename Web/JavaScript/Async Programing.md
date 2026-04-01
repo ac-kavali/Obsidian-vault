@@ -9,7 +9,7 @@
 - [[#Event Handler|Event Handler]]
 - [[#Promises|Promises]]
 
-
+---
 ## Async **Programming**
 JavaScript executes code one line at a time. Each line must finish before the next line can run.
 
