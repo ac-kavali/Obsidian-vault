@@ -14,8 +14,8 @@
               "type": "markdown",
               "state": {
                 "file": "Web/JavaScript/Promises.md",
-                "mode": "source",
-                "source": true
+                "mode": "preview",
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Promises"
@@ -233,6 +233,10 @@
   },
   "active": "ab5bf2075ca00506",
   "lastOpenFiles": [
+    "Media/settimeout.png",
+    "Media/Screenshot from 2026-04-01 03-37-13.png",
+    "Media/js_empty_var.png",
+    "Web/JavaScript/Promises.md",
     "Linux/kali-setup.md",
     "Linux/Web Servers.md",
     "Web/Requests.md",
@@ -241,7 +245,6 @@
     "Web/HTTP.md",
     "Web/WebServer/Web servers.md",
     "Web/JavaScript/DOM Manipulation.md",
-    "Web/JavaScript/Promises.md",
     "Excalidraw/Drawing 2026-04-01 02.24.57.excalidraw.md",
     "Untitled.md",
     "Linux/Redirecting.md",
@@ -259,8 +262,6 @@
     "Linux/Text Processing.md",
     "Linux/Bash/Variables.md",
     "Linux/Bash/If statement.md",
-    "Linux/Bash/Loops.md",
-    "Media/Screenshot from 2026-03-28 22-05-40.png",
     "Media/latest.jpg",
     "Media/kali-problem.jpg",
     "Web/JavaScript/Conding-Js-1",
@@ -271,7 +272,6 @@
     "touse.png",
     "color-replaced.png",
     "touse 2.png",
-    "touse 1.png",
     "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/python_discorver#1.excalidraw",
     "media/info.txt",

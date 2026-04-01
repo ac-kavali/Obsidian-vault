@@ -495,7 +495,7 @@ null === undefined   // false ❌ (strict equality — different types)
 
 > Rule of thumb: use `null` when **you** want to say "empty on purpose". `undefined` is what JavaScript says when it doesn't know.
 
-![[Screenshot from 2026-03-28 22-05-40.png]]
+![[js_empty_var.png]]
 
 ---
 

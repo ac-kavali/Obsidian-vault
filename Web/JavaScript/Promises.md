@@ -44,8 +44,8 @@ setTimeout(functionToRun, delayInMs);
 ```
 - `functionToRun` → the function you want to execute later
 - `delayInMs` → how long to wait (in milliseconds) before running the function
-
-
+- **Important**: the result of the `setTimout` is not defined till the delay is ended, this means you cannot return the result right away (before they are finished). it's undefined.
+![[settimeout.png|453]]
 
 ---
 ## SetInterval 
