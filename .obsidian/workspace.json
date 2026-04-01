@@ -33,8 +33,7 @@
               "title": "Drawing 2026-04-01 02.24.57.excalidraw"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -232,10 +231,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3caf8fc11b0b9a32",
+  "active": "ab5bf2075ca00506",
   "lastOpenFiles": [
-    "Untitled.md",
     "Excalidraw/Drawing 2026-04-01 02.24.57.excalidraw.md",
+    "Untitled.md",
     "Web/JavaScript/Promises.md",
     "Linux/Redirecting.md",
     "Web/JavaScript/Memory Usage.md",
