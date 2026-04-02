@@ -11,7 +11,7 @@ where each node represent an html element (</a>, </h>, </img>)
 const title = document.querySelector("h1");
 ```
 - `document` → represents the **entire HTML page (DOM)** loaded in the browser.
-- `.querySelector("h1")` → searches the DOM for the **first `<h1>` element**.
+- `.querySelector("h1")` → a DOM method to searches for the **first `<h1>` element**.
 - `title` → becomes a **reference (variable pointing to that DOM node)**.
 
 ```js
@@ -21,3 +21,4 @@ Here we used the title constant to directly modify the `h1` Node in the DOM.
 And this way how js works 
 
 --- 
+## DOM Methods 

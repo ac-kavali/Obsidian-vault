@@ -11,12 +11,14 @@
             "id": "3caf8fc11b0b9a32",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Http.md"
+                "file": "Web/JavaScript/DOM Manipulation.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Http"
+              "icon": "lucide-file",
+              "title": "DOM Manipulation"
             }
           },
           {
@@ -25,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/HTTP.md",
+                "file": "INSP.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTTP"
+              "title": "INSP"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -215,7 +216,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 204.5
+    "width": 264.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -232,13 +233,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "11a36576c07da018",
+  "active": "3caf8fc11b0b9a32",
   "lastOpenFiles": [
-    "Web/Introduction.md",
-    "Web/Requests.md",
-    "Web/Framework.md",
-    "Web/HTTP.md",
+    "Web/JavaScript/Todo.md",
     "Excalidraw/Http.md",
+    "INSP.md",
+    "Web/Introduction.md",
+    "Web/HTTP.md",
+    "Web/Framework.md",
+    "Web/Requests.md",
     "Excalidraw/prim.md",
     "Excalidraw/dns.md",
     "Excalidraw/bfs.md",
@@ -251,7 +254,6 @@
     "Web/JavaScript/Special-Numbers.md",
     "Web/JavaScript/Get-started.md",
     "INSP1.md",
-    "INSP.md",
     "ob.tar.gz",
     "z",
     "Media/settimeout.png",
@@ -267,7 +269,6 @@
     "Project/B2BR.md",
     "Media/ARP3.png",
     "Networking/ARP.md",
-    "Networking/Basics.md",
     "Media/latest.jpg",
     "Media/kali-problem.jpg",
     "Web/JavaScript/Conding-Js-1",
