@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/JavaScript/DOM Manipulation.md",
-                "mode": "source",
+                "file": "Web/HTML/Introduction.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DOM Manipulation"
+              "title": "Introduction"
             }
           },
           {
@@ -119,7 +119,7 @@
       {
         "id": "2b5c95463662bc95",
         "type": "tabs",
-        "dimension": 45.370370370370374,
+        "dimension": 64.81481481481481,
         "children": [
           {
             "id": "6f1f7733ce304638",
@@ -200,7 +200,7 @@
       {
         "id": "a8b20e5188f20cdd",
         "type": "tabs",
-        "dimension": 54.629629629629626,
+        "dimension": 35.18518518518518,
         "children": [
           {
             "id": "9fa10d8f867ed010",
@@ -216,7 +216,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 319.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -233,8 +233,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3caf8fc11b0b9a32",
+  "active": "bf4a90ec355480ad",
   "lastOpenFiles": [
+    "Web/JavaScript/DOM Manipulation.md",
     "Web/JavaScript/Todo.md",
     "Excalidraw/Http.md",
     "INSP.md",
@@ -262,7 +263,6 @@
     "Linux/kali-setup.md",
     "Linux/Web Servers.md",
     "Web/WebServer/Web servers.md",
-    "Web/JavaScript/DOM Manipulation.md",
     "Untitled.md",
     "Linux/Redirecting.md",
     "Web/JavaScript/Memory Usage.md",
