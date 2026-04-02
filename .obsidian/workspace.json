@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/Framework.md",
-                "mode": "source",
+                "file": "Web/HTTP.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Framework"
+              "title": "HTTP"
             }
           }
         ],
@@ -234,6 +234,9 @@
   },
   "active": "11a36576c07da018",
   "lastOpenFiles": [
+    "Web/Introduction.md",
+    "Web/Requests.md",
+    "Web/Framework.md",
     "Web/HTTP.md",
     "Excalidraw/Http.md",
     "Excalidraw/prim.md",
@@ -256,9 +259,6 @@
     "Media/js_empty_var.png",
     "Linux/kali-setup.md",
     "Linux/Web Servers.md",
-    "Web/Requests.md",
-    "Web/Introduction.md",
-    "Web/Framework.md",
     "Web/WebServer/Web servers.md",
     "Web/JavaScript/DOM Manipulation.md",
     "Untitled.md",
