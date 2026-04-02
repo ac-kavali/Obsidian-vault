@@ -225,3 +225,63 @@ mypromise
   .catch(error => console.log(error));
 ```
 Always attach a `.catch()` **to the promise chain**:
+
+## Await and Async
+
+**The async** keyword before a function makes the function return a promise.
+`async` = "this function always returns a Promise"
+
+### Use that promise:
+1. Using `.then()` (classic way)
+```js
+async function getNumber() {
+   return Promise.resolve(42);
+}
+
+getNumber().then(result => {
+  console.log(result); // 42
+});
+```
+ 2. Using `await` (modern way )
+```js
+async function getNumber() {
+  return 42;
+}
+
+async function main() {
+  const result = await getNumber();
+  console.log(result); // 42
+}
+
+main();
+```
+3. Handling Error :
+```js
+  async function getData() {
+   throw new Error("Something went wrong");
+  }
+
+  getData()
+   .then(data => console.log(data))
+   .catch(err => console.log(err.message));
+```
+
+
+**await**:  is a keyword that lets you **wait for a Promise to finish** and gives you its result.
+```js
+const result = await somePromise;
+```
+
+_Simple example_
+```js
+function getNumber() {
+  return Promise.resolve(10);
+}
+
+async function test() {
+  const value = await getNumber();
+  console.log(value);
+}
+
+test();
+```
