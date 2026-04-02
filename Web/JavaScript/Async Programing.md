@@ -274,14 +274,19 @@ const result = await somePromise;
 
 _Simple example_
 ```js
-function getNumber() {
-  return Promise.resolve(10);
+const my_promise = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    let time = Date.now();
+    time = Date(time);
+    resolve(time);
+  }, 2000);
+});
+
+async function showTime() {
+  time = await my_promise;
+  console.log(`the time is ${time}`);
 }
 
-async function test() {
-  const value = await getNumber();
-  console.log(value);
-}
-
-test();
+showTime();
 ```
+
