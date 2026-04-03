@@ -4,9 +4,35 @@ cURL was created by Daniel Stenberg in **1997**.
 He needed a tool to:
 - download currency exchange rates automatically
 - from early web servers (HTTP)
-Then it evolved into: 
+Then it evolved into:
 - A universal **data transfer tool**
 - Supporting tons of protocols (not just HTTP)
 
 ## Most case use (Web Requests) : 
-This is where it becomes powerful
+This is where it becomes powerful:
+
+### 1. Perform GET request (default)
+```sh
+curl https://example.com
+```
+_Same as opening a page in browser (but raw)_
+
+---
+### 2. See full request/response
+```sh
+curl -v https://example.com
+```
+Useful for:
+- request headers
+- response headers
+- connexion details
+---
+### 3. Show Only headers
+```sh
+curl -I https://example.com
+```
+Useful for:
+- status codes
+- redirects
+- server info
+---
