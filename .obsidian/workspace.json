@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/cURL.md",
+                "file": "Web/JavaScript/DOM Manipulation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cURL"
+              "title": "DOM Manipulation"
             }
           },
           {
@@ -63,8 +63,7 @@
               "title": "cURL"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -263,12 +262,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "64b9fd0cd73d5a68",
+  "active": "3caf8fc11b0b9a32",
   "lastOpenFiles": [
-    "Web/Introduction.md",
-    "Web/HTTP.md",
-    "Excalidraw/Http.md",
     "Web/cURL.md",
+    "Web/HTTP.md",
+    "Web/Introduction.md",
+    "Excalidraw/Http.md",
     "Cars.md",
     "Excalidraw/Drawing 2026-04-01 02.24.57.excalidraw.md",
     "INSP.md",
