@@ -48,8 +48,21 @@
               "icon": "lucide-file",
               "title": "Introduction"
             }
+          },
+          {
+            "id": "64b9fd0cd73d5a68",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Http.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Http"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -124,7 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5,
+    "width": 258.5,
     "collapsed": true
   },
   "right": {
@@ -248,14 +261,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3caf8fc11b0b9a32",
+  "active": "64b9fd0cd73d5a68",
   "lastOpenFiles": [
+    "Web/Introduction.md",
     "Web/HTTP.md",
-    "Excalidraw/Http.md",
     "Web/cURL.md",
+    "Excalidraw/Http.md",
     "Cars.md",
     "Excalidraw/Drawing 2026-04-01 02.24.57.excalidraw.md",
-    "Web/Introduction.md",
     "INSP.md",
     "Excalidraw/prim.md",
     "Excalidraw/dns.md",
