@@ -53,12 +53,14 @@
             "id": "64b9fd0cd73d5a68",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Http.md"
+                "file": "Web/cURL.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Http"
+              "icon": "lucide-file",
+              "title": "cURL"
             }
           }
         ],
@@ -265,8 +267,8 @@
   "lastOpenFiles": [
     "Web/Introduction.md",
     "Web/HTTP.md",
-    "Web/cURL.md",
     "Excalidraw/Http.md",
+    "Web/cURL.md",
     "Cars.md",
     "Excalidraw/Drawing 2026-04-01 02.24.57.excalidraw.md",
     "INSP.md",
