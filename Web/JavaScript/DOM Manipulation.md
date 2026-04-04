@@ -1,3 +1,24 @@
+## Table of Contents
+- [[#Introduction :|Introduction :]]
+- [[#Nodes|Nodes]]
+- [[#1. Selecting Elements|1. Selecting Elements]]
+- [[#2. Traversing the DOM|2. Traversing the DOM]]
+- [[#3. Creating & Cloning Nodes|3. Creating & Cloning Nodes]]
+- [[#4. Inserting Nodes|4. Inserting Nodes]]
+- [[#5. Removing & Replacing Nodes|5. Removing & Replacing Nodes]]
+- [[#6. Reading & Writing Content|6. Reading & Writing Content]]
+- [[#7. Working with Attributes|7. Working with Attributes]]
+- [[#8. Working with Classes|8. Working with Classes]]
+- [[#9. Working with Styles|9. Working with Styles]]
+- [[#10. Event Handling|10. Event Handling]]
+- [[#11. Form & Input Methods|11. Form & Input Methods]]
+- [[#12. Dimensions, Scroll & Position|12. Dimensions, Scroll & Position]]
+- [[#13. Document & Window Methods|13. Document & Window Methods]]
+- [[#14. Modern / Utility Methods|14. Modern / Utility Methods]]
+- [[#15. Quick Reference Table|15. Quick Reference Table]]
+- [[#Tips & Best Practices|Tips & Best Practices]]
+
+---
 ## Introduction : 
 **Document Object Module**: The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects, manipulated and edited using JavaScript. 
 
@@ -20,34 +41,8 @@ title.textContent = "Hello";
 Here we used the title constant to directly modify the `h1` Node in the DOM.
 And this way how js works 
 
---- 
-## DOM Methods 
-# DOM Manipulation Methods — Complete Reference
-
-> The **Document Object Model (DOM)** is a programming interface for HTML and XML documents. It represents the page as a tree of nodes, allowing JavaScript to dynamically read and manipulate structure, style, and content.
-
 ---
-
-## Table of Contents
-
-1. [Selecting Elements](https://claude.ai/chat/605b1d26-5455-4619-a64d-6fec0dc0797d#1-selecting-elements)
-2. [Traversing the DOM](https://claude.ai/chat/605b1d26-5455-4619-a64d-6fec0dc0797d#2-traversing-the-dom)
-3. [Creating & Cloning Nodes](https://claude.ai/chat/605b1d26-5455-4619-a64d-6fec0dc0797d#3-creating--cloning-nodes)
-4. [Inserting Nodes](https://claude.ai/chat/605b1d26-5455-4619-a64d-6fec0dc0797d#4-inserting-nodes)
-5. [Removing & Replacing Nodes](https://claude.ai/chat/605b1d26-5455-4619-a64d-6fec0dc0797d#5-removing--replacing-nodes)
-6. [Reading & Writing Content](https://claude.ai/chat/605b1d26-5455-4619-a64d-6fec0dc0797d#6-reading--writing-content)
-7. [Working with Attributes](https://claude.ai/chat/605b1d26-5455-4619-a64d-6fec0dc0797d#7-working-with-attributes)
-8. [Working with Classes](https://claude.ai/chat/605b1d26-5455-4619-a64d-6fec0dc0797d#8-working-with-classes)
-9. [Working with Styles](https://claude.ai/chat/605b1d26-5455-4619-a64d-6fec0dc0797d#9-working-with-styles)
-10. [Event Handling](https://claude.ai/chat/605b1d26-5455-4619-a64d-6fec0dc0797d#10-event-handling)
-11. [Form & Input Methods](https://claude.ai/chat/605b1d26-5455-4619-a64d-6fec0dc0797d#11-form--input-methods)
-12. [Dimensions, Scroll & Position](https://claude.ai/chat/605b1d26-5455-4619-a64d-6fec0dc0797d#12-dimensions-scroll--position)
-13. [Document & Window Methods](https://claude.ai/chat/605b1d26-5455-4619-a64d-6fec0dc0797d#13-document--window-methods)
-14. [Modern / Utility Methods](https://claude.ai/chat/605b1d26-5455-4619-a64d-6fec0dc0797d#14-modern--utility-methods)
-15. [Quick Reference Table](https://claude.ai/chat/605b1d26-5455-4619-a64d-6fec0dc0797d#15-quick-reference-table)
-
----
-
+# DOM Methods
 ## 1. Selecting Elements
 
 These methods are used to find and retrieve elements from the DOM.
