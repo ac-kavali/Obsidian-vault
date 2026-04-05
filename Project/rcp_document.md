@@ -51,13 +51,17 @@
 | User Score | `#user-score` | User's current score (starts at 0) |
 
 ### Choice Buttons
-| Element | ID/Class | Description |
-|---------|----------|-------------|
-| Choices Container | `.choices` | Flex container holding 3 choice buttons |
-| Rock Button | `.choice-btn[data-choice="rock"]` | Circular button with rock image |
-| Paper Button | `.choice-btn[data-choice="paper"]` | Circular button with paper image |
-| Scissors Button | `.choice-btn[data-choice="scissors"]` | Circular button with scissors image |
-| Choice Images | `.choice-btn img` | 70x70px images inside buttons |
+| Element           | ID/Class                              | Description                             |
+| ----------------- | ------------------------------------- | --------------------------------------- |
+| Choices Container | `.choices`                            | Flex container holding 3 choice buttons |
+| Rock Button       | `.choice-btn[data-choice="rock"]`     | Circular button with rock image         |
+| Paper Button      | `.choice-btn[data-choice="paper"]`    | Circular button with paper image        |
+| Scissors Button   | `.choice-btn[data-choice="scissors"]` | Circular button with scissors image     |
+| Choice Images     | `.choice-btn img`                     | 70x70px images inside buttons           |
+**To Retreive each choice and add it an event listner** 
+```js
+const rockButton = document.querySelector('.choice-btn[data-choice="rock"]');
+```
 
 ### Result Display
 | Element | ID/Class | Description |
