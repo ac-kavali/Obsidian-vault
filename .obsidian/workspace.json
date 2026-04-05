@@ -27,30 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/JavaScript/DOM Manipulation.md",
-                "mode": "preview",
+                "file": "Project/Rock-Paper-Scissors.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DOM Manipulation"
-            }
-          },
-          {
-            "id": "83c8e6e21daf16e8",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "title": "Rock-Paper-Scissors"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +79,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "rock",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -248,11 +234,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "83c8e6e21daf16e8",
+  "active": "364eed01b939fc76",
   "lastOpenFiles": [
+    "Project/rcp_document.md",
+    "Project/Projects.md",
+    "Web/JavaScript/DOM Manipulation.md",
+    "Project/Rock-Paper-Scissors.md",
     "Drawing 2026-04-05 01.21.16.excalidraw.md",
     "Web/JavaScript/Async Programing.md",
-    "Web/JavaScript/DOM Manipulation.md",
     "Web/CSS/Get started.md",
     "Web/JavaScript/DOM.md",
     "Web/HTTP.md",
@@ -273,12 +262,9 @@
     "Excalidraw/dns.md",
     "Excalidraw/Impress-me.md",
     "Excalidraw/ARP.md",
-    "Excalidraw/Network_basics.md",
     "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/booting_process.excalidraw",
-    "Web/HTML/Introduction.md",
-    "Web/HTML/Basics.md",
     "ob.tar.gz",
     "z",
     "Media/settimeout.png",
