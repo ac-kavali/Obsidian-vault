@@ -11,4 +11,4 @@ Definition:
 3. **D1** generate an ARP request to get the target MAC. 
 ![[ARP2.png]]
 4. **D2** response with its mac when it receive the request while **D3** ignore it.
-![[ARP3.png]]
+![[ARP3.png|987]]

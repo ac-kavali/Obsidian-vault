@@ -49,15 +49,15 @@ The OSI model has 7 layers, numbered **1 (bottom)** through **7 (top)**. Two cla
 
 > **"All People Seem To Need Data Processing"**
 
-|Letter|Word|Layer|Name|
-|---|---|---|---|
-|**A**|All|7|Application|
-|**P**|People|6|Presentation|
-|**S**|Seem|5|Session|
-|**T**|To|4|Transport|
-|**N**|Need|3|Network|
-|**D**|Data|2|Data Link|
-|**P**|Processing|1|Physical|
+| Letter | Word       | Layer | Name         |
+| ------ | ---------- | ----- | ------------ |
+| **A**  | All        | 7     | Application  |
+| **P**  | People     | 6     | Presentation |
+| **S**  | Seem       | 5     | Session      |
+| **T**  | To         | 4     | Transport    |
+| **N**  | Need       | 3     | Network      |
+| **D**  | Data       | 2     | Data Link    |
+| **P**  | Processing | 1     | Physical     |
 
 ### Bottom-Up (Layer 1 → 7)
 

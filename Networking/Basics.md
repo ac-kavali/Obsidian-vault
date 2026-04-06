@@ -9,7 +9,7 @@
 ## Network Components
 
 1. End Devices
-2. Network Med
+2. Network Media 
 
 ## Cables
 

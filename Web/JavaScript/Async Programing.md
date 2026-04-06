@@ -48,7 +48,7 @@ JavaScript is single-threaded, so it delegates async work to external APIs — i
 The JS engine only receives the result (or a notification that something is ready), at which point it runs the callback — which is typically a quick operation that doesn't block other tasks.
 
 ---
-## SetTimout
+## SetTimout 
 Is a Asynchronous Operation provided by (Browser/node API) that lets you schedule a function to run after a certain delay (in milliseconds), 
 **Syntax**
 ```js
