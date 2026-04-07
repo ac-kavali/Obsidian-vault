@@ -25,12 +25,12 @@
             "id": "024f655cbe347e88",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "excalidraw",
               "state": {
-                "file": "Pasted Image 20260406200602_187.png"
+                "file": "Excalidraw/rcp_game-d.md"
               },
-              "icon": "lucide-image",
-              "title": "Pasted Image 20260406200602_187"
+              "icon": "excalidraw-icon",
+              "title": "rcp_game-d"
             }
           },
           {
@@ -123,7 +123,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5
+    "width": 337.5,
+    "collapsed": true
   },
   "right": {
     "id": "10424350b623bef2",
@@ -249,9 +250,9 @@
   },
   "active": "024f655cbe347e88",
   "lastOpenFiles": [
-    "Drawing 2026-04-05 01.21.16.excalidraw.md",
+    "Linux/Pasted Image 20260406200602_187.png",
+    "Excalidraw/rcp_game-d.md",
     "Untitled.md",
-    "Pasted Image 20260406200602_187.png",
     "Web/JavaScript/Async Programing.md",
     "Web/JavaScript/Arrays.md",
     "Project/rcp_document.md",
