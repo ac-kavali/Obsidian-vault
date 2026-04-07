@@ -25,12 +25,12 @@
             "id": "024f655cbe347e88",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "image",
               "state": {
-                "file": "Drawing 2026-04-05 01.21.16.excalidraw.md"
+                "file": "Pasted Image 20260406200602_187.png"
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-04-05 01.21.16.excalidraw"
+              "icon": "lucide-image",
+              "title": "Pasted Image 20260406200602_187"
             }
           },
           {
@@ -123,8 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5,
-    "collapsed": true
+    "width": 337.5
   },
   "right": {
     "id": "10424350b623bef2",
@@ -250,13 +249,13 @@
   },
   "active": "024f655cbe347e88",
   "lastOpenFiles": [
+    "Drawing 2026-04-05 01.21.16.excalidraw.md",
+    "Untitled.md",
     "Pasted Image 20260406200602_187.png",
     "Web/JavaScript/Async Programing.md",
-    "Drawing 2026-04-05 01.21.16.excalidraw.md",
     "Web/JavaScript/Arrays.md",
     "Project/rcp_document.md",
     "Web/JavaScript/DOM Manipulation.md",
-    "Untitled.md",
     "Media/Pasted Image 20260405182945_097.png",
     "Networking/ARP.md",
     "Networking/OSI Model.md",
@@ -292,7 +291,6 @@
     "Media/js_functions.png",
     "Screenshot from 2026-03-13 22-16-34.png",
     "Web/WebServer",
-    "touse.png",
     "media/info.txt",
     "media",
     "Excalidraw/Python2.excalidraw",
