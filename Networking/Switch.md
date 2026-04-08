@@ -1,0 +1,1 @@
+A switch is a Device that connect multiple devices and send data only to the correct destination where this improve speed and security, it use ethernet (layer 2: Data link layer)
