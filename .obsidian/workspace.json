@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cars.md",
-                "mode": "source",
+                "file": "Project/B2BR.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cars"
+              "title": "B2BR"
             }
           }
         ],
@@ -251,6 +251,11 @@
   },
   "active": "5dd4a9a9dc18c038",
   "lastOpenFiles": [
+    "Python/Random.md",
+    "Linux/awk.md",
+    "Cars.md",
+    "Networking/Switch.md",
+    "Networking/OSI Model.md",
     "INSP.md",
     "Project/B2BR.md",
     "Networking/Firewalls.md",
@@ -264,7 +269,6 @@
     "Networking/DNS.md",
     "Networking/Certif.md",
     "Networking/Subnetting.md",
-    "Networking/OSI Model.md",
     "Media/subnetting.png",
     "Media/subneting2.png",
     "INSP1.md",
@@ -272,14 +276,10 @@
     "Excalidraw/subnetting.md",
     "Excalidraw/Network_basics.md",
     "Networking/ARP.md",
-    "Networking/Switch.md",
     "Web/JavaScript/Errors.md",
     "Web/JavaScript/Todo.md",
     "Web/JavaScript/Arrays.md",
     "Web/JavaScript/DOM Manipulation.md",
-    "Linux/Bash/Standard Streams.md",
-    "Python/Random.md",
-    "Linux/awk.md",
     "anki-launcher-25.09-linux.tar.zst",
     "Linux/Pasted Image 20260406200602_187.png",
     "Media/Pasted Image 20260405182945_097.png",
