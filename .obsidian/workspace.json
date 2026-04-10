@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Bash/Standard Streams.md",
-                "mode": "preview",
+                "file": "Cars.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Standard Streams"
+              "title": "Cars"
             }
           },
           {
@@ -250,9 +250,9 @@
   },
   "active": "5dd4a9a9dc18c038",
   "lastOpenFiles": [
+    "Linux/Bash/Standard Streams.md",
     "Cars.md",
     "Project/rcp_document.md",
-    "Linux/Bash/Standard Streams.md",
     "Linux/Bash/Needed Commands.md",
     "Linux/Bash/Bash.md",
     "Project/B2BR.md",
