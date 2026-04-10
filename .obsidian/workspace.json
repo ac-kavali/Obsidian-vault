@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Bash/Needed Commands.md",
-                "mode": "preview",
+                "file": "Linux/awk.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Needed Commands"
+              "title": "awk"
             }
           },
           {
@@ -41,16 +41,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/JavaScript/Async Programing.md",
+                "file": "Linux/Linux Logs.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Async Programing"
+              "title": "Linux Logs"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -249,35 +248,35 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "dba52ecebab8df62",
+  "active": "5dd4a9a9dc18c038",
   "lastOpenFiles": [
-    "Linux/Bash/Data types.md",
-    "Web/JavaScript/Arrays.md",
-    "Web/CSS/Storming.md",
-    "Web/CSS/Get started.md",
-    "Web/JavaScript/Async Programing.md",
-    "Linux/awk.md",
-    "Cars.md",
-    "Web/CSS/Part-1.md",
-    "Web/Burpsuite/Get_started.md",
     "Linux/Bash/Needed Commands.md",
     "Networking/Subnetting.md",
-    "Linux/Bash/Bash.md",
-    "Linux/Bash/Script Execution.md",
-    "Linux/Pasted Image 20260406200602_187.png",
-    "Linux/Bash/Standard Streams.md",
-    "Project/rcp_document.md",
-    "Project/B2BR.md",
-    "Python/Random.md",
-    "Networking/Switch.md",
+    "Linux/Linux Logs.md",
+    "Linux/Bash/Substitution.md",
     "Networking/OSI Model.md",
-    "INSP.md",
+    "Concepts/GDB.md",
+    "Concepts/Valgrind.md",
+    "Linux/Bash/First scirpt.md",
+    "Linux/Bash/Loops.md",
+    "Project/GNL.md",
+    "Project/Libft.md",
+    "Project/Printf.md",
+    "Web/JavaScript/DOM Manipulation.md",
+    "Web/JavaScript/Functions&Parameters.md",
+    "Web/cURL.md",
     "Networking/Firewalls.md",
-    "Linux/Find.md",
-    "Web/Framework.md",
-    "Networking/DMZ.md",
+    "Linux/Disk & Filesystem/Swap.md",
     "Networking/NAT.md",
+    "Linux/kali-setup.md",
+    "Cars.md",
+    "Linux/Service management.md",
+    "Web/HTML/Basics.md",
+    "Linux/Text Processing.md",
     "Networking/Basics.md",
+    "Networking/Switch.md",
+    "Linux/Package Management.md",
+    "Linux/Pasted Image 20260406200602_187.png",
     "Media/subnetting.png",
     "Media/subneting2.png",
     "Media/subneting.png",
