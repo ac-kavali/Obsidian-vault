@@ -22,9 +22,9 @@ find . -iname "file.txt"
 ```
 
 ### Wildcards
-
+!!**Use Always the wildcard to search by non exact name **
 ```sh
-find . -name "*.c"
+find . -name "*bin*"
 ```
 
 ---

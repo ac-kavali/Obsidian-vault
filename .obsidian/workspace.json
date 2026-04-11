@@ -49,8 +49,7 @@
               "title": "B2BR"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -249,15 +248,15 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "024f655cbe347e88",
+  "active": "5dd4a9a9dc18c038",
   "lastOpenFiles": [
+    "Cars.md",
     "Linux/Find.md",
     "Linux/Package Management.md",
     "Linux/Linux Logs.md",
     "Project/B2BR.md",
     "Concepts/Bitwize.md",
     "Linux/Bash/Bash.md",
-    "Cars.md",
     "Linux/Web Servers.md",
     "Linux/awk.md",
     "Linux/kali-setup.md",
