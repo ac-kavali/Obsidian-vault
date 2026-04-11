@@ -88,7 +88,10 @@ find <path> <condition> -exec <command> {} \;
 find . -type f -executable
 ```
 
-**Find 
+**Find readable files for current user**
+```sh
+find . -type f -readable 
+```
 
 **Find files with a specific octal permissions**
 ```sh
