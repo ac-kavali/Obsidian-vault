@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux Logs.md",
+                "file": "Linux/Text Processing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux Logs"
+              "title": "Text Processing"
             }
           },
           {
@@ -110,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5
+    "width": 337.5,
+    "collapsed": true
   },
   "right": {
     "id": "10424350b623bef2",
@@ -236,11 +237,11 @@
   },
   "active": "5dd4a9a9dc18c038",
   "lastOpenFiles": [
+    "Linux/Linux Logs.md",
     "Linux/Find.md",
     "Cars.md",
     "Project/B2BR.md",
     "Linux/Package Management.md",
-    "Linux/Linux Logs.md",
     "Concepts/Bitwize.md",
     "Linux/Bash/Bash.md",
     "Linux/Web Servers.md",
