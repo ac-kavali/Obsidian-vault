@@ -47,9 +47,9 @@ journalctl -r                              # Reverse order (newest first)
 ```
 
 ## filter by sudo 
-
-
-
-
+```sh
+sudo journalctl _COMM=sudo 
+```
+the \_COMM called feild filter
 
 [[Linux]]
