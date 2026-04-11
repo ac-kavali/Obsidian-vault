@@ -81,6 +81,16 @@ find <path> <condition> -exec <command> {} \;
 
 
 ---
+## Maxdepth 
+
+Specify a maxdepth to limit the depth of the search :
+```sh
+find /path -maxdepth 2 -name "file"
+```
+**Remember to set the maxdepth as the first flag before the other patherns**
+
+
+---
 ## Search by permissions
 
 **Find executable files**
