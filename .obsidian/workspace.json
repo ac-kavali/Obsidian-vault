@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/awk.md",
+                "file": "Linux/kali-setup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "awk"
+              "title": "kali-setup"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux Logs.md",
-                "mode": "preview",
+                "file": "Project/B2BR.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux Logs"
+              "title": "B2BR"
             }
           }
         ]
@@ -234,49 +234,48 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false,
+      "float-search:Search obsidian in modal view": false,
       "switcher:Open quick switcher": true,
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
       "publish:Publish changes...": true,
-      "omnisearch:Omnisearch": false,
       "graph:Open graph view": false,
       "daily-notes:Open today's daily note": false,
       "bases:Create new base": false,
-      "audio-recorder:Start/stop recording": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false,
-      "float-search:Search obsidian in modal view": false
+      "audio-recorder:Start/stop recording": false
     }
   },
   "active": "5dd4a9a9dc18c038",
   "lastOpenFiles": [
-    "Linux/Bash/Needed Commands.md",
     "Networking/Subnetting.md",
+    "Linux/kali-setup.md",
+    "Media/Pasted Image 20260406200602_187.png",
+    "Linux/Bash/If statement.md",
+    "Project/B2BR.md",
+    "Cars.md",
+    "Networking/OSI Model.md",
+    "Networking/Switch.md",
     "Linux/Linux Logs.md",
     "Linux/Bash/Substitution.md",
-    "Networking/OSI Model.md",
+    "Linux/Bash/Variables.md",
+    "Web/JavaScript/Errors.md",
+    "Linux/Disk & Filesystem/Swap.md",
+    "Linux/awk.md",
+    "Linux/Permissions.md",
+    "Linux/Piping.md",
+    "Linux/Linux.md",
+    "Linux/Environment Variables.md",
+    "Linux/Service management.md",
+    "Linux/Redirecting.md",
+    "Linux/Bash/Needed Commands.md",
     "Concepts/GDB.md",
     "Concepts/Valgrind.md",
     "Linux/Bash/First scirpt.md",
     "Linux/Bash/Loops.md",
     "Project/GNL.md",
     "Project/Libft.md",
-    "Project/Printf.md",
-    "Web/JavaScript/DOM Manipulation.md",
-    "Web/JavaScript/Functions&Parameters.md",
-    "Web/cURL.md",
-    "Networking/Firewalls.md",
-    "Linux/Disk & Filesystem/Swap.md",
-    "Networking/NAT.md",
-    "Linux/kali-setup.md",
-    "Cars.md",
-    "Linux/Service management.md",
-    "Web/HTML/Basics.md",
-    "Linux/Text Processing.md",
-    "Networking/Basics.md",
-    "Networking/Switch.md",
-    "Linux/Package Management.md",
-    "Linux/Pasted Image 20260406200602_187.png",
     "Media/subnetting.png",
     "Media/subneting2.png",
     "Media/subneting.png",
