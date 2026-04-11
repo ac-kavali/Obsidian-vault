@@ -103,10 +103,10 @@ Translate or delete characters.
 
 ```bash
 # Convert to uppercase
-echo "hello world" | tr [a-z] [A-Z]
+echo "hello world" | tr 'a-z' 'A-Z'
 
 # Delete lowercase characters
-echo "hello world" | tr -d [a-z]
+echo "hello world@" | tr -d '@'
 ```
 
 ---
