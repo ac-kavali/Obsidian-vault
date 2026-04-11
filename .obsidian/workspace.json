@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Linux/Find.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -49,8 +49,7 @@
               "title": "B2BR"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -249,10 +248,10 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "024f655cbe347e88",
+  "active": "5dd4a9a9dc18c038",
   "lastOpenFiles": [
-    "Project/B2BR.md",
     "Cars.md",
+    "Project/B2BR.md",
     "Linux/Find.md",
     "Linux/Web Servers.md",
     "Linux/awk.md",

@@ -88,6 +88,8 @@ find <path> <condition> -exec <command> {} \;
 find . -type f -executable
 ```
 
+**Find 
+
 **Find files with a specific octal permissions**
 ```sh
 find <path> -type f -perm 777
