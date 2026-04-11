@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Web Servers.md",
+                "file": "Linux/Find.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Web Servers"
+              "title": "Find"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Find.md",
-                "mode": "preview",
-                "source": true
+                "file": "Cars.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Find"
+              "title": "Cars"
             }
           },
           {
@@ -49,7 +49,8 @@
               "title": "B2BR"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -248,16 +249,17 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "5dd4a9a9dc18c038",
+  "active": "024f655cbe347e88",
   "lastOpenFiles": [
+    "Project/B2BR.md",
+    "Cars.md",
+    "Linux/Find.md",
+    "Linux/Web Servers.md",
     "Linux/awk.md",
     "Linux/kali-setup.md",
     "Media/Pasted Image 20260406200602_187.png",
-    "Linux/Find.md",
     "Networking/Subnetting.md",
     "Linux/Bash/If statement.md",
-    "Project/B2BR.md",
-    "Cars.md",
     "Networking/OSI Model.md",
     "Networking/Switch.md",
     "Linux/Linux Logs.md",
