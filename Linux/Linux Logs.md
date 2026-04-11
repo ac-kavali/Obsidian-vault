@@ -46,7 +46,7 @@ journalctl -n 50                           # Last 50 entries
 journalctl -r                              # Reverse order (newest first)
 ```
 
-
+## filter by sudo 
 
 
 
