@@ -49,7 +49,8 @@
               "title": "B2BR"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -248,11 +249,11 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "5dd4a9a9dc18c038",
+  "active": "024f655cbe347e88",
   "lastOpenFiles": [
+    "Linux/Find.md",
     "Cars.md",
     "Project/B2BR.md",
-    "Linux/Find.md",
     "Linux/Web Servers.md",
     "Linux/awk.md",
     "Linux/kali-setup.md",
