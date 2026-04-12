@@ -19,12 +19,25 @@ is a network command that show with details your network connectivity and activi
 ```sh
 netstat 
 ```
-Show PID / process name`-a`All connections + listening`-r`Routing table`-s`Protocol statistics`-e`Extended info`-c`Continuous output (refresh)
 
-|Flag|Description|
-|---|---|
-|`-t`|TCP connections|
-|`-u`|UDP connections|
-|`-l`|Listening ports only|
-|`-n`|No DNS resolution (raw IPs)|
-|`-p`
+| Flag | Description                 |
+| ---- | --------------------------- |
+| `-t` | TCP connections             |
+| `-u` | UDP connections             |
+| `-l` | Listening ports only        |
+| `-n` | No DNS resolution (raw IPs) |
+| `-p` | Show PID / process name     |
+| `-a` | All connections + listening |
+| `-r` | Routing table               |
+| `-s` | Protocol statistics         |
+| `-e` | Extended info               |
+| `-c` | Continuous output (refresh) |
+
+---
+## SS
+`ss` (Socket Statistics) is a Linux utility used to dump and filter socket information. It is the modern replacement for the deprecated netstat command, offering faster performance by reading directly from kernel space via **Netlink sockets** rather than parsing `/proc/net/tcp`.
+
+```sh
+ss
+```
+Running `ss` with no arguments displays all non-listening sockets (established, time-wait, close-wait, etc.).

@@ -14,8 +14,8 @@
               "type": "markdown",
               "state": {
                 "file": "Linux/Network Tools.md",
-                "mode": "source",
-                "source": true
+                "mode": "preview",
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Network Tools"
