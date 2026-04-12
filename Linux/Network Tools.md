@@ -41,3 +41,40 @@ netstat
 ss
 ```
 Running `ss` with no arguments displays all non-listening sockets (established, time-wait, close-wait, etc.).
+
+| Flag | Long Form     | Description                                  |
+| ---- | ------------- | -------------------------------------------- |
+| `-a` | `--all`       | Show all sockets (listening and established) |
+| `-l` | `--listening` | Show only listening sockets                  |
+| `-n` | `--numeric`   | Do not resolve hostname or service name      |
+| `-p` | `--processes` | Show process (PID and name) using each socket|
+| `-e` | `--extended` | Show detailed socket information (timers, uid, etc.) |
+| `-s` | `--summary` | Print summary statistics |
+| `-t` |-| TCP |
+| `-u` |-| UDP|
+
+i use this all the time : 
+```sh
+ss -tunpl | grep ssh
+```
+or any service you want to check its socket informations.
+
+---
+## nslookup
+ is a tool used to query DNS servers to get information about domain names and IP addresses.
+ **Basic DNS lookup**
+ ```sh
+ nslookup google.com
+ ```
+ You'll get: 
+ - IP address of the domain
+ - DNS server used
+
+**Reverse dns lookup**
+```sh
+```
+
+
+
+---
+## nmap
