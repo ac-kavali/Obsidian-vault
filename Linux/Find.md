@@ -11,6 +11,7 @@
 - [[#Search by permissions]]
 - [[#Search by owner/group]]
 - [[#Search with operators]]
+- 
 ## Search By name
 ### Exact name :
 ```sh
@@ -145,3 +146,6 @@ you can also use `not`
 ```sh
 find . -type f -not -name "*.txt"
 ```
+
+## path 
+in case you don't want to search inside a directory you might use `` 

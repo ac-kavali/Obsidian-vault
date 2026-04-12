@@ -84,5 +84,8 @@ nslookup google.com 8.8.8.8
 Instead of quering your default resolver you can specify a dns server.
 
 
+
+## traceroot
+
 ---
 ## nmap
