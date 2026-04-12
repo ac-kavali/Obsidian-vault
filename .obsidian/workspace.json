@@ -15,7 +15,7 @@
               "state": {
                 "file": "Linux/Network Tools.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Network Tools"

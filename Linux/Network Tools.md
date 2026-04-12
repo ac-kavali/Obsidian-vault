@@ -15,7 +15,16 @@ Don't assume a host is down just because `ping` fails — ICMP is commonly block
 
 ---
 ## Netstat
-is a network command that show with details your network connectivity and activities.
+is a network command that show with details your network connectivity and activities. todya the *ss* more replaced it 
 ```sh
-prompt> netsta 
+netstat 
 ```
+Show PID / process name`-a`All connections + listening`-r`Routing table`-s`Protocol statistics`-e`Extended info`-c`Continuous output (refresh)
+
+|Flag|Description|
+|---|---|
+|`-t`|TCP connections|
+|`-u`|UDP connections|
+|`-l`|Listening ports only|
+|`-n`|No DNS resolution (raw IPs)|
+|`-p`
