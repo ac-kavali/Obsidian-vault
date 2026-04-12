@@ -11,14 +11,12 @@
             "id": "5dd4a9a9dc18c038",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Linux/Text Processing.md",
-                "mode": "preview",
-                "source": false
+                "file": "Excalidraw/booting_process.excalidraw"
               },
-              "icon": "lucide-file",
-              "title": "Text Processing"
+              "icon": "excalidraw-icon",
+              "title": "booting_process"
             }
           },
           {
@@ -110,8 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5,
-    "collapsed": true
+    "width": 337.5
   },
   "right": {
     "id": "10424350b623bef2",
@@ -237,6 +234,8 @@
   },
   "active": "5dd4a9a9dc18c038",
   "lastOpenFiles": [
+    "Linux/Booting Process.md",
+    "Linux/Text Processing.md",
     "Linux/Linux Logs.md",
     "Linux/Find.md",
     "Cars.md",
@@ -262,8 +261,6 @@
     "Linux/Environment Variables.md",
     "Linux/Service management.md",
     "Linux/Redirecting.md",
-    "Linux/Bash/Needed Commands.md",
-    "Concepts/GDB.md",
     "Media/subnetting.png",
     "Media/subneting2.png",
     "Media/subneting.png",
