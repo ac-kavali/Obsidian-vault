@@ -11,12 +11,14 @@
             "id": "5dd4a9a9dc18c038",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/booting_process.excalidraw"
+                "file": "Linux/Network Tools.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "booting_process"
+              "icon": "lucide-file",
+              "title": "Network Tools"
             }
           },
           {
@@ -234,6 +236,8 @@
   },
   "active": "5dd4a9a9dc18c038",
   "lastOpenFiles": [
+    "Excalidraw/booting_process.excalidraw",
+    "Linux/Network Tools.md",
     "Linux/Booting Process.md",
     "Linux/Text Processing.md",
     "Linux/Linux Logs.md",
@@ -259,8 +263,6 @@
     "Linux/Piping.md",
     "Linux/Linux.md",
     "Linux/Environment Variables.md",
-    "Linux/Service management.md",
-    "Linux/Redirecting.md",
     "Media/subnetting.png",
     "Media/subneting2.png",
     "Media/subneting.png",
@@ -268,7 +270,6 @@
     "Media/Pasted Image 20260405182945_097.png",
     "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/python_discorver#1.excalidraw",
-    "Excalidraw/booting_process.excalidraw",
     "ob.tar.gz",
     "z",
     "Media/settimeout.png",
