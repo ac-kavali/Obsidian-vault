@@ -49,8 +49,7 @@
               "title": "Find"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -249,8 +248,9 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "c977b85eaacf9881",
+  "active": "5dd4a9a9dc18c038",
   "lastOpenFiles": [
+    "Linux/Find.md",
     "Linux/Network Tools.md",
     "Cars.md",
     "Linux/Linux Logs.md",
@@ -265,7 +265,6 @@
     "Excalidraw/booting_process.excalidraw",
     "Linux/Booting Process.md",
     "Linux/Text Processing.md",
-    "Linux/Find.md",
     "Project/B2BR.md",
     "Linux/Package Management.md",
     "Concepts/Bitwize.md",

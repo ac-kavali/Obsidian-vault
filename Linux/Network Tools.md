@@ -86,6 +86,11 @@ Instead of quering your default resolver you can specify a dns server.
 
 
 ## traceroot
+a network diagnostic tool used to track the real-time path that data packets take from a source machine to a destination.
+_example_:
+```
+traceroot www.google.com
+```
 
 ---
 ## nmap
