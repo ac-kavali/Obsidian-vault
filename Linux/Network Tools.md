@@ -72,8 +72,16 @@ or any service you want to check its socket informations.
 
 **Reverse dns lookup**
 ```sh
+nslookup 8.8.8.8
 ```
+This asks: 
+- What domain name associated with this ip address.
 
+**Query a specific dns server**
+```sh
+nslookup google.com 8.8.8.8
+```
+Instead of quering your default resolver you can specify a dns server.
 
 
 ---
