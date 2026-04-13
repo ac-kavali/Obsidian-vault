@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Network Tools.md",
+                "file": "Linux/Nmap.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Network Tools"
+              "title": "Nmap"
             }
           },
           {
@@ -247,12 +247,13 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "bf4a90ec355480ad",
+  "active": "5dd4a9a9dc18c038",
   "lastOpenFiles": [
+    "Linux/Network Tools.md",
+    "Linux/Nmap.md",
     "obsidian.tar.xz",
     "Excalidraw/Bitwize.excalidraw",
     "Linux/Find.md",
-    "Linux/Network Tools.md",
     "Cars.md",
     "Linux/Linux Logs.md",
     "Web/JavaScript/Arrays.md",
@@ -294,7 +295,6 @@
     "Web/JavaScript/Conding-Js-1",
     "Web/WebServer",
     "media/info.txt",
-    "media",
     "Untitled.canvas"
   ]
 }
