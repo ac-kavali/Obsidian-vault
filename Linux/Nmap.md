@@ -28,4 +28,6 @@ when you choose speed you may risqu by you being detectable in the target networ
 nmap 192.168.1.* 
  ```
  - or scan a few specific devices
- 
+```sh
+nmap 192.168.1.0,1,2,3,4
+```
