@@ -1,6 +1,6 @@
 **Domaine Name System** 
 is a hierarchical system that translates domain names into IP addresses, enabling computers and network devicese to locate and communicate with each other in the internet.
-![[dns_layers.png]]
+![[dns_layers.png|1112]]
 > This is just an example where the Recursive DNS server may not be the ISP 
 > it belong on your dns configuration, that is often getten from the DHCP config
 > from your router, like if the dns ip server is 8.8.8.8, it means that you use google dns servers if its 1.1.1.1 , means you use cloudflare ...
