@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/Web Exploite.md",
-                "mode": "preview",
+                "file": "Web/Exploite 2.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Web Exploite"
+              "title": "Exploite 2"
             }
           }
         ],
@@ -247,9 +247,11 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "364eed01b939fc76",
+  "active": "024f655cbe347e88",
   "lastOpenFiles": [
     "Web/Web Exploite.md",
+    "Web/Exploite 2.md",
+    "INSP1.md",
     "Cars.md",
     "Excalidraw/Bitwize.excalidraw",
     "Networking/DNS.md",
@@ -276,8 +278,6 @@
     "Linux/Package Management.md",
     "Concepts/Bitwize.md",
     "Linux/Bash/Bash.md",
-    "Linux/Web Servers.md",
-    "Linux/awk.md",
     "Media/Pasted Image 20260406200602_187.png",
     "Media/subnetting.png",
     "Media/subneting2.png",
