@@ -1,4 +1,4 @@
-m ,,,,,,,,,,,,,,jj_(Network Maper)_
+_(Network Maper)_
 Nmap can provide further information on targets, including reverse DNS names, operating
 system guesses, device types, and MAC addresses.
 
@@ -31,3 +31,8 @@ nmap 192.168.1.*
 ```sh
 nmap 192.168.1.0,1,2,3,4
 ```
+
+- Which **system** are **up**?
+- What **services** are <span style="color:rgb(6, 178, 8)">running</span> on these systems?
+
+`rmsafe`
