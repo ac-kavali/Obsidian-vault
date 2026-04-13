@@ -92,6 +92,3 @@ _example_:
 traceroot www.google.com
 ```
 
----
-## nmap
-_(Network Maper)_

@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "c977b85eaacf9881",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Bitwize.excalidraw"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Bitwize"
+            }
+          },
+          {
             "id": "024f655cbe347e88",
             "type": "leaf",
             "state": {
@@ -33,20 +45,6 @@
               },
               "icon": "lucide-file",
               "title": "Cars"
-            }
-          },
-          {
-            "id": "c977b85eaacf9881",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Find.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Find"
             }
           }
         ]
@@ -249,8 +247,10 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "5dd4a9a9dc18c038",
+  "active": "bf4a90ec355480ad",
   "lastOpenFiles": [
+    "obsidian.tar.xz",
+    "Excalidraw/Bitwize.excalidraw",
     "Linux/Find.md",
     "Linux/Network Tools.md",
     "Cars.md",
@@ -278,13 +278,11 @@
     "Linux/Bash/If statement.md",
     "Networking/OSI Model.md",
     "Networking/Switch.md",
-    "Linux/Bash/Substitution.md",
     "Media/subnetting.png",
     "Media/subneting2.png",
     "Media/subneting.png",
     "anki-launcher-25.09-linux.tar.zst",
     "Media/Pasted Image 20260405182945_097.png",
-    "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/python_discorver#1.excalidraw",
     "ob.tar.gz",
     "z",
