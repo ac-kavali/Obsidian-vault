@@ -25,12 +25,14 @@
             "id": "c977b85eaacf9881",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Bitwize.excalidraw"
+                "file": "Cars.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Bitwize"
+              "icon": "lucide-file",
+              "title": "Cars"
             }
           },
           {
@@ -39,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Nmap.md",
-                "mode": "preview",
+                "file": "Cars.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nmap"
+              "title": "Cars"
             }
           }
         ],
@@ -123,8 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 208.51103591918945,
-    "collapsed": true
+    "width": 208.51103591918945
   },
   "right": {
     "id": "10424350b623bef2",
@@ -250,16 +251,17 @@
   },
   "active": "024f655cbe347e88",
   "lastOpenFiles": [
+    "Linux/Nmap.md",
+    "Cars.md",
+    "Networking/DNS.md",
+    "Web/JavaScript/Special-Numbers.md",
+    "Excalidraw/Bitwize.excalidraw",
     "Linux/Find.md",
     "Linux/Environment Variables.md",
     "Linux/Redirecting.md",
-    "Linux/Nmap.md",
     "Web/Exploite 2.md",
     "Web/Web Exploite.md",
     "INSP1.md",
-    "Cars.md",
-    "Excalidraw/Bitwize.excalidraw",
-    "Networking/DNS.md",
     "Networking/Subnetting.md",
     "Networking/Network Types.md",
     "Networking/ARP.md",
@@ -278,7 +280,6 @@
     "Linux/Booting Process.md",
     "Linux/Text Processing.md",
     "Project/B2BR.md",
-    "Linux/Package Management.md",
     "Media/Pasted Image 20260406200602_187.png",
     "Media/subnetting.png",
     "Media/subneting2.png",
