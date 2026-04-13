@@ -1,9 +1,16 @@
 _(Network Maper)_
-Nmap can provide further information on targets, including reverse DNS names, operating
+Nmap is highest industry used tool, that scan and enumerate networks, and provide further information on targets, system running, open ports, services, including reverse DNS names, operating
 system guesses, device types, and MAC addresses.
+**What is the core questions that Nmap answers for us**
+- Which **system** are **up**?
+- What **services** are <span style="color:rgb(6, 178, 8)">running</span> on these systems?
 
-the default scan without specifying port or flags make you scan 
 
+### Command Line Example
+```sh
+nmap 10.121.12.1
+```
+The default scan without specifying port or flags make you scan the top 1000 *well know* ports
 nmap has 4 types of scans : 
 arp 
 icpm 
@@ -32,7 +39,6 @@ nmap 192.168.1.*
 nmap 192.168.1.0,1,2,3,4
 ```
 
-- Which **system** are **up**?
-- What **services** are <span style="color:rgb(6, 178, 8)">running</span> on these systems?
+
 
 `rmsafe`

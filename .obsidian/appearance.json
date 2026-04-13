@@ -1,6 +1,6 @@
 {
   "interfaceFontFamily": "DejaVu Math TeX Gyre,DejaVu Serif,DejaVu Sans",
-  "baseFontSize": 17,
+  "baseFontSize": 19,
   "textFontFamily": "DejaVu Math TeX Gyre,Bodoni 72 Oldstyle,Linux Biolinum O,Source Code Pro,DejaVu Sans",
   "enabledCssSnippets": [
     "colors",
