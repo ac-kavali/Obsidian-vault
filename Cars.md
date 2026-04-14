@@ -1,1 +1,1 @@
-<span style="color:rgb(255, 192, 0)">nmap</span> <span style="color:rgb(0, 176, 80)">-oX</span> <span style="color:rgb(91, 155, 213)">scan.xml</span> <span style="color:rgb(255, 0, 0)">TARGET</span> <span style="color:rgb(128, 128, 128)"># XML</span>
+<span style="color:rgb(0, 176, 80)">usermod</span> <span style="color:rgb(255, 255, 0)">-m</span> <span style="color:rgb(0, 176, 240)"> -d</span> [/path/tohome] \[user]

@@ -29,7 +29,7 @@
               "state": {
                 "file": "Cars.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Cars"
@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -125,7 +125,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5
+    "width": 304.5,
+    "collapsed": true
   },
   "right": {
     "id": "10424350b623bef2",
@@ -249,10 +250,10 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "e34976774a4002b9",
+  "active": "024f655cbe347e88",
   "lastOpenFiles": [
-    "Linux/Permissions.md",
     "Linux/Linux Admin Project.md",
+    "Linux/Permissions.md",
     "Linux/Service management.md",
     "Web/JavaScript/Memory Usage.md",
     "Untitled.md",
