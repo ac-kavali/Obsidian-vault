@@ -16,7 +16,7 @@ sudo apt install vsftpd -y
 
 ### Configure `/etc/vsftpd.conf`
 
-```ini
+```/etc/vsftpd.conf
 # ── Basics ──────────────────────────────────────────
 listen=YES
 # ── Authentication ───────────────────────────────────
@@ -24,13 +24,20 @@ anonymous_enable=NO       # ALWAYS disable anonymous access
 local_enable=YES          # allow local system users
 write_enable=YES          # allow uploads (NO for read-only)
 ```
+- **Always disable anonymous login because it give anyone to login without user and passwd just typing**
+```json
+user: anonymous
+passwd: anonymous
+```
+and he will get access.
+
 
 ### Expose a directory to clients
 
 vsftpd maps each local user to their home directory. The cleanest pattern is a dedicated FTP user with a restricted home:
 
 ```bash
-# Create the user (no shell login)
+# Create the user (no shell login)!!! for security
 sudo useradd -m -d /srv/ftp/ftpuser -s /usr/sbin/nologin ftpuser
 sudo passwd ftpuser
 
