@@ -103,7 +103,7 @@ ftp> bye
 ---
 
 ## 3. FTP vs SFTP
-
+ 
 |Property|FTP|SFTP|
 |---|---|---|
 |Encryption|✗ None — plain text|✓ Full AES encryption via SSH|
@@ -118,7 +118,49 @@ ftp> bye
 **Bottom line:** SFTP gives you everything FTP does — listing, upload, download, navigation — plus encryption, key auth, and a single port. There is no practical reason to run plain FTP over a network you don't fully control.
 
 ---
+## 5. Setting Up SFTP on the Server (Short Version)
 
+If OpenSSH is installed, you're almost done. The only thing to configure is a chroot jail — restricting SFTP users to a specific directory without giving them shell access.
+
+```bash
+# Create the SFTP group and a dedicated user
+sudo groupadd sftpusers
+sudo useradd -m -G sftpusers -s /usr/sbin/nologin sftpuser
+sudo passwd sftpuser
+
+# Root must own the chroot jail
+sudo chown root:root /home/sftpuser
+sudo chmod 755 /home/sftpuser
+
+# Create a writable upload directory
+sudo mkdir /home/sftpuser/files
+sudo chown sftpuser:sftpuser /home/sftpuser/files
+```
+- The mini jail directory must owned by the root, or the ssh will refuse login
+
+
+Append to `/etc/ssh/sshd_config`:
+
+```
+Match Group sftpusers
+    ChrootDirectory        %h
+    ForceCommand           internal-sftp
+    AllowTcpForwarding     no
+    X11Forwarding          no
+```
+
+Apply and reload:
+
+```bash
+sudo sshd -t            # test for syntax errors first
+sudo systemctl restart sshd
+```
+
+Users in `sftpusers` can now connect via SFTP, are jailed to their home directory, and cannot open a shell session. SSH key auth works out of the box — add their public key to `~/.ssh/authorized_keys` as usual.
+
+
+
+---
 ## 4. Using SFTP as a Client
 
 If the remote machine runs SSH (port 22, sshd running), SFTP is already available — nothing to install on the server.
@@ -151,40 +193,3 @@ sftp> bye
 
 ---
 
-## 5. Setting Up SFTP on the Server (Short Version)
-
-If OpenSSH is installed, you're almost done. The only thing to configure is a chroot jail — restricting SFTP users to a specific directory without giving them shell access.
-
-```bash
-# Create the SFTP group and a dedicated user
-sudo groupadd sftpusers
-sudo useradd -m -G sftpusers -s /usr/sbin/nologin sftpuser
-sudo passwd sftpuser
-
-# Root must own the chroot jail
-sudo chown root:root /home/sftpuser
-sudo chmod 755 /home/sftpuser
-
-# Create a writable upload directory
-sudo mkdir /home/sftpuser/files
-sudo chown sftpuser:sftpuser /home/sftpuser/files
-```
-
-Append to `/etc/ssh/sshd_config`:
-
-```
-Match Group sftpusers
-    ChrootDirectory        %h
-    ForceCommand           internal-sftp
-    AllowTcpForwarding     no
-    X11Forwarding          no
-```
-
-Apply and reload:
-
-```bash
-sudo sshd -t            # test for syntax errors first
-sudo systemctl restart sshd
-```
-
-Users in `sftpusers` can now connect via SFTP, are jailed to their home directory, and cannot open a shell session. SSH key auth works out of the box — add their public key to `~/.ssh/authorized_keys` as usual.

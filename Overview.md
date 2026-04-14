@@ -1,0 +1,1 @@
+sudo *chown* **owner:group** /dir/file
