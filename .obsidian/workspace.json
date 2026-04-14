@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "Cars.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -49,8 +49,7 @@
               "title": "Linux Admin Project"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -250,8 +249,9 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "024f655cbe347e88",
+  "active": "5dd4a9a9dc18c038",
   "lastOpenFiles": [
+    "Cars.md",
     "Linux/Linux Admin Project.md",
     "Linux/Permissions.md",
     "Linux/Service management.md",
@@ -266,7 +266,6 @@
     "Web/CSS/Part-2.md",
     "Web/CSS/Storming.md",
     "Linux/FTP.md",
-    "Cars.md",
     "Linux/Nmap.md",
     "Python/module08.md",
     "Networking/DNS.md",

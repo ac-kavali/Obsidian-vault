@@ -72,21 +72,21 @@ ftp 192.168.1.10
 
 ### FTP Command Reference
 
-|Command|Description|
-|---|---|
-|`ftp hostname`|Connect to an FTP server. You'll be prompted for username and password.|
-|`get file`|Download a single file from the remote server to your current local directory.|
-|`put file`|Upload a single local file to the current remote directory.|
-|`mget *.txt`|Download multiple files matching a glob pattern. Prompts before each file unless `prompt` is off.|
-|`mput *.txt`|Upload multiple local files matching a glob pattern. Same prompt behavior as `mget`.|
-|`lcd /path`|**Local** change directory — where files land on _your_ machine.|
-|`cd /path`|**Remote** change directory — navigate the server's directory tree.|
-|`ls`|List contents of the current remote directory.|
-|`binary`|Switch to binary transfer mode. **Always use this** for non-text files (images, archives, executables). Transfers bytes as-is.|
-|`ascii`|Switch to ASCII transfer mode. Translates line endings (`CRLF` ↔ `LF`). Use for plain text only — **corrupts binary data**.|
-|`passive`|Toggle passive mode. The client initiates both connections — use when the client is behind a NAT or firewall.|
-|`prompt`|Toggle per-file confirmation for `mget`/`mput`. Turn off to transfer all matched files without interruption.|
-|`bye` or `quit`|Close the connection and exit. Both do the same thing.|
+| Command         | Description                                                                                                                    |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| `ftp hostname`  | Connect to an FTP server. You'll be prompted for username and password.                                                        |
+| `get file`      | Download a single file from the remote server to your current local directory.                                                 |
+| `put file`      | Upload a single local file to the current remote directory.                                                                    |
+| `mget *.txt`    | Download multiple files matching a glob pattern. Prompts before each file unless `prompt` is off.                              |
+| `mput *.txt`    | Upload multiple local files matching a glob pattern. Same prompt behavior as `mget`.                                           |
+| `lcd /path`     | **Local** change directory — where files land on _your_ machine.                                                               |
+| `cd /path`      | **Remote** change directory — navigate the server's directory tree.                                                            |
+| `!ls`           | List contents of the current remote directory.                                                                                 |
+| `binary`        | Switch to binary transfer mode. **Always use this** for non-text files (images, archives, executables). Transfers bytes as-is. |
+| `ascii`         | Switch to ASCII transfer mode. Translates line endings (`CRLF` ↔ `LF`). Use for plain text only — **corrupts binary data**.    |
+| `passive`       | Toggle passive mode. The client initiates both connections — use when the client is behind a NAT or firewall.                  |
+| `prompt`        | Toggle per-file confirmation for `mget`/`mput`. Turn off to transfer all matched files without interruption.                   |
+| `bye` or `quit` | Close the connection and exit. Both do the same thing.                                                                         |
 
 ### Quick session example
 
