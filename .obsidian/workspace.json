@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "Cars.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -49,7 +49,8 @@
               "title": "Linux Admin Project"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -249,11 +250,11 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "5dd4a9a9dc18c038",
+  "active": "024f655cbe347e88",
   "lastOpenFiles": [
+    "Linux/FTP.md",
     "Linux/Linux Admin Project.md",
     "Cars.md",
-    "Linux/FTP.md",
     "Linux/Permissions.md",
     "Linux/Service management.md",
     "Web/JavaScript/Memory Usage.md",
