@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiAdminFill",
       "RiWordpressLine",
       "LiNetwork",
       "IcPip",
-      "RiPhoneFindFill",
-      "IcBash"
+      "RiPhoneFindFill"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -58,5 +58,6 @@
   "Networking": "LiNetwork",
   "Web": "RiWordpressLine",
   "Excalidraw": "IcExca",
-  "Python": "IcPython"
+  "Python": "IcPython",
+  "Linux/Linux Admin Project.md": "RiAdminFill"
 }

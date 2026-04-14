@@ -1,12 +1,12 @@
 {
-  "interfaceFontFamily": "DejaVu Math TeX Gyre,DejaVu Serif,DejaVu Sans",
+  "interfaceFontFamily": "DejaVu Sans,DejaVu Math TeX Gyre,DejaVu Serif",
   "baseFontSize": 19,
-  "textFontFamily": "DejaVu Math TeX Gyre,Bodoni 72 Oldstyle,Linux Biolinum O,Source Code Pro,DejaVu Sans",
+  "textFontFamily": "DejaVu Sans,DejaVu Math TeX Gyre,Bodoni 72 Oldstyle,Linux Biolinum O,Source Code Pro",
   "enabledCssSnippets": [
     "colors",
     "hide-tab-line"
   ],
   "theme": "obsidian",
   "accentColor": "",
-  "cssTheme": ""
+  "cssTheme": "Vanilla AMOLED"
 }
