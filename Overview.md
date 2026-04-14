@@ -1,1 +1,1 @@
-**sftp** <span style="color:rgb(0, 176, 240)">ftpuser</span>@<span style="color:rgb(112, 48, 160)">192.168.1.10</span> 
+<span style="color:rgb(255, 0, 0)">sudo</span> **sshd -t**

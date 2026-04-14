@@ -137,7 +137,8 @@ sudo chmod 755 /home/sftpuser
 sudo mkdir /home/sftpuser/files
 sudo chown sftpuser:sftpuser /home/sftpuser/files
 ```
-- The mini jail directory must owned by the root, or the ssh will refuse login
+- The mini jail directory `/home/sftp_user/`must owned by the root, or the ssh will refuse login
+- We create the **group** `sftpuser` to setup the config one time not each new user is added: `Match Group sftpusers` 
 
 
 Append to `/etc/ssh/sshd_config`:
