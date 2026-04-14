@@ -1,6 +1,18 @@
 
 **_Network Mapper_**
-
+## Table Of Contents
+- [[#What is Nmap?|What is Nmap?]]
+- [[#What Nmap Can Do|What Nmap Can Do]]
+- [[#How Nmap Works|How Nmap Works]]
+- [[#Port States|Port States]]
+- [[#Basic Syntax|Basic Syntax]]
+- [[#Core Commands|Core Commands]]
+- [[#Target Specification|Target Specification]]
+- [[#Scan Types Cheat Sheet|Scan Types Cheat Sheet]]
+- [[#Output Saving|Output Saving]]
+- [[#Most used Combos:|Most used Combos:]]
+- [[#Nmap & ICMP|Nmap & ICMP]]
+---
 ## What is Nmap?
 
 Nmap (Network Mapper) is a **free, open-source tool** used to scan networks and discover:
