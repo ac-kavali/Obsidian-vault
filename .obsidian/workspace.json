@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Nmap.md",
+                "file": "Linux/FTP.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nmap"
+              "title": "FTP"
             }
           },
           {
@@ -234,10 +234,11 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "bf4a90ec355480ad",
+  "active": "5dd4a9a9dc18c038",
   "lastOpenFiles": [
-    "Cars.md",
     "Linux/Nmap.md",
+    "Linux/FTP.md",
+    "Cars.md",
     "Untitled.md",
     "Python/module08.md",
     "Networking/DNS.md",
@@ -264,7 +265,6 @@
     "Networking/DMZ.md",
     "Linux/Disk & Filesystem/Swap.md",
     "Excalidraw/booting_process.excalidraw",
-    "Linux/Booting Process.md",
     "Media/Pasted Image 20260406200602_187.png",
     "Media/subnetting.png",
     "Media/subneting2.png",
