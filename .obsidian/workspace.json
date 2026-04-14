@@ -79,12 +79,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/awk.md",
-                "mode": "source",
+                "file": "Linux/Nmap.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "awk"
+              "title": "Nmap"
             }
           }
         ],
@@ -289,11 +289,16 @@
   },
   "active": "9c70a2adaf74531b",
   "lastOpenFiles": [
-    "Linux/Text Processing.md",
+    "Linux/kali-setup.md",
     "Linux/awk.md",
+    "Linux/Web Servers.md",
+    "Linux/Find.md",
+    "Linux/FTP.md",
+    "Linux/Nmap.md",
+    "Linux/Network Tools.md",
+    "Linux/Text Processing.md",
     "Overview.md",
     "Project/rcp_document.md",
-    "Linux/Network Tools.md",
     "Networking/Packets.md",
     "Web/JavaScript/Random.md",
     "Web/Introduction.md",
@@ -310,11 +315,6 @@
     "Networking/Application, Presentation.md",
     "Networking/Subnetting.md",
     "Excalidraw/Http.md",
-    "Excalidraw/subnetting.md",
-    "Excalidraw/rcp_game-d.md",
-    "Excalidraw/Drawing 2026-04-01 02.24.57.excalidraw.md",
-    "Linux/Linux Admin Project.md",
-    "Linux/FTP.md",
     "Excalidraw/Bitwize.excalidraw",
     "obsidian.tar.xz",
     "Excalidraw/booting_process.excalidraw",
