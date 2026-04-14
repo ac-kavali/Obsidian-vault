@@ -130,6 +130,7 @@ sudo passwd sftpuser
 
 # Root must own the chroot jail
 sudo chown root:root /home/sftpuser
+#others (including the SFTP user) → can enter and read, but NOT write 
 sudo chmod 755 /home/sftpuser
 
 # Create a writable upload directory

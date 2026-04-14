@@ -16,7 +16,7 @@
               "state": {
                 "file": "Linux/FTP.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               },
               "pinned": true,
               "icon": "lucide-file",
@@ -275,14 +275,14 @@
   },
   "active": "5dd4a9a9dc18c038",
   "lastOpenFiles": [
-    "Linux/Linux Admin Project.md",
     "Overview.md",
+    "Untitled.md",
     "Linux/FTP.md",
+    "Linux/Linux Admin Project.md",
     "Linux/Bash/Needed Commands.md",
     "Linux/Permissions.md",
     "Linux/Service management.md",
     "Web/JavaScript/Memory Usage.md",
-    "Untitled.md",
     "Web/WebServer/Client-Server Arch.md",
     "Linux/Web Servers.md",
     "Web/Exploite 2.md",
