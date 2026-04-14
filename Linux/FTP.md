@@ -41,19 +41,7 @@ vsftpd maps each local user to their home directory. The cleanest pattern is a d
 sudo useradd -m -d /srv/ftp/ftpuser -s /usr/sbin/nologin ftpuser
 sudo passwd ftpuser
 
-# Root must own the chroot jail directory
-sudo chown root:root /srv/ftp/ftpuser
-sudo chmod 755 /srv/ftp/ftpuser
-
-# Create a writable subdirectory for uploads
-sudo mkdir /srv/ftp/ftpuser/files
-sudo chown ftpuser:ftpuser /srv/ftp/ftpuser/files
-
-# Add user to the whitelist
-echo "ftpuser" | sudo tee -a /etc/vsftpd.userlist
 ```
-
-> **Why `root:root` on the home dir?** When `chroot_local_user=YES`, vsftpd refuses to chroot into a directory that's writable by the user. Pattern: root owns the jail, user owns only a subdirectory inside it.
 
 ### Enable and restart
 
@@ -68,8 +56,7 @@ sudo systemctl status vsftpd
 ## 2. Client Side — Connecting & Commands
 
 ### Default credentials
-
-vsftpd uses **local system accounts** — there's no built-in default user. You connect with the OS user you created (e.g. `ftpuser`) and the password set with `passwd`. Some distros ship vsftpd with anonymous login enabled by default — always verify `anonymous_enable=NO` is set.
+Start with `ftp` comman
 
 ### Connect
 
