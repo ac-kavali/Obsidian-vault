@@ -1,11 +1,12 @@
+## Table of content:
 - [[#Overview|Overview]]
 - [[#How SSH Works|How SSH Works]]
 - [[#SSH Passwordless Key Pair Authentication|SSH Passwordless Key Pair Authentication]]
 - [[#SSH Config File|SSH Config File]]
 - [[#Common SSH Commands|Common SSH Commands]]
 - [[#Securing SSH (Server Hardening)|Securing SSH (Server Hardening)]]
-- [[#Summary|Summary]]
 
+---
 ## Overview
 
 SSH (Secure Shell) is a cryptographic network protocol designed in **1995** by Tatu Ylönen, providing secure remote access, command execution, and data communication between computers. It replaces insecure protocols like **Telnet**, **rsh**, and **rlogin** by ensuring:
@@ -46,29 +47,20 @@ Instead of using a password at login, SSH can authenticate users via an **asymme
 ### Step 1 — Generate a Key Pair (on the client)
 
 ```bash
-ssh-keygen<span style="color:rgb(112, 48, 160)"> -t ed</span>25519 -C "your_email@example.com"
+ssh-keygen      #click yes yes ...
 ```
-
-You will be prompted:
-
-```
-Enter file in which to save the key (/home/user/.ssh/id_ed25519):
-Enter passphrase (empty for no passphrase):
-```
-
-> **Key types:** `ed25519` is recommended (modern, fast, secure). Use `rsa -b 4096` for broader compatibility.
 
 This creates two files:
 
 ```
-~/.ssh/id_ed25519       ← Private key (keep this secret)
+~/.ssh/id_ed25519       ← Private key (keep this super secret)
 ~/.ssh/id_ed25519.pub   ← Public key (copy this to the server)
 ```
 
----
-
 ### Step 2 — Copy the Public Key to the Server
-
+The authentication using key-pair is more secure over the internet:
+>[!info] because we often use password that not strong or we can't remember them, and there are thousands of wordlist over the internet that maybe can peredect your password this make the authentication using pub-key more secure.
+ 
 **Method A — Using `ssh-copy-id` (recommended):**
 
 ```bash
@@ -81,14 +73,7 @@ ssh-copy-id user@remote_host
 cat ~/.ssh/id_ed25519.pub | ssh user@remote_host "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
 ```
 
-**Method C — If you already have file access on the server:**
 
-```bash
-# On the server
-echo "your_public_key_content" >> ~/.ssh/authorized_keys
-```
-
----
 
 ### Step 3 — Set Correct Permissions (on the server)
 
@@ -99,7 +84,6 @@ chmod 700 ~/.ssh
 chmod 600 ~/.ssh/authorized_keys
 ```
 
----
 
 ### Step 4 — Connect Without a Password
 
@@ -109,7 +93,6 @@ ssh user@remote_host
 
 If a passphrase was set on the key, you will be prompted for it once — not for the remote password.
 
----
 
 ### Step 5 — (Optional) Use SSH Agent to Avoid Repeated Passphrase Entry
 
@@ -122,23 +105,6 @@ The agent holds your decrypted key in memory for the session.
 
 ---
 
-## SSH Config File
-
-For convenience, define connection shortcuts in `~/.ssh/config`:
-
-```
-Host myserver
-    HostName 192.168.1.100
-    User john
-    IdentityFile ~/.ssh/id_ed25519
-    Port 22
-```
-
-Connect using:
-
-```bash
-ssh myserver
-```
 
 ---
 
@@ -189,78 +155,3 @@ Restart the SSH service after changes:
 ```bash
 sudo systemctl restart sshd
 ```
-
----
-
-## SSH Tunneling
-
-SSH can forward ports to access services securely through firewalls.
-
-### Local Forwarding
-
-Forward a local port to a remote service:
-
-```bash
-ssh -L 5432:localhost:5432 user@remote_host
-# Access remote PostgreSQL locally via localhost:5432
-```
-
-### Remote Forwarding
-
-Expose a local service to the remote machine:
-
-```bash
-ssh -R 8080:localhost:3000 user@remote_host
-```
-
-### Dynamic Forwarding (SOCKS Proxy)
-
-Route traffic through the remote server:
-
-```bash
-ssh -D 1080 user@remote_host
-```
-
----
-
-## Troubleshooting
-
-|Problem|Likely Cause|Fix|
-|---|---|---|
-|`Permission denied (publickey)`|Wrong key or missing authorized_keys|Check key path and permissions|
-|`Host key verification failed`|Server fingerprint changed|Remove old entry: `ssh-keygen -R hostname`|
-|`Connection refused`|SSH not running or wrong port|Check `sshd` status and firewall|
-|`Too many authentication failures`|ssh-agent offering too many keys|Use `ssh -o IdentitiesOnly=yes -i keyfile`|
-|Key ignored by server|Bad file permissions on `.ssh/`|`chmod 700 ~/.ssh && chmod 600 authorized_keys`|
-
----
-
-## Key Algorithms Comparison
-
-|Algorithm|Recommended|Notes|
-|---|---|---|
-|`ed25519`|✅ Yes|Modern, fast, compact, most secure|
-|`ecdsa`|⚠️ Conditional|Good, but some implementation concerns|
-|`rsa` (4096-bit)|✅ Compatible|Wide support; use 4096-bit minimum|
-|`dsa`|❌ No|Deprecated, insecure, avoid|
-
----
-
-## Summary
-
-```
-Client                         Server
-  │                               │
-  │──── TCP SYN ────────────────► │
-  │◄─── TCP SYN-ACK ─────────────│
-  │                               │
-  │──── Key Exchange ───────────► │
-  │◄─── Server Host Key ─────────│
-  │                               │
-  │──── Public Key Auth ────────► │
-  │◄─── Auth Success ────────────│
-  │                               │
-  │══════ Encrypted Session ══════│
-```
-
-SSH key pair authentication eliminates password exposure over the network, resists brute-force attacks, and enables automation without storing plaintext credentials.
