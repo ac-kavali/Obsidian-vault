@@ -74,17 +74,17 @@
             "group": "30a38a7c0c01ba00"
           },
           {
-            "id": "ab738bc8f73ae535",
+            "id": "6983111eba54a541",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Nmap.md",
+                "file": "Linux/File transfer.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nmap"
+              "title": "File transfer"
             }
           }
         ],
@@ -287,10 +287,11 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "ab738bc8f73ae535",
+  "active": "6983111eba54a541",
   "lastOpenFiles": [
-    "Linux/FTP.md",
     "Linux/SSH.md",
+    "Linux/File transfer.md",
+    "Linux/FTP.md",
     "Overview.md",
     "Linux/Nmap.md",
     "Linux/kali-setup.md",
@@ -314,7 +315,6 @@
     "Concepts/Bitwize.md",
     "Concepts/git -h.md",
     "Networking/Application, Presentation.md",
-    "Networking/Subnetting.md",
     "Excalidraw/Bitwize.excalidraw",
     "obsidian.tar.xz",
     "Excalidraw/booting_process.excalidraw",
