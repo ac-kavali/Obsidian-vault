@@ -4,6 +4,7 @@
 - [[#What is Nmap?|What is Nmap?]]
 - [[#What Nmap Can Do|What Nmap Can Do]]
 - [[#How Nmap Works|How Nmap Works]]
+- [[#Ping with nmap]]
 - [[#Port States|Port States]]
 - [[#Basic Syntax|Basic Syntax]]
 - [[#Core Commands|Core Commands]]
@@ -43,6 +44,16 @@ Nmap ◄─── response ──  Target Port
 ```
 
 Before scanning ports, Nmap sends an **ICMP Echo Request** (ping) to check if the host is alive first.
+
+---
+## Ping with nmap
+- `-PE` → ICMP Echo
+- `-PP` → ICMP Timestamp
+- `-PM` → ICMP Address Mask
+- `-PS` → TCP SYN ping
+- `-PA` → TCP ACK ping
+- `-PU` → UDP ping
+- `-PR` → ARP ping
 
 ---
 ## Port States
