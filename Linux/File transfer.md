@@ -138,6 +138,7 @@ wget -c https://example.com/largefile.iso
 ### `ftp` – File Transfer Protocol
 
 `ftp` is a classic command-line client for connecting to FTP servers. It's interactive, but unencrypted — use only on trusted networks or when SFTP isn't available.
+**See also [[FTP]] for more informations**
 
 **Connect to an FTP server:**
 

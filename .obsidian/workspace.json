@@ -79,12 +79,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/File transfer.md",
+                "file": "Linux/FTP.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "File transfer"
+              "title": "FTP"
             }
           }
         ],
@@ -289,8 +289,8 @@
   },
   "active": "6983111eba54a541",
   "lastOpenFiles": [
-    "Linux/SSH.md",
     "Linux/File transfer.md",
+    "Linux/SSH.md",
     "Linux/FTP.md",
     "Overview.md",
     "Linux/Nmap.md",
