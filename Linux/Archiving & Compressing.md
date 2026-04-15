@@ -1,13 +1,9 @@
-# Archiving and Compressing in Linux
 
 ## What is Compression?
 
 **Compression** is the concept of making data smaller, thereby requiring less storage capacity and making data easier to transmit over a network.
 
-> 💡 **Tip:** Check the **"copying"** section in the Bash manual (`man bash`) to better understand how files are handled during archiving operations.
-
 ---
-
 ## Common Archive Extensions
 
 |Extension|Tool|
@@ -19,15 +15,13 @@
 |`.zip`|zip|
 
 ---
-
 ## General Option
 
-|Flag|Description|
-|---|---|
-|`-v`|**Verbose mode** — displays the files being archived/extracted|
+| Flag | Description                                                    |
+| ---- | -------------------------------------------------------------- |
+| `-v` | **Verbose mode** — displays the files being archived/extracted |
 
 ---
-
 ## 1. `tar`
 
 `tar` is the standard Linux archiving tool. It bundles multiple files into a single archive (without compression by default).
@@ -40,14 +34,13 @@ tar -cf archivename file1 file2 ...
 tar -xf archivename
 ```
 
-|Flag|Meaning|
-|---|---|
-|`-c`|Create archive|
-|`-x`|Extract archive|
-|`-f`|Specify the archive file name|
+| Flag | Meaning                       |
+| ---- | ----------------------------- |
+| `-c` | Create archive                |
+| `-x` | Extract archive               |
+| `-f` | Specify the archive file name |
 
 ---
-
 ## 2. `gzip` / `gunzip`
 
 `gzip` compresses a single file into the `.gz` format. `gunzip` (or `gzip -d`) decompresses it.
