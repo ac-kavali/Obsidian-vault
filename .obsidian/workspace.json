@@ -93,12 +93,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Find.md",
+                "file": "Linux/Archiving & Compressing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Find"
+              "title": "Archiving & Compressing"
             }
           }
         ],
@@ -145,7 +145,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "find",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -156,8 +156,7 @@
               "title": "Search"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "f00ff03ae3a8a195",
@@ -304,15 +303,16 @@
   },
   "active": "14146cc3923e4e0c",
   "lastOpenFiles": [
-    "Netcat.md",
-    "Linux/Nmap.md",
-    "Untitled.md",
-    "Linux/File transfer.md",
     "Linux/FTP.md",
+    "Linux/Archiving & Compressing.md",
+    "Linux/Nmap.md",
+    "Linux/File transfer.md",
+    "Linux/Find.md",
+    "Netcat.md",
+    "Untitled.md",
     "Linux/awk.md",
     "Linux/kali-setup.md",
     "Linux/Network Tools.md",
-    "Linux/Find.md",
     "Linux/Web Servers.md",
     "Linux/SSH.md",
     "Overview.md",
@@ -340,7 +340,6 @@
     "Linux/Redirecting.md",
     "Networking/Switch.md",
     "Web/CSS/Get started.md",
-    "Concepts/File Discriptor.md",
     "obsidian.tar.xz",
     "Media/Pasted Image 20260406200602_187.png",
     "anki-launcher-25.09-linux.tar.zst",
