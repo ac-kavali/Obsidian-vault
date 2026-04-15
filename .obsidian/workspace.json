@@ -93,12 +93,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Netcat.md",
+                "file": "Linux/Find.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Netcat"
+              "title": "Find"
             }
           }
         ],
@@ -145,7 +145,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "project",
+                "query": "find",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -156,7 +156,8 @@
               "title": "Search"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "f00ff03ae3a8a195",

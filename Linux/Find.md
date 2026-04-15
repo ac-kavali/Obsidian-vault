@@ -11,7 +11,6 @@
 - [[#Search by permissions]]
 - [[#Search by owner/group]]
 - [[#Search with operators]]
-- 
 ## Search By name
 ### Exact name :
 ```sh
@@ -68,6 +67,13 @@ find /path -type f -size +10M -size -50M
 ```sh
 find . -size 50M
 ```
+
+| Unit | Meaning        |
+| ---- | -------------- |
+| `c`  | bytes          |
+| `k`  | kilobytes (KB) |
+| `M`  | megabytes (MB) |
+| `G`  | gigabytes (GB) |
 
 ---
 ## Execute when you find 
