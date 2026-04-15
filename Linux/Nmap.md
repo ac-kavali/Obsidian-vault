@@ -195,6 +195,7 @@ nmap -iL list_of_hosts.txt
 | `-Pn` | No Discovery | Skip Hosts Discovery            |
 | `-T`  | Speed up     | 1 For stealth, 4< for speed     |
 | `-sL` | Listing      | Only taListing no scan          |
+| `-PR` | ARP          | ARP ping                        |
 
 ---
 ## Output Saving
