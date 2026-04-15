@@ -1,19 +1,17 @@
 
 > A practical introduction to copying and moving files between systems over a network using the Linux command line.
 
----
-
 ## Table of Contents
-
-1. [What Is Linux File Transfer?](#what-is-linux-file-transfer)
-2. [Supported Protocols](#supported-protocols)
-3. [Common Tools & Commands](#common-tools--commands)
-- [scp – Secure Copy](#scp--secure-copy)
-- [rsync – Remote Sync](#rsync--remote-sync)
-- [wget – Web Get](#wget--web-get)
-- [ftp – File Transfer Protocol](#ftp--file-transfer-protocol)
-4. [Quick Reference Table](#quick-reference-table)
-5. [Free Learning Resources](#free-learning-resources)
+- [[#What Is Linux File Transfer?|What Is Linux File Transfer?]]
+- [[#Supported Protocols|Supported Protocols]]
+- [[#Common Tools & Commands|Common Tools & Commands]]
+- [[#Common Tools & Commands#`scp` – Secure Copy|`scp` – Secure Copy]]
+- [[#Common Tools & Commands#`rsync` – Remote Sync|`rsync` – Remote Sync]]
+- [[#Common Tools & Commands#`wget` – Web Get|`wget` – Web Get]]
+- [[#Common Tools & Commands#`ftp` – File Transfer Protocol|`ftp` – File Transfer Protocol]]
+- [[#Common Tools & Commands#SMB|SMB]]
+- [[#Quick Reference Table|Quick Reference Table]]
+- [[#Free Learning Resources|Free Learning Resources]]
 
 ---
 
@@ -157,7 +155,46 @@ Once connected, common FTP commands include:
 |`bye`|Close the connection|
 
 ---
+### SMB
+#### What Is SMB?
 
+**SMB (Server Message Block)** is a network file-sharing protocol that allows systems to share files, printers, and other resources over a local network. It was originally developed by Microsoft and is the backbone of Windows file sharing (the "Network Drives" you see in Windows Explorer).
+
+On Linux, SMB is implemented through a suite called **Samba**, which lets Linux machines communicate with Windows systems seamlessly.
+
+
+#### Common Use Cases
+
+- Accessing shared folders on a Windows machine from Linux
+
+- Sharing files between Linux and Windows on the same network
+
+- Mounting a remote network drive locally
+
+- Connecting to a NAS (Network Attached Storage) device
+#### Key Tools on Linux
+
+#### `smbclient` – Access SMB Shares from the Command Line`
+
+Works similarly to an FTP client — lets you browse and transfer files interactively.
+**Connect to a shared folder:**
+
+ ```bash 
+smbclient //server_ip/share_name -U username
+ ``` 
+
+**Common commands once connected:**
+
+| Command | Description |
+|---------|-------------|
+| `ls` | List files on the share |
+| `get filename` | Download a file |
+| `put filename` | Upload a file |
+| `cd /path` | Change directory |
+| `exit` | Disconnect |
+
+
+---
 ## Quick Reference Table
 
 |Tool|Protocol|Use Case|Encrypted?|
