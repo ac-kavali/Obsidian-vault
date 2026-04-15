@@ -1,7 +1,7 @@
 {
   "interfaceFontFamily": "DejaVu Sans,DejaVu Math TeX Gyre,DejaVu Serif",
   "baseFontSize": 19,
-  "textFontFamily": "DejaVu Sans,DejaVu Math TeX Gyre,Bodoni 72 Oldstyle,Linux Biolinum O,Source Code Pro",
+  "textFontFamily": "JetBrainsMono Nerd Font,DejaVu Sans,DejaVu Math TeX Gyre,Bodoni 72 Oldstyle,Linux Biolinum O,Source Code Pro",
   "enabledCssSnippets": [
     "colors",
     "hide-tab-line"

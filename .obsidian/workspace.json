@@ -8,35 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5dd4a9a9dc18c038",
+            "id": "b385406dee0ae6c9",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/FTP.md",
+                "file": "Linux/Nmap.md",
                 "mode": "preview",
-                "source": true
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "FTP"
-            }
-          },
-          {
-            "id": "9c70a2adaf74531b",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/awk.md",
-                "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "awk"
+              "title": "Nmap"
+            }
+          },
+          {
+            "id": "14146cc3923e4e0c",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Archiving & Compressing.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Archiving & Compressing"
             }
           },
           {
@@ -72,37 +72,9 @@
               "title": "Overview"
             },
             "group": "30a38a7c0c01ba00"
-          },
-          {
-            "id": "b385406dee0ae6c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Nmap.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Nmap"
-            }
-          },
-          {
-            "id": "14146cc3923e4e0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Archiving & Compressing.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Archiving & Compressing"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -303,9 +275,10 @@
   },
   "active": "14146cc3923e4e0c",
   "lastOpenFiles": [
+    "Overview.md",
+    "Linux/Nmap.md",
     "Linux/FTP.md",
     "Linux/Archiving & Compressing.md",
-    "Linux/Nmap.md",
     "Linux/File transfer.md",
     "Linux/Find.md",
     "Netcat.md",
@@ -315,7 +288,6 @@
     "Linux/Network Tools.md",
     "Linux/Web Servers.md",
     "Linux/SSH.md",
-    "Overview.md",
     "Web/Framework.md",
     "Python/Python Essentiel Syntax.md",
     "Networking/NAT.md",
