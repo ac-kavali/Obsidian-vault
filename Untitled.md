@@ -4,36 +4,9 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## topic 2
-adfsdafsafasfaf
-
----
-
+create /usr/sbin/nologin user
+give it a password 
+if you want to enable 
 
 
 
