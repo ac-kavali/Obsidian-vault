@@ -79,16 +79,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Linux/Nmap.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Nmap"
+            }
+          },
+          {
+            "id": "14146cc3923e4e0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Netcat.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Netcat"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -163,7 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5
+    "width": 254.5
   },
   "right": {
     "id": "10424350b623bef2",
@@ -287,19 +301,20 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "b385406dee0ae6c9",
+  "active": "14146cc3923e4e0c",
   "lastOpenFiles": [
+    "Netcat.md",
+    "Linux/Nmap.md",
+    "Untitled.md",
     "Linux/File transfer.md",
     "Linux/FTP.md",
     "Linux/awk.md",
     "Linux/kali-setup.md",
     "Linux/Network Tools.md",
-    "Linux/Nmap.md",
     "Linux/Find.md",
     "Linux/Web Servers.md",
     "Linux/SSH.md",
     "Overview.md",
-    "Untitled.md",
     "Web/Framework.md",
     "Python/Python Essentiel Syntax.md",
     "Networking/NAT.md",
@@ -325,7 +340,6 @@
     "Networking/Switch.md",
     "Web/CSS/Get started.md",
     "Concepts/File Discriptor.md",
-    "Concepts/Linked lists.md",
     "obsidian.tar.xz",
     "Media/Pasted Image 20260406200602_187.png",
     "anki-launcher-25.09-linux.tar.zst",
