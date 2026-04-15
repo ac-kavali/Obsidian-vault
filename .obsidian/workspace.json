@@ -24,19 +24,19 @@
             }
           },
           {
-            "id": "e34976774a4002b9",
+            "id": "9c70a2adaf74531b",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux Admin Project.md",
-                "mode": "preview",
+                "file": "Linux/SSH.md",
+                "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Linux Admin Project"
+              "title": "SSH"
             }
           },
           {
@@ -72,23 +72,9 @@
               "title": "Overview"
             },
             "group": "30a38a7c0c01ba00"
-          },
-          {
-            "id": "9c70a2adaf74531b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Nmap.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Nmap"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -289,15 +275,16 @@
   },
   "active": "9c70a2adaf74531b",
   "lastOpenFiles": [
+    "Overview.md",
+    "Linux/SSH.md",
+    "Linux/FTP.md",
+    "Linux/Nmap.md",
     "Linux/kali-setup.md",
     "Linux/awk.md",
     "Linux/Web Servers.md",
     "Linux/Find.md",
-    "Linux/FTP.md",
-    "Linux/Nmap.md",
     "Linux/Network Tools.md",
     "Linux/Text Processing.md",
-    "Overview.md",
     "Project/rcp_document.md",
     "Networking/Packets.md",
     "Web/JavaScript/Random.md",
@@ -314,7 +301,6 @@
     "Concepts/git -h.md",
     "Networking/Application, Presentation.md",
     "Networking/Subnetting.md",
-    "Excalidraw/Http.md",
     "Excalidraw/Bitwize.excalidraw",
     "obsidian.tar.xz",
     "Excalidraw/booting_process.excalidraw",
