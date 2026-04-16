@@ -1,1 +1,1 @@
-<span style="color:rgb(255, 192, 0)">tar -xf</span> <span style="color:rgb(0, 176, 80)">file.tar</span>
+<span style="color:rgb(255, 192, 0)">bzip2</span> <span style="color:rgb(0, 176, 80)">file</span> 
