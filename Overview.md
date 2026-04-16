@@ -1,1 +1,1 @@
-<span style="color:rgb(255, 192, 0)">openssl</span> <span style="color:rgb(0, 176, 80)">s_client</span> -connect <span style="color:rgb(0, 176, 240)">ip:port</span> 
+<span style="color:rgb(255, 192, 0)">nmap</span> -sS <span style="color:rgb(0, 176, 80)">-p 100-200</span>  <span style="color:rgb(0, 176, 240)">10.121.12.1</span> 
