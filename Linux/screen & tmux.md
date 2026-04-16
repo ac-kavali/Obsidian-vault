@@ -1,38 +1,26 @@
-# Terminal Multiplexers — Full Pro Manual
-
-> **tmux** & **screen** — Daily use + CTF-ready reference
-
 Terminal multiplexers let you open and manage multiple terminal sessions inside one TTY, and move between them quickly using your keyboard. They are essential for remote work over SSH, persistent long-running processes, and CTF challenges where you need multiple shells simultaneously.
 
----
-
-## Table of Contents
-
-1. [Installation](#installation)
-2. [tmux — Complete Reference](#tmux)
-    - [Starting & Basic Concepts](#tmux-basics)
-    - [Prefix Key](#prefix-key)
-    - [Sessions](#tmux-sessions)
-    - [Windows](#tmux-windows)
-    - [Panes](#tmux-panes)
-    - [Copy Mode](#tmux-copy-mode)
-    - [Configuration (~/.tmux.conf)](#tmux-config)
-    - [Scripting & Automation](#tmux-scripting)
-    - [CTF Workflow with tmux](#tmux-ctf)
-3. [screen — Complete Reference](#screen)
-    - [Starting & Basic Concepts](#screen-basics)
-    - [Windows in screen](#screen-windows)
-    - [Regions (Split Panes)](#screen-regions)
-    - [Copy Mode in screen](#screen-copy-mode)
-    - [Configuration (~/.screenrc)](#screen-config)
-    - [CTF Workflow with screen](#screen-ctf)
-4. [tmux vs screen — Comparison](#comparison)
-5. [Pro Tips & Power Moves](#pro-tips)
-6. [Quick Reference Cheatsheets](#cheatsheets)
+## Table Of Contents
+- [[#1. Installation|1. Installation]]
+- [[#2. tmux — Complete Reference|2. tmux — Complete Reference]]
+  - [[#2. tmux — Complete Reference#Starting & Basic Concepts <a name="tmux-basics"></a>|Starting & Basic Concepts <a name="tmux-basics"></a>]]
+  - [[#2. tmux — Complete Reference#Prefix Key|Prefix Key]]
+  - [[#2. tmux — Complete Reference#Sessions|Sessions]]
+  - [[#2. tmux — Complete Reference#Windows|Windows]]
+  - [[#2. tmux — Complete Reference#Panes|Panes]]
+  - [[#2. tmux — Complete Reference#Copy Mode|Copy Mode]]
+  - [[#2. tmux — Complete Reference#Configuration (~/.tmux.conf)|Configuration (~/.tmux.conf)]]
+- [[#3. screen — Complete Reference|3. screen — Complete Reference]]
+  - [[#3. screen — Complete Reference#Starting & Basic Concepts|Starting & Basic Concepts]]
+  - [[#3. screen — Complete Reference#Windows in screen|Windows in screen]]
+  - [[#3. screen — Complete Reference#Regions (Split Panes)|Regions (Split Panes)]]
+  - [[#3. screen — Complete Reference#Copy Mode in screen|Copy Mode in screen]]
+  - [[#3. screen — Complete Reference#Configuration (~/.screenrc)|Configuration (~/.screenrc)]]
+  - [[#3. screen — Complete Reference#CTF Workflow with screen|CTF Workflow with screen]]
+- [[#4. tmux vs screen — Comparison|4. tmux vs screen — Comparison]]
 
 ---
-
-## 1. Installation <a name="installation"></a>
+## 1. Installation
 
 Ensure that they are installed, or install them using your package manager:
 
@@ -49,8 +37,7 @@ screen
 ```
 
 ---
-
-## 2. tmux — Complete Reference <a name="tmux"></a>
+## 2. tmux — Complete Reference 
 
 ### Starting & Basic Concepts <a name="tmux-basics"></a>
 
@@ -77,7 +64,7 @@ tmux server
 | `tmux kill-server`               | Kill everything             |
 
 ---
-### Prefix Key <a name="prefix-key"></a>
+### Prefix Key 
 
 All tmux keyboard shortcuts start with the **prefix key**, which by default is:
 
@@ -96,7 +83,7 @@ After pressing `Ctrl+b`, release it, then press the command key.
 > ```
 
 ---
-### Sessions <a name="tmux-sessions"></a>
+### Sessions
 
 Sessions are the top-level containers. They persist even when you detach.
 
@@ -107,12 +94,12 @@ Sessions are the top-level containers. They persist even when you detach.
 | <span style="color:rgb(255, 192, 0)">Ctrl+b</span> s | **Switch sessions** interactively (tree view) |
 | <span style="color:rgb(255, 192, 0)">Ctrl+b</span> ( | Switch to previous session                    |
 | <span style="color:rgb(255, 192, 0)">Ctrl+b</span> ) | Switch to next session                        |
-| `tmux new -s name`                                   | Create a new named session                    |
+| tmux new -s name                                     | Create a new named session                    |
 | `tmux attach -t name`                                | Re-attach to a session                        |
 | `tmux rename-session -t old new`                     | Rename from outside                           |
 
 ---
-### Windows <a name="tmux-windows"></a>
+### Windows
 
 Windows are like tabs inside a session.
 
@@ -129,34 +116,32 @@ Windows are like tabs inside a session.
 | <span style="color:rgb(255, 192, 0)">Ctrl+b</span> f   | **Find** window by name                     |
 
 ---
-
-### Panes <a name="tmux-panes"></a>
+### Panes
 
 Panes split a window into multiple terminal regions.
 
 #### Splitting
 
-|Shortcut|Description|
-|---|---|
-|`Ctrl+b %`|Split pane **vertically** (left/right)|
-|`Ctrl+b "`|Split pane **horizontally** (top/bottom)|
+| Shortcut   | Description                              |
+| ---------- | ---------------------------------------- |
+| `Ctrl+b %` | Split pane **vertically** (left/right)   |
+| `Ctrl+b "` | Split pane **horizontally** (top/bottom) |
 
 #### Navigation
 
-|Shortcut|Description|
-|---|---|
-|`Ctrl+b ←↑→↓`|Move between panes (arrow keys)|
-|`Ctrl+b o`|Cycle to next pane|
-|`Ctrl+b ;`|Toggle between last two panes|
-|`Ctrl+b q`|Show pane numbers, then press the number to jump|
+| Shortcut      | Description                                      |
+| ------------- | ------------------------------------------------ |
+| `Ctrl+b ←↑→↓` | Move between panes (arrow keys)                  |
+| `Ctrl+b o`    | Cycle to next pane                               |
+| `Ctrl+b ;`    | Toggle between last two panes                    |
+| `Ctrl+b q`    | Show pane numbers, then press the number to jump |
 
 #### Resizing
 
-|Shortcut|Description|
-|---|---|
-|`Ctrl+b Ctrl+←↑→↓`|Resize pane in arrow direction|
-|`Ctrl+b Alt+←↑→↓`|Resize pane in bigger steps|
-
+| Shortcut           | Description                    |
+| ------------------ | ------------------------------ |
+| `Ctrl+b Ctrl+←↑→↓` | Resize pane in arrow direction |
+| `Ctrl+b Alt+←↑→↓`  | Resize pane in bigger steps    |
 #### Managing Panes
 
 |Shortcut|Description|
@@ -179,8 +164,7 @@ Press `Ctrl+b Space` repeatedly to cycle through:
 - `tiled` — balanced grid
 
 ---
-
-### Copy Mode <a name="tmux-copy-mode"></a>
+### Copy Mode
 
 Copy mode lets you scroll, search, and copy terminal output.
 
@@ -208,8 +192,7 @@ bind-key -T copy-mode-vi y send-keys -X copy-selection-and-cancel
 ```
 
 ---
-
-### Configuration (~/.tmux.conf) <a name="tmux-config"></a>
+### Configuration (~/.tmux.conf)
 
 ```bash
 # === PREFIX ===
@@ -273,88 +256,11 @@ tmux source-file ~/.tmux.conf
 Ctrl+b r   # if you added the reload binding above
 ```
 
----
-
-### Scripting & Automation <a name="tmux-scripting"></a>
-
-You can script entire tmux layouts for instant workspace setup:
-
-```bash
-#!/bin/bash
-# ctf-workspace.sh — Launch a full CTF tmux layout
-
-SESSION="ctf"
-
-tmux new-session -d -s $SESSION -n "recon"
-
-# Window 1: Recon — split into 3 panes
-tmux split-window -h -t $SESSION:0
-tmux split-window -v -t $SESSION:0.1
-
-# Window 2: Exploit
-tmux new-window -t $SESSION -n "exploit"
-
-# Window 3: Reverse shell listener
-tmux new-window -t $SESSION -n "listener"
-tmux send-keys -t $SESSION:2 "nc -lvnp 4444" Enter
-
-# Window 4: Notes
-tmux new-window -t $SESSION -n "notes"
-tmux send-keys -t $SESSION:3 "vim notes.md" Enter
-
-# Attach to session
-tmux select-window -t $SESSION:0
-tmux attach-session -t $SESSION
-```
-
-Useful scripting commands:
-
-```sh
-tmux send-keys -t session:window.pane "command" Enter
-tmux new-window -t session -n "name"
-tmux split-window -h -t session:window
-tmux select-layout -t session:window tiled
-```
 
 ---
+## 3. screen — Complete Reference 
 
-### CTF Workflow with tmux <a name="tmux-ctf"></a>
-
-**Recommended layout for a typical CTF challenge:**
-
-```
-Window 0 — recon
-  ┌──────────────────┬──────────────────┐
-  │  nmap / scan     │   web / burp     │
-  ├──────────────────┴──────────────────┤
-  │         gobuster / ffuf             │
-  └─────────────────────────────────────┘
-
-Window 1 — exploit
-  ┌──────────────────┬──────────────────┐
-  │   python exploit │  target shell    │
-  └──────────────────┴──────────────────┘
-
-Window 2 — listener
-  nc -lvnp 4444
-
-Window 3 — notes / loot
-  vim flags.md
-```
-
-**Key CTF tmux habits:**
-
-- Always name your session after the machine: `tmux new -s hackthebox-seal`
-- Keep a listener pane always visible
-- Use `Ctrl+b z` to zoom into a pane when reading long output
-- Log everything: `tmux pipe-pane -o 'cat >> ~/ctf/$(date +%Y%m%d).log'`
-- To log all output in a window: `Ctrl+b :pipe-pane -o 'cat >> logfile.txt'`
-
----
-
-## 3. screen — Complete Reference <a name="screen"></a>
-
-### Starting & Basic Concepts <a name="screen-basics"></a>
+### Starting & Basic Concepts 
 
 screen's hierarchy is simpler: **session → windows** (no native panes before GNU Screen 4.x).
 
@@ -376,8 +282,7 @@ Ctrl + a
 ```
 
 ---
-
-### Windows in screen <a name="screen-windows"></a>
+### Windows in screen 
 
 |Shortcut|Description|
 |---|---|
@@ -396,8 +301,7 @@ Ctrl + a
 |`Ctrl+a :quit`|Kill the session entirely|
 
 ---
-
-### Regions (Split Panes) <a name="screen-regions"></a>
+### Regions (Split Panes) 
 
 Screen supports split regions from version 4.x onward.
 
@@ -414,8 +318,7 @@ After splitting, use `Ctrl+a c` to create a new window in the focused region, or
 > **Note:** Vertical split (`Ctrl+a |`) requires a version of screen compiled with `--enable-vertical-split`, or add `split -v` as a key binding in `.screenrc`.
 
 ---
-
-### Copy Mode in screen <a name="screen-copy-mode"></a>
+### Copy Mode in screen
 
 |Shortcut|Description|
 |---|---|
@@ -433,8 +336,7 @@ After splitting, use `Ctrl+a c` to create a new window in the focused region, or
 |`Ctrl+a ]`|**Paste** copied text|
 
 ---
-
-### Configuration (~/.screenrc) <a name="screen-config"></a>
+### Configuration (~/.screenrc)
 
 ```bash
 # === GENERAL ===
@@ -469,8 +371,7 @@ defmode vi                     # vi-style copy mode
 Apply: Just restart screen or use `Ctrl+a :source ~/.screenrc`
 
 ---
-
-### CTF Workflow with screen <a name="screen-ctf"></a>
+### CTF Workflow with screen
 
 ```sh
 # Start a CTF session
@@ -501,194 +402,24 @@ screen -L -S mysession
 ```
 
 ---
+## 4. tmux vs screen — Comparison
 
-## 4. tmux vs screen — Comparison <a name="comparison"></a>
+| Feature                      | tmux                        | screen                |
+| ---------------------------- | --------------------------- | --------------------- |
+| **Default prefix**           | `Ctrl+b`                    | `Ctrl+a`              |
+| **Session persistence**      | ✅ Yes                       | ✅ Yes                 |
+| **Named sessions**           | ✅ Yes                       | ✅ Yes                 |
+| **Multiple panes**           | ✅ Native, powerful          | ⚠️ Limited (v4.x+)    |
+| **Vertical splits**          | ✅ Built-in                  | ⚠️ Needs compile flag |
+| **Scripting / automation**   | ✅ Excellent                 | ⚠️ Basic              |
+| **256 color support**        | ✅ Easy                      | ✅ With config         |
+| **Mouse support**            | ✅ Full                      | ⚠️ Limited            |
+| **Status bar**               | ✅ Highly customizable       | ✅ `hardstatus`        |
+| **Copy mode**                | ✅ vi or emacs               | ✅ vi or emacs         |
+| **Multi-attach**             | ✅ Native                    | ✅ `screen -x`         |
+| **Config file**              | `~/.tmux.conf`              | `~/.screenrc`         |
+| **Logging**                  | Via pipe-pane               | `Ctrl+a H` built-in   |
+| **Pre-installed on servers** | Sometimes                   | Very common           |
+| **Plugin ecosystem**         | ✅ TPM (tmux plugin manager) | ❌ None                |
 
-|Feature|tmux|screen|
-|---|---|---|
-|**Default prefix**|`Ctrl+b`|`Ctrl+a`|
-|**Session persistence**|✅ Yes|✅ Yes|
-|**Named sessions**|✅ Yes|✅ Yes|
-|**Multiple panes**|✅ Native, powerful|⚠️ Limited (v4.x+)|
-|**Vertical splits**|✅ Built-in|⚠️ Needs compile flag|
-|**Scripting / automation**|✅ Excellent|⚠️ Basic|
-|**256 color support**|✅ Easy|✅ With config|
-|**Mouse support**|✅ Full|⚠️ Limited|
-|**Status bar**|✅ Highly customizable|✅ `hardstatus`|
-|**Copy mode**|✅ vi or emacs|✅ vi or emacs|
-|**Multi-attach**|✅ Native|✅ `screen -x`|
-|**Config file**|`~/.tmux.conf`|`~/.screenrc`|
-|**Logging**|Via pipe-pane|`Ctrl+a H` built-in|
-|**Pre-installed on servers**|Sometimes|Very common|
-|**Plugin ecosystem**|✅ TPM (tmux plugin manager)|❌ None|
 
-> **Verdict for CTF / Daily use:** Use **tmux** for local work and CTF machines. Use **screen** when on a remote server where only screen is available — it's almost universally pre-installed.
-
----
-
-## 5. Pro Tips & Power Moves <a name="pro-tips"></a>
-
-### tmux Power Moves
-
-```sh
-# Run a command in a new session without attaching
-tmux new-session -d -s bg "python3 server.py"
-
-# Run a command in a specific pane
-tmux send-keys -t mysession:0.1 "nmap -sV 10.10.10.1" Enter
-
-# Capture pane output to a file
-tmux capture-pane -p -t mysession:0.0 > output.txt
-
-# Synchronize input across all panes (type in all at once!)
-Ctrl+b :setw synchronize-panes on
-# Turn off:
-Ctrl+b :setw synchronize-panes off
-
-# Move a window from one session to another
-Ctrl+b :move-window -t other-session
-
-# List all key bindings
-tmux list-keys
-
-# Kill all other sessions except current
-tmux kill-session -a
-
-# Rename a window from CLI
-tmux rename-window -t mysession:1 "exploit"
-
-# Create a persistent logging pane
-tmux pipe-pane -o 'cat >> ~/logs/session.log'
-```
-
-### screen Power Moves
-
-```sh
-# Attach to a session from another machine (shared screen)
-screen -x username/sessionname
-
-# Send a command to a named screen window
-screen -S mysession -p 0 -X stuff "ls -la\n"
-
-# Create a detached session with a command
-screen -dmS myname bash -c "python3 exploit.py; bash"
-
-# Screen with logging from the start
-screen -L -S ctf-session
-
-# Execute a screen command from outside
-screen -S mysession -X quit
-```
-
-### Universal Pro Tips
-
-```sh
-# Keep processes alive after SSH disconnect
-# SSH into server, start tmux/screen, run your process, detach
-# When you reconnect: tmux attach OR screen -r
-
-# Inside tmux: create a shared session for pair hacking
-tmux new-session -s shared
-# Second user attaches:
-tmux attach-session -t shared
-# Now both see the same terminal!
-
-# Same in screen:
-screen -S shared
-# Second user:
-screen -x shared
-
-# Forward X11 and use tmux for persistent GUI sessions
-ssh -X user@host
-tmux new -s gui
-# Run GUI tools, detach, reconnect later
-```
-
----
-
-## 6. Quick Reference Cheatsheets <a name="cheatsheets"></a>
-
-### tmux Cheatsheet
-
-```
-PREFIX = Ctrl+b (default)
-
-SESSIONS
-  new -s name          Start named session
-  attach -t name       Attach to session
-  ls                   List sessions
-  PREFIX d             Detach
-  PREFIX $             Rename session
-  PREFIX s             Switch sessions
-
-WINDOWS
-  PREFIX c             New window
-  PREFIX ,             Rename window
-  PREFIX n/p           Next/Prev window
-  PREFIX 0-9           Jump to window
-  PREFIX w             List windows
-  PREFIX &             Kill window
-
-PANES
-  PREFIX %             Split vertical
-  PREFIX "             Split horizontal
-  PREFIX arrows        Navigate panes
-  PREFIX o             Cycle panes
-  PREFIX q             Show pane numbers
-  PREFIX z             Zoom pane
-  PREFIX x             Kill pane
-  PREFIX !             Break to window
-  PREFIX { / }         Move pane
-
-COPY MODE
-  PREFIX [             Enter copy mode
-  Space                Start selection
-  Enter                Copy
-  PREFIX ]             Paste
-  q / Esc              Exit copy mode
-```
-
-### screen Cheatsheet
-
-```
-PREFIX = Ctrl+a
-
-SESSIONS
-  screen -S name       Start named session
-  screen -r name       Re-attach
-  screen -ls           List sessions
-  PREFIX d             Detach
-  PREFIX D D           Detach + logout
-
-WINDOWS
-  PREFIX c             New window
-  PREFIX A             Rename window
-  PREFIX n/p           Next/Prev window
-  PREFIX 0-9           Jump to window
-  PREFIX "             List windows
-  PREFIX k             Kill window
-  PREFIX Ctrl+a        Toggle last window
-
-REGIONS (SPLITS)
-  PREFIX S             Split horizontal
-  PREFIX |             Split vertical (if supported)
-  PREFIX Tab           Focus next region
-  PREFIX X             Remove region
-  PREFIX Q             Remove all other regions
-
-COPY MODE
-  PREFIX [             Enter copy mode
-  Space                Start selection
-  Enter                Copy and exit
-  PREFIX ]             Paste
-  Esc                  Exit copy mode
-
-MISC
-  PREFIX H             Toggle logging
-  PREFIX ?             Show help
-  PREFIX :             Enter command mode
-```
-
----
-
-_Generated as a living reference — keep this in your `~/docs/` or a notes repo and update as you discover new workflows._

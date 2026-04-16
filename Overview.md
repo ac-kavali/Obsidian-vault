@@ -1,1 +1,1 @@
-<span style="color:rgb(255, 192, 0)">find</span> -size <span style="color:rgb(0, 176, 80)">+50 -size +100</span>
+<span style="color:rgb(255, 192, 0)">tmux</span> new <span style="color:rgb(0, 176, 80)">-s</span> s
