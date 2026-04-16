@@ -157,6 +157,6 @@ find . -type f -not -name "*.txt"
 ## path Excluding  
 in case you don't want to search inside a directory and you want to skip: 
 ```sh
-find . -name "file" ! -path "excluded"
+find . -name "file" ! -path "./excluded/*"
 ```
 >[!tip] Now find will not search in the `excluded` directory.
