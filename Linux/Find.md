@@ -11,6 +11,7 @@
 - [[#Search by permissions]]
 - [[#Search by owner/group]]
 - [[#Search with operators]]
+- [[#path Excluding]]
 ## Search By name
 ### Exact name :
 ```sh
@@ -153,5 +154,9 @@ you can also use `not`
 find . -type f -not -name "*.txt"
 ```
 
-## path 
-in case you don't want to search inside a directory you might use `` 
+## path Excluding  
+in case you don't want to search inside a directory and you want to skip: 
+```sh
+find . -name "file" ! -path "excluded"
+```
+>[!tip] Now find will not search in the `excluded` directory.
