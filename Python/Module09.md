@@ -1,10 +1,5 @@
-
-
-
 # BaseModel
 >is a class from the **pydantic** modules where the objects initialization not need the init constructor to be assigned, in revench you use the **`Field()`** extra validation tool.
-
-
 
 # Data validation with feild()
 
