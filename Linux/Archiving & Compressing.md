@@ -1,3 +1,7 @@
+---
+words:
+  2026-04-15: 1110
+---
 
 ## What is Compression?
 

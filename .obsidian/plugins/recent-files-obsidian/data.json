@@ -1,0 +1,24 @@
+{
+  "recentFiles": [
+    {
+      "basename": "Nmap",
+      "path": "Linux/Nmap.md"
+    },
+    {
+      "basename": "Overview",
+      "path": "Overview.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
+      "basename": "Archiving & Compressing",
+      "path": "Linux/Archiving & Compressing.md"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false
+}
