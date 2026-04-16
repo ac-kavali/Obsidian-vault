@@ -1,1 +1,1 @@
-<span style="color:rgb(255, 192, 0)">nmap</span> -sS <span style="color:rgb(0, 176, 80)">-p 100-200</span>  <span style="color:rgb(0, 176, 240)">10.121.12.1</span> 
+<span style="color:rgb(255, 192, 0)">find</span> -size <span style="color:rgb(0, 176, 80)">+50 -size +100</span>

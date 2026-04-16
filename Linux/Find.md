@@ -81,7 +81,7 @@ find . -size 50M
 you can make find execute a command for every file/directory found.
 **basic syntax**
 ```sh
-find <path> <condition> -exec <command> {} \;
+find <path> <condition> -exec <command> {} + 
 ```
 - `{}` means **replace** this with the **current file** you find 
 - `\;` executes command **one time per file**
