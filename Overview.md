@@ -1,1 +1,1 @@
-<span style="color:rgb(255, 192, 0)">bzip2</span> <span style="color:rgb(0, 176, 80)">file</span> 
+<span style="color:rgb(255, 192, 0)">openssl</span> <span style="color:rgb(0, 176, 80)">s_client</span> -connect <span style="color:rgb(0, 176, 240)">ip:port</span> 
