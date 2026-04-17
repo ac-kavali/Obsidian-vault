@@ -1,1 +1,1 @@
-<span style="color:rgb(255, 192, 0)">tmux</span> new <span style="color:rgb(0, 176, 80)">-s</span> <span style="color:rgb(112, 48, 160)">namedss</span> 
+Power-botton -> UEFI/BIOS -> POST -> Boot Loader -> Kernel
