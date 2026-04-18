@@ -1,1 +1,1 @@
-Power-botton -> UEFI/BIOS -> POST -> Boot Loader -> Kernel
+<span style="color:rgb(255, 192, 0)">gpg</span> <span style="color:rgb(0, 176, 80)">-d</span> archive.tar.xz.gpg <span style="color:rgb(0, 112, 192)">></span> archive.tar.xz
