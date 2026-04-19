@@ -58,6 +58,7 @@ nc -u 192.168.1.1 53
 | `-k`        | Keep listening after client disconnects (ncat)      |
 | `-q [sec]`  | Quit after EOF + N seconds                          |
 | `--ssl`     | Enable SSL/TLS (ncat only)                          |
+| `-N`        | End after EOF used in prutefocing                   |
 
 ---
 
