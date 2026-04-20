@@ -601,7 +601,7 @@ sudo apt install lighttpd
 ```
 
 **What just happened?** You installed a program that shows websites to people on the internet.
-**lighttpd** is a webserver, it manage client requistes, listens for visitors and shows them web pages.
+**lighttpd** is a webserver, it manage client requests, listens for visitors and shows them web pages.
 
 ### STEP 2: Open the Door for Visitors
 
