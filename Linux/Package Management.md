@@ -96,8 +96,8 @@ dpkg -l
 # List all installed packages (names only)
 dpkg --get-selections | grep -v deinstall
 
-# List with apt
-apt list --installed
+# List with apt and grep just installed not also the update
+apt list --installed | grep installed 
 
 # Count installed packages
 dpkg -l | grep ^ii | wc -l
