@@ -10,7 +10,6 @@ Then it evolved into:
 
 ## Most case use (Web Requests) : 
 This is where it becomes powerful:
-
 ### 1. Perform GET request (By Default)
 ```sh
 curl https://example.com
