@@ -1,4 +1,4 @@
-Structured Query Language
+ssStructured Query Language
 SQL = language used to talk to databases.
 
 
