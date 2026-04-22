@@ -1,7 +1,7 @@
 # Keys 
 
 ## Class
-A class is a blue-print or template for creating objects,It bundles related data (attributes) and functionality (methods) into a single, modular unit, a core concept in object-oriented programming (OOP)
+A class is a blue-print or template for creating objects, defines attributes, and methods that the object will have. 
 ```python
 class Man:
 	attribute
