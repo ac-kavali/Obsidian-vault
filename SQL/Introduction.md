@@ -41,3 +41,36 @@ A record, also called a row, is each individual entry that exists in a table. Fo
 - `DROP TABLE` - deletes a table
 - `CREATE INDEX` - creates an index (search key)
 - `DROP INDEX` - deletes an index
+
+
+## Select Statement
+
+The `SELECT` statement is used to select data from a database.
+```sql
+SELECT _column1_, _column2, ..._   FROM _table_name_;
+```
+Return all the data no uniquness filtering:
+`Ahmed  
+`Sara` 
+`Ahmed`
+
+## Select Distinct
+The `SELECT DESTINCT` 
+```sql 
+SELECT DISTINCT _column1_ FROM _TABLE_NAME_
+```
+Return Uniqu Representation of data
+`Sara` 
+`Ahmed`
+
+## COUNT 
+used to count the number of the aparence of a data in a table culumn 
+```sql
+SELECT COUNT(Country) FROM Customers;
+```
+Display the number of data in the Country column.
+
+**COUNT with DISTINCT**
+```sql
+SELECT COUNT(DISTINCT Country) FROM CUSTOMERS;
+```
