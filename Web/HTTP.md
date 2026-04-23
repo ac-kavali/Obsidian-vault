@@ -8,7 +8,7 @@
 - The client sends its request, and waits for the answer.
 - The server processes the request, sending back its answer, providing a status code and appropriate data.
 
-**Request line**: the first line of an HTTP request message. It contains three elements separated by single spaces and terminated by a carriage return and line feed , first element is the request method(GET, POST...), the second element is the target-resources, which resource inside the server you want, the third is the protocol version.
+**Request line**: the first line of an HTTP request message. It contains three elements separated by single spaces and terminated by a carriage return and line feed , first element is <span style="color:rgb(255, 0, 0)">the request method(GET, POST...)</span>, the second element is <span style="color:rgb(0, 112, 192)">the target-resources</span>, which resource inside the server you want, the third is <span style="color:rgb(255, 255, 0)">the protocol version</span>.
 
 **Header**:Headers takes the form of Key:Value and carry metadata about the request, this includes data about the host, client’s user agent, language preferences and more. The server leverages this information to identify the browser and OS version of the client. HTTP
  
