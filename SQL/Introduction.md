@@ -99,3 +99,6 @@ Display:
 | 80         | Tortuga Restaurante       | Miguel Angel Paolino | Avda. Azteca 123         | México D.F. | 05033      | Mexico  |
 
 ---
+```sql
+WHERE Price BETWEEN 50 AND 60;
+```
