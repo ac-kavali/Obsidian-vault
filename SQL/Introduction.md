@@ -54,6 +54,7 @@ Return all the data no uniquness filtering:
 `Sara` 
 `Ahmed`
 
+---
 ## Select Distinct
 The `SELECT DESTINCT` 
 ```sql 
@@ -63,6 +64,7 @@ Return Uniqu Representation of data
 `Sara` 
 `Ahmed`
 
+---
 ## COUNT 
 used to count the number of the aparence of a data in a table culumn 
 ```sql
@@ -73,4 +75,13 @@ Display the number of data in the Country column.
 **COUNT with DISTINCT**
 ```sql
 SELECT COUNT(DISTINCT Country) FROM CUSTOMERS;
+```
+ Count a data apearence in a column just one time (unique counting).
+
+---
+## WHERE
+Where is not a standalone statement, always used with another statment like select, delete, update.
+where used with a condition to add more filter:
+```sql 
+SELECT * FROM users WHERE age > 18;
 ```
