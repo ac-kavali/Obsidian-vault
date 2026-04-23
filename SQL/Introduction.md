@@ -29,3 +29,15 @@ makes data updating easier and ensure (prevent data inconsistency )
 the `*` symbol called _astros_  
 
 A record, also called a row, is each individual entry that exists in a table. For example, there are 91 records in the above Customers table. A record is a horizontal entity in a table.
+## Most important keys 
+- `SELECT` - extracts data from a database
+- `UPDATE` - updates data in a database
+- `DELETE` - deletes data from a database
+- `INSERT INTO` - inserts new data into a database
+- `CREATE DATABASE` - creates a new database
+- `ALTER DATABASE` - modifies a database
+- `CREATE TABLE` - creates a new table
+- `ALTER TABLE` - modifies a table
+- `DROP TABLE` - deletes a table
+- `CREATE INDEX` - creates an index (search key)
+- `DROP INDEX` - deletes an index
