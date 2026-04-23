@@ -81,7 +81,21 @@ SELECT COUNT(DISTINCT Country) FROM CUSTOMERS;
 ---
 ## WHERE
 Where is not a standalone statement, always used with another statment like select, delete, update.
-where used with a condition to add more filter:
+Its used with a condition to add more filters:
 ```sql 
 SELECT * FROM users WHERE age > 18;
 ```
+Example
+```sql
+SELECT * FROM Customers
+WHERE country = 'Mexico' and PostalCode=05033;
+```
+
+Display:
+
+| CustomerID | CustomerName              | ContactName          | Address                  | City        | PostalCode | Country |
+| :--------- | :------------------------ | :------------------- | :----------------------- | :---------- | :--------- | :------ |
+| 58         | Pericles Comidas clásicas | Guillermo Fernández  | Calle Dr. Jorge Cash 321 | México D.F. | 05033      | Mexico  |
+| 80         | Tortuga Restaurante       | Miguel Angel Paolino | Avda. Azteca 123         | México D.F. | 05033      | Mexico  |
+
+---
