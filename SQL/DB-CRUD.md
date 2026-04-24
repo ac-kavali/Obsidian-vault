@@ -57,13 +57,35 @@ ADD column_name data_type;
 ```
 **Example**:
 ```sql
- 
+ ALTER TABLE users
+ADD (
+    city VARCHAR(50),
+    phone VARCHAR(20)
+);
 ```
 
 ### 2. Modify
+`MODIFY` is used to **change data type or contraint, of an existing column** (not create a new one).
+```sql
+ALTER TABLE table_name  
+MODIFY column_name new_data_type;
+```
+**Example:**
+```sql 
+ALTER TABLE users
+MODIFY age INT NOT NULL;  -- From BIGINT  
+```
+`MODIFY` does NOT change the column name.
+
+### 3. Drop
+`DROP` used to remove a column completly from the table
+```sql
+ALTER TABLE table_name
+DROP COLUMN column_name;
+```
 
 
-
+---
 ## Rename table
 ```sql
 RENAME TABLE old_table_name TO new_table_name;
