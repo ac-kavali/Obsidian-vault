@@ -91,6 +91,9 @@ DROP COLUMN column_name;
 DROP TABLE table_name;
 ```
 you should add `IF EXIST` for more safely deletion.
+```sql
+DROP TABLE IF EXISTS table_name;
+```
 
 ---
 ## Rename table
