@@ -49,10 +49,16 @@ CREATE TABLE table_name (
 
 ## Alter
 A combination of statements modify a table after it has been created.
-1. **`ADD` is used with `ALTER` to add a new column to an existing table**.
+### 1. ADD
+**`ADD` is used with `ALTER` to add a new column to an existing table**.
 ```sh
-
+ALTER TABLE table_name
+ADD column_name data_type;
 ```
+
+### 2. Modify
+
+
 ## Rename table
 ```sql
 RENAME TABLE old_table_name TO new_table_name;
