@@ -47,7 +47,9 @@ CREATE TABLE table_name (
 ```
 
 
-### Rename Table:
+## Alter
+
+
 
 
 ---
