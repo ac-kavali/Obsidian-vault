@@ -14,7 +14,14 @@
 ---
 ## Create Table 
 
-Before know how to create a table you should know the datatypes in SQL
+**Data Types**
+Before know how to create a table you should know the datatypes in SQL:
+A _data type defines what kind of value a column can store_
+like rules:
+> “This column can only store numbers”  
+> “This one stores text”  
+> “This one stores dates”
+
 
 
 
