@@ -48,11 +48,14 @@ CREATE TABLE table_name (
 
 
 ## Alter
-
+A combination of statements modify a table after it has been created.
+1. **`ADD` is used with `ALTER` to add a new column to an existing table**.
 
 
 ## Rename table
-
+```sql
+RENAME TABLE old_table_name TO new_table_name;
+```
 
 ---
 ## 1 INSERT INTO 
