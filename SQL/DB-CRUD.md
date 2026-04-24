@@ -59,6 +59,7 @@ ADD column_name data_type;
 ### 2. Modify
 
 
+
 ## Rename table
 ```sql
 RENAME TABLE old_table_name TO new_table_name;
