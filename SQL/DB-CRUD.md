@@ -1,11 +1,22 @@
-
 ## Table Of Contents
 - [[#1 INSERT INTO|1 INSERT INTO]]
+- [[#Select Statement|Select Statement]]
+- [[#Select Distinct|Select Distinct]]
+- [[#COUNT|COUNT]]
+- [[#WHERE|WHERE]]
 - [[#2. WHERE Clause & Operators|2. WHERE Clause & Operators]]
 - [[#3. IS NULL and IS NOT NULL|3. IS NULL and IS NOT NULL]]
 - [[#4. UPDATE Statement|4. UPDATE Statement]]
 - [[#5. DELETE Statement|5. DELETE Statement]]
 - [[#Quick Reference Summary|Quick Reference Summary]]
+
+
+---
+## Create Table 
+
+Before know how to create a table you should know the datatypes in SQL
+
+
 
 ---
 ## 1 INSERT INTO 
