@@ -78,10 +78,18 @@ MODIFY age INT NOT NULL;  -- From BIGINT
 `MODIFY` does NOT change the column name.
 
 ### 3. Drop
-`DROP` used to remove a column completly from the table
+`DROP` used to remove a somthing completly from the table
 ```sql
 ALTER TABLE table_name
 DROP COLUMN column_name;
+```
+`DROP COLUMN`remove a column.
+
+
+
+**Remove entire table**
+```sql
+DROP TABLE table_name;
 ```
 
 
