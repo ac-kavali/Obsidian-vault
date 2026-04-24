@@ -86,12 +86,11 @@ DROP COLUMN column_name;
 `DROP COLUMN`remove a column.
 
 
-
 **Remove entire table**
 ```sql
 DROP TABLE table_name;
 ```
-
+you should add `IF EXIST` for more safely deletion.
 
 ---
 ## Rename table
