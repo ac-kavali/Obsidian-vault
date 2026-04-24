@@ -124,14 +124,12 @@ VALUES (value1, value2, value3, ...);
 ### Examples
 
 **Insert a single row:**
-
 ```sql
 INSERT INTO employees (first_name, last_name, department, salary)
 VALUES ('Alice', 'Smith', 'Engineering', 75000);
 ```
 
 **Insert multiple rows at once:**
-
 ```sql
 INSERT INTO employees (first_name, last_name, department, salary)
 VALUES 
@@ -141,7 +139,6 @@ VALUES
 ```
 
 **Insert data from another table (INSERT INTO ... SELECT):**
-
 ```sql
 INSERT INTO archived_employees (first_name, last_name, department)
 SELECT first_name, last_name, department
@@ -211,7 +208,6 @@ Display:
 | :--------- | :------------------------ | :------------------- | :----------------------- | :---------- | :--------- | :------ |
 | 58         | Pericles Comidas clásicas | Guillermo Fernández  | Calle Dr. Jorge Cash 321 | México D.F. | 05033      | Mexico  |
 | 80         | Tortuga Restaurante       | Miguel Angel Paolino | Avda. Azteca 123         | México D.F. | 05033      | Mexico  |
-
 
 
 ---
