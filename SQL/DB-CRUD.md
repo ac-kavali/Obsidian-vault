@@ -51,6 +51,8 @@ CREATE TABLE table_name (
 
 
 
+## Rename table
+
 
 ---
 ## 1 INSERT INTO 
