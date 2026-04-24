@@ -22,7 +22,32 @@ like rules:
 > “This one stores text”  
 > “This one stores dates”
 
+### Top used data-types
+- `INT`: Data type for numeric data (positive / negative) stored in 4 bytes.
 
+- `VARCHAR`(<span style="color:rgb(255, 255, 0)">n</span>): Variable-length string up to `n` characters. Only stores as many bytes as the actual value — efficient for names, emails, URLs.
+
+- `TEXT`: Unlimited (or very large) string. Use for long-form content like blog posts, comments, or JSON blobs. Cannot be indexed in full in most databases.
+
+- `DECIMAL`: Exact fixed-point number. `p` = total digits, `s` = digits after the decimal. No rounding errors — essential for money.
+
+- `DATE` / `DATETIME` Calendar date only — year, month, day. No time component. Format: `YYYY-MM-DD`.
+
+- `BOOLEAN` : a data that can be true or false example:
+	`INSERT INTO users (is_active, is_verified) VALUES (TRUE, FALSE);`
+
+## Creation syntax:
+
+```sql
+CREATE TABLE table_name (  
+  column_name  datatype [constraint],  
+  column_name  datatype [constraint],  
+  …  
+); -- semicolon ends the statement
+```
+
+
+### Rename Table:
 
 
 ---
@@ -340,7 +365,6 @@ SELECT * FROM employees WHERE manager_id IS NULL;
 ```
 
 ---
-
 ## 4. UPDATE Statement
 
 The `UPDATE` statement modifies existing records in a table. **Always use a `WHERE` clause** unless you intentionally want to update every row.
