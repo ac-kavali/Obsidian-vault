@@ -65,3 +65,10 @@ select * from my_table;
 ## SQL vs NoSQL
 
 ### 1. SQL
+SQL databases store data in **tables (like Excel sheets)** with **strict structure**.
+**<span style="color:rgb(112, 48, 160)">Key carracteristics:</span>**
+- Fixed structure (schema)
+- Data is organized in tables
+- Relationships between tables (foreign keys)
+- Uses **SQL language** to query data
+### NoSQL 2. 
