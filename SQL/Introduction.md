@@ -63,3 +63,5 @@ select * from my_table;
 
 ---
 ## SQL vs NoSQL
+
+### 1. SQL
