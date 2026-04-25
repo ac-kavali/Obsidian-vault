@@ -2,7 +2,7 @@
 - [[#Create Table|Create Table]]
 - [[#Alter|Alter]]
 - [[#Rename table|Rename table]]
-- [[#1 INSERT INTO|1 INSERT INTO]]
+- [[#INSERT INTO| INSERT INTO]]
 - [[#Select Statement|Select Statement]]
 - [[#Select Distinct|Select Distinct]]
 - [[#COUNT|COUNT]]
@@ -213,7 +213,7 @@ Display:
 
 
 ---
-## 2. WHERE Clause & Operators
+## WHERE Clause & Operators
 
 The `WHERE` clause filters records based on a condition. It is used with `SELECT`, `UPDATE`, and `DELETE` statements.
 
@@ -359,7 +359,7 @@ SELECT * FROM employees WHERE last_name NOT LIKE 'S%';
 
 ---
 
-## 3. IS NULL and IS NOT NULL
+##  IS NULL and IS NOT NULL
 
 `NULL` represents the **absence of a value** — it is not zero, not an empty string, and cannot be compared with `=` or `<>`. You must use the special `IS NULL` and `IS NOT NULL` operators.
 
