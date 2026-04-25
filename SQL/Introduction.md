@@ -45,3 +45,18 @@ A record, also called a row, is each individual entry that exists in a table. Fo
 
 
 ---
+## Comments
+### 1. Single-line comment
+```sql 
+select * from my_table; --this is a command
+```
+
+### 2.Multi-lines comment
+```sql
+/*this 
+is 
+multi-line 
+comment*/
+
+select * from my_table;
+```
