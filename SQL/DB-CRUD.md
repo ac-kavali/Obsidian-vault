@@ -1,4 +1,7 @@
 ## Table Of Contents
+- [[#Create Table|Create Table]]
+- [[#Alter|Alter]]
+- [[#Rename table|Rename table]]
 - [[#1 INSERT INTO|1 INSERT INTO]]
 - [[#Select Statement|Select Statement]]
 - [[#Select Distinct|Select Distinct]]
@@ -10,11 +13,10 @@
 - [[#5. DELETE Statement|5. DELETE Statement]]
 - [[#Quick Reference Summary|Quick Reference Summary]]
 
-
 ---
 ## Create Table 
 
-**Data Types**
+### **Data Types**
 Before know how to create a table you should know the datatypes in SQL:
 A _data type defines what kind of value a column can store_
 like rules:
@@ -36,7 +38,7 @@ like rules:
 - `BOOLEAN` : a data that can be true or false example:
 	`INSERT INTO users (is_active, is_verified) VALUES (TRUE, FALSE);`
 
-## Creation syntax:
+### **Creation syntax:**
 
 ```sql
 CREATE TABLE table_name (  
@@ -102,7 +104,7 @@ RENAME TABLE old_table_name TO new_table_name;
 ```
 
 ---
-## 1 INSERT INTO 
+## INSERT INTO 
 
 The `INSERT INTO` statement is used to add new rows of data into a table.
 ### Syntax
