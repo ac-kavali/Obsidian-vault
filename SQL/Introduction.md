@@ -71,4 +71,13 @@ SQL databases store data in **tables (like Excel sheets)** with **strict structu
 - Data is organized in tables
 - Relationships between tables (foreign keys)
 - Uses **SQL language** to query data
+
 ### NoSQL 2. 
+ NoSQL databases are **flexible and not limited to tables**.
+**<span style="color:rgb(112, 48, 160)">Key carracteristics:</span>
+can store different data formats
+- JSON documents
+- Key-value pairs
+- Graphs
+- Wide-column stores
+---
