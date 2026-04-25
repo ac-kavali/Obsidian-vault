@@ -60,3 +60,6 @@ comment*/
 
 select * from my_table;
 ```
+
+---
+## SQL vs NoSQL
