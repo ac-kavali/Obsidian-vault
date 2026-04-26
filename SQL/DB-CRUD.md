@@ -184,7 +184,7 @@ Return Uniqu Representation of data
 `Ahmed`
 
 ---
-## COUNT 
+## COUNT
 used to count the number of the aparence of a data in a table culumn 
 ```sql
 SELECT COUNT(Country) FROM Customers;
