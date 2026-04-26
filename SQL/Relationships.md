@@ -166,12 +166,12 @@ employee_id │ employee_name │ manager_id
 
 ## Quick Comparison Table
 
-|Relationship|Where is the FK?|UNIQUE on FK?|Junction table?|
-|---|---|---|---|
-|One-to-One|Child table|✅ Yes|❌ No|
-|One-to-Many|Child table (many side)|❌ No|❌ No|
-|Many-to-Many|Junction table (both FK)|❌ No (composite PK instead)|✅ Yes|
-|Self-Ref|Same table|❌ No|❌ No|
+| Relationship | Where is the FK?         | UNIQUE on FK?               | Junction table? |
+| ------------ | ------------------------ | --------------------------- | --------------- |
+| One-to-One   | Child table              | ✅ Yes                       | ❌ No            |
+| One-to-Many  | Child table (many side)  | ❌ No                        | ❌ No            |
+| Many-to-Many | Junction table (both FK) | ❌ No (composite PK instead) | ✅ Yes           |
+| Self-Ref     | Same table               | ❌ No                        | ❌ No            |
 
 ---
 
