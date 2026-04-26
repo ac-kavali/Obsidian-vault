@@ -25,4 +25,6 @@ All candidate keys are candidate to be the primary key, under those rules:
 
 ---
 ## Composit Primary key
-Is a primary key that is made up of two or more collumns to uniqully 
+Is a primary key that is made up of two or more collumns to uniqully identify a record(row), used instead of normal primary key just because we failed to get uniquness using one collumn (primary key).
+
+---
