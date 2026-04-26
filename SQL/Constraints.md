@@ -134,7 +134,6 @@ salary INT CHECK (salary BETWEEN 1000 AND 10000)
 ```
 
 ---
-
 # 8. ⚙️ DEFAULT constraint
 
 ## Meaning
@@ -157,36 +156,17 @@ INSERT INTO users (id) VALUES (1);
 👉 status becomes `'active'`
 
 ---
-# 9. Combining constraints (REAL WORLD)
+### 9. Combining constraints (REAL WORLD)
 
+```
 CREATE TABLE users (  
     id INT PRIMARY KEY,  
     email VARCHAR(100) UNIQUE NOT NULL,  
     age INT CHECK (age >= 18),  
     status VARCHAR(20) DEFAULT 'active'  
 );
+```
 
-👉 This is already a **real production-style table**
-
----
-
-# 10. 🔥 ALTER TABLE + constraints (IMPORTANT SKILL)
-
-## Add constraint
-
-ALTER TABLE users  
-ADD CONSTRAINT unique_email UNIQUE (email);
+> This is already a **real production-style table**
 
 ---
-
-## Drop constraint
-
-ALTER TABLE users  
-DROP CONSTRAINT unique_email;
-
----
-
-## Add foreign key later
-
-ALTER TABLE orders  
-ADD FOREIGN KEY (user_id) REFERENCES users(id);
