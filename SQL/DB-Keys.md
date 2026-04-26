@@ -11,8 +11,11 @@ Keys are fundamental elements of the relational database model that ensure uniqu
 The set of one or a combination of columns that identify a record (row), and should make each record unique.
 
 ---
-## Condidate key
+## Candidate key
 The minimal set of columns combination to make uniquness.
 
 ---
-## Primary
+## Primary key
+All candidate keys are candidate to be the primary key, under those rules:
+- Must be uniqu.
+- 
