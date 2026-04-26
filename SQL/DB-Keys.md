@@ -28,3 +28,11 @@ All candidate keys are candidate to be the primary key, under those rules:
 Is a primary key that is made up of two or more collumns to uniqully identify a record(row), used instead of normal primary key just because we failed to get uniquness using one collumn (primary key).
 
 ---
+## Surrogate key
+Is a system-generated key used to uniqully identify a record in a table 
+
+---
+## Foreing key 
+Is a primary key but *for another* table to be link a record by another one on or multiple ones in another table.
+
+---
