@@ -18,4 +18,11 @@ The minimal set of columns combination to make uniquness.
 ## Primary key
 All candidate keys are candidate to be the primary key, under those rules:
 - Must be uniqu.
-- 
+- Cannot be NULL.
+- Only one primary key per table.
+- Should be simple and stable.
+- Non sensitive.
+
+---
+## Composit Primary key
+Is a primary key that is made up of two or more collumns to uniqully 
