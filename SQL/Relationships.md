@@ -82,7 +82,6 @@ department_name    ──N──  employee_id (PK)
 ```
 
 ---
-
 ## 3. Many-to-Many (M:N)
 
 > Many rows in table A correspond to **many** rows in table B.
