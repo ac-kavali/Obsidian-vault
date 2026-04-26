@@ -89,3 +89,6 @@ It defines how the database is built, including:
 - data types
 - relationships between tables
 - constraints (like PRIMARY KEY, FOREIGN KEY, UNIQUE)
+
+---
+![[rdbms.png]]
