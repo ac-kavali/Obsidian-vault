@@ -8,7 +8,6 @@ Web → Database Exploitation
 - ORDER BY
 - Comments (--)
 
-
 Structured Query Language
 SQL = language used to talk to databases.
 
@@ -25,10 +24,11 @@ It makes the access to data easy and so fast
 it secure data and ofers hight integrity
 makes data updating easier and ensure (prevent data inconsistency )
 
-
-the `*` symbol called _astros_  
-
+---
+### **What is a record**
 A record, also called a row, is each individual entry that exists in a table. For example, there are 91 records in the above Customers table. A record is a horizontal entity in a table.
+
+---
 ## Most important keys 
 - `SELECT` - extracts data from a database
 - `UPDATE` - updates data in a database
@@ -81,3 +81,11 @@ can store different data formats
 - Graphs
 - Wide-column stores
 ---
+### **What is a Shema**
+A **schema in SQL** is the **blueprint or structure of a database**.
+It defines how the database is built, including:
+- tables
+- columns
+- data types
+- relationships between tables
+- constraints (like PRIMARY KEY, FOREIGN KEY, UNIQUE)

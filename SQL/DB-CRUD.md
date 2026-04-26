@@ -167,6 +167,12 @@ Return all the data no uniquness filtering:
 `Sara` 
 `Ahmed`
 
+**Mostly used to show all the table**
+```sql
+SELECT * FROM table_name;
+```
+the `*` symbol called _astros_  
+
 ---
 ## Select Distinct
 The `SELECT DESTINCT` 
