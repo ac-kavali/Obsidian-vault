@@ -202,6 +202,3 @@ FOREIGN KEY (user_id) REFERENCES users(user_id) ON UPDATE CASCADE
 |Junction table|Both table names combined|`student_courses`|
 |Self-ref FK|Describes the role|`manager_id`, `parent_id`|
 
----
-
-_Handbook by Claude — SQL Table Relationships_
