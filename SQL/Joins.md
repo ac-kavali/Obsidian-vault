@@ -12,6 +12,7 @@ FROM table1
 INNER JOIN table2
 ON table1.column_name = table2.column_name;
 ```
+The `=` match rows from **column1** in the first table with rows from **Orders** where these two values are equal.
 
 ### INNER JOIN With WHERE Clause
 Here's an example of the `INNER JOIN` with the `WHERE` clause:
@@ -44,3 +45,23 @@ WHERE users.role = 'admin';
 ```
 
 ---
+## Left join
+
+**"Keep ALL rows from the left table, even if no match exists on the right."** Unmatched right side = `NULL`
+
+```sql
+-- Syntax
+SELECT columns
+FROM table1
+LEFT JOIN table2
+ON table1.column_name = table2.column_name;
+```
+
+```sql
+-- Example: Find customers who NEVER placed an order (NULL = no match = interesting target)
+SELECT Customers.customer_id, Customers.first_name, Orders.amount
+FROM Customers
+LEFT JOIN Orders
+ON Customers.customer_id = Orders.customer
+WHERE Orders.amount IS NULL;
+```
