@@ -3,7 +3,7 @@
 
 ## Join (Inner join)
 You have two tables, and you want to find rows where **something matches** between them — only the matches show up, nothing else.
-
+![[SQLinnerjoinexample.png|627]]
 ### Syntax of INNER JOIN
 The syntax of `INNER JOIN` is:
 ```sql
