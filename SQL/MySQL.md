@@ -1,8 +1,6 @@
 
 A step-by-step guide to installing MySQL, configuring it, and creating your very first database table.
 
----
-
 ## Table of Contents
 
 1. [Installing MySQL](#1-installing-mysql)

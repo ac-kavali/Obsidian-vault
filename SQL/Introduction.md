@@ -1,11 +1,11 @@
-Structured Query Language
-SQL = language used to talk to databases.
+<span style="color:rgb(0, 176, 80)">Structured Query Language</span>
 
+<span style="color:rgb(0, 176, 240)">SQL </span>= language used to talk to databases.
+<span style="color:rgb(255, 0, 0)">Database Management Systems (DBMS)</span> like mySQL, postgreSQL
 
-Database Management Systems (DBMS) like mySQL, postgreSQL
-
-
+```
 Browser → HTTP Request → Backend (PHP/Python/Node) → SQL Query → Database
+```
 
 SQL is a standard language for storing, manipulating and retrieving data in databases.
 ## Why Databases 
@@ -32,8 +32,6 @@ A record, also called a row, is each individual entry that exists in a table. Fo
 - `CREATE INDEX` - creates an index (search key)
 - `DROP INDEX` - deletes an index
 
-
-
 ---
 ## Comments
 ### 1. Single-line comment
@@ -54,9 +52,9 @@ select * from my_table;
 ---
 ## SQL vs NoSQL
 
-### 1. SQL
+### 1. SQL (Relational databases)
 SQL databases store data in **tables (like Excel sheets)** with **strict structure**.(Ex: Exelsheet)
-**<span style="color:rgb(112, 48, 160)">Key carracteristics:</span>**
+**<span style="color:rgb(200, 148, 100)">Key carracteristics:</span>**
 - Fixed structure (Schema)
 - Data is organized in tables
 - Relationships between tables (foreign keys)
@@ -64,7 +62,7 @@ SQL databases store data in **tables (like Excel sheets)** with **strict structu
 
 ### NoSQL 2. 
  NoSQL databases are **flexible and not limited to tables**. (Ex:Graph)
-**<span style="color:rgb(112, 48, 160)">Key carracteristics:</span>
+**<span style="color:rgb(200, 148, 110)">Key carracteristics:</span>
 can store different data formats
 - JSON documents
 - Key-value pairs
