@@ -11,6 +11,7 @@
 - [[#3. IS NULL and IS NOT NULL|3. IS NULL and IS NOT NULL]]
 - [[#4. UPDATE Statement|4. UPDATE Statement]]
 - [[#5. DELETE Statement|5. DELETE Statement]]
+- [[#9.Dropping a Table or Database|Remove a table or database]]
 - [[#Quick Reference Summary|Quick Reference Summary]]
 
 ---
@@ -566,7 +567,34 @@ DELETE FROM employees;
 As with `UPDATE`, always run a `SELECT` with the same `WHERE` condition first to verify what will be deleted.
 
 ---
+## 9. Dropping a Table or Database
 
+### Drop a Table
+
+Permanently deletes the table and all its data.
+
+```sql
+DROP TABLE employees;
+```
+
+Drop only if the table exists (no error if it doesn't):
+
+```sql
+DROP TABLE IF EXISTS employees;
+```
+
+### Drop a Database
+
+Permanently deletes the entire database and everything in it.
+
+```sql
+DROP DATABASE my_first_db;
+```
+
+> ⚠️ **Warning:** `DROP` operations are **permanent and cannot be undone**. Always back up your data before dropping anything in production.
+
+
+---
 ## Quick Reference Summary
 
 |Statement|Purpose|Key Reminder|

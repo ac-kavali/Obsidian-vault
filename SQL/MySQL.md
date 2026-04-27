@@ -290,33 +290,6 @@ CREATE TABLE employees (
 );
 ```
 
----
-
-## 9. Dropping a Table or Database
-
-### Drop a Table
-
-Permanently deletes the table and all its data.
-
-```sql
-DROP TABLE employees;
-```
-
-Drop only if the table exists (no error if it doesn't):
-
-```sql
-DROP TABLE IF EXISTS employees;
-```
-
-### Drop a Database
-
-Permanently deletes the entire database and everything in it.
-
-```sql
-DROP DATABASE my_first_db;
-```
-
-> ⚠️ **Warning:** `DROP` operations are **permanent and cannot be undone**. Always back up your data before dropping anything in production.
 
 ---
 
