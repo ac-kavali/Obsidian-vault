@@ -151,12 +151,12 @@ WHERE column_name LIKE pattern;
 SELECT * FROM users
 WHERE username LIKE 'ahm%';
 ```
-
-this will return 
-
-
-
-
+This match `ahmed`, `ahmxx`, `ahmdxxx...`
+```sql
+SELECT * FROM users
+WHERE username LIKE 'kaval_'
+```
+This match `kavali`, `kavalx`, exactly one carracter 
 
 ---
 # 8. ⚙️ DEFAULT constraint
