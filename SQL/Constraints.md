@@ -158,7 +158,7 @@ INSERT INTO users (id) VALUES (1);
 ---
 ### 9. Combining constraints (REAL WORLD)
 
-```
+```sql
 CREATE TABLE users (  
     id INT PRIMARY KEY,  
     email VARCHAR(100) UNIQUE NOT NULL,  
