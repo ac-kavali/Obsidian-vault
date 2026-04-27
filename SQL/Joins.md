@@ -47,7 +47,7 @@ WHERE users.role = 'admin';
 ---
 ## Left join
 
-**"Keep ALL rows from the left table, even if no match exists on the right."** Unmatched right side = `NULL`
+**Keep ALL rows from the left table, even if no match exists on the right."** Unmatched right side = `NULL`
 
 ```sql
 -- Syntax
@@ -65,3 +65,4 @@ LEFT JOIN Orders
 ON Customers.customer_id = Orders.customer
 WHERE Orders.amount IS NULL;
 ```
+
