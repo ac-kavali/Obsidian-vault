@@ -48,7 +48,7 @@ find . -name "*.txt" -exec grep -l "some thing" {} \;
 
 ## Text Manipulation
 
-### `paste`
+## `paste`
 
 Merge lines of files side by side.
 ```bash
@@ -67,37 +67,54 @@ B            2            B    2
 C            3            C    3
 ```
 
-### `sed`
+## `sed`
 
 Stream editor for filtering and transforming text.
 
+### Search and replace
 ```bash
 # Replace all occurrences
-sed "s/oldword/newword/g" file.txt
+sed "s/search/replace/g" file.txt
+```
+- `s` = substitute (replace)
+- `search` = what you want to find
+- `replace` = what you want instead
+- `g` = global (all matches in a line) remove it to repace
+   just the first occurence.
 
+### Replace only on a specific line
+```sh
 # Replace on specific line
 sed "1s/oldword/newword/" file.txt
-
-# Replace first occurrence per line only
-sed "s/oldword/newword/" file.txt
-
-# Save changes permanently
+```
+This will search and replace just in the first line.
+### Save changes permanently
+```sh
 sed -i "s/oldword/newword/g" file.txt
+```
 
-# Delete a word
+### Delete a word
+```sh
 sed -i "s/oldword//g" file.txt
+```
 
-# Delete lines containing a word
+### Delete lines containing a word
+```sh
 sed -i "/word/d" file.txt
+```
 
-# Remove empty lines
+### Remove empty lines
+```sh
 sed -i "/^$/d" file.txt
-
-# Remove first 2 lines
+```
+### Remove first 2 lines
+```sh
 sed -i "1,2d" file.txt
 ```
 
-### `tr`
+
+---
+## `tr`
 
 Translate or delete characters.
 
