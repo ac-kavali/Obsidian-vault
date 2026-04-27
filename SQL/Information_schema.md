@@ -5,7 +5,7 @@ Think of **`information_schema`** as a _database about your database_ — it sto
 - what databases (schemas) exist
 
 ---
-## informaton.schema.tables
+## 1.informaton.schema.tables
  its a table that list all the tables on your database system.
  **What it contains:**
 - Table names
@@ -16,4 +16,19 @@ Think of **`information_schema`** as a _database about your database_ — it sto
 SELECT table_name
 FROM information_schema.tables
 WHERE table_schema = 'my_database';
+```
+
+---
+## 2. information_schema.columns
+A table that lists **all columns of all tables**.
+**What it contains:**
+- Column names
+- Data types (INT, VARCHAR, etc.)
+- Which table they belong to
+- Default values, NULL/NOT NULL, etc.
+**Example**
+```sql
+SELECT column_name, data_type
+FROM information_schema.columns
+WHERE table_name = 'users';
 ```
