@@ -35,5 +35,12 @@ JOIN table4 ON table3.key = table4.key;
 -- ... and so on
 ```
 **Example**
+```sh
+SELECT users.username, orders.amount, payments.card_number
+FROM users
+JOIN orders   ON users.id      = orders.user_id
+JOIN payments ON orders.id     = payments.order_id
+WHERE users.role = 'admin';
 ```
-```
+
+---
