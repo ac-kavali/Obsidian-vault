@@ -90,3 +90,27 @@ WHERE Customers.customer_id IS NULL;
 ---
 ## Full join
 **Keep ALL rows from BOTH tables, matched or not.** Missing sides = `NULL`
+ **Tip:** `FULL OUTER JOIN` and `FULL JOIN` are the same.
+**Syntax**
+```sql
+SELECT columns 
+FROM table1 FULL 
+JOIN table2 ON table1.column_name = table2.column_name;
+```
+
+**Example**
+```sql
+--  Full picture — every customer AND every order, matched or not
+SELECT Customers.customer_id, Customers.first_name, Orders.amount
+FROM Customers
+FULL JOIN Orders
+ON Customers.customer_id = Orders.customer
+WHERE Customers.customer_id IS NULL OR Orders.amount IS NULL;
+```
+**This will return:**
+
+|customer_id|first_name|amount|
+|---|---|---|
+|2|Sara|NULL|
+|3|Youssef|NULL|
+|NULL|NULL|300|
