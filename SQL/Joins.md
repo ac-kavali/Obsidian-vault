@@ -114,3 +114,24 @@ WHERE Customers.customer_id IS NULL OR Orders.amount IS NULL;
 |2|Sara|NULL|
 |3|Youssef|NULL|
 |NULL|NULL|300|
+
+
+---
+## Aliases
+An alias is just a temporary name you give to
+**syntax**
+```sql
+SELECT first_name AS alias_name
+FROM Customers;
+```
+---
+## Union
+
+**UNION ≠ JOIN.** The difference is fundamental:
+- **JOIN** combines tables **horizontally** — adds more _columns_
+- **UNION** combines queries **vertically** — adds more _rows_
+
+`UNION`Stacks rows, **removes duplicates** (slower — has to compare)
+`UNION ALL`Stacks rows, **keeps everything** (faster — no dedup check)
+
+![[unionSQL.png|728]]
