@@ -88,3 +88,5 @@ ON Customers.customer_id = Orders.customer
 WHERE Customers.customer_id IS NULL;
 ```
 ---
+## Full join
+**Keep ALL rows from BOTH tables, matched or not.** Missing sides = `NULL`
