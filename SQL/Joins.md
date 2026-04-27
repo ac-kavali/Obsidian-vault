@@ -22,3 +22,18 @@ INNER JOIN Orders
 ON Customers.customer_id = Orders.customer
 WHERE Orders.amount >= 500;
 ```
+
+
+### Join multiple tables
+
+**Syntax**:
+```sql
+SELECT columns 
+FROM table1 JOIN table2 ON table1.key = table2.key 
+JOIN table3 ON table2.key = table3.key 
+JOIN table4 ON table3.key = table4.key; 
+-- ... and so on
+```
+**Example**
+```
+```
