@@ -32,3 +32,18 @@ SELECT column_name, data_type
 FROM information_schema.columns
 WHERE table_name = 'users';
 ```
+
+---
+## 3.information_schema.schemata
+A table that lists **all databases (schemas)**.
+ **What it contains:**
+- Database names
+- Character sets
+- Collation info
+**Example**
+```sql
+SELECT schema_name
+FROM information_schema.schemata;
+```
+**What this means:**  
+“Show me all databases in this server”
