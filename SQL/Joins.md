@@ -67,3 +67,24 @@ WHERE Orders.amount IS NULL;
 ```
 
 ---
+## Right join
+
+**Keep ALL rows from the right table, even if no match exists on the left."** Unmatched left side = `NULL`
+**Syntax**
+```sql
+SELECT columns
+FROM table1
+RIGHT JOIN table2
+ON table1.column_name = table2.column_name;
+```
+
+**Example**
+```sql
+-- Find orders that have no linked customer (orphan records = data integrity issues)
+SELECT Customers.customer_id, Customers.first_name, Orders.amount
+FROM Customers
+RIGHT JOIN Orders
+ON Customers.customer_id = Orders.customer
+WHERE Customers.customer_id IS NULL;
+```
+---
