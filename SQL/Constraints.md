@@ -134,6 +134,31 @@ salary INT CHECK (salary BETWEEN 1000 AND 10000)
 ```
 
 ---
+# Like 
+
+### Basic Syntax
+```sql
+SELECT column_name  
+FROM table_name  
+WHERE column_name LIKE pattern;
+```
+
+### Wildcards (this is the important part)
+- `%` → Wildcard, means **any number of characters (including 0)**
+- `_` → means **exactly one character** add more of "\_" for more caracters 
+### Examples 
+```sql
+SELECT * FROM users
+WHERE username LIKE 'ahm%';
+```
+
+this will return 
+
+
+
+
+
+---
 # 8. ⚙️ DEFAULT constraint
 
 ## Meaning
