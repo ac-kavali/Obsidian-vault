@@ -1,5 +1,7 @@
 <span style="color:rgb(0, 176, 80)">Structured Query Language</span>
 
+
+
 <span style="color:rgb(0, 176, 240)">SQL </span>= language used to talk to databases.
 <span style="color:rgb(255, 0, 0)">Database Management Systems (DBMS)</span> like mySQL, postgreSQL
 
@@ -8,13 +10,14 @@ Browser → HTTP Request → Backend (PHP/Python/Node) → SQL Query → Databas
 ```
 
 SQL is a standard language for storing, manipulating and retrieving data in databases.
+
+---
 ## Why Databases 
 We store data in database to used later, and give us the ability to take the right discisions.
 It makes the access to data easy and so fast 
 it secure data and ofers hight integrity
 makes data updating easier and ensure (prevent data inconsistency )
 
----
 ### **What is a record**
 A record, also called a row, is each individual entry that exists in a table. For example, there are 91 records in the above Customers table. A record is a horizontal entity in a table.
 
@@ -52,7 +55,7 @@ select * from my_table;
 ---
 ## SQL vs NoSQL
 
-### 1. SQL (Relational databases)
+### 1. SQL 
 SQL databases store data in **tables (like Excel sheets)** with **strict structure**.(Ex: Exelsheet)
 **<span style="color:rgb(200, 148, 100)">Key carracteristics:</span>**
 - Fixed structure (Schema)
@@ -68,6 +71,10 @@ can store different data formats
 - Key-value pairs
 - Graphs
 - Wide-column stores
+
+### Relational databases
+Relational databases organize data into tables, these tables are linked together based on relationships between the data
+
 ---
 ### **What is a Shema**
 A **schema in SQL** is the **blueprint or structure of a database**.

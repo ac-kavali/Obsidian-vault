@@ -67,10 +67,10 @@ B            2            B    2
 C            3            C    3
 ```
 
+---
 ## `sed`
 
 Stream editor for filtering and transforming text.
-
 ### Search and replace
 ```bash
 # Replace all occurrences
@@ -82,7 +82,7 @@ sed "s/search/replace/g" file.txt
 - `g` = global (all matches in a line) remove it to repace
    just the first occurence.
 
-### Replace only on a specific line
+ ### Replace only on a specific line
 ```sh
 # Replace on specific line
 sed "1s/oldword/newword/" file.txt
