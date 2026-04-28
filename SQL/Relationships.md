@@ -81,6 +81,8 @@ department_name    ──N──  employee_id (PK)
                           employee_name
 ```
 
+![[onetomanysql.png|1120]]
+
 ---
 ## 3. Many-to-Many (M:N)
 
