@@ -58,16 +58,16 @@ username             profile_id (PK)
 **Key rule:** The foreign key goes on the "many" side (the child table), with **no** UNIQUE constraint.
 
 ```sql
-CREATE TABLE departments (
-    department_id   INT PRIMARY KEY,
-    department_name VARCHAR(50)
+CREATE TABLE users (
+	user_id   INT PRIMARY KEY,
+	userName VARCHAR(50)
 );
 
-CREATE TABLE employees (
-    employee_id   INT PRIMARY KEY,
-    employee_name VARCHAR(50),
-    department_id INT,                                              -- no UNIQUE = many employees per dept
-    FOREIGN KEY (department_id) REFERENCES departments(department_id)
+CREATE TABLE posts (
+    post_id   INT PRIMARY KEY,
+    content VARCHAR(50),
+    user_id INT,                                              -- no UNIQUE = many employees per dept
+    FOREIGN KEY (user_id) REFERENCES departments(user_id)
 );
 ```
 
@@ -76,8 +76,8 @@ CREATE TABLE employees (
 ```
 departments               employees
 ──────────────────        ──────────────────────────
-department_id (PK) ──1──► department_id (FK)
-department_name    ──N──  employee_id (PK)
+  user_id (PK)     ──1──► user_id (FK)
+  post_id        ───N───   user_id (PK)
                           employee_name
 ```
 
