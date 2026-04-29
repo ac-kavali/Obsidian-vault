@@ -91,12 +91,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Burpsuite.md",
+                "file": "Overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Burpsuite"
+              "title": "Overview"
             }
           }
         ],
@@ -311,8 +311,9 @@
   },
   "active": "6bb00d79ae20285c",
   "lastOpenFiles": [
-    "SQL/DB-CRUD.md",
+    "Draft.md",
     "Burpsuite.md",
+    "SQL/DB-CRUD.md",
     "SQL/MySQL.md",
     "SQL/Introduction.md",
     "Overview.md",
@@ -337,7 +338,6 @@
     "Excalidraw/Tmux.md",
     "Linux/screen & tmux.md",
     "Linux/Linux Admin Project.md",
-    "Linux/Permissions.md",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Bitwize.excalidraw",
     "SQL/Untitled",

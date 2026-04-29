@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Overview",
+      "path": "Overview.md"
+    },
+    {
+      "basename": "Draft",
+      "path": "Draft.md"
+    },
+    {
       "basename": "Burpsuite",
       "path": "Burpsuite.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "Introduction",
       "path": "SQL/Introduction.md"
-    },
-    {
-      "basename": "Overview",
-      "path": "Overview.md"
     },
     {
       "basename": "DB-Keys",
@@ -63,10 +67,6 @@
     {
       "basename": "Permissions",
       "path": "Linux/Permissions.md"
-    },
-    {
-      "basename": "Draft",
-      "path": "Draft.md"
     },
     {
       "basename": "Get-started",
