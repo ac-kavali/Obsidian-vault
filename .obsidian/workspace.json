@@ -1,0 +1,362 @@
+{
+  "main": {
+    "id": "7f787225c347a54c",
+    "type": "split",
+    "children": [
+      {
+        "id": "303080bc3121efb9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "750274e7709d560a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/Relationships.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Relationships"
+            }
+          },
+          {
+            "id": "5dbb7861b8298806",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Overview.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Overview"
+            },
+            "group": "8a9f47d932aa309e"
+          },
+          {
+            "id": "dee10a49a4990eb5",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Overview.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Overview"
+            },
+            "group": "8a9f47d932aa309e"
+          },
+          {
+            "id": "55fecde08ecab0ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/DB-CRUD.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DB-CRUD"
+            }
+          },
+          {
+            "id": "cfe60be00e429edc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/DB-Keys.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DB-Keys"
+            }
+          },
+          {
+            "id": "6bb00d79ae20285c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Burpsuite.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Burpsuite"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9a74039d3ffa6e67",
+    "type": "split",
+    "children": [
+      {
+        "id": "1eef5fe6e198baf0",
+        "type": "tabs",
+        "dimension": 74.92767598842816,
+        "children": [
+          {
+            "id": "364eed01b939fc76",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "37f3fc129d048485",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "d0cc911a7481dbdb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d1879a960ba33458",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          }
+        ]
+      },
+      {
+        "id": "f00ff03ae3a8a195",
+        "type": "tabs",
+        "dimension": 25.072324011571844,
+        "children": [
+          {
+            "id": "45862676a191decc",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "10424350b623bef2",
+    "type": "split",
+    "children": [
+      {
+        "id": "2b5c95463662bc95",
+        "type": "tabs",
+        "dimension": 64.81481481481481,
+        "children": [
+          {
+            "id": "6f1f7733ce304638",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Networking/Subnetting.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Subnetting"
+            }
+          },
+          {
+            "id": "71170c51114fcb77",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1ef5e09b80deb4dc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Networking/Subnetting.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Subnetting"
+            }
+          },
+          {
+            "id": "71bbe03462466484",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Excalidraw/Http.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Http"
+            }
+          },
+          {
+            "id": "bf4a90ec355480ad",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "a8b20e5188f20cdd",
+        "type": "tabs",
+        "dimension": 35.18518518518518,
+        "children": [
+          {
+            "id": "9fa10d8f867ed010",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 324.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "omnisearch:Omnisearch": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false,
+      "float-search:Search obsidian in modal view": false,
+      "switcher:Open quick switcher": true,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true,
+      "publish:Publish changes...": true,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "bases:Create new base": false,
+      "audio-recorder:Start/stop recording": false
+    }
+  },
+  "active": "6bb00d79ae20285c",
+  "lastOpenFiles": [
+    "SQL/DB-CRUD.md",
+    "Burpsuite.md",
+    "SQL/MySQL.md",
+    "SQL/Introduction.md",
+    "Overview.md",
+    "SQL/DB-Keys.md",
+    "SQL/Information_schema.md",
+    "SQL/Joins.md",
+    "SQL/Relationships.md",
+    "Media/onetomanysql.png",
+    "Linux/Text Processing.md",
+    "SQL/Constraints.md",
+    "Concepts/GDB.md",
+    "Linux/Archiving & Compressing.md",
+    "Web/HTTP.md",
+    "Python/Random.md",
+    "Project/Printf.md",
+    "Project/GNL.md",
+    "Networking/Application, Presentation.md",
+    "Excalidraw/Http.md",
+    "Linux/kali-setup.md",
+    "Excalidraw/dns.md",
+    "Linux/awk.md",
+    "Excalidraw/Tmux.md",
+    "Linux/screen & tmux.md",
+    "Linux/Linux Admin Project.md",
+    "Linux/Permissions.md",
+    "Excalidraw/python_discorver#1.excalidraw",
+    "Excalidraw/Bitwize.excalidraw",
+    "SQL/Untitled",
+    "Media/unionSQL.png",
+    "Media/SQLinnerjoinexample.png",
+    "SQLinnerjoinexample.png",
+    "Media/SQL-innerjoinexample.png",
+    "Media/rdbms.png",
+    "Media/sql_joins.png",
+    "rdbms.png",
+    "Pasted image 20260426113759.png",
+    "SQL",
+    "Excalidraw/booting_process.excalidraw",
+    "Media/Wireless.png",
+    "obsidian.tar.xz",
+    "anki-launcher-25.09-linux.tar.zst",
+    "ob.tar.gz",
+    "z",
+    "Web/JavaScript/Conding-Js-1",
+    "Untitled.canvas"
+  ]
+}

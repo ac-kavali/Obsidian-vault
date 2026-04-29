@@ -1,0 +1,208 @@
+{
+  "recentFiles": [
+    {
+      "basename": "Burpsuite",
+      "path": "Burpsuite.md"
+    },
+    {
+      "basename": "DB-CRUD",
+      "path": "SQL/DB-CRUD.md"
+    },
+    {
+      "basename": "MySQL",
+      "path": "SQL/MySQL.md"
+    },
+    {
+      "basename": "Introduction",
+      "path": "SQL/Introduction.md"
+    },
+    {
+      "basename": "Overview",
+      "path": "Overview.md"
+    },
+    {
+      "basename": "DB-Keys",
+      "path": "SQL/DB-Keys.md"
+    },
+    {
+      "basename": "Information_schema",
+      "path": "SQL/Information_schema.md"
+    },
+    {
+      "basename": "Joins",
+      "path": "SQL/Joins.md"
+    },
+    {
+      "basename": "Relationships",
+      "path": "SQL/Relationships.md"
+    },
+    {
+      "basename": "Text Processing",
+      "path": "Linux/Text Processing.md"
+    },
+    {
+      "basename": "Constraints",
+      "path": "SQL/Constraints.md"
+    },
+    {
+      "basename": "Random",
+      "path": "Python/Random.md"
+    },
+    {
+      "basename": "Http",
+      "path": "Excalidraw/Http.md"
+    },
+    {
+      "basename": "dns",
+      "path": "Excalidraw/dns.md"
+    },
+    {
+      "basename": "Tmux",
+      "path": "Excalidraw/Tmux.md"
+    },
+    {
+      "basename": "Permissions",
+      "path": "Linux/Permissions.md"
+    },
+    {
+      "basename": "Draft",
+      "path": "Draft.md"
+    },
+    {
+      "basename": "Get-started",
+      "path": "Web/JavaScript/Get-started.md"
+    },
+    {
+      "basename": "File Discriptor",
+      "path": "Concepts/File Discriptor.md"
+    },
+    {
+      "basename": "Swap",
+      "path": "Linux/Disk & Filesystem/Swap.md"
+    },
+    {
+      "basename": "Top Commands",
+      "path": "Linux/Bash/Top Commands.md"
+    },
+    {
+      "basename": "Setuid",
+      "path": "Linux/Setuid.md"
+    },
+    {
+      "basename": "python_discorver#1",
+      "path": "Excalidraw/python_discorver#1.excalidraw"
+    },
+    {
+      "basename": "Network_basics",
+      "path": "Excalidraw/Network_basics.md"
+    },
+    {
+      "basename": "Bitwize",
+      "path": "Excalidraw/Bitwize.excalidraw"
+    },
+    {
+      "basename": "Impress-me",
+      "path": "Excalidraw/Impress-me.md"
+    },
+    {
+      "basename": "Linked lists",
+      "path": "Concepts/Linked lists.md"
+    },
+    {
+      "basename": "DNS",
+      "path": "Networking/DNS.md"
+    },
+    {
+      "basename": "Switch",
+      "path": "Networking/Switch.md"
+    },
+    {
+      "basename": "Ports",
+      "path": "Networking/Ports.md"
+    },
+    {
+      "basename": "ARP",
+      "path": "Networking/ARP.md"
+    },
+    {
+      "basename": "Inode",
+      "path": "Linux/Disk & Filesystem/Inode.md"
+    },
+    {
+      "basename": "Introduction",
+      "path": "Web/Introduction.md"
+    },
+    {
+      "basename": "Framework",
+      "path": "Web/Framework.md"
+    },
+    {
+      "basename": "DOM",
+      "path": "Web/JavaScript/DOM.md"
+    },
+    {
+      "basename": "Variables",
+      "path": "Linux/Bash/Variables.md"
+    },
+    {
+      "basename": "Module10",
+      "path": "Python/Module10.md"
+    },
+    {
+      "basename": "Exploite 2",
+      "path": "Web/Exploite 2.md"
+    },
+    {
+      "basename": "Async Programing",
+      "path": "Web/JavaScript/Async Programing.md"
+    },
+    {
+      "basename": "Introduction",
+      "path": "Web/JavaScript/Introduction.md"
+    },
+    {
+      "basename": "Subnetting",
+      "path": "Networking/Subnetting.md"
+    },
+    {
+      "basename": "Special-Numbers",
+      "path": "Web/JavaScript/Special-Numbers.md"
+    },
+    {
+      "basename": "Random",
+      "path": "Web/JavaScript/Random.md"
+    },
+    {
+      "basename": "Memory Usage",
+      "path": "Web/JavaScript/Memory Usage.md"
+    },
+    {
+      "basename": "Errors",
+      "path": "Web/JavaScript/Errors.md"
+    },
+    {
+      "basename": "String Methods,Slicing",
+      "path": "Web/JavaScript/String Methods,Slicing.md"
+    },
+    {
+      "basename": "Classes and Objects",
+      "path": "Web/JavaScript/Classes and Objects.md"
+    },
+    {
+      "basename": "Todo",
+      "path": "Web/JavaScript/Todo.md"
+    },
+    {
+      "basename": "Find",
+      "path": "Linux/Find.md"
+    },
+    {
+      "basename": "Package Management",
+      "path": "Linux/Package Management.md"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false
+}

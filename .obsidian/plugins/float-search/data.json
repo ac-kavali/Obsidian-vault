@@ -1,0 +1,15 @@
+{
+  "searchViewState": {
+    "collapseAll": false,
+    "explainSearch": false,
+    "extraContext": false,
+    "matchingCase": false,
+    "query": "path:\"SQL/\"  change",
+    "sortOrder": "alphabetical"
+  },
+  "showFilePath": false,
+  "showInstructions": true,
+  "defaultViewType": "modal",
+  "cmdkTriggerKey": "Shift",
+  "cmdkDoubleTapInterval": 300
+}
