@@ -1,20 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "Overview",
-      "path": "Overview.md"
-    },
-    {
-      "basename": "Draft",
-      "path": "Draft.md"
+      "basename": "overview",
+      "path": "overview.md"
     },
     {
       "basename": "Burpsuite",
       "path": "Burpsuite.md"
     },
     {
+      "basename": "Draft",
+      "path": "Draft.md"
+    },
+    {
       "basename": "DB-CRUD",
       "path": "SQL/DB-CRUD.md"
+    },
+    {
+      "basename": "cURL",
+      "path": "Web/cURL.md"
+    },
+    {
+      "basename": "Comprhensive",
+      "path": "Python/Comprhensive.md"
+    },
+    {
+      "basename": "Text Processing",
+      "path": "Linux/Text Processing.md"
+    },
+    {
+      "basename": "Module 04",
+      "path": "Python/Module 04.md"
+    },
+    {
+      "basename": "Service management",
+      "path": "Linux/Service management.md"
+    },
+    {
+      "basename": "Web Servers",
+      "path": "Linux/Web Servers.md"
+    },
+    {
+      "basename": "Setuid",
+      "path": "Linux/Setuid.md"
+    },
+    {
+      "basename": "Overview",
+      "path": "Overview.md"
     },
     {
       "basename": "MySQL",
@@ -39,10 +71,6 @@
     {
       "basename": "Relationships",
       "path": "SQL/Relationships.md"
-    },
-    {
-      "basename": "Text Processing",
-      "path": "Linux/Text Processing.md"
     },
     {
       "basename": "Constraints",
@@ -85,10 +113,6 @@
       "path": "Linux/Bash/Top Commands.md"
     },
     {
-      "basename": "Setuid",
-      "path": "Linux/Setuid.md"
-    },
-    {
       "basename": "python_discorver#1",
       "path": "Excalidraw/python_discorver#1.excalidraw"
     },
@@ -103,10 +127,6 @@
     {
       "basename": "Impress-me",
       "path": "Excalidraw/Impress-me.md"
-    },
-    {
-      "basename": "Linked lists",
-      "path": "Concepts/Linked lists.md"
     },
     {
       "basename": "DNS",
@@ -179,26 +199,6 @@
     {
       "basename": "Errors",
       "path": "Web/JavaScript/Errors.md"
-    },
-    {
-      "basename": "String Methods,Slicing",
-      "path": "Web/JavaScript/String Methods,Slicing.md"
-    },
-    {
-      "basename": "Classes and Objects",
-      "path": "Web/JavaScript/Classes and Objects.md"
-    },
-    {
-      "basename": "Todo",
-      "path": "Web/JavaScript/Todo.md"
-    },
-    {
-      "basename": "Find",
-      "path": "Linux/Find.md"
-    },
-    {
-      "basename": "Package Management",
-      "path": "Linux/Package Management.md"
     }
   ],
   "omittedPaths": [],

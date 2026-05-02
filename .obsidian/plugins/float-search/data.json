@@ -4,7 +4,7 @@
     "explainSearch": false,
     "extraContext": false,
     "matchingCase": false,
-    "query": "path:\"SQL/\"  change",
+    "query": "path:\"SQL/\"  count",
     "sortOrder": "alphabetical"
   },
   "showFilePath": false,
