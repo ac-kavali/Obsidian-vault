@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Drawing 2026-05-05 19.37.37.excalidraw",
-      "path": "Excalidraw/Drawing 2026-05-05 19.37.37.excalidraw.md"
-    },
-    {
-      "basename": "CMM",
-      "path": "CMM.md"
+      "basename": "callmemaybe",
+      "path": "Excalidraw/callmemaybe.md"
     },
     {
       "basename": "overview",
       "path": "overview.md"
+    },
+    {
+      "basename": "CMM",
+      "path": "CMM.md"
     },
     {
       "basename": "Http",
@@ -195,10 +195,6 @@
     {
       "basename": "Framework",
       "path": "Web/Framework.md"
-    },
-    {
-      "basename": "DOM",
-      "path": "Web/JavaScript/DOM.md"
     }
   ],
   "omittedPaths": [],

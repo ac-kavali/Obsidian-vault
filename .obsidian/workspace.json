@@ -29,10 +29,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2026-05-05 19.37.37.excalidraw.md"
+                "file": "Excalidraw/callmemaybe.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2026-05-05 19.37.37.excalidraw"
+              "title": "callmemaybe"
             }
           },
           {
@@ -261,11 +261,12 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "360c84b488d3098c",
+  "active": "364eed01b939fc76",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-05-05 19.37.37.excalidraw.md",
-    "CMM.md",
+    "Excalidraw/Drawing 2026-04-18 06.26.01.excalidraw.md",
+    "Excalidraw/callmemaybe.md",
     "overview.md",
+    "CMM.md",
     "Excalidraw/Http.md",
     "Web/Draft.md",
     "Project/Printf.md",
@@ -288,7 +289,6 @@
     "Linux/Service management.md",
     "Networking/Application, Presentation.md",
     "Linux/Web Servers.md",
-    "Concepts/Linked lists.md",
     "Media/onetomanysql.png",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Bitwize.excalidraw",
