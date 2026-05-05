@@ -1,8 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "Drawing 2026-05-05 19.37.37.excalidraw",
-      "path": "Excalidraw/Drawing 2026-05-05 19.37.37.excalidraw.md"
+      "basename": "callmemaybe",
+      "path": "Excalidraw/callmemaybe.md"
+    },
+    {
+      "basename": "Bitwize",
+      "path": "Excalidraw/Bitwize.excalidraw"
+    },
+    {
+      "basename": "Http",
+      "path": "Excalidraw/Http.md"
+    },
+    {
+      "basename": "car",
+      "path": "Media/car.png"
+    },
+    {
+      "basename": "bitwize_example1",
+      "path": "Media/bitwize_example1.png"
+    },
+    {
+      "basename": "bridge",
+      "path": "Media/bridge.svg"
+    },
+    {
+      "basename": "cables",
+      "path": "Media/cables.png"
+    },
+    {
+      "basename": "ARP3",
+      "path": "Media/ARP3.png"
+    },
+    {
+      "basename": "ARP2",
+      "path": "Media/ARP2.png"
+    },
+    {
+      "basename": "ARP1",
+      "path": "Media/ARP1.png"
     },
     {
       "basename": "CMM",
@@ -11,10 +47,6 @@
     {
       "basename": "overview",
       "path": "overview.md"
-    },
-    {
-      "basename": "Http",
-      "path": "Excalidraw/Http.md"
     },
     {
       "basename": "Draft",
@@ -163,42 +195,6 @@
     {
       "basename": "Network_basics",
       "path": "Excalidraw/Network_basics.md"
-    },
-    {
-      "basename": "Bitwize",
-      "path": "Excalidraw/Bitwize.excalidraw"
-    },
-    {
-      "basename": "DNS",
-      "path": "Networking/DNS.md"
-    },
-    {
-      "basename": "Switch",
-      "path": "Networking/Switch.md"
-    },
-    {
-      "basename": "Ports",
-      "path": "Networking/Ports.md"
-    },
-    {
-      "basename": "ARP",
-      "path": "Networking/ARP.md"
-    },
-    {
-      "basename": "Inode",
-      "path": "Linux/Disk & Filesystem/Inode.md"
-    },
-    {
-      "basename": "Introduction",
-      "path": "Web/Introduction.md"
-    },
-    {
-      "basename": "Framework",
-      "path": "Web/Framework.md"
-    },
-    {
-      "basename": "DOM",
-      "path": "Web/JavaScript/DOM.md"
     }
   ],
   "omittedPaths": [],

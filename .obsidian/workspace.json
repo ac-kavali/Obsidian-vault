@@ -29,10 +29,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2026-05-05 19.37.37.excalidraw.md"
+                "file": "Excalidraw/callmemaybe.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2026-05-05 19.37.37.excalidraw"
+              "title": "callmemaybe"
             }
           },
           {
@@ -263,10 +263,19 @@
   },
   "active": "360c84b488d3098c",
   "lastOpenFiles": [
-    "CMM.md",
-    "Excalidraw/Drawing 2026-05-05 19.37.37.excalidraw.md",
-    "overview.md",
+    "Excalidraw/Drawing 2026-04-18 06.26.01.excalidraw.md",
+    "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/Http.md",
+    "Media/car.png",
+    "Media/bitwize_example1.png",
+    "Media/bridge.svg",
+    "Media/cables.png",
+    "Media/ARP3.png",
+    "Media/ARP2.png",
+    "Media/ARP1.png",
+    "Excalidraw/callmemaybe.md",
+    "CMM.md",
+    "overview.md",
     "Web/Draft.md",
     "Project/Printf.md",
     "Project/Rock-Paper-Scissors.md",
@@ -287,23 +296,13 @@
     "Linux/File Securing.md",
     "Linux/Service management.md",
     "Networking/Application, Presentation.md",
-    "Linux/Web Servers.md",
-    "Concepts/Linked lists.md",
     "Media/onetomanysql.png",
     "Excalidraw/python_discorver#1.excalidraw",
-    "Excalidraw/Bitwize.excalidraw",
     "SQL/Untitled",
     "Media/unionSQL.png",
     "Media/SQLinnerjoinexample.png",
-    "SQLinnerjoinexample.png",
-    "Media/SQL-innerjoinexample.png",
-    "Media/rdbms.png",
-    "Media/sql_joins.png",
-    "rdbms.png",
-    "Pasted image 20260426113759.png",
     "SQL",
     "Excalidraw/booting_process.excalidraw",
-    "Media/Wireless.png",
     "obsidian.tar.xz",
     "anki-launcher-25.09-linux.tar.zst",
     "ob.tar.gz",
