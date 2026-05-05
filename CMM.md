@@ -66,8 +66,8 @@ But the project expects:
 _**LLMs takes some text as input, analyzes it and predicts a next word that makes sense.**_
 ### I. PRETRAININ 
 1)Crawl huge text data from the internet and filter it based on language web source validity ...
-2)_<span style="color:rgb(255, 192, 0)">tokenization:</span> convert text <----> sequences of symbols (\tokens)
-
+2)_<span style="color:rgb(255, 192, 0)">tokenization:</span> convert text <----> sequences of symbols (\tokens)_
+<strong><span style="color:rgb(0, 176, 80)">Token</span></strong> s
 
 predincting next word: actually, llms don't just predict a single word--they have a list of all possible words, letters, characters... they can choose from, and for each word, they calculate the probablity that it is the next word based on context.
 <u><strong>What means make sens </strong></u>? :
