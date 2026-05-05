@@ -27,12 +27,14 @@
             "id": "360c84b488d3098c",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/callmemaybe.md"
+                "file": "CMM.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "callmemaybe"
+              "icon": "lucide-file",
+              "title": "CMM"
             }
           },
           {
@@ -261,10 +263,10 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "364eed01b939fc76",
+  "active": "360c84b488d3098c",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-04-18 06.26.01.excalidraw.md",
     "Excalidraw/callmemaybe.md",
+    "Excalidraw/Drawing 2026-04-18 06.26.01.excalidraw.md",
     "overview.md",
     "CMM.md",
     "Excalidraw/Http.md",

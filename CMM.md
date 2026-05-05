@@ -5,6 +5,7 @@ Each parameter helps the model decide:
 - how to respond correctly
 **<span style="color:rgb(255, 192, 0)">More parameters means more knowledge, Deep understanding</span>
 
+https://github.com/B4nJuice/42-Call-me-maybe
 
 ---
 ## hadra khasha tweli clear 
