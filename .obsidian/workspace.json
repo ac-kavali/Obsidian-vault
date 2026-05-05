@@ -24,6 +24,18 @@
             }
           },
           {
+            "id": "360c84b488d3098c",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-05-05 19.37.37.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-05-05 19.37.37.excalidraw"
+            }
+          },
+          {
             "id": "9bf8947f1ec3d5d5",
             "type": "leaf",
             "pinned": true,
@@ -125,8 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "10424350b623bef2",
@@ -250,11 +261,12 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "9bf8947f1ec3d5d5",
+  "active": "360c84b488d3098c",
   "lastOpenFiles": [
-    "Excalidraw/Http.md",
-    "overview.md",
     "CMM.md",
+    "Excalidraw/Drawing 2026-05-05 19.37.37.excalidraw.md",
+    "overview.md",
+    "Excalidraw/Http.md",
     "Web/Draft.md",
     "Project/Printf.md",
     "Project/Rock-Paper-Scissors.md",
@@ -277,7 +289,6 @@
     "Networking/Application, Presentation.md",
     "Linux/Web Servers.md",
     "Concepts/Linked lists.md",
-    "Linux/Setuid.md",
     "Media/onetomanysql.png",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Bitwize.excalidraw",
