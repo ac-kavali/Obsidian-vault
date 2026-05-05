@@ -59,7 +59,7 @@ But the project expects:
 > ✔ structure validation  
 > ✔ graceful behavior
 
->[danger] !search abouth invalid json and handle them.
+>[danger] !search about invalid json and handle them.
 
 ---
 # LLM Production pipline 
