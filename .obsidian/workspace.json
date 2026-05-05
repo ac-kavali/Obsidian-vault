@@ -225,7 +225,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -243,7 +243,7 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "bf4a90ec355480ad",
+  "active": "6bb00d79ae20285c",
   "lastOpenFiles": [
     "overview.md",
     "CMM.md",
