@@ -73,7 +73,7 @@ _tokenization done using an algorithmic function differs from model to another._
 <strong><span style="color:rgb(0, 176, 80)">Token IDs</span></strong>: Each token is mapped to a unique integer,because llms can't deal with raw text.
 
 predincting next word: actually, llms don't just predict a single word--they have a list of all possible words, letters, characters... they can choose from, and for each word, they calculate the probablity that it is the next word based on context.
-<u><strong>What means make sens </strong></u>? :
+<u><strong>What means make sens </strong></u>?:
 
 
 
