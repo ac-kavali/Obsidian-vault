@@ -10,6 +10,7 @@
           {
             "id": "6bb00d79ae20285c",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -17,23 +18,29 @@
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "CMM"
             }
           },
           {
-            "id": "c4b8b640ba647f54",
+            "id": "9bf8947f1ec3d5d5",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Http.md"
+                "file": "overview.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Http"
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "overview"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -243,8 +250,9 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "6bb00d79ae20285c",
+  "active": "9bf8947f1ec3d5d5",
   "lastOpenFiles": [
+    "Excalidraw/Http.md",
     "overview.md",
     "CMM.md",
     "Web/Draft.md",
@@ -255,7 +263,6 @@
     "Project/Libft.md",
     "Project/GNL.md",
     "SQL/DB-CRUD.md",
-    "Excalidraw/Http.md",
     "Excalidraw/Impress-me.md",
     "Web/HTTP.md",
     "Web/JavaScript/Functions&Parameters.md",
