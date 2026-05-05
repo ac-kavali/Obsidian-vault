@@ -118,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "10424350b623bef2",
@@ -242,7 +243,7 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "6bb00d79ae20285c",
+  "active": "bf4a90ec355480ad",
   "lastOpenFiles": [
     "overview.md",
     "CMM.md",
