@@ -1,20 +1,64 @@
 {
   "recentFiles": [
     {
+      "basename": "CMM",
+      "path": "CMM.md"
+    },
+    {
       "basename": "overview",
       "path": "overview.md"
     },
     {
-      "basename": "Burpsuite",
-      "path": "Burpsuite.md"
+      "basename": "Draft",
+      "path": "Web/Draft.md"
     },
     {
-      "basename": "Draft",
-      "path": "Draft.md"
+      "basename": "Printf",
+      "path": "Project/Printf.md"
+    },
+    {
+      "basename": "Rock-Paper-Scissors",
+      "path": "Project/Rock-Paper-Scissors.md"
+    },
+    {
+      "basename": "Projects",
+      "path": "Project/Projects.md"
+    },
+    {
+      "basename": "MaZe",
+      "path": "Project/MaZe.md"
+    },
+    {
+      "basename": "Libft",
+      "path": "Project/Libft.md"
+    },
+    {
+      "basename": "GNL",
+      "path": "Project/GNL.md"
     },
     {
       "basename": "DB-CRUD",
       "path": "SQL/DB-CRUD.md"
+    },
+    {
+      "basename": "Http",
+      "path": "Excalidraw/Http.md"
+    },
+    {
+      "basename": "Impress-me",
+      "path": "Excalidraw/Impress-me.md"
+    },
+    {
+      "basename": "HTTP",
+      "path": "Web/HTTP.md"
+    },
+    {
+      "basename": "Functions&Parameters",
+      "path": "Web/JavaScript/Functions&Parameters.md"
+    },
+    {
+      "basename": "Burpsuite",
+      "path": "Web/Burpsuite.md"
     },
     {
       "basename": "cURL",
@@ -81,10 +125,6 @@
       "path": "Python/Random.md"
     },
     {
-      "basename": "Http",
-      "path": "Excalidraw/Http.md"
-    },
-    {
       "basename": "dns",
       "path": "Excalidraw/dns.md"
     },
@@ -125,10 +165,6 @@
       "path": "Excalidraw/Bitwize.excalidraw"
     },
     {
-      "basename": "Impress-me",
-      "path": "Excalidraw/Impress-me.md"
-    },
-    {
       "basename": "DNS",
       "path": "Networking/DNS.md"
     },
@@ -163,42 +199,6 @@
     {
       "basename": "Variables",
       "path": "Linux/Bash/Variables.md"
-    },
-    {
-      "basename": "Module10",
-      "path": "Python/Module10.md"
-    },
-    {
-      "basename": "Exploite 2",
-      "path": "Web/Exploite 2.md"
-    },
-    {
-      "basename": "Async Programing",
-      "path": "Web/JavaScript/Async Programing.md"
-    },
-    {
-      "basename": "Introduction",
-      "path": "Web/JavaScript/Introduction.md"
-    },
-    {
-      "basename": "Subnetting",
-      "path": "Networking/Subnetting.md"
-    },
-    {
-      "basename": "Special-Numbers",
-      "path": "Web/JavaScript/Special-Numbers.md"
-    },
-    {
-      "basename": "Random",
-      "path": "Web/JavaScript/Random.md"
-    },
-    {
-      "basename": "Memory Usage",
-      "path": "Web/JavaScript/Memory Usage.md"
-    },
-    {
-      "basename": "Errors",
-      "path": "Web/JavaScript/Errors.md"
     }
   ],
   "omittedPaths": [],
