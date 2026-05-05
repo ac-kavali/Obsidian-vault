@@ -75,3 +75,5 @@ _tokenization done using an algorithmic function differs from model to another._
 predincting next word: actually, llms don't just predict a single word--they have a list of all possible words, letters, characters... they can choose from, and for each word, they calculate the probablity that it is the next word based on context.
 <u><strong>What means make sens </strong></u>? :
 
+
+
