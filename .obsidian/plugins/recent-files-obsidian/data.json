@@ -5,6 +5,14 @@
       "path": "CMM.md"
     },
     {
+      "basename": "module08",
+      "path": "Python/module08.md"
+    },
+    {
+      "basename": "rcp_document",
+      "path": "Project/rcp_document.md"
+    },
+    {
       "basename": "callmemaybe",
       "path": "Excalidraw/callmemaybe.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Random",
       "path": "Python/Random.md"
-    },
-    {
-      "basename": "dns",
-      "path": "Excalidraw/dns.md"
-    },
-    {
-      "basename": "Permissions",
-      "path": "Linux/Permissions.md"
     }
   ],
   "omittedPaths": [],

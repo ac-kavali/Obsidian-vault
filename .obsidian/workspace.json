@@ -26,15 +26,17 @@
           {
             "id": "360c84b488d3098c",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CMM.md",
+                "file": "Python/module08.md",
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "CMM"
+              "title": "module08"
             }
           },
           {
@@ -53,8 +55,7 @@
               "title": "overview"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -264,8 +265,11 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "360c84b488d3098c",
+  "active": "6bb00d79ae20285c",
   "lastOpenFiles": [
+    "Python/module08.md",
+    "CMM.md",
+    "Project/rcp_document.md",
     "Excalidraw/callmemaybe.md",
     "SQL/DB-CRUD.md",
     "conflict-files-obsidian-git.md",
@@ -289,7 +293,6 @@
     "Media/ARP3.png",
     "Media/ARP2.png",
     "Media/ARP1.png",
-    "CMM.md",
     "overview.md",
     "Web/Draft.md",
     "Project/Printf.md",
@@ -298,8 +301,6 @@
     "Project/MaZe.md",
     "Project/Libft.md",
     "Project/GNL.md",
-    "Web/HTTP.md",
-    "Web/JavaScript/Functions&Parameters.md",
     "Media/onetomanysql.png",
     "Excalidraw/python_discorver#1.excalidraw",
     "SQL/Untitled",

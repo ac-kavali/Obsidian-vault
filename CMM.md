@@ -80,6 +80,5 @@ predincting next word: actually, llms don't just predict a single word--they hav
 
 ---
 ## UV
-**ery fast Python package and environment manager** (built by Astral)
+**ery fast Python  environment manager** (built by Astral)
 
-af
