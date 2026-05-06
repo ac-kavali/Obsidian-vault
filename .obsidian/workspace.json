@@ -27,12 +27,14 @@
             "id": "360c84b488d3098c",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/callmemaybe.md"
+                "file": "SQL/DB-CRUD.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "callmemaybe"
+              "icon": "lucide-file",
+              "title": "DB-CRUD"
             }
           },
           {
@@ -263,9 +265,20 @@
   },
   "active": "360c84b488d3098c",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-04-18 06.26.01.excalidraw.md",
-    "Excalidraw/Bitwize.excalidraw",
+    "SQL/Constraints.md",
+    "Linux/Bash/Top Commands.md",
+    "Linux/Bash/Standard Streams.md",
+    "Linux/Bash/Loops.md",
+    "Linux/Bash/If statement.md",
+    "Linux/Bash/Data types.md",
+    "Excalidraw/Tmux.md",
+    "Excalidraw/Network_basics.md",
+    "Excalidraw/Impress-me.md",
     "Excalidraw/Http.md",
+    "Excalidraw/Bitwize.excalidraw",
+    "Excalidraw/ARP.md",
+    "Excalidraw/callmemaybe.md",
+    "Excalidraw/Drawing 2026-04-18 06.26.01.excalidraw.md",
     "Media/car.png",
     "Media/bitwize_example1.png",
     "Media/bridge.svg",
@@ -273,7 +286,6 @@
     "Media/ARP3.png",
     "Media/ARP2.png",
     "Media/ARP1.png",
-    "Excalidraw/callmemaybe.md",
     "CMM.md",
     "overview.md",
     "Web/Draft.md",
@@ -284,18 +296,9 @@
     "Project/Libft.md",
     "Project/GNL.md",
     "SQL/DB-CRUD.md",
-    "Excalidraw/Impress-me.md",
     "Web/HTTP.md",
     "Web/JavaScript/Functions&Parameters.md",
     "Web/Burpsuite.md",
-    "Web/cURL.md",
-    "Python/Comprhensive.md",
-    "Linux/Text Processing.md",
-    "Python/Module 04.md",
-    "Linux/kali-setup.md",
-    "Linux/File Securing.md",
-    "Linux/Service management.md",
-    "Networking/Application, Presentation.md",
     "Media/onetomanysql.png",
     "Excalidraw/python_discorver#1.excalidraw",
     "SQL/Untitled",

@@ -1,16 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "callmemaybe",
-      "path": "Excalidraw/callmemaybe.md"
+      "basename": "DB-CRUD",
+      "path": "SQL/DB-CRUD.md"
+    },
+    {
+      "basename": "Constraints",
+      "path": "SQL/Constraints.md"
+    },
+    {
+      "basename": "Top Commands",
+      "path": "Linux/Bash/Top Commands.md"
+    },
+    {
+      "basename": "Standard Streams",
+      "path": "Linux/Bash/Standard Streams.md"
+    },
+    {
+      "basename": "Loops",
+      "path": "Linux/Bash/Loops.md"
+    },
+    {
+      "basename": "If statement",
+      "path": "Linux/Bash/If statement.md"
+    },
+    {
+      "basename": "Data types",
+      "path": "Linux/Bash/Data types.md"
+    },
+    {
+      "basename": "Tmux",
+      "path": "Excalidraw/Tmux.md"
+    },
+    {
+      "basename": "Network_basics",
+      "path": "Excalidraw/Network_basics.md"
+    },
+    {
+      "basename": "Impress-me",
+      "path": "Excalidraw/Impress-me.md"
+    },
+    {
+      "basename": "Http",
+      "path": "Excalidraw/Http.md"
     },
     {
       "basename": "Bitwize",
       "path": "Excalidraw/Bitwize.excalidraw"
     },
     {
-      "basename": "Http",
-      "path": "Excalidraw/Http.md"
+      "basename": "ARP",
+      "path": "Excalidraw/ARP.md"
+    },
+    {
+      "basename": "callmemaybe",
+      "path": "Excalidraw/callmemaybe.md"
     },
     {
       "basename": "car",
@@ -75,14 +119,6 @@
     {
       "basename": "GNL",
       "path": "Project/GNL.md"
-    },
-    {
-      "basename": "DB-CRUD",
-      "path": "SQL/DB-CRUD.md"
-    },
-    {
-      "basename": "Impress-me",
-      "path": "Excalidraw/Impress-me.md"
     },
     {
       "basename": "HTTP",
@@ -153,10 +189,6 @@
       "path": "SQL/Relationships.md"
     },
     {
-      "basename": "Constraints",
-      "path": "SQL/Constraints.md"
-    },
-    {
       "basename": "Random",
       "path": "Python/Random.md"
     },
@@ -165,36 +197,8 @@
       "path": "Excalidraw/dns.md"
     },
     {
-      "basename": "Tmux",
-      "path": "Excalidraw/Tmux.md"
-    },
-    {
       "basename": "Permissions",
       "path": "Linux/Permissions.md"
-    },
-    {
-      "basename": "Get-started",
-      "path": "Web/JavaScript/Get-started.md"
-    },
-    {
-      "basename": "File Discriptor",
-      "path": "Concepts/File Discriptor.md"
-    },
-    {
-      "basename": "Swap",
-      "path": "Linux/Disk & Filesystem/Swap.md"
-    },
-    {
-      "basename": "Top Commands",
-      "path": "Linux/Bash/Top Commands.md"
-    },
-    {
-      "basename": "python_discorver#1",
-      "path": "Excalidraw/python_discorver#1.excalidraw"
-    },
-    {
-      "basename": "Network_basics",
-      "path": "Excalidraw/Network_basics.md"
     }
   ],
   "omittedPaths": [],
