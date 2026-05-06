@@ -27,14 +27,12 @@
             "id": "360c84b488d3098c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "SQL/DB-CRUD.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/callmemaybe.md"
               },
-              "icon": "lucide-file",
-              "title": "DB-CRUD"
+              "icon": "excalidraw-icon",
+              "title": "callmemaybe"
             }
           },
           {
@@ -277,8 +275,10 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "bf4a90ec355480ad",
+  "active": "360c84b488d3098c",
   "lastOpenFiles": [
+    "Excalidraw/callmemaybe.md",
+    "SQL/DB-CRUD.md",
     "conflict-files-obsidian-git.md",
     "SQL/Constraints.md",
     "Linux/Bash/Top Commands.md",
@@ -292,7 +292,6 @@
     "Excalidraw/Http.md",
     "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/ARP.md",
-    "Excalidraw/callmemaybe.md",
     "Excalidraw/Drawing 2026-04-18 06.26.01.excalidraw.md",
     "Media/car.png",
     "Media/bitwize_example1.png",
@@ -310,7 +309,6 @@
     "Project/MaZe.md",
     "Project/Libft.md",
     "Project/GNL.md",
-    "SQL/DB-CRUD.md",
     "Web/HTTP.md",
     "Web/JavaScript/Functions&Parameters.md",
     "Media/onetomanysql.png",
