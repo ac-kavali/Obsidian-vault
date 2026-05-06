@@ -1,6 +1,7 @@
 {
   "recentFiles": [
     {
+<<<<<<< HEAD
       "basename": "DB-CRUD",
       "path": "SQL/DB-CRUD.md"
     },
@@ -85,8 +86,14 @@
       "path": "Media/ARP1.png"
     },
     {
+=======
+>>>>>>> origin/main
       "basename": "CMM",
       "path": "CMM.md"
+    },
+    {
+      "basename": "callmemaybe",
+      "path": "Excalidraw/callmemaybe.md"
     },
     {
       "basename": "overview",
@@ -199,6 +206,65 @@
     {
       "basename": "Permissions",
       "path": "Linux/Permissions.md"
+<<<<<<< HEAD
+=======
+    },
+    {
+      "basename": "Get-started",
+      "path": "Web/JavaScript/Get-started.md"
+    },
+    {
+      "basename": "File Discriptor",
+      "path": "Concepts/File Discriptor.md"
+    },
+    {
+      "basename": "Swap",
+      "path": "Linux/Disk & Filesystem/Swap.md"
+    },
+    {
+      "basename": "Top Commands",
+      "path": "Linux/Bash/Top Commands.md"
+    },
+    {
+      "basename": "python_discorver#1",
+      "path": "Excalidraw/python_discorver#1.excalidraw"
+    },
+    {
+      "basename": "Network_basics",
+      "path": "Excalidraw/Network_basics.md"
+    },
+    {
+      "basename": "Bitwize",
+      "path": "Excalidraw/Bitwize.excalidraw"
+    },
+    {
+      "basename": "DNS",
+      "path": "Networking/DNS.md"
+    },
+    {
+      "basename": "Switch",
+      "path": "Networking/Switch.md"
+    },
+    {
+      "basename": "Ports",
+      "path": "Networking/Ports.md"
+    },
+    {
+      "basename": "ARP",
+      "path": "Networking/ARP.md"
+    },
+    {
+      "basename": "Inode",
+      "path": "Linux/Disk & Filesystem/Inode.md"
+    },
+    {
+      "basename": "Introduction",
+      "path": "Web/Introduction.md"
+    },
+    {
+      "basename": "Framework",
+      "path": "Web/Framework.md"
+>>>>>>> origin/main
     }
   ],
   "omittedPaths": [],
