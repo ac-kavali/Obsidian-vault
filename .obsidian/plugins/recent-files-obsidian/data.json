@@ -1,20 +1,88 @@
 {
   "recentFiles": [
     {
-      "basename": "CMM",
-      "path": "CMM.md"
+      "basename": "fr",
+      "path": "fr.md"
     },
     {
       "basename": "module08",
       "path": "Python/module08.md"
     },
     {
-      "basename": "rcp_document",
-      "path": "Project/rcp_document.md"
+      "basename": "overview",
+      "path": "overview.md"
     },
     {
       "basename": "callmemaybe",
       "path": "Excalidraw/callmemaybe.md"
+    },
+    {
+      "basename": "Http",
+      "path": "Excalidraw/Http.md"
+    },
+    {
+      "basename": "Argparse",
+      "path": "Python/Argparse.md"
+    },
+    {
+      "basename": "MySQL",
+      "path": "SQL/MySQL.md"
+    },
+    {
+      "basename": "Standard Streams",
+      "path": "Linux/Bash/Standard Streams.md"
+    },
+    {
+      "basename": "Introduction",
+      "path": "SQL/Introduction.md"
+    },
+    {
+      "basename": "Joins",
+      "path": "SQL/Joins.md"
+    },
+    {
+      "basename": "Valgrind",
+      "path": "Concepts/Valgrind.md"
+    },
+    {
+      "basename": "Arrays",
+      "path": "Web/JavaScript/Arrays.md"
+    },
+    {
+      "basename": "SSH",
+      "path": "Linux/SSH.md"
+    },
+    {
+      "basename": "git -h",
+      "path": "Concepts/git -h.md"
+    },
+    {
+      "basename": "pointer to pointer",
+      "path": "Concepts/pointer to pointer.md"
+    },
+    {
+      "basename": "Linked lists",
+      "path": "Concepts/Linked lists.md"
+    },
+    {
+      "basename": "GDB",
+      "path": "Concepts/GDB.md"
+    },
+    {
+      "basename": "File Discriptor",
+      "path": "Concepts/File Discriptor.md"
+    },
+    {
+      "basename": "Bitwize",
+      "path": "Concepts/Bitwize.md"
+    },
+    {
+      "basename": "100baset-hub",
+      "path": "Media/100baset-hub.svg"
+    },
+    {
+      "basename": "rcp_document",
+      "path": "Project/rcp_document.md"
     },
     {
       "basename": "DB-CRUD",
@@ -29,16 +97,8 @@
       "path": "Linux/Bash/Top Commands.md"
     },
     {
-      "basename": "Standard Streams",
-      "path": "Linux/Bash/Standard Streams.md"
-    },
-    {
       "basename": "Loops",
       "path": "Linux/Bash/Loops.md"
-    },
-    {
-      "basename": "If statement",
-      "path": "Linux/Bash/If statement.md"
     },
     {
       "basename": "Data types",
@@ -55,10 +115,6 @@
     {
       "basename": "Impress-me",
       "path": "Excalidraw/Impress-me.md"
-    },
-    {
-      "basename": "Http",
-      "path": "Excalidraw/Http.md"
     },
     {
       "basename": "Bitwize",
@@ -97,16 +153,8 @@
       "path": "Media/ARP1.png"
     },
     {
-      "basename": "overview",
-      "path": "overview.md"
-    },
-    {
       "basename": "Draft",
       "path": "Web/Draft.md"
-    },
-    {
-      "basename": "Printf",
-      "path": "Project/Printf.md"
     },
     {
       "basename": "Rock-Paper-Scissors",
@@ -121,84 +169,16 @@
       "path": "Project/MaZe.md"
     },
     {
-      "basename": "Libft",
-      "path": "Project/Libft.md"
-    },
-    {
-      "basename": "GNL",
-      "path": "Project/GNL.md"
-    },
-    {
       "basename": "HTTP",
       "path": "Web/HTTP.md"
-    },
-    {
-      "basename": "Functions&Parameters",
-      "path": "Web/JavaScript/Functions&Parameters.md"
     },
     {
       "basename": "Burpsuite",
       "path": "Web/Burpsuite.md"
     },
     {
-      "basename": "cURL",
-      "path": "Web/cURL.md"
-    },
-    {
       "basename": "Comprhensive",
       "path": "Python/Comprhensive.md"
-    },
-    {
-      "basename": "Text Processing",
-      "path": "Linux/Text Processing.md"
-    },
-    {
-      "basename": "Module 04",
-      "path": "Python/Module 04.md"
-    },
-    {
-      "basename": "Service management",
-      "path": "Linux/Service management.md"
-    },
-    {
-      "basename": "Web Servers",
-      "path": "Linux/Web Servers.md"
-    },
-    {
-      "basename": "Setuid",
-      "path": "Linux/Setuid.md"
-    },
-    {
-      "basename": "Overview",
-      "path": "Overview.md"
-    },
-    {
-      "basename": "MySQL",
-      "path": "SQL/MySQL.md"
-    },
-    {
-      "basename": "Introduction",
-      "path": "SQL/Introduction.md"
-    },
-    {
-      "basename": "DB-Keys",
-      "path": "SQL/DB-Keys.md"
-    },
-    {
-      "basename": "Information_schema",
-      "path": "SQL/Information_schema.md"
-    },
-    {
-      "basename": "Joins",
-      "path": "SQL/Joins.md"
-    },
-    {
-      "basename": "Relationships",
-      "path": "SQL/Relationships.md"
-    },
-    {
-      "basename": "Random",
-      "path": "Python/Random.md"
     }
   ],
   "omittedPaths": [],

@@ -12,15 +12,11 @@
             "type": "leaf",
             "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CMM.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "pinned": true,
               "icon": "lucide-file",
-              "title": "CMM"
+              "title": "New tab"
             }
           },
           {
@@ -47,15 +43,44 @@
               "type": "markdown",
               "state": {
                 "file": "overview.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
               "title": "overview"
             }
+          },
+          {
+            "id": "1661dc3d04878218",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "overview.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "overview"
+            }
+          },
+          {
+            "id": "6c36511c8c7b6375",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fr.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "fr"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -140,8 +165,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "10424350b623bef2",
@@ -247,7 +271,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -265,27 +290,36 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "6bb00d79ae20285c",
+  "active": "6c36511c8c7b6375",
   "lastOpenFiles": [
     "Python/module08.md",
-    "CMM.md",
-    "Project/rcp_document.md",
+    "fr.md",
+    "overview.md",
     "Excalidraw/callmemaybe.md",
-    "SQL/DB-CRUD.md",
-    "conflict-files-obsidian-git.md",
-    "SQL/Constraints.md",
-    "Linux/Bash/Top Commands.md",
-    "Linux/Bash/Standard Streams.md",
-    "Linux/Bash/Loops.md",
-    "Linux/Bash/If statement.md",
-    "Linux/Bash/Data types.md",
-    "Excalidraw/Tmux.md",
-    "Excalidraw/Network_basics.md",
-    "Excalidraw/Impress-me.md",
+    "Questions.md",
+    "draft.md",
+    "CMM.md",
     "Excalidraw/Http.md",
+    "Python/Argparse.md",
+    "Networking/Application, Presentation.md",
+    "Linux/Bash/If statement.md",
+    "Web/CSS/Storming.md",
+    "SQL/MySQL.md",
+    "Web/JavaScript/Errors.md",
+    "Web/JavaScript/DOM.md",
+    "Project/GNL.md",
+    "Networking/OSI Model.md",
+    "Web/JavaScript/DOM Manipulation.md",
+    "Linux/Bash/Standard Streams.md",
+    "SQL/Introduction.md",
+    "SQL/Joins.md",
+    "cmb.md",
+    "Concepts/Valgrind.md",
+    "Project/Printf.md",
+    "Web/JavaScript/Functions&Parameters.md",
+    "Web/Web Exploite.md",
+    "Media/100baset-hub.svg",
     "Excalidraw/Bitwize.excalidraw",
-    "Excalidraw/ARP.md",
-    "Excalidraw/Drawing 2026-04-18 06.26.01.excalidraw.md",
     "Media/car.png",
     "Media/bitwize_example1.png",
     "Media/bridge.svg",
@@ -293,19 +327,10 @@
     "Media/ARP3.png",
     "Media/ARP2.png",
     "Media/ARP1.png",
-    "overview.md",
-    "Web/Draft.md",
-    "Project/Printf.md",
-    "Project/Rock-Paper-Scissors.md",
-    "Project/Projects.md",
-    "Project/MaZe.md",
-    "Project/Libft.md",
-    "Project/GNL.md",
     "Media/onetomanysql.png",
     "Excalidraw/python_discorver#1.excalidraw",
     "SQL/Untitled",
     "Media/unionSQL.png",
-    "Media/SQLinnerjoinexample.png",
     "SQL",
     "Excalidraw/booting_process.excalidraw",
     "obsidian.tar.xz",

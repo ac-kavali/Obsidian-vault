@@ -86,4 +86,22 @@ It defines how the database is built, including:
 - constraints (like PRIMARY KEY, FOREIGN KEY, UNIQUE)
 
 ---
-![[rdbms.png]]
+![[rdbms.png|765]]
+
+## Aggregate Functions
+
+`COUNT()` belongs to:
+
+```
+Aggregate Functions
+```
+
+Other important ones:
+
+|Function|Purpose|
+|---|---|
+|COUNT()|count|
+|SUM()|total|
+|AVG()|average|
+|MAX()|highest|
+|MIN()|lowest|
