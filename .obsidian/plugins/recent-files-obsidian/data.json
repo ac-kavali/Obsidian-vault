@@ -1,28 +1,68 @@
 {
   "recentFiles": [
     {
-      "basename": "fr",
-      "path": "fr.md"
+      "basename": "Expremer",
+      "path": "fr/Expremer.md"
     },
     {
-      "basename": "module08",
-      "path": "Python/module08.md"
+      "basename": "temps",
+      "path": "fr/temps.md"
+    },
+    {
+      "basename": "fr",
+      "path": "fr/fr.md"
+    },
+    {
+      "basename": "fr_illustration",
+      "path": "Excalidraw/fr_illustration.md"
     },
     {
       "basename": "overview",
       "path": "overview.md"
     },
     {
-      "basename": "callmemaybe",
-      "path": "Excalidraw/callmemaybe.md"
+      "basename": "vision",
+      "path": "Excalidraw/vision.md"
+    },
+    {
+      "basename": "module08",
+      "path": "Python/module08.md"
     },
     {
       "basename": "Http",
       "path": "Excalidraw/Http.md"
     },
     {
+      "basename": "Bitwize",
+      "path": "Excalidraw/Bitwize.excalidraw"
+    },
+    {
+      "basename": "ARP",
+      "path": "Excalidraw/ARP.md"
+    },
+    {
+      "basename": "uv env_mgm",
+      "path": "Python/uv env_mgm.md"
+    },
+    {
+      "basename": "Service management",
+      "path": "Linux/Service management.md"
+    },
+    {
+      "basename": "File transfer",
+      "path": "Linux/File transfer.md"
+    },
+    {
+      "basename": "CTF",
+      "path": "Linux/CTF.md"
+    },
+    {
       "basename": "Argparse",
       "path": "Python/Argparse.md"
+    },
+    {
+      "basename": "callmemaybe",
+      "path": "Excalidraw/callmemaybe.md"
     },
     {
       "basename": "MySQL",
@@ -117,14 +157,6 @@
       "path": "Excalidraw/Impress-me.md"
     },
     {
-      "basename": "Bitwize",
-      "path": "Excalidraw/Bitwize.excalidraw"
-    },
-    {
-      "basename": "ARP",
-      "path": "Excalidraw/ARP.md"
-    },
-    {
       "basename": "car",
       "path": "Media/car.png"
     },
@@ -167,18 +199,6 @@
     {
       "basename": "MaZe",
       "path": "Project/MaZe.md"
-    },
-    {
-      "basename": "HTTP",
-      "path": "Web/HTTP.md"
-    },
-    {
-      "basename": "Burpsuite",
-      "path": "Web/Burpsuite.md"
-    },
-    {
-      "basename": "Comprhensive",
-      "path": "Python/Comprhensive.md"
     }
   ],
   "omittedPaths": [],
