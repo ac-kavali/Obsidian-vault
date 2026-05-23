@@ -4,7 +4,7 @@
 ### Classful Addressing
 
 Classful addressing is the original method of organizing IP addresses into fixed classes, where the class of an address is determined by the first few bits of the address.
-
+<span style="color:rgb(255, 0, 0)">10.0.0.1</span>
 ### CIDR (Classless Inter-Domain Routing)
 
 CIDR replaced classful addressing to allow more flexible allocation of IP address space. Instead of fixed classes, CIDR uses a **prefix length** (e.g., `/24`) to define the network portion of the address, allowing subnets of any size.

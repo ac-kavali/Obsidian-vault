@@ -6,7 +6,6 @@
       {
         "id": "303080bc3121efb9",
         "type": "tabs",
-        "dimension": 45.94272076372315,
         "children": [
           {
             "id": "7a37edc4d52f30bd",
@@ -27,6 +26,7 @@
           {
             "id": "21ea0989c8b0657c",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -34,33 +34,13 @@
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "Expremer"
             }
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "3bbf34ccc4d505bb",
-        "type": "tabs",
-        "dimension": 54.05727923627685,
-        "children": [
-          {
-            "id": "4093cd67dba24793",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/fr_illustration.md"
-              },
-              "pinned": true,
-              "icon": "excalidraw-icon",
-              "title": "fr_illustration"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -251,8 +231,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -270,13 +249,18 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "364eed01b939fc76",
+  "active": "21ea0989c8b0657c",
   "lastOpenFiles": [
-    "fr/temps.md",
-    "fr/fr.md",
-    "fr",
+    "Linux/Bash/Bash.md",
+    "Pasted image 20260522201718.png",
     "fr/Expremer.md",
+    "fr/fr.md",
+    "Networking/ARP.md",
+    "Networking/Subnetting.md",
     "Excalidraw/fr_illustration.md",
+    "fr/Conju.md",
+    "fr/temps.md",
+    "fr",
     "overview.md",
     "Excalidraw/vision.md",
     "Python/module08.md",
@@ -295,11 +279,6 @@
     "Python/Argparse.md",
     "SQL/Relationships.md",
     "Excalidraw/callmemaybe.md",
-    "Questions.md",
-    "draft.md",
-    "CMM.md",
-    "Networking/Application, Presentation.md",
-    "Linux/Bash/If statement.md",
     "Media/100baset-hub.svg",
     "Media/car.png",
     "Media/bitwize_example1.png",
@@ -311,7 +290,6 @@
     "Media/onetomanysql.png",
     "Excalidraw/python_discorver#1.excalidraw",
     "SQL/Untitled",
-    "Media/unionSQL.png",
     "SQL",
     "Excalidraw/booting_process.excalidraw",
     "obsidian.tar.xz",

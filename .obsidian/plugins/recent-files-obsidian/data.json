@@ -5,16 +5,28 @@
       "path": "fr/Expremer.md"
     },
     {
-      "basename": "temps",
-      "path": "fr/temps.md"
+      "basename": "Bash",
+      "path": "Linux/Bash/Bash.md"
     },
     {
       "basename": "fr",
       "path": "fr/fr.md"
     },
     {
+      "basename": "ARP",
+      "path": "Networking/ARP.md"
+    },
+    {
+      "basename": "Subnetting",
+      "path": "Networking/Subnetting.md"
+    },
+    {
       "basename": "fr_illustration",
       "path": "Excalidraw/fr_illustration.md"
+    },
+    {
+      "basename": "Conju",
+      "path": "fr/Conju.md"
     },
     {
       "basename": "overview",
@@ -183,22 +195,6 @@
     {
       "basename": "ARP1",
       "path": "Media/ARP1.png"
-    },
-    {
-      "basename": "Draft",
-      "path": "Web/Draft.md"
-    },
-    {
-      "basename": "Rock-Paper-Scissors",
-      "path": "Project/Rock-Paper-Scissors.md"
-    },
-    {
-      "basename": "Projects",
-      "path": "Project/Projects.md"
-    },
-    {
-      "basename": "MaZe",
-      "path": "Project/MaZe.md"
     }
   ],
   "omittedPaths": [],
