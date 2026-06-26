@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Fly-In",
+      "path": "Project/Fly-In.md"
+    },
+    {
+      "basename": "overview",
+      "path": "overview.md"
+    },
+    {
       "basename": "Expremer",
       "path": "fr/Expremer.md"
     },
@@ -35,10 +43,6 @@
     {
       "basename": "Draft",
       "path": "Web/Draft.md"
-    },
-    {
-      "basename": "overview",
-      "path": "overview.md"
     },
     {
       "basename": "callmemaybe",
@@ -195,10 +199,6 @@
     {
       "basename": "bridge",
       "path": "Media/bridge.svg"
-    },
-    {
-      "basename": "cables",
-      "path": "Media/cables.png"
     }
   ],
   "omittedPaths": [],

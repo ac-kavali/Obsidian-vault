@@ -38,9 +38,23 @@
               "icon": "lucide-file",
               "title": "Expremer"
             }
+          },
+          {
+            "id": "545842f5b32c6eb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Project/Fly-In.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Fly-In"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -249,18 +263,19 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "21ea0989c8b0657c",
+  "active": "545842f5b32c6eb0",
   "lastOpenFiles": [
+    "overview.md",
+    "Project/Fly-In.md",
+    "fr/Expremer.md",
     "Networking/ARP.md",
     "Linux/Bash/First scirpt.md",
     "fr/Conju.md",
-    "fr/Expremer.md",
     "Excalidraw/fr_illustration.md",
     "Linux/Text Processing.md",
     "Concepts/File Discriptor.md",
     "Linux/Disk & Filesystem/Swap.md",
     "Web/Draft.md",
-    "overview.md",
     "Excalidraw/callmemaybe.md",
     "Linux/Bash/Bash.md",
     "Pasted image 20260522201718.png",
@@ -279,7 +294,6 @@
     "Linux/Service management.md",
     "Linux/File transfer.md",
     "Linux/CTF.md",
-    "Web/JavaScript/Async Programing.md",
     "Media/100baset-hub.svg",
     "Media/car.png",
     "Media/bitwize_example1.png",
