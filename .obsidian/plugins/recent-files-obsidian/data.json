@@ -5,6 +5,46 @@
       "path": "fr/Expremer.md"
     },
     {
+      "basename": "ARP",
+      "path": "Networking/ARP.md"
+    },
+    {
+      "basename": "First scirpt",
+      "path": "Linux/Bash/First scirpt.md"
+    },
+    {
+      "basename": "Conju",
+      "path": "fr/Conju.md"
+    },
+    {
+      "basename": "fr_illustration",
+      "path": "Excalidraw/fr_illustration.md"
+    },
+    {
+      "basename": "Text Processing",
+      "path": "Linux/Text Processing.md"
+    },
+    {
+      "basename": "File Discriptor",
+      "path": "Concepts/File Discriptor.md"
+    },
+    {
+      "basename": "Swap",
+      "path": "Linux/Disk & Filesystem/Swap.md"
+    },
+    {
+      "basename": "Draft",
+      "path": "Web/Draft.md"
+    },
+    {
+      "basename": "overview",
+      "path": "overview.md"
+    },
+    {
+      "basename": "callmemaybe",
+      "path": "Excalidraw/callmemaybe.md"
+    },
+    {
       "basename": "Bash",
       "path": "Linux/Bash/Bash.md"
     },
@@ -13,24 +53,8 @@
       "path": "fr/fr.md"
     },
     {
-      "basename": "ARP",
-      "path": "Networking/ARP.md"
-    },
-    {
       "basename": "Subnetting",
       "path": "Networking/Subnetting.md"
-    },
-    {
-      "basename": "fr_illustration",
-      "path": "Excalidraw/fr_illustration.md"
-    },
-    {
-      "basename": "Conju",
-      "path": "fr/Conju.md"
-    },
-    {
-      "basename": "overview",
-      "path": "overview.md"
     },
     {
       "basename": "vision",
@@ -71,10 +95,6 @@
     {
       "basename": "Argparse",
       "path": "Python/Argparse.md"
-    },
-    {
-      "basename": "callmemaybe",
-      "path": "Excalidraw/callmemaybe.md"
     },
     {
       "basename": "MySQL",
@@ -119,10 +139,6 @@
     {
       "basename": "GDB",
       "path": "Concepts/GDB.md"
-    },
-    {
-      "basename": "File Discriptor",
-      "path": "Concepts/File Discriptor.md"
     },
     {
       "basename": "Bitwize",
@@ -183,18 +199,6 @@
     {
       "basename": "cables",
       "path": "Media/cables.png"
-    },
-    {
-      "basename": "ARP3",
-      "path": "Media/ARP3.png"
-    },
-    {
-      "basename": "ARP2",
-      "path": "Media/ARP2.png"
-    },
-    {
-      "basename": "ARP1",
-      "path": "Media/ARP1.png"
     }
   ],
   "omittedPaths": [],
