@@ -7,3 +7,6 @@ python3 main.py map.txt
 ```
 
 ### What is the Graph 
+**In General** 
+A Graph is a 
+A graph in this project 

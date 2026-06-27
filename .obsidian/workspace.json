@@ -114,8 +114,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "recent-files"
+              "icon": "clock",
+              "title": "Recent Files"
             }
           }
         ]
@@ -263,7 +263,7 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "545842f5b32c6eb0",
+  "active": "364eed01b939fc76",
   "lastOpenFiles": [
     "overview.md",
     "Project/Fly-In.md",
