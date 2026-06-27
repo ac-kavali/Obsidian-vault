@@ -6,4 +6,4 @@ your program must be executed like:
 python3 main.py map.txt
 ```
 
-What is the Graph 
+### What is the Graph 
