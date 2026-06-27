@@ -8,5 +8,5 @@ python3 main.py map.txt
 
 ### What is the Graph 
 **In General** 
-A Graph is a data structure used to represent differents objects are linked together 
+A Graph is a data structure used to represent differents objects are linked together, it consists of vertices (or nodes) and edges that connect them.
 A graph in this project 
