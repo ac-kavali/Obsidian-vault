@@ -5,6 +5,10 @@
       "path": "Project/Fly-In.md"
     },
     {
+      "basename": "OSI Model",
+      "path": "Networking/OSI Model.md"
+    },
+    {
       "basename": "overview",
       "path": "overview.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "bitwize_example1",
       "path": "Media/bitwize_example1.png"
-    },
-    {
-      "basename": "bridge",
-      "path": "Media/bridge.svg"
     }
   ],
   "omittedPaths": [],

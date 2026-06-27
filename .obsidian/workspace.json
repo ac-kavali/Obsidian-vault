@@ -263,10 +263,11 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "364eed01b939fc76",
+  "active": "545842f5b32c6eb0",
   "lastOpenFiles": [
-    "overview.md",
+    "Networking/OSI Model.md",
     "Project/Fly-In.md",
+    "overview.md",
     "fr/Expremer.md",
     "Networking/ARP.md",
     "Linux/Bash/First scirpt.md",
@@ -293,7 +294,6 @@
     "Linux/Environment Variables.md",
     "Linux/Service management.md",
     "Linux/File transfer.md",
-    "Linux/CTF.md",
     "Media/100baset-hub.svg",
     "Media/car.png",
     "Media/bitwize_example1.png",
