@@ -14,4 +14,4 @@ There are many types of graphs depending on the problem.
 A graph in this project the graph represent the nodes and the links between them starting from the start till the end. 
 
 ---
-How to make a project Object-Ori
+How to make a project Object-Oriented ?
