@@ -8,5 +8,5 @@ python3 main.py map.txt
 
 ### What is the Graph 
 **In General** 
-A Graph is a 
+A Graph is a data structure used to represent differents objects are linked together 
 A graph in this project 
