@@ -54,31 +54,21 @@
             }
           },
           {
-            "id": "3996c567c2f4a581",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/fr_illustration.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "fr_illustration"
-            }
-          },
-          {
             "id": "3e58bb246f47aed4",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-06-28 12.37.47.excalidraw.md"
+                "file": "Concepts/File Discriptor.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-06-28 12.37.47.excalidraw"
+              "icon": "lucide-file",
+              "title": "File Discriptor"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -270,7 +260,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 224.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -290,9 +280,9 @@
   },
   "active": "3e58bb246f47aed4",
   "lastOpenFiles": [
-    "Media/pin.png",
     "Excalidraw/Drawing 2026-06-28 12.37.47.excalidraw.md",
     "Excalidraw/fr_illustration.md",
+    "Media/pin.png",
     "Excalidraw/Untitled",
     "Excalidraw/vision.md",
     "Python/Module 04.md",
