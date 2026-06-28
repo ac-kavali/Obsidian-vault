@@ -115,9 +115,15 @@ find . -type f -readable
 ```sh
 find <path> -type f -perm 777
 ```
+- <span style="color:rgb(255, 255, 0)">You can use "-" , this make the condition not strict: <br>it require just the specified bits to be set but the others are free</span>
+**Example**
+```sh
+find <path> -type f -perm 400
+# will find 401 407, 500 ... 
+```
+means that should the first bits 100 set and the other are free to be set or unset
 
 --- 
-
 ## Search by owner/group
 
 **File owned by a user**

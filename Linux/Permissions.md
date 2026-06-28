@@ -14,7 +14,33 @@
 
 ---
 ## Special Permissions
+### 1. SUID (Set User ID)
+**Numeric Value**: 4
+**Symbolic representation**: <span style="color:rgb(255, 0, 0)">s </span>
+When an executable file with SUID is run, the process executes with the **privileges of the file owner** rather than the user who launched
 
+
+### 2. SGID (Set Group ID)
+**Numeric Value**: 2
+**Symbolic Representation**: <span style="color:rgb(255, 255, 0)">g</span>
+The executable runs with the **privileges of the file's group**, rather than the user’s primary group
+
+### 3.The Sticky Bit
+**Numeric Value**: 1
+**Symbolic Representation**: +t
+The **sticky bit** is a special permission bit that can be set on a **directory**. It prevents users from deleting or renaming files they do not own, even if they have write permission on the directory.
+
+Without the sticky bit, anyone with **write (`w`)** and **execute (`x`)** permission on a directory can delete or rename any file inside it.
+#### Setting the Sticky Bit  
+Symbolic notation:  
+```bash  
+chmod +t directory  
+```  
+  
+Remove it:  
+```bash  
+chmod -t directory  
+```
 
 ---
 ## Frequently Used Commands

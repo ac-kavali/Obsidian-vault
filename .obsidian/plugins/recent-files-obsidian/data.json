@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Permissions",
-      "path": "Linux/Permissions.md"
+      "basename": "File Discriptor",
+      "path": "Concepts/File Discriptor.md"
     },
     {
       "basename": "Linux",
       "path": "Linux/Linux.md"
     },
     {
-      "basename": "File Discriptor",
-      "path": "Concepts/File Discriptor.md"
+      "basename": "Permissions",
+      "path": "Linux/Permissions.md"
+    },
+    {
+      "basename": "Find",
+      "path": "Linux/Find.md"
+    },
+    {
+      "basename": "fr",
+      "path": "fr/fr.md"
     },
     {
       "basename": "Drawing 2026-06-28 12.37.47.excalidraw",
@@ -43,10 +51,6 @@
     {
       "basename": "overview",
       "path": "overview.md"
-    },
-    {
-      "basename": "fr",
-      "path": "fr/fr.md"
     },
     {
       "basename": "Expremer",
@@ -195,10 +199,6 @@
     {
       "basename": "Constraints",
       "path": "SQL/Constraints.md"
-    },
-    {
-      "basename": "Top Commands",
-      "path": "Linux/Bash/Top Commands.md"
     }
   ],
   "omittedPaths": [],
