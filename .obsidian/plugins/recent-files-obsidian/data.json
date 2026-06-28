@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Drawing 2026-06-28 12.37.47.excalidraw",
+      "path": "Excalidraw/Drawing 2026-06-28 12.37.47.excalidraw.md"
+    },
+    {
       "basename": "fr_illustration",
       "path": "Excalidraw/fr_illustration.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Tmux",
       "path": "Excalidraw/Tmux.md"
-    },
-    {
-      "basename": "Network_basics",
-      "path": "Excalidraw/Network_basics.md"
     }
   ],
   "omittedPaths": [],
