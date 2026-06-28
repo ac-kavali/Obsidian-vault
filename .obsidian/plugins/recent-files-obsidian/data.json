@@ -5,6 +5,10 @@
       "path": "Excalidraw/Drawing 2026-06-28 12.37.47.excalidraw.md"
     },
     {
+      "basename": "pin",
+      "path": "Media/pin.png"
+    },
+    {
       "basename": "fr_illustration",
       "path": "Excalidraw/fr_illustration.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Data types",
       "path": "Linux/Bash/Data types.md"
-    },
-    {
-      "basename": "Tmux",
-      "path": "Excalidraw/Tmux.md"
     }
   ],
   "omittedPaths": [],
