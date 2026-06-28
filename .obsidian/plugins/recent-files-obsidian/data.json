@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Service-Client",
+      "path": "Service-Client.md"
+    },
+    {
+      "basename": "overview",
+      "path": "overview.md"
+    },
+    {
       "basename": "Fly-In",
       "path": "Project/Fly-In.md"
     },
     {
       "basename": "OSI Model",
       "path": "Networking/OSI Model.md"
-    },
-    {
-      "basename": "overview",
-      "path": "overview.md"
     },
     {
       "basename": "Expremer",
@@ -195,10 +199,6 @@
     {
       "basename": "car",
       "path": "Media/car.png"
-    },
-    {
-      "basename": "bitwize_example1",
-      "path": "Media/bitwize_example1.png"
     }
   ],
   "omittedPaths": [],

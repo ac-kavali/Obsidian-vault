@@ -45,12 +45,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/Fly-In.md",
+                "file": "Service-Client.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fly-In"
+              "title": "Service-Client"
             }
           }
         ],
@@ -265,9 +265,10 @@
   },
   "active": "545842f5b32c6eb0",
   "lastOpenFiles": [
-    "Networking/OSI Model.md",
-    "Project/Fly-In.md",
     "overview.md",
+    "Service-Client.md",
+    "Project/Fly-In.md",
+    "Networking/OSI Model.md",
     "fr/Expremer.md",
     "Networking/ARP.md",
     "Linux/Bash/First scirpt.md",
@@ -293,7 +294,6 @@
     "Python/uv env_mgm.md",
     "Linux/Environment Variables.md",
     "Linux/Service management.md",
-    "Linux/File transfer.md",
     "Media/100baset-hub.svg",
     "Media/car.png",
     "Media/bitwize_example1.png",
