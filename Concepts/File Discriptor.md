@@ -129,7 +129,6 @@ The inode contains metadata about the actual file:
 
 ---
 ## When two processes can share the same entry in file table 
-
 <span style="color:rgb(255, 255, 0)">Two processes can share the same entry in file table just using those methods:</span>
 - ✅ `dup()`, `dup2()`, `dup3()`
 - ✅ `fork()` (the child inherits the parent's descriptors)
