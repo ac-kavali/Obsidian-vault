@@ -59,12 +59,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/Fly-In.md",
+                "file": "Python/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fly-In"
+              "title": "Untitled"
             }
           }
         ],
@@ -277,14 +277,15 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "3996c567c2f4a581",
+  "active": "364eed01b939fc76",
   "lastOpenFiles": [
+    "Project/Fly-In.md",
+    "Python/Untitled.md",
     "overview.md",
     "fr/fr.md",
     "fr/Expremer.md",
     "fr/Conju.md",
     "Service-Client.md",
-    "Project/Fly-In.md",
     "Networking/OSI Model.md",
     "Networking/ARP.md",
     "Linux/Bash/First scirpt.md",
@@ -307,7 +308,6 @@
     "Excalidraw/ARP.md",
     "Python/uv env_mgm.md",
     "Linux/Environment Variables.md",
-    "Linux/Service management.md",
     "Media/100baset-hub.svg",
     "Media/car.png",
     "Media/bitwize_example1.png",

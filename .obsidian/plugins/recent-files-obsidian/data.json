@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "Python/Untitled.md"
+    },
+    {
       "basename": "Fly-In",
       "path": "Project/Fly-In.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Impress-me",
       "path": "Excalidraw/Impress-me.md"
-    },
-    {
-      "basename": "car",
-      "path": "Media/car.png"
     }
   ],
   "omittedPaths": [],
