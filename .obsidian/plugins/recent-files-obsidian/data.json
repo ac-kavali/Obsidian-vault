@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "fr_illustration",
+      "path": "Excalidraw/fr_illustration.md"
+    },
+    {
+      "basename": "vision",
+      "path": "Excalidraw/vision.md"
+    },
+    {
+      "basename": "Module 04",
+      "path": "Python/Module 04.md"
+    },
+    {
       "basename": "Untitled",
       "path": "Python/Untitled.md"
     },
@@ -41,10 +53,6 @@
       "path": "Linux/Bash/First scirpt.md"
     },
     {
-      "basename": "fr_illustration",
-      "path": "Excalidraw/fr_illustration.md"
-    },
-    {
       "basename": "Text Processing",
       "path": "Linux/Text Processing.md"
     },
@@ -71,10 +79,6 @@
     {
       "basename": "Subnetting",
       "path": "Networking/Subnetting.md"
-    },
-    {
-      "basename": "vision",
-      "path": "Excalidraw/vision.md"
     },
     {
       "basename": "module08",
@@ -195,10 +199,6 @@
     {
       "basename": "Network_basics",
       "path": "Excalidraw/Network_basics.md"
-    },
-    {
-      "basename": "Impress-me",
-      "path": "Excalidraw/Impress-me.md"
     }
   ],
   "omittedPaths": [],

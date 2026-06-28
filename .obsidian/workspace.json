@@ -57,14 +57,12 @@
             "id": "3996c567c2f4a581",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Python/Untitled.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/fr_illustration.md"
               },
-              "icon": "lucide-file",
-              "title": "Untitled"
+              "icon": "excalidraw-icon",
+              "title": "fr_illustration"
             }
           }
         ],
@@ -279,8 +277,12 @@
   },
   "active": "364eed01b939fc76",
   "lastOpenFiles": [
-    "Project/Fly-In.md",
+    "Excalidraw/Untitled",
+    "Excalidraw/vision.md",
+    "Python/Module 04.md",
+    "Media/pin.png",
     "Python/Untitled.md",
+    "Project/Fly-In.md",
     "overview.md",
     "fr/fr.md",
     "fr/Expremer.md",
@@ -300,14 +302,11 @@
     "Networking/Subnetting.md",
     "fr/temps.md",
     "fr",
-    "Excalidraw/vision.md",
     "Python/module08.md",
     "Excalidraw/Http.md",
     "Excalidraw/Untitled.md",
     "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/ARP.md",
-    "Python/uv env_mgm.md",
-    "Linux/Environment Variables.md",
     "Media/100baset-hub.svg",
     "Media/car.png",
     "Media/bitwize_example1.png",
@@ -316,7 +315,6 @@
     "Media/ARP3.png",
     "Media/ARP2.png",
     "Media/ARP1.png",
-    "Media/onetomanysql.png",
     "Excalidraw/python_discorver#1.excalidraw",
     "SQL/Untitled",
     "SQL",
