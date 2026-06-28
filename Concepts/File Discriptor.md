@@ -106,7 +106,7 @@ Think of a process as a running program. In the diagram, you have **Process 1** 
 
 ## <span class="color-red">B) File Table (open file table) </span>
 
-▢ This is **system-wide, meaning multiple processes can share it.
+▢ This is **system-wide, meaning multiple processes can share it.**
 ▢ Each entry countains: 
  |>Pointer to inode(to know file metadata and location).
  |>Current file offset(where the next reaad/write happens).
