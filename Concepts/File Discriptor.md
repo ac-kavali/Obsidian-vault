@@ -128,3 +128,4 @@ The inode contains metadata about the actual file:
 -> Multiple entries in the file table can pointe same inode, meaning multiple open instance of the same file share the same meunderlying file metadata.
 
 ---
+## When two processes can share 
