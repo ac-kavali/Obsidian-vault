@@ -13,7 +13,10 @@
 - [[#Piping|Piping]]
 
 ---
+## Special Permissions
 
+
+---
 ## Frequently Used Commands
 
 ### General Commands

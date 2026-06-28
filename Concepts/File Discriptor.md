@@ -128,4 +128,7 @@ The inode contains metadata about the actual file:
 -> Multiple entries in the file table can pointe same inode, meaning multiple open instance of the same file share the same meunderlying file metadata.
 
 ---
-## When two processes can share 
+## When two processes can share the same entry in file table 
+- ✅ `dup()`, `dup2()`, `dup3()`
+- ✅ `fork()` (the child inherits the parent's descriptors)
+- ✅ `SCM_RIGHTS` (the kernel duplicates the reference into another process)

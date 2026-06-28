@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Permissions",
+      "path": "Linux/Permissions.md"
+    },
+    {
+      "basename": "Linux",
+      "path": "Linux/Linux.md"
+    },
+    {
       "basename": "File Discriptor",
       "path": "Concepts/File Discriptor.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Top Commands",
       "path": "Linux/Bash/Top Commands.md"
-    },
-    {
-      "basename": "Loops",
-      "path": "Linux/Bash/Loops.md"
-    },
-    {
-      "basename": "Data types",
-      "path": "Linux/Bash/Data types.md"
     }
   ],
   "omittedPaths": [],
