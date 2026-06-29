@@ -23,3 +23,5 @@
   but understand why?, like 
   Apple sel millions of iphon each year, don't save the information but 
   ask<span style="color:rgb(255, 255, 0)"> Why apple do this and how ?</span> 
+
+- 
