@@ -32,4 +32,7 @@
 
   To build better mental models, you should challenge your natural assumptions by testing them against reality. Bring your ideas into the real world, practice them, observe the results, and update your understanding. This process helps you develop more accurate and reliable mental models.
 
-- 
+- **It's not overwork without enough rest that leads to burnout. From my point of view, it's frustration that leads to burnout**
+
+- **whoever best describe the problem is the one most likely to solve it**
+
