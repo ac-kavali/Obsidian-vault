@@ -19,9 +19,9 @@
 - **Expensive education doesn't guarantee success.**
   One of the reason Josh Caufman created the book is the most of MBA programs was very expensive and can reach somtimes to $200k
 
-- **Don't just know facts**  
+- **Don't just know facts**
   but understand why?, like 
   Apple sel millions of iphon each year, don't save the information but 
   ask<span style="color:rgb(255, 255, 0)"> Why apple do this and how ?</span> 
 
-- 
+- **<span style="color:rgb(255, 255, 0)">Don't rely on</span> natural Montal Models** 
