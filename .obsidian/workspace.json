@@ -59,12 +59,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Concepts/File Discriptor.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "File Discriptor"
+              "title": "Untitled"
             }
           }
         ],
@@ -132,8 +132,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "f00ff03ae3a8a195",
@@ -280,11 +279,14 @@
   },
   "active": "3e58bb246f47aed4",
   "lastOpenFiles": [
+    "Concepts/File Discriptor.md",
+    "Untitled.md",
+    "Linux/Service management.md",
+    "Service-Client.md",
     "Linux/Linux.md",
     "Linux/Permissions.md",
     "Linux/Find.md",
     "fr/fr.md",
-    "Concepts/File Discriptor.md",
     "Excalidraw/Drawing 2026-06-28 12.37.47.excalidraw.md",
     "Excalidraw/fr_illustration.md",
     "Media/pin.png",
@@ -296,7 +298,6 @@
     "overview.md",
     "fr/Expremer.md",
     "fr/Conju.md",
-    "Service-Client.md",
     "Networking/OSI Model.md",
     "Networking/ARP.md",
     "Linux/Bash/First scirpt.md",
@@ -307,9 +308,7 @@
     "Linux/Bash/Bash.md",
     "Pasted image 20260522201718.png",
     "Networking/Subnetting.md",
-    "fr/temps.md",
     "fr",
-    "Python/module08.md",
     "Excalidraw/Bitwize.excalidraw",
     "Media/100baset-hub.svg",
     "Media/car.png",

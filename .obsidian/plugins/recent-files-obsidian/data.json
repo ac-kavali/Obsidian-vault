@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
       "basename": "File Discriptor",
       "path": "Concepts/File Discriptor.md"
+    },
+    {
+      "basename": "Service management",
+      "path": "Linux/Service management.md"
+    },
+    {
+      "basename": "Service-Client",
+      "path": "Service-Client.md"
     },
     {
       "basename": "Linux",
@@ -61,10 +73,6 @@
       "path": "fr/Conju.md"
     },
     {
-      "basename": "Service-Client",
-      "path": "Service-Client.md"
-    },
-    {
       "basename": "OSI Model",
       "path": "Networking/OSI Model.md"
     },
@@ -119,10 +127,6 @@
     {
       "basename": "uv env_mgm",
       "path": "Python/uv env_mgm.md"
-    },
-    {
-      "basename": "Service management",
-      "path": "Linux/Service management.md"
     },
     {
       "basename": "File transfer",
@@ -195,10 +199,6 @@
     {
       "basename": "DB-CRUD",
       "path": "SQL/DB-CRUD.md"
-    },
-    {
-      "basename": "Constraints",
-      "path": "SQL/Constraints.md"
     }
   ],
   "omittedPaths": [],

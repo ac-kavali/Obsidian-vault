@@ -4,7 +4,7 @@
     "explainSearch": false,
     "extraContext": false,
     "matchingCase": false,
-    "query": "path:\"Linux/\"  permission",
+    "query": "",
     "sortOrder": "alphabetical"
   },
   "showFilePath": false,
