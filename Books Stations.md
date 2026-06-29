@@ -25,6 +25,8 @@
   ask<span style="color:rgb(255, 255, 0)"> Why apple do this and how ?</span>
 
 - **Don't rely on natural Montal Models** 
-  The montal models are just a internal idea about how things works and the brain that forme them automatically by noticing patterns repeatedly then we conclue that this how things works 
+  Mental models are internal representations of how we believe the world works. Our brains form them automatically by repeatedly noticing patterns and drawing conclusions about how things usually happen. However, these mental models are not always completely accurate.
 
-  But you should break those natural Montal models by 
+  To build better mental models, you should challenge your natural assumptions by testing them against reality. Bring your ideas into the real world, practice them, observe the results, and update your understanding. This process helps you develop more accurate and reliable mental models.
+
+- 
