@@ -16,6 +16,7 @@
 	- Deliver the value.
 	- Manage the finances.
 	and that's it!
+
 - **Expensive education doesn't guarantee success.**
   One of the reason Josh Caufman created the book is the most of MBA programs was very expensive and can reach somtimes to $200k
 
