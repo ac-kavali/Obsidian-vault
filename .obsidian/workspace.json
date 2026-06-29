@@ -162,7 +162,7 @@
       {
         "id": "2b5c95463662bc95",
         "type": "tabs",
-        "dimension": 64.81481481481481,
+        "dimension": 62.59259259259259,
         "children": [
           {
             "id": "6f1f7733ce304638",
@@ -241,9 +241,9 @@
         "currentTab": 4
       },
       {
-        "id": "a8b20e5188f20cdd",
+        "id": "18b915b080dd329c",
         "type": "tabs",
-        "dimension": 35.18518518518518,
+        "dimension": 37.407407407407405,
         "children": [
           {
             "id": "9fa10d8f867ed010",
@@ -259,7 +259,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5
+    "width": 261.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -277,7 +277,7 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "3e58bb246f47aed4",
+  "active": "bf4a90ec355480ad",
   "lastOpenFiles": [
     "Concepts/File Discriptor.md",
     "Books Stations.md",
