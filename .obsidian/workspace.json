@@ -59,12 +59,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Concepts/File Discriptor.md",
-                "mode": "preview",
+                "file": "Books Stations.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "File Discriptor"
+              "title": "Books Stations"
             }
           }
         ],
@@ -277,10 +277,10 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "bf4a90ec355480ad",
+  "active": "3e58bb246f47aed4",
   "lastOpenFiles": [
-    "Books Stations.md",
     "Concepts/File Discriptor.md",
+    "Books Stations.md",
     "Linux/Service management.md",
     "Service-Client.md",
     "Linux/Linux.md",
