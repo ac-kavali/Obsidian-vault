@@ -153,7 +153,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 216.5
+    "width": 216.5,
+    "collapsed": true
   },
   "right": {
     "id": "10424350b623bef2",
@@ -277,7 +278,7 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "3e58bb246f47aed4",
+  "active": "bf4a90ec355480ad",
   "lastOpenFiles": [
     "Books Stations.md",
     "Concepts/File Discriptor.md",
