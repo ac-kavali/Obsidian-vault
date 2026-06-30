@@ -8,7 +8,7 @@
 ## Keys:
 - Business not about money, Josh says that **business exists because it creates value for other people.**
 - Every business exists because someone has a problem.
-<strong>Josh Kaufman just tried in the first chapter to argument and show that MBA schools are a wast of time and money for some of peaple and try to identify </strong>
+<strong>Josh Kaufman just tried in the first chapter to argument and show that MBA schools are a wast of time and money for some of peaple and try to identify the type of persone that should never have a MBA SCHOOL and how the most of the MBA student get the success after get graduated, and its not by magic its just a reputation that its build over time and each time its get valuated it also get more expensive like a circle </strong>
 
 - **Business isn't magic**
 	- Create value.
