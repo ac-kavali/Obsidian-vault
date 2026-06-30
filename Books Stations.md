@@ -8,9 +8,10 @@
 ## Keys:
 - Business not about money, Josh says that **business exists because it creates value for other people.**
 - Every business exists because someone has a problem.
-<strong>Josh Kaufman argues that an MBA is not the best investment for many people because of its high cost and the opportunity cost (the time spent not working or gaining experience). </strong>
 
-- He tries to identify who actually benefits from an MBA and who does not.
+<strong>- Josh Kaufman argues that an MBA is not the best investment for many people because of its high cost and the opportunity cost (the time spent not working or gaining experience).</strong>
+<strong>- He tries to identify who actually benefits from an MBA and who does not.</strong>
+<strong>- He also explains that prestigious schools become more valuable because successful graduates strengthen the school's reputation, which attracts more talented students and allows the schools to charge higher tuition—a self-reinforcing cycle.</strong>
 
 - **Business isn't magic**
 	- Create value.
