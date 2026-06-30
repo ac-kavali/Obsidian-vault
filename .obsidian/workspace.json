@@ -205,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Subnetting.md",
+                "file": "Books Stations.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Subnetting"
+              "title": "Outline of Books Stations"
             }
           },
           {
@@ -220,16 +220,16 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Http.md",
+                "file": "Books Stations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Http"
+              "title": "Outgoing links from Books Stations"
             }
           },
           {
-            "id": "bf4a90ec355480ad",
+            "id": "fd3a910c8ea450bd",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -273,12 +273,12 @@
       "bases:Create new base": false,
       "audio-recorder:Start/stop recording": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false,
       "omnisearch:Omnisearch": false,
+      "obsidian-git:Open Git source control": false,
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "3e58bb246f47aed4",
+  "active": "1ef5e09b80deb4dc",
   "lastOpenFiles": [
     "Books Stations.md",
     "Concepts/File Discriptor.md",
