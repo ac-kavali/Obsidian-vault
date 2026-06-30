@@ -40,5 +40,9 @@
 
 - **whoever best describe the problem is the one most likely to solve it**
 
+- you should not assume an MBA is automatically worth its high cost just because it has prestige.
+- 
+**An MBA should be treated like any other investment: compare the costs with the expected benefits before deciding.**
 --- 
 ## Part 2 
+- 
