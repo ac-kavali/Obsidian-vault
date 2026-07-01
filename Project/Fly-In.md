@@ -23,4 +23,8 @@ and i will use regex to enforce the parsing and also how to perform an error han
 
 ---
 ## The beguest question how to parse data completly correct and check for every detail if messing ?
-
+---
+# Making rules 
+- `nb_drones`: should at the top of the file and exactly at the first line
+- Zone definitions should be clear :
+	- `start_hub: <name> <x> <y> [meta-data]` the line should start with `start_hub` and have a `<name>`, `x`, and `y` but metadata is optionnal
