@@ -19,4 +19,7 @@ How to make a project Object-Oriented ?
 ---
 ## I started learning parsing 
 completly for data parsing anywhere like parsing json, parsing logs, parsing data...
-and i will use regex to enforce the parsing and also how to perform an error handling if data parsing find somthing is missing or incorrect 
+and i will use regex to enforce the parsing and also how to perform an error handling if data parsing find somthing is missing or incorrect
+
+---
+## The beguest question how to parse data completly correct and check for every detail if messing ?
