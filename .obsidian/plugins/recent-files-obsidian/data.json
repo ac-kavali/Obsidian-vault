@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Fly-In",
+      "path": "Project/Fly-In.md"
+    },
+    {
+      "basename": "Books Stations",
+      "path": "Books Stations.md"
+    },
+    {
+      "basename": "Module09",
+      "path": "Python/Module09.md"
+    },
+    {
+      "basename": "Service-Client",
+      "path": "Service-Client.md"
+    },
+    {
+      "basename": "fr",
+      "path": "fr/fr.md"
+    },
+    {
+      "basename": "Expremer",
+      "path": "fr/Expremer.md"
+    },
+    {
       "basename": "module08",
       "path": "Python/module08.md"
     },
@@ -9,20 +33,12 @@
       "path": "Python/Random.md"
     },
     {
-      "basename": "Books Stations",
-      "path": "Books Stations.md"
-    },
-    {
       "basename": "File Discriptor",
       "path": "Concepts/File Discriptor.md"
     },
     {
       "basename": "Service management",
       "path": "Linux/Service management.md"
-    },
-    {
-      "basename": "Service-Client",
-      "path": "Service-Client.md"
     },
     {
       "basename": "Linux",
@@ -35,10 +51,6 @@
     {
       "basename": "Find",
       "path": "Linux/Find.md"
-    },
-    {
-      "basename": "fr",
-      "path": "fr/fr.md"
     },
     {
       "basename": "Drawing 2026-06-28 12.37.47.excalidraw",
@@ -67,10 +79,6 @@
     {
       "basename": "overview",
       "path": "overview.md"
-    },
-    {
-      "basename": "Expremer",
-      "path": "fr/Expremer.md"
     },
     {
       "basename": "Conju",

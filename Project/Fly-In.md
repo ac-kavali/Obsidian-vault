@@ -24,4 +24,3 @@ and i will use regex to enforce the parsing and also how to perform an error han
 ---
 ## The beguest question how to parse data completly correct and check for every detail if messing ?
 
-### use pydantic : 
