@@ -260,7 +260,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 270.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -278,7 +278,7 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "1ef5e09b80deb4dc",
+  "active": "3e58bb246f47aed4",
   "lastOpenFiles": [
     "Books Stations.md",
     "Concepts/File Discriptor.md",

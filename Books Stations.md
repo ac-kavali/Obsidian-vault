@@ -45,4 +45,4 @@
 **An MBA should be treated like any other investment: compare the costs with the expected benefits before deciding.**
 --- 
 ## Part 2 
--    tat  
+-   
