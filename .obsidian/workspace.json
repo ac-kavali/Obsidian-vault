@@ -59,12 +59,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/Fly-In.md",
-                "mode": "source",
+                "file": "Python/Module09.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fly-In"
+              "title": "Module09"
             }
           }
         ],
@@ -204,13 +204,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/Fly-In.md",
+                "file": "Python/Module09.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Fly-In"
+              "title": "Outline of Module09"
             }
           },
           {
@@ -277,8 +277,15 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "fd3a910c8ea450bd",
+  "active": "3e58bb246f47aed4",
   "lastOpenFiles": [
+    "Python/uv env_mgm.md",
+    "Project/Fly-In.md",
+    "Project/GNL.md",
+    "Project/Printf.md",
+    "Python/Module09.md",
+    "Python/module08.md",
+    "Python/Random.md",
     "Books Stations.md",
     "Concepts/File Discriptor.md",
     "Linux/Service management.md",
@@ -294,20 +301,13 @@
     "Excalidraw/vision.md",
     "Python/Module 04.md",
     "Python/Untitled.md",
-    "Project/Fly-In.md",
     "overview.md",
     "fr/Expremer.md",
     "fr/Conju.md",
     "Networking/OSI Model.md",
     "Networking/ARP.md",
     "Linux/Bash/First scirpt.md",
-    "Linux/Text Processing.md",
-    "Linux/Disk & Filesystem/Swap.md",
-    "Web/Draft.md",
-    "Excalidraw/callmemaybe.md",
-    "Linux/Bash/Bash.md",
     "Pasted image 20260522201718.png",
-    "Networking/Subnetting.md",
     "fr",
     "Excalidraw/Bitwize.excalidraw",
     "Media/100baset-hub.svg",

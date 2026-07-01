@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Fly-In",
-      "path": "Project/Fly-In.md"
+      "basename": "module08",
+      "path": "Python/module08.md"
+    },
+    {
+      "basename": "Random",
+      "path": "Python/Random.md"
     },
     {
       "basename": "Books Stations",
@@ -109,10 +113,6 @@
       "path": "Networking/Subnetting.md"
     },
     {
-      "basename": "module08",
-      "path": "Python/module08.md"
-    },
-    {
       "basename": "Http",
       "path": "Excalidraw/Http.md"
     },
@@ -123,10 +123,6 @@
     {
       "basename": "ARP",
       "path": "Excalidraw/ARP.md"
-    },
-    {
-      "basename": "uv env_mgm",
-      "path": "Python/uv env_mgm.md"
     },
     {
       "basename": "File transfer",
@@ -191,14 +187,6 @@
     {
       "basename": "100baset-hub",
       "path": "Media/100baset-hub.svg"
-    },
-    {
-      "basename": "rcp_document",
-      "path": "Project/rcp_document.md"
-    },
-    {
-      "basename": "DB-CRUD",
-      "path": "SQL/DB-CRUD.md"
     }
   ],
   "omittedPaths": [],
