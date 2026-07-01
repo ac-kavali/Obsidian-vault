@@ -23,4 +23,4 @@ and i will use regex to enforce the parsing and also how to perform an error han
 
 ---
 ## The beguest question how to parse data completly correct and check for every detail if messing ?
-is the best foradfadfadfafadfadfadsf fasrt dfdfdasdfaafddfdfdfdfdf
+is the best foradfadfadfafadfadfadsf fasrt dfdfdasdfaafddfdfdfdfdfadfdsfdf
