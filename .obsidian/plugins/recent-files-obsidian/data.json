@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Text Processing",
+      "path": "Linux/Text Processing.md"
+    },
+    {
       "basename": "Fly-In",
       "path": "Project/Fly-In.md"
     },
@@ -95,10 +99,6 @@
     {
       "basename": "First scirpt",
       "path": "Linux/Bash/First scirpt.md"
-    },
-    {
-      "basename": "Text Processing",
-      "path": "Linux/Text Processing.md"
     },
     {
       "basename": "Swap",
