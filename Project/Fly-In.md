@@ -29,4 +29,5 @@ and i will use regex to enforce the parsing and also how to perform an error han
 - Zone definitions should be clear :
 	- `start_hub: <name> <x> <y> [meta-data]` the line should start with `start_hub` and have a `<name>`, `x`, and `y` but metadata is optionnal
 	- `end_hub` also the line of the end hub should start with exact name and have an `name`, `x`, `y` and optionnal metadata.
-	- and all other hub 
+	- and all other lines that start with `hub` should have `name` , `x`, `y` to be a valide hub.
+-
