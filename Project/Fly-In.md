@@ -35,4 +35,5 @@ and i will use regex to enforce the parsing and also how to perform an error han
 
 re.compile : used to prepare or create a re object that have the methods of search() match() ...
 1. The backslash `\` in regex has **two main jobs** 
-2. 
+- Escape a regex metacharacter (treat it literally)
+  Create a special regex sequence
