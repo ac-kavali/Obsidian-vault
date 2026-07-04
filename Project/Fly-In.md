@@ -34,4 +34,3 @@ and i will use regex to enforce the parsing and also how to perform an error han
 ## Re in python
 
 re.compile : used to prepare or create a re object that have the methods of search() match() ...
-ddd
