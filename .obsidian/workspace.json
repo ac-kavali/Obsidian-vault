@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Text Processing.md",
+                "file": "Project/Fly-In.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Text Processing"
+              "title": "Fly-In"
             }
           }
         ]
@@ -233,6 +233,7 @@
   },
   "active": "3e58bb246f47aed4",
   "lastOpenFiles": [
+    "Linux/Text Processing.md",
     "Project/Fly-In.md",
     "Books Stations.md",
     "Python/Module09.md",
@@ -260,7 +261,6 @@
     "fr/Conju.md",
     "Networking/OSI Model.md",
     "Networking/ARP.md",
-    "Linux/Bash/First scirpt.md",
     "Pasted image 20260522201718.png",
     "fr",
     "Excalidraw/Bitwize.excalidraw",
