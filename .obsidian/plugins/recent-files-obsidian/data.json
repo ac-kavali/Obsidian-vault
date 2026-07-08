@@ -5,6 +5,10 @@
       "path": "Service-Client.md"
     },
     {
+      "basename": "overview",
+      "path": "overview.md"
+    },
+    {
       "basename": "bash instructions",
       "path": "Linux/Bash/bash instructions.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "Books Stations",
       "path": "Books Stations.md"
-    },
-    {
-      "basename": "overview",
-      "path": "overview.md"
     },
     {
       "basename": "Fly-In",

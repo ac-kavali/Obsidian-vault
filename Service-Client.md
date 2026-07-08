@@ -1,6 +1,7 @@
 **la phrase d'accueil**: 
-Bonjour et bienvenue chez Bouygues Telecom. Vous êtes en ligne avec Ahmed du service technique. Comment puis-je vous aider aujourd'hui ?
+Bonjour et bienvenue chez Bouygues Telecom. Je suis Ahmed du service technique. Comment puis-je vous aider ?
 
+_le client _
 
 
 
