@@ -1,7 +1,10 @@
 **la phrase d'accueil**: 
-Bonjour et bienvenue chez Bouygues Telecom. Je suis Ahmed du service technique. Comment puis-je vous aider ?
+- Bonjour et bienvenue chez Bouygues Telecom. Je suis Ahmed du service technique. Comment puis-je vous aider ?
 
-_le client _
+- _le client explique sont problem!_
+
+- D'accord, je comprends votre demande. Vous m'indiquez que... [le problème]. Est-ce correct ?
+
 
 
 
