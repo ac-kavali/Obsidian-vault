@@ -8,7 +8,9 @@
 - Avant d'accéder à votre dossier, j'aurais simplement besoin de vérifier quelques informations: 
  - Pouvez-vous me communiquer votre nom et votre prénom, s'il vous plaît ?
  - [client repond]
- - Merci, quel est le numero de la ligne concern 
+ - Merci, quel est le numero de la ligne concerné?
+ - [client repond]
+ - Merci. Et pour terminer, pouvez-vous me confirmer votre adresse e-mail ?
 
 
 - **Laisser le client expliquer son problème.**
