@@ -4,8 +4,11 @@
 - _le client explique sont problem!_
 
 - D'accord, je comprends votre demande. Vous m'indiquez que... [le problème]. Est-ce correct ?
-
-
+[identification]
+- Avant d'accéder à votre dossier, j'aurais simplement besoin de vérifier quelques informations: 
+ - Pouvez-vous me communiquer votre nom et votre prénom, s'il vous plaît ?
+ - [client repond]
+ - Merci, quel est le numero de la ligne concern 
 
 
 - **Laisser le client expliquer son problème.**
