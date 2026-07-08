@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/Fly-In.md",
+                "file": "Service-Client.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fly-In"
+              "title": "Service-Client"
             }
           }
         ]
@@ -85,8 +85,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "f00ff03ae3a8a195",
@@ -233,11 +232,14 @@
   },
   "active": "3e58bb246f47aed4",
   "lastOpenFiles": [
-    "Linux/Text Processing.md",
-    "Project/Fly-In.md",
-    "Books Stations.md",
-    "Python/Module09.md",
+    "Linux/Bash/bash instructions.md",
+    "SQL/DB-CRUD.md",
     "Service-Client.md",
+    "Books Stations.md",
+    "overview.md",
+    "Project/Fly-In.md",
+    "Linux/Text Processing.md",
+    "Python/Module09.md",
     "fr/fr.md",
     "fr/Expremer.md",
     "Python/uv env_mgm.md",
@@ -257,10 +259,7 @@
     "Excalidraw/vision.md",
     "Python/Module 04.md",
     "Python/Untitled.md",
-    "overview.md",
     "fr/Conju.md",
-    "Networking/OSI Model.md",
-    "Networking/ARP.md",
     "Pasted image 20260522201718.png",
     "fr",
     "Excalidraw/Bitwize.excalidraw",

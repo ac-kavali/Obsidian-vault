@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Service-Client",
+      "path": "Service-Client.md"
+    },
+    {
+      "basename": "bash instructions",
+      "path": "Linux/Bash/bash instructions.md"
+    },
+    {
+      "basename": "DB-CRUD",
+      "path": "SQL/DB-CRUD.md"
+    },
+    {
+      "basename": "Books Stations",
+      "path": "Books Stations.md"
+    },
+    {
+      "basename": "overview",
+      "path": "overview.md"
+    },
+    {
       "basename": "Fly-In",
       "path": "Project/Fly-In.md"
     },
@@ -9,16 +29,8 @@
       "path": "Linux/Text Processing.md"
     },
     {
-      "basename": "Books Stations",
-      "path": "Books Stations.md"
-    },
-    {
       "basename": "Module09",
       "path": "Python/Module09.md"
-    },
-    {
-      "basename": "Service-Client",
-      "path": "Service-Client.md"
     },
     {
       "basename": "fr",
@@ -79,10 +91,6 @@
     {
       "basename": "Untitled",
       "path": "Python/Untitled.md"
-    },
-    {
-      "basename": "overview",
-      "path": "overview.md"
     },
     {
       "basename": "Conju",
@@ -191,10 +199,6 @@
     {
       "basename": "Bitwize",
       "path": "Concepts/Bitwize.md"
-    },
-    {
-      "basename": "100baset-hub",
-      "path": "Media/100baset-hub.svg"
     }
   ],
   "omittedPaths": [],
