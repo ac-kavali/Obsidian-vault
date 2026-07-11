@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Service-Client.md",
+                "file": "Diagno pro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Service-Client"
+              "title": "Diagno pro"
             }
           }
         ]
@@ -106,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 210.5
+    "width": 237.5
   },
   "right": {
     "id": "10424350b623bef2",
@@ -232,11 +232,12 @@
   },
   "active": "3e58bb246f47aed4",
   "lastOpenFiles": [
+    "Books Stations.md",
+    "Diagno pro.md",
     "overview.md",
-    "Service-Client.md",
+    "Media/100baset-hub.svg",
     "Linux/Bash/bash instructions.md",
     "SQL/DB-CRUD.md",
-    "Books Stations.md",
     "Project/Fly-In.md",
     "Linux/Text Processing.md",
     "Python/Module09.md",
@@ -259,11 +260,9 @@
     "Excalidraw/vision.md",
     "Python/Module 04.md",
     "Python/Untitled.md",
-    "fr/Conju.md",
     "Pasted image 20260522201718.png",
     "fr",
     "Excalidraw/Bitwize.excalidraw",
-    "Media/100baset-hub.svg",
     "Media/car.png",
     "Media/bitwize_example1.png",
     "Media/bridge.svg",

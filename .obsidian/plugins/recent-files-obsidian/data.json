@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Service-Client",
-      "path": "Service-Client.md"
+      "basename": "Diagno pro",
+      "path": "Diagno pro.md"
+    },
+    {
+      "basename": "Books Stations",
+      "path": "Books Stations.md"
     },
     {
       "basename": "overview",
       "path": "overview.md"
+    },
+    {
+      "basename": "100baset-hub",
+      "path": "Media/100baset-hub.svg"
     },
     {
       "basename": "bash instructions",
@@ -15,10 +23,6 @@
     {
       "basename": "DB-CRUD",
       "path": "SQL/DB-CRUD.md"
-    },
-    {
-      "basename": "Books Stations",
-      "path": "Books Stations.md"
     },
     {
       "basename": "Fly-In",
@@ -195,10 +199,6 @@
     {
       "basename": "GDB",
       "path": "Concepts/GDB.md"
-    },
-    {
-      "basename": "Bitwize",
-      "path": "Concepts/Bitwize.md"
     }
   ],
   "omittedPaths": [],
