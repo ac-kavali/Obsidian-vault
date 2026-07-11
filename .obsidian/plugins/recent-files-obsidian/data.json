@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "CC Fundamental",
+      "path": "CC Fundamental.md"
+    },
+    {
       "basename": "Diagno pro",
       "path": "Diagno pro.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Linked lists",
       "path": "Concepts/Linked lists.md"
-    },
-    {
-      "basename": "GDB",
-      "path": "Concepts/GDB.md"
     }
   ],
   "omittedPaths": [],

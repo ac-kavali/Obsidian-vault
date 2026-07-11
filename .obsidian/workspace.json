@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diagno pro.md",
+                "file": "CC Fundamental.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Diagno pro"
+              "title": "CC Fundamental"
             }
           }
         ]
@@ -232,8 +232,9 @@
   },
   "active": "3e58bb246f47aed4",
   "lastOpenFiles": [
-    "Books Stations.md",
     "Diagno pro.md",
+    "CC Fundamental.md",
+    "Books Stations.md",
     "overview.md",
     "Media/100baset-hub.svg",
     "Linux/Bash/bash instructions.md",
