@@ -5,6 +5,18 @@
       "path": "Excalidraw/vision.md"
     },
     {
+      "basename": "Draft",
+      "path": "Web/Draft.md"
+    },
+    {
+      "basename": "ARP",
+      "path": "Networking/ARP.md"
+    },
+    {
+      "basename": "Diagno pro",
+      "path": "Diagno pro.md"
+    },
+    {
       "basename": "callmemaybe",
       "path": "Excalidraw/callmemaybe.md"
     },
@@ -15,10 +27,6 @@
     {
       "basename": "CC Fundamental",
       "path": "CC Fundamental.md"
-    },
-    {
-      "basename": "Diagno pro",
-      "path": "Diagno pro.md"
     },
     {
       "basename": "Books Stations",
@@ -113,20 +121,12 @@
       "path": "Networking/OSI Model.md"
     },
     {
-      "basename": "ARP",
-      "path": "Networking/ARP.md"
-    },
-    {
       "basename": "First scirpt",
       "path": "Linux/Bash/First scirpt.md"
     },
     {
       "basename": "Swap",
       "path": "Linux/Disk & Filesystem/Swap.md"
-    },
-    {
-      "basename": "Draft",
-      "path": "Web/Draft.md"
     },
     {
       "basename": "Bash",
