@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "vision",
+      "path": "Excalidraw/vision.md"
+    },
+    {
+      "basename": "callmemaybe",
+      "path": "Excalidraw/callmemaybe.md"
+    },
+    {
+      "basename": "fr_illustration",
+      "path": "Excalidraw/fr_illustration.md"
+    },
+    {
       "basename": "CC Fundamental",
       "path": "CC Fundamental.md"
     },
@@ -81,16 +93,8 @@
       "path": "Excalidraw/Drawing 2026-06-28 12.37.47.excalidraw.md"
     },
     {
-      "basename": "fr_illustration",
-      "path": "Excalidraw/fr_illustration.md"
-    },
-    {
       "basename": "pin",
       "path": "Media/pin.png"
-    },
-    {
-      "basename": "vision",
-      "path": "Excalidraw/vision.md"
     },
     {
       "basename": "Module 04",
@@ -123,10 +127,6 @@
     {
       "basename": "Draft",
       "path": "Web/Draft.md"
-    },
-    {
-      "basename": "callmemaybe",
-      "path": "Excalidraw/callmemaybe.md"
     },
     {
       "basename": "Bash",

@@ -11,14 +11,12 @@
             "id": "3e58bb246f47aed4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "CC Fundamental.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/vision.md"
               },
-              "icon": "lucide-file",
-              "title": "CC Fundamental"
+              "icon": "excalidraw-icon",
+              "title": "vision"
             }
           }
         ]
@@ -232,8 +230,11 @@
   },
   "active": "3e58bb246f47aed4",
   "lastOpenFiles": [
-    "Diagno pro.md",
+    "Excalidraw/callmemaybe.md",
+    "Excalidraw/vision.md",
+    "Excalidraw/fr_illustration.md",
     "CC Fundamental.md",
+    "Diagno pro.md",
     "Books Stations.md",
     "overview.md",
     "Media/100baset-hub.svg",
@@ -255,12 +256,9 @@
     "Linux/Permissions.md",
     "Linux/Find.md",
     "Excalidraw/Drawing 2026-06-28 12.37.47.excalidraw.md",
-    "Excalidraw/fr_illustration.md",
     "Media/pin.png",
     "Excalidraw/Untitled",
-    "Excalidraw/vision.md",
     "Python/Module 04.md",
-    "Python/Untitled.md",
     "Pasted image 20260522201718.png",
     "fr",
     "Excalidraw/Bitwize.excalidraw",
