@@ -36,9 +36,21 @@
               "icon": "excalidraw-icon",
               "title": "fly-in"
             }
+          },
+          {
+            "id": "04aed52cfb12bee1",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/vision.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "vision"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -247,7 +259,7 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "bd0d7092889fa946",
+  "active": "04aed52cfb12bee1",
   "lastOpenFiles": [
     "Excalidraw/fly-in.md",
     "Project/Fly-In.md",
