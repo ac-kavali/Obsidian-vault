@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "booting_process",
+      "path": "Excalidraw/booting_process.excalidraw"
+    },
+    {
+      "basename": "Tmux",
+      "path": "Excalidraw/Tmux.md"
+    },
+    {
+      "basename": "dns",
+      "path": "Excalidraw/dns.md"
+    },
+    {
+      "basename": "prim",
+      "path": "Excalidraw/prim.md"
+    },
+    {
       "basename": "rcp_game-d",
       "path": "Excalidraw/rcp_game-d.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "Introduction",
       "path": "SQL/Introduction.md"
-    },
-    {
-      "basename": "Joins",
-      "path": "SQL/Joins.md"
-    },
-    {
-      "basename": "Valgrind",
-      "path": "Concepts/Valgrind.md"
-    },
-    {
-      "basename": "Arrays",
-      "path": "Web/JavaScript/Arrays.md"
-    },
-    {
-      "basename": "SSH",
-      "path": "Linux/SSH.md"
     }
   ],
   "omittedPaths": [],
