@@ -41,10 +41,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/booting_process.excalidraw"
+                "file": "Excalidraw/Http.md"
               },
               "icon": "excalidraw-icon",
-              "title": "booting_process"
+              "title": "Http"
             }
           }
         ],
@@ -259,6 +259,9 @@
   },
   "active": "0c7a920dc01797b3",
   "lastOpenFiles": [
+    "Excalidraw/Impress-me.md",
+    "Excalidraw/Network_basics.md",
+    "Excalidraw/booting_process.excalidraw",
     "Excalidraw/Tmux.md",
     "Excalidraw/dns.md",
     "Excalidraw/prim.md",
@@ -291,8 +294,6 @@
     "Python/uv env_mgm.md",
     "Project/GNL.md",
     "Project/Printf.md",
-    "Python/module08.md",
-    "Python/Random.md",
     "Media/pin.png",
     "Excalidraw/Untitled",
     "Pasted image 20260522201718.png",
@@ -302,7 +303,6 @@
     "Media/bitwize_example1.png",
     "SQL/Untitled",
     "SQL",
-    "Excalidraw/booting_process.excalidraw",
     "obsidian.tar.xz",
     "anki-launcher-25.09-linux.tar.zst",
     "Untitled.canvas"
