@@ -34,9 +34,21 @@
               "icon": "excalidraw-icon",
               "title": "vision"
             }
+          },
+          {
+            "id": "0c7a920dc01797b3",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/callmemaybe.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "callmemaybe"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -245,15 +257,15 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "813fd59fada9c98f",
+  "active": "0c7a920dc01797b3",
   "lastOpenFiles": [
+    "Excalidraw/vision.md",
     "Pasted Image 20260712232454_022.png",
     "Pasted Image 20260712232158_962.png",
     "Pasted Image 20260712232135_032.png",
     "Pasted Image 20260712214855_866.png",
     "Pasted Image 20260712214218_290.png",
     "Web/Draft.md",
-    "Excalidraw/vision.md",
     "Networking/ARP.md",
     "Diagno pro.md",
     "Networking/CCNA_preparations",
@@ -286,7 +298,6 @@
     "Excalidraw/Bitwize.excalidraw",
     "Media/car.png",
     "Media/bitwize_example1.png",
-    "Media/bridge.svg",
     "Excalidraw/python_discorver#1.excalidraw",
     "SQL/Untitled",
     "SQL",
