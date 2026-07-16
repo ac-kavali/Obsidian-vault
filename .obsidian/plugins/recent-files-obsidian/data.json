@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Polymorphism",
+      "path": "Python/Polymorphism.md"
+    },
+    {
       "basename": "Enum",
       "path": "Python/Enum.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Argparse",
       "path": "Python/Argparse.md"
-    },
-    {
-      "basename": "MySQL",
-      "path": "SQL/MySQL.md"
     }
   ],
   "omittedPaths": [],
