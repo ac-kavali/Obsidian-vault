@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Polymorphism",
-      "path": "Python/Polymorphism.md"
+      "basename": "RE",
+      "path": "Python/RE.md"
     },
     {
       "basename": "Enum",
       "path": "Python/Enum.md"
+    },
+    {
+      "basename": "Polymorphism",
+      "path": "Python/Polymorphism.md"
     },
     {
       "basename": "Module 05",
@@ -195,10 +199,6 @@
     {
       "basename": "CTF",
       "path": "Linux/CTF.md"
-    },
-    {
-      "basename": "Argparse",
-      "path": "Python/Argparse.md"
     }
   ],
   "omittedPaths": [],
