@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "rcp_game-d",
+      "path": "Excalidraw/rcp_game-d.md"
+    },
+    {
+      "basename": "python_discorver#1",
+      "path": "Excalidraw/python_discorver#1.excalidraw"
+    },
+    {
+      "basename": "subnetting",
+      "path": "Excalidraw/subnetting.md"
+    },
+    {
       "basename": "callmemaybe",
       "path": "Excalidraw/callmemaybe.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "SSH",
       "path": "Linux/SSH.md"
-    },
-    {
-      "basename": "git -h",
-      "path": "Concepts/git -h.md"
-    },
-    {
-      "basename": "pointer to pointer",
-      "path": "Concepts/pointer to pointer.md"
-    },
-    {
-      "basename": "Linked lists",
-      "path": "Concepts/Linked lists.md"
     }
   ],
   "omittedPaths": [],

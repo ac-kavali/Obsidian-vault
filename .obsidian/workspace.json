@@ -41,10 +41,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/callmemaybe.md"
+                "file": "Excalidraw/rcp_game-d.md"
               },
               "icon": "excalidraw-icon",
-              "title": "callmemaybe"
+              "title": "rcp_game-d"
             }
           }
         ],
@@ -259,6 +259,9 @@
   },
   "active": "0c7a920dc01797b3",
   "lastOpenFiles": [
+    "Excalidraw/python_discorver#1.excalidraw",
+    "Excalidraw/subnetting.md",
+    "Excalidraw/callmemaybe.md",
     "Excalidraw/vision.md",
     "Pasted Image 20260712232454_022.png",
     "Pasted Image 20260712232158_962.png",
@@ -269,7 +272,6 @@
     "Networking/ARP.md",
     "Diagno pro.md",
     "Networking/CCNA_preparations",
-    "Excalidraw/callmemaybe.md",
     "Excalidraw/fr_illustration.md",
     "CC Fundamental.md",
     "Books Stations.md",
@@ -290,7 +292,6 @@
     "Concepts/File Discriptor.md",
     "Linux/Service management.md",
     "Linux/Linux.md",
-    "Linux/Permissions.md",
     "Media/pin.png",
     "Excalidraw/Untitled",
     "Pasted image 20260522201718.png",
@@ -298,7 +299,6 @@
     "Excalidraw/Bitwize.excalidraw",
     "Media/car.png",
     "Media/bitwize_example1.png",
-    "Excalidraw/python_discorver#1.excalidraw",
     "SQL/Untitled",
     "SQL",
     "Excalidraw/booting_process.excalidraw",
