@@ -38,15 +38,17 @@
             }
           },
           {
-            "id": "04aed52cfb12bee1",
+            "id": "f6e189adefdb1889",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/vision.md"
+                "file": "Python/Enum.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "vision"
+              "icon": "lucide-file",
+              "title": "Enum"
             }
           }
         ],
@@ -259,11 +261,12 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "04aed52cfb12bee1",
+  "active": "f6e189adefdb1889",
   "lastOpenFiles": [
+    "Python/Module 05.md",
     "Excalidraw/fly-in.md",
-    "Project/Fly-In.md",
     "Excalidraw/vision.md",
+    "Project/Fly-In.md",
     "Web/Draft.md",
     "Diagno pro.md",
     "Excalidraw/rcp_game-d.md",
@@ -296,7 +299,6 @@
     "Linux/Text Processing.md",
     "Python/Module09.md",
     "fr/fr.md",
-    "fr/Expremer.md",
     "Media/pin.png",
     "Excalidraw/Untitled",
     "Pasted image 20260522201718.png",
