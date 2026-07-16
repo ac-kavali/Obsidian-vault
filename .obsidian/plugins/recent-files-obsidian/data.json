@@ -5,6 +5,14 @@
       "path": "Python/RE.md"
     },
     {
+      "basename": "Conju",
+      "path": "fr/Conju.md"
+    },
+    {
+      "basename": "Tmux",
+      "path": "Excalidraw/Tmux.md"
+    },
+    {
       "basename": "Enum",
       "path": "Python/Enum.md"
     },
@@ -59,10 +67,6 @@
     {
       "basename": "booting_process",
       "path": "Excalidraw/booting_process.excalidraw"
-    },
-    {
-      "basename": "Tmux",
-      "path": "Excalidraw/Tmux.md"
     },
     {
       "basename": "dns",
@@ -167,10 +171,6 @@
     {
       "basename": "Module 04",
       "path": "Python/Module 04.md"
-    },
-    {
-      "basename": "Conju",
-      "path": "fr/Conju.md"
     },
     {
       "basename": "OSI Model",
