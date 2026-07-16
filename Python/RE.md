@@ -50,5 +50,5 @@ is called a **quantifier**.
 | `{n,m}` | Between n and m repetitions                 |
 | `()`    | Grouping                                    |
 | `\`     | Escape character                            |
-| `\s`    | one whitespace ("\t", " ", )                |
+| `\s`    | one whitespace ("\t", " ", "\n",  "\v")     |
 |         |                                             |
