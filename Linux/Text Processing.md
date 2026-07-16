@@ -386,21 +386,21 @@ last
 
 ### Basic Syntax
 
-|Symbol|Meaning|
-|---|---|
-|`.`|Any single character (except newlines)|
-|`*`|Zero or more of the previous character|
-|`+`|One or more of the previous character|
-|`?`|Zero or one of the previous character|
-|`^`|Start of string|
-|`$`|End of string|
-|`[ ]`|Character class (any one character in list)|
-|`[^]`|Negated character class|
-|`{n}`|Exactly n repetitions|
-|`{n,}`|n or more repetitions|
-|`{n,m}`|Between n and m repetitions|
-|`()`|Grouping|
-|`\`|Escape character|
+| Symbol  | Meaning                                     |
+| ------- | ------------------------------------------- |
+| `.`     | Any single character (except newlines)      |
+| `*`     | Zero or more of the previous character      |
+| `+`     | One or more of the previous character       |
+| `?`     | Zero or one of the previous character       |
+| `^`     | Start of string                             |
+| `$`     | End of string                               |
+| `[ ]`   | Character class (any one character in list) |
+| `[^]`   | Negated character class                     |
+| `{n}`   | Exactly n repetitions                       |
+| `{n,}`  | n or more repetitions                       |
+| `{n,m}` | Between n and m repetitions                 |
+| `()`    | Grouping                                    |
+| `\`     | Escape character                            |
 
 ### Special Character Classes
 

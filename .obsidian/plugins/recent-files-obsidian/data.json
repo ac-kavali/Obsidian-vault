@@ -5,6 +5,18 @@
       "path": "Python/RE.md"
     },
     {
+      "basename": "Text Processing",
+      "path": "Linux/Text Processing.md"
+    },
+    {
+      "basename": "fly-in",
+      "path": "Excalidraw/fly-in.md"
+    },
+    {
+      "basename": "Enum",
+      "path": "Python/Enum.md"
+    },
+    {
       "basename": "Conju",
       "path": "fr/Conju.md"
     },
@@ -13,20 +25,12 @@
       "path": "Excalidraw/Tmux.md"
     },
     {
-      "basename": "Enum",
-      "path": "Python/Enum.md"
-    },
-    {
       "basename": "Polymorphism",
       "path": "Python/Polymorphism.md"
     },
     {
       "basename": "Module 05",
       "path": "Python/Module 05.md"
-    },
-    {
-      "basename": "fly-in",
-      "path": "Excalidraw/fly-in.md"
     },
     {
       "basename": "vision",
@@ -119,10 +123,6 @@
     {
       "basename": "DB-CRUD",
       "path": "SQL/DB-CRUD.md"
-    },
-    {
-      "basename": "Text Processing",
-      "path": "Linux/Text Processing.md"
     },
     {
       "basename": "Module09",

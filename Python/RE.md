@@ -30,3 +30,25 @@ re_pathern = re.compile(r"")
 - vertical tab `\v`
 
 Most of the time you'll use it to mean a normal space.
+
+---
+**The \***
+is called a **quantifier**.
+
+| Symbol  | Meaning                                     |
+| ------- | ------------------------------------------- |
+| `.`     | Any single character (except newlines)      |
+| `*`     | Zero or more of the previous character      |
+| `+`     | One or more of the previous character       |
+| `?`     | Zero or one of the previous character       |
+| `^`     | Start of string                             |
+| `$`     | End of string                               |
+| `[ ]`   | Character class (any one character in list) |
+| `[^]`   | Negated character class                     |
+| `{n}`   | Exactly n repetitions                       |
+| `{n,}`  | n or more repetitions                       |
+| `{n,m}` | Between n and m repetitions                 |
+| `()`    | Grouping                                    |
+| `\`     | Escape character                            |
+| `\s`    | one whitespace ("\t", " ", )                |
+|         |                                             |
