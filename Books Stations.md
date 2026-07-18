@@ -45,4 +45,39 @@
 **An MBA should be treated like any other investment: compare the costs with the expected benefits before deciding.**
 --- 
 ## Part 2 
--   
+**The 12 standard forms of values:**
+**1. Product**  
+A tangible or intangible thing that has ongoing usefulness — something you can make once and sell many times (a chair, software, a book).
+
+**2. Service**  
+Doing something on behalf of someone else — labor or expertise applied to their problem (consulting, plumbing, tutoring).
+
+**3. Shared Resource**  
+Creating something once and letting multiple people use it, often simultaneously (an apartment complex, a gym, a SaaS platform).
+
+**4. Subscription**  
+Ongoing access to a product or service for a recurring fee — value delivered continuously over time (Netflix, magazines, membership sites).
+
+**5. Resale**  
+Buying something and reselling it to someone who values it more or finds it more convenient (retail stores, resellers, marketplaces).
+
+**6. Lease**  
+Granting temporary use of something valuable in exchange for money, with the asset returning to the owner (car rentals, equipment leasing, real estate).
+
+**7. Agency/Representation**  
+Selling something on someone else's behalf, usually taking a cut (real estate agents, talent agents, brokers).
+
+**8. Audience Aggregation**  
+Gathering people's attention, then selling access to that attention to others (media companies, blogs, advertising-based platforms).
+
+**9. Loan**  
+Lending money now in exchange for the promise of more money later (banks, peer-to-peer lending).
+
+**10. Option**  
+Selling the _right_, but not the obligation, to do something in the future (real estate options, stock options).
+
+**11. Insurance**  
+Reducing someone's risk in exchange for a fee — pooling risk across many people (insurance companies, warranties).
+
+**12. Capital**  
+Investing money in a business or venture in exchange for a share of future profits or ownership (venture capital, angel investing, equity stakes).
