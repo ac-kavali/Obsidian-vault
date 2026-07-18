@@ -52,3 +52,7 @@ is called a **quantifier**.
 | `\`     | Escape character                            |
 | `\s`    | one whitespace ("\t", " ", "\n",  "\v")     |
 |         |                                             |
+
+
+---
+## Data storing

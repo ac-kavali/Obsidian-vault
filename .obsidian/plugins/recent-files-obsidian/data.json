@@ -1,20 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "RE",
-      "path": "Python/RE.md"
+      "basename": "vision",
+      "path": "Excalidraw/vision.md"
     },
     {
-      "basename": "Text Processing",
-      "path": "Linux/Text Processing.md"
+      "basename": "rcp_game-d",
+      "path": "Excalidraw/rcp_game-d.md"
+    },
+    {
+      "basename": "python_discorver#1",
+      "path": "Excalidraw/python_discorver#1.excalidraw"
+    },
+    {
+      "basename": "Pasted Image 20260712214855_866",
+      "path": "Media/Pasted Image 20260712214855_866.png"
+    },
+    {
+      "basename": "Pasted Image 20260712214218_290",
+      "path": "Media/Pasted Image 20260712214218_290.png"
+    },
+    {
+      "basename": "Enum",
+      "path": "Python/Enum.md"
+    },
+    {
+      "basename": "Diagno pro",
+      "path": "Diagno pro.md"
+    },
+    {
+      "basename": "overview",
+      "path": "overview.md"
+    },
+    {
+      "basename": "Subnetting",
+      "path": "Networking/Subnetting.md"
+    },
+    {
+      "basename": "RE",
+      "path": "Python/RE.md"
     },
     {
       "basename": "fly-in",
       "path": "Excalidraw/fly-in.md"
     },
     {
-      "basename": "Enum",
-      "path": "Python/Enum.md"
+      "basename": "Text Processing",
+      "path": "Linux/Text Processing.md"
     },
     {
       "basename": "Conju",
@@ -33,20 +65,12 @@
       "path": "Python/Module 05.md"
     },
     {
-      "basename": "vision",
-      "path": "Excalidraw/vision.md"
-    },
-    {
       "basename": "Fly-In",
       "path": "Project/Fly-In.md"
     },
     {
       "basename": "Draft",
       "path": "Web/Draft.md"
-    },
-    {
-      "basename": "rcp_game-d",
-      "path": "Excalidraw/rcp_game-d.md"
     },
     {
       "basename": "ARP",
@@ -81,10 +105,6 @@
       "path": "Excalidraw/prim.md"
     },
     {
-      "basename": "python_discorver#1",
-      "path": "Excalidraw/python_discorver#1.excalidraw"
-    },
-    {
       "basename": "subnetting",
       "path": "Excalidraw/subnetting.md"
     },
@@ -107,10 +127,6 @@
     {
       "basename": "Books Stations",
       "path": "Books Stations.md"
-    },
-    {
-      "basename": "overview",
-      "path": "overview.md"
     },
     {
       "basename": "100baset-hub",
@@ -183,22 +199,6 @@
     {
       "basename": "Swap",
       "path": "Linux/Disk & Filesystem/Swap.md"
-    },
-    {
-      "basename": "Bash",
-      "path": "Linux/Bash/Bash.md"
-    },
-    {
-      "basename": "Subnetting",
-      "path": "Networking/Subnetting.md"
-    },
-    {
-      "basename": "File transfer",
-      "path": "Linux/File transfer.md"
-    },
-    {
-      "basename": "CTF",
-      "path": "Linux/CTF.md"
     }
   ],
   "omittedPaths": [],
