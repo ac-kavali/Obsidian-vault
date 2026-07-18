@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Dataclass",
+      "path": "Python/Dataclass.md"
+    },
+    {
+      "basename": "Enum",
+      "path": "Python/Enum.md"
+    },
+    {
+      "basename": "Fly-In",
+      "path": "Project/Fly-In.md"
+    },
+    {
+      "basename": "fly-in",
+      "path": "Excalidraw/fly-in.md"
+    },
+    {
       "basename": "vision",
       "path": "Excalidraw/vision.md"
     },
@@ -21,10 +37,6 @@
       "path": "Media/Pasted Image 20260712214218_290.png"
     },
     {
-      "basename": "Enum",
-      "path": "Python/Enum.md"
-    },
-    {
       "basename": "Diagno pro",
       "path": "Diagno pro.md"
     },
@@ -39,10 +51,6 @@
     {
       "basename": "RE",
       "path": "Python/RE.md"
-    },
-    {
-      "basename": "fly-in",
-      "path": "Excalidraw/fly-in.md"
     },
     {
       "basename": "Text Processing",
@@ -63,10 +71,6 @@
     {
       "basename": "Module 05",
       "path": "Python/Module 05.md"
-    },
-    {
-      "basename": "Fly-In",
-      "path": "Project/Fly-In.md"
     },
     {
       "basename": "Draft",
@@ -195,10 +199,6 @@
     {
       "basename": "First scirpt",
       "path": "Linux/Bash/First scirpt.md"
-    },
-    {
-      "basename": "Swap",
-      "path": "Linux/Disk & Filesystem/Swap.md"
     }
   ],
   "omittedPaths": [],

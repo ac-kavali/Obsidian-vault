@@ -54,15 +54,17 @@
             }
           },
           {
-            "id": "4c3c23c326c40b38",
+            "id": "c4dc427012c87e78",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/vision.md"
+                "file": "Python/Dataclass.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "vision"
+              "icon": "lucide-file",
+              "title": "Dataclass"
             }
           }
         ],
@@ -275,25 +277,26 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "91ad7c3540967f5b",
+  "active": "c4dc427012c87e78",
   "lastOpenFiles": [
+    "Python/Enum.md",
+    "Python/Dataclass.md",
+    "Project/Fly-In.md",
+    "Excalidraw/fly-in.md",
     "Excalidraw/vision.md",
     "Excalidraw/rcp_game-d.md",
     "Excalidraw/python_discorver#1.excalidraw",
     "Media/Pasted Image 20260712214855_866.png",
     "Media/Pasted Image 20260712214218_290.png",
-    "Python/Enum.md",
     "Diagno pro.md",
     "overview.md",
     "Networking/Subnetting.md",
     "Python/RE.md",
-    "Excalidraw/fly-in.md",
     "Linux/Text Processing.md",
     "fr/Conju.md",
     "Excalidraw/Tmux.md",
     "Python/Polymorphism.md",
     "Python/Module 05.md",
-    "Project/Fly-In.md",
     "Web/Draft.md",
     "Excalidraw/ARP.md",
     "Excalidraw/Bitwize.excalidraw",
