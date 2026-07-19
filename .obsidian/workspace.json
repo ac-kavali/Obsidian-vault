@@ -151,7 +151,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5
+    "width": 237.5,
+    "collapsed": true
   },
   "right": {
     "id": "10424350b623bef2",
@@ -275,16 +276,16 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "3f31406081a73f97",
+  "active": "fd3a910c8ea450bd",
   "lastOpenFiles": [
+    "Books Stations.md",
+    "Excalidraw/fly-in.md",
     "Screenshot from 2026-07-19 08-48-59.png",
     "Screenshot from 2026-07-19 08-48-45.png",
     "Screenshot from 2026-07-19 08-48-21.png",
-    "Books Stations.md",
     "Python/Dataclass.md",
     "Python/Enum.md",
     "Project/Fly-In.md",
-    "Excalidraw/fly-in.md",
     "Excalidraw/vision.md",
     "Excalidraw/rcp_game-d.md",
     "Excalidraw/python_discorver#1.excalidraw",
@@ -317,7 +318,6 @@
     "Media/100baset-hub.svg",
     "Media/pin.png",
     "Excalidraw/Untitled",
-    "Pasted image 20260522201718.png",
     "fr",
     "SQL/Untitled",
     "SQL",
