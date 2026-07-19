@@ -81,3 +81,10 @@ Reducing someone's risk in exchange for a fee — pooling risk across many peopl
 
 **12. Capital**  
 Investing money in a business or venture in exchange for a share of future profits or ownership (venture capital, angel investing, equity stakes).
+
+
+## Projecting the book on my life:
+- **Business fundamentals** — you already started with Kaufman. Also useful: understanding basic financial statements (income statement, balance sheet, cash flow) — not to become an accountant, but to read a company and know if it's healthy.
+- **How markets and business models work** — study business models the way you'd study a codebase: what's the value form, who pays, why now. Look at companies in _your_ domain (security startups, SaaS companies) and reverse-engineer their model.
+- **Basic investing literacy** — not trading strategies, but concepts: what a valuation is, what venture capital actually looks for, how equity and cap tables work. This is the "grammar" you need before you can read opportunity signals.
+- **Domain-specific trend-watching** — since you're in cybersecurity/software, follow where money is _already_ flowing: CVE disclosures, security incident reports, what new regulations (GDPR-like laws, AI security requirements) create new demand. Opportunities usually appear right after a new problem becomes visible to everyone else _but_ isn't solved well yet.

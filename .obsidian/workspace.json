@@ -57,14 +57,12 @@
             "id": "3f31406081a73f97",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Books Stations.md",
-                "mode": "preview",
-                "source": false
+                "file": "Excalidraw/fly-in.md"
               },
-              "icon": "lucide-file",
-              "title": "Books Stations"
+              "icon": "excalidraw-icon",
+              "title": "fly-in"
             }
           }
         ],
@@ -277,8 +275,11 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "45862676a191decc",
+  "active": "3f31406081a73f97",
   "lastOpenFiles": [
+    "Screenshot from 2026-07-19 08-48-59.png",
+    "Screenshot from 2026-07-19 08-48-45.png",
+    "Screenshot from 2026-07-19 08-48-21.png",
     "Books Stations.md",
     "Python/Dataclass.md",
     "Python/Enum.md",
@@ -312,15 +313,12 @@
     "Media/Pasted Image 20260712232454_022.png",
     "Media/Pasted Image 20260712232158_962.png",
     "Media/Pasted Image 20260712232135_032.png",
-    "Networking/ARP.md",
     "Networking/CCNA_preparations",
     "Media/100baset-hub.svg",
     "Media/pin.png",
     "Excalidraw/Untitled",
     "Pasted image 20260522201718.png",
     "fr",
-    "Media/car.png",
-    "Media/bitwize_example1.png",
     "SQL/Untitled",
     "SQL",
     "obsidian.tar.xz",
