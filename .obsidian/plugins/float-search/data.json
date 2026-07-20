@@ -4,7 +4,7 @@
     "explainSearch": false,
     "extraContext": false,
     "matchingCase": false,
-    "query": "path:\"Python/\" dataclass",
+    "query": "path:\"Python/\" arg",
     "sortOrder": "alphabetical"
   },
   "showFilePath": false,

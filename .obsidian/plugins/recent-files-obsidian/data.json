@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Argparse",
+      "path": "Python/Argparse.md"
+    },
+    {
       "basename": "fly-in",
       "path": "Excalidraw/fly-in.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "OSI Model",
       "path": "Networking/OSI Model.md"
-    },
-    {
-      "basename": "First scirpt",
-      "path": "Linux/Bash/First scirpt.md"
     }
   ],
   "omittedPaths": [],

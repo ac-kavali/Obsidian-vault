@@ -57,12 +57,14 @@
             "id": "3f31406081a73f97",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/fly-in.md"
+                "file": "Python/Argparse.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "fly-in"
+              "icon": "lucide-file",
+              "title": "Argparse"
             }
           }
         ],
@@ -130,7 +132,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "f00ff03ae3a8a195",
@@ -151,8 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5,
-    "collapsed": true
+    "width": 237.5
   },
   "right": {
     "id": "10424350b623bef2",
@@ -276,10 +278,10 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "fd3a910c8ea450bd",
+  "active": "3f31406081a73f97",
   "lastOpenFiles": [
-    "Books Stations.md",
     "Excalidraw/fly-in.md",
+    "Books Stations.md",
     "Screenshot from 2026-07-19 08-48-59.png",
     "Screenshot from 2026-07-19 08-48-45.png",
     "Screenshot from 2026-07-19 08-48-21.png",
