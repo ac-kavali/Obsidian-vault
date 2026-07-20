@@ -5,6 +5,10 @@
       "path": "Python/Argparse.md"
     },
     {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
       "basename": "fly-in",
       "path": "Excalidraw/fly-in.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Module 04",
       "path": "Python/Module 04.md"
-    },
-    {
-      "basename": "OSI Model",
-      "path": "Networking/OSI Model.md"
     }
   ],
   "omittedPaths": [],

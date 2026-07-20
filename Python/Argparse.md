@@ -28,4 +28,10 @@ import argparse
 from argparse import ArgumentParser ...
 ```
 
-
+2. Create the parser engine:
+```python
+parser = ArgumentParser()
+```
+- `ArgumentParser` is a class provided by the `argparse` module
+- in this step you create or (initiat) an `argparse` object.
+- Now you have the `parser` as argparse object with all the module methods 
