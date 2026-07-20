@@ -82,6 +82,64 @@ from argparse import ArgumentParser
 parser = ArgumentParser( )  
   
 # Add the required arguments
-parser.add_argument("-n", "--name", required=False, type=str, help="fuck you name" , default="helle")  
-args = parser.parse_args()  
+parser.add_argument("-n", "--name", required=False, type=str, help="fuck you name" , default="kavali")
+
+# Execute the parsing, validation, storage of arguments in a namespace
+args = parser.parse_args() 
+
+print(args.name)
+```
+
+### Real example :
+**You want to use argument parser in a main and separtet the code of argument parsing from the main.py**
+
+1. in `cli.py`
+```python
+from argparse import ArgumentParser
+
+
+def create_parser():
+    parser = ArgumentParser(
+        description="My program"
+    )
+
+    parser.add_argument(
+        "--name",
+        type=str,
+        required=True,
+        help="User name"
+    )
+
+    parser.add_argument(
+        "--age",
+        type=int,
+        default=18,
+        help="User age"
+    )
+
+    return parser
+
+
+def parse_arguments():
+    parser = create_parser()
+    return parser.parse_args()
+```
+
+2. in `main.py`
+```python
+from cli import parse_arguments
+from app import run
+
+
+def main():
+    args = parse_arguments()
+
+    run(
+        args.name,
+        args.age
+    )
+
+
+if __name__ == "__main__":
+    main()
 ```
