@@ -18,8 +18,6 @@ A **namespace** is a container that holds names (variables, functions, objects) 
 A namespace is an object/container that stores multiple named variables (attributes), which can be accessed using dot notation.
 
 ---
-json module and the numpy
-
 ## Implementation
 ### 1. import python module `argparse`
 ```python 
@@ -38,10 +36,10 @@ parser = ArgumentParser()
 --- 
 ### 3. Add arguments 
 ```python 
-parser.add_argument(dest="name")
+parser.add_argument("-n", "--name", help="your name")
 ```
 - This method Takes `*args` and `**kwargs` : 
-this means that you can send any number of argument names : 
+This means that you can send any number of argument names : 
 ```python
 parser.add_argument("-n", "--name", "--username", "--uname", dest="name")
 ```

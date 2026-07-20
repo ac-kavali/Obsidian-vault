@@ -60,7 +60,7 @@
               "type": "markdown",
               "state": {
                 "file": "Python/Argparse.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -80,7 +80,7 @@
       {
         "id": "1eef5fe6e198baf0",
         "type": "tabs",
-        "dimension": 74.92767598842816,
+        "dimension": 80.71359691417551,
         "children": [
           {
             "id": "364eed01b939fc76",
@@ -138,7 +138,7 @@
       {
         "id": "f00ff03ae3a8a195",
         "type": "tabs",
-        "dimension": 25.072324011571844,
+        "dimension": 19.286403085824492,
         "children": [
           {
             "id": "45862676a191decc",
@@ -154,7 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5
+    "width": 205.5
   },
   "right": {
     "id": "10424350b623bef2",
