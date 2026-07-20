@@ -62,4 +62,26 @@ parser.add_argument("-n", "--name", required=False, type=str, help="fuck you nam
 ```
 
 ---
-### 
+### Parse and store the arguments
+
+```python
+args = parser.parse_args()
+```
+The method is like a click to execute the parsing and validation of the argument and store them in a name space object (args) object:
+you can access them using `args.argument`
+```python
+print(args.name)
+# Kavali
+```
+---
+## Full picture:
+```python
+from argparse import ArgumentParser
+
+# Creating The argument parser object
+parser = ArgumentParser( )  
+  
+# Add the required arguments
+parser.add_argument("-n", "--name", required=False, type=str, help="fuck you name" , default="helle")  
+args = parser.parse_args()  
+```
