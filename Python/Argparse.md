@@ -20,3 +20,12 @@ A namespace is an object/container that stores multiple named variables (attribu
 ---
 json module and the numpy
 
+## Implementation
+1. import python module `argparse`
+```python 
+import argparse
+# or better
+from argparse import ArgumentParser ...
+```
+
+
