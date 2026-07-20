@@ -58,6 +58,7 @@ parser.add_argument("-n", "--name", type=str, help="you name please")
 ```python
 parser.add_argument("-n", "--name", required=False, type=str, help="fuck you name" , default="helle")
 ```
+-  [-]  'required' is an invalid argument for positionals like "name" it works just with "--name" !!!
 
 ---
 ### Parse and store the arguments
