@@ -133,11 +133,7 @@ from app import run
 
 def main():
     args = parse_arguments()
-
-    run(
-        args.name,
-        args.age
-    )
+	print(args.name, args.age)
 
 
 if __name__ == "__main__":
