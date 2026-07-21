@@ -24,20 +24,6 @@
             }
           },
           {
-            "id": "bd0d7092889fa946",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/fly-in.md"
-              },
-              "pinned": true,
-              "icon": "excalidraw-icon",
-              "title": "fly-in"
-            }
-          },
-          {
             "id": "f6e189adefdb1889",
             "type": "leaf",
             "pinned": true,
@@ -65,6 +51,18 @@
               },
               "icon": "lucide-file",
               "title": "Argparse"
+            }
+          },
+          {
+            "id": "a3acec23d4e6c649",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/fly-in.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "fly-in"
             }
           }
         ],
@@ -277,10 +275,10 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "3f31406081a73f97",
+  "active": "70318b419b47a67b",
   "lastOpenFiles": [
-    "Python/Enum.md",
     "Excalidraw/fly-in.md",
+    "Python/Enum.md",
     "Python/Argparse.md",
     "Untitled.md",
     "Books Stations.md",
