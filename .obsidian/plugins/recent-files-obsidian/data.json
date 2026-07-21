@@ -5,12 +5,16 @@
       "path": "Python/Argparse.md"
     },
     {
-      "basename": "Untitled",
-      "path": "Untitled.md"
+      "basename": "Enum",
+      "path": "Python/Enum.md"
     },
     {
       "basename": "fly-in",
       "path": "Excalidraw/fly-in.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.md"
     },
     {
       "basename": "Books Stations",
@@ -19,10 +23,6 @@
     {
       "basename": "Dataclass",
       "path": "Python/Dataclass.md"
-    },
-    {
-      "basename": "Enum",
-      "path": "Python/Enum.md"
     },
     {
       "basename": "Fly-In",

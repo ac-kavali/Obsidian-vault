@@ -132,8 +132,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "f00ff03ae3a8a195",
@@ -154,8 +153,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 205.5,
-    "collapsed": true
+    "width": 205.5
   },
   "right": {
     "id": "10424350b623bef2",
@@ -281,15 +279,15 @@
   },
   "active": "3f31406081a73f97",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Python/Argparse.md",
+    "Python/Enum.md",
     "Excalidraw/fly-in.md",
+    "Python/Argparse.md",
+    "Untitled.md",
     "Books Stations.md",
     "Screenshot from 2026-07-19 08-48-59.png",
     "Screenshot from 2026-07-19 08-48-45.png",
     "Screenshot from 2026-07-19 08-48-21.png",
     "Python/Dataclass.md",
-    "Python/Enum.md",
     "Project/Fly-In.md",
     "Excalidraw/vision.md",
     "Excalidraw/rcp_game-d.md",

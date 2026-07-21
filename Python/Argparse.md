@@ -1,4 +1,4 @@
- **Python standard library module** used to handle **command-line arguments**.
+**Python standard library module** used to handle **command-line arguments**.
 
 ```
 terminal command
