@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "fly-in",
+      "path": "Excalidraw/fly-in.md"
+    },
+    {
+      "basename": "callmemaybe",
+      "path": "Excalidraw/callmemaybe.md"
+    },
+    {
       "basename": "Argparse",
       "path": "Python/Argparse.md"
+    },
+    {
+      "basename": "Fly-In",
+      "path": "Project/Fly-In.md"
     },
     {
       "basename": "Books Stations",
@@ -17,24 +29,12 @@
       "path": "overview.md"
     },
     {
-      "basename": "callmemaybe",
-      "path": "Excalidraw/callmemaybe.md"
-    },
-    {
-      "basename": "fly-in",
-      "path": "Excalidraw/fly-in.md"
-    },
-    {
       "basename": "Enum",
       "path": "Python/Enum.md"
     },
     {
       "basename": "Dataclass",
       "path": "Python/Dataclass.md"
-    },
-    {
-      "basename": "Fly-In",
-      "path": "Project/Fly-In.md"
     },
     {
       "basename": "vision",
@@ -59,10 +59,6 @@
     {
       "basename": "Subnetting",
       "path": "Networking/Subnetting.md"
-    },
-    {
-      "basename": "RE",
-      "path": "Python/RE.md"
     },
     {
       "basename": "Text Processing",

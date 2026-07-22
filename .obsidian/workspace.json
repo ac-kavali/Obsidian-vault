@@ -52,9 +52,21 @@
               "icon": "lucide-file",
               "title": "Argparse"
             }
+          },
+          {
+            "id": "566b3e868db6c8e1",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/fly-in.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "fly-in"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -263,8 +275,13 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "3f31406081a73f97",
+  "active": "51466f1f054e6072",
   "lastOpenFiles": [
+    "Excalidraw/fly-in.md",
+    "Excalidraw/callmemaybe.md",
+    "Python/Argparse.md",
+    "Python/RE.md",
+    "Project/Fly-In.md",
     "Books Stations.md",
     "Diagno pro.md",
     "overview.md",
@@ -273,19 +290,14 @@
     "Screenshot from 2026-07-19 08-48-59.png",
     "Untitled.md",
     "CC Fundamental.md",
-    "Excalidraw/callmemaybe.md",
-    "Excalidraw/fly-in.md",
     "Python/Enum.md",
-    "Python/Argparse.md",
     "Python/Dataclass.md",
-    "Project/Fly-In.md",
     "Excalidraw/vision.md",
     "Excalidraw/rcp_game-d.md",
     "Excalidraw/python_discorver#1.excalidraw",
     "Media/Pasted Image 20260712214855_866.png",
     "Media/Pasted Image 20260712214218_290.png",
     "Networking/Subnetting.md",
-    "Python/RE.md",
     "Linux/Text Processing.md",
     "fr/Conju.md",
     "Excalidraw/Tmux.md",
