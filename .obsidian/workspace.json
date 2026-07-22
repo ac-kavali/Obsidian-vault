@@ -52,21 +52,9 @@
               "icon": "lucide-file",
               "title": "Argparse"
             }
-          },
-          {
-            "id": "a3acec23d4e6c649",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/callmemaybe.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "callmemaybe"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -275,17 +263,20 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "a3acec23d4e6c649",
+  "active": "3f31406081a73f97",
   "lastOpenFiles": [
+    "Books Stations.md",
+    "Diagno pro.md",
+    "overview.md",
+    "Screenshot from 2026-07-19 08-48-21.png",
+    "Screenshot from 2026-07-19 08-48-45.png",
+    "Screenshot from 2026-07-19 08-48-59.png",
+    "Untitled.md",
+    "CC Fundamental.md",
     "Excalidraw/callmemaybe.md",
     "Excalidraw/fly-in.md",
     "Python/Enum.md",
     "Python/Argparse.md",
-    "Untitled.md",
-    "Books Stations.md",
-    "Screenshot from 2026-07-19 08-48-59.png",
-    "Screenshot from 2026-07-19 08-48-45.png",
-    "Screenshot from 2026-07-19 08-48-21.png",
     "Python/Dataclass.md",
     "Project/Fly-In.md",
     "Excalidraw/vision.md",
@@ -293,8 +284,6 @@
     "Excalidraw/python_discorver#1.excalidraw",
     "Media/Pasted Image 20260712214855_866.png",
     "Media/Pasted Image 20260712214218_290.png",
-    "Diagno pro.md",
-    "overview.md",
     "Networking/Subnetting.md",
     "Python/RE.md",
     "Linux/Text Processing.md",
@@ -309,8 +298,6 @@
     "Excalidraw/Impress-me.md",
     "Excalidraw/Network_basics.md",
     "Excalidraw/booting_process.excalidraw",
-    "Excalidraw/dns.md",
-    "Excalidraw/prim.md",
     "Media/Pasted Image 20260712232454_022.png",
     "Media/Pasted Image 20260712232158_962.png",
     "Media/Pasted Image 20260712232135_032.png",
