@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "OSI Model",
+      "path": "Networking/OSI Model.md"
+    },
+    {
+      "basename": "Subnetting",
+      "path": "Networking/Subnetting.md"
+    },
+    {
       "basename": "fly-in",
       "path": "Excalidraw/fly-in.md"
     },
@@ -55,10 +63,6 @@
     {
       "basename": "Pasted Image 20260712214218_290",
       "path": "Media/Pasted Image 20260712214218_290.png"
-    },
-    {
-      "basename": "Subnetting",
-      "path": "Networking/Subnetting.md"
     },
     {
       "basename": "Text Processing",

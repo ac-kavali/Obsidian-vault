@@ -57,12 +57,14 @@
             "id": "566b3e868db6c8e1",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/fly-in.md"
+                "file": "Networking/OSI Model.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "fly-in"
+              "icon": "lucide-file",
+              "title": "OSI Model"
             }
           }
         ],
@@ -275,8 +277,9 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "51466f1f054e6072",
+  "active": "566b3e868db6c8e1",
   "lastOpenFiles": [
+    "Networking/Subnetting.md",
     "Excalidraw/fly-in.md",
     "Excalidraw/callmemaybe.md",
     "Python/Argparse.md",
@@ -297,7 +300,6 @@
     "Excalidraw/python_discorver#1.excalidraw",
     "Media/Pasted Image 20260712214855_866.png",
     "Media/Pasted Image 20260712214218_290.png",
-    "Networking/Subnetting.md",
     "Linux/Text Processing.md",
     "fr/Conju.md",
     "Excalidraw/Tmux.md",
