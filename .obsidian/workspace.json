@@ -66,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -275,7 +275,7 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "bea047708dc19481",
+  "active": "fd3a910c8ea450bd",
   "lastOpenFiles": [
     "Excalidraw/fly-in.md",
     "Networking/Subnetting.md",
