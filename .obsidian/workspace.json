@@ -54,6 +54,18 @@
             }
           },
           {
+            "id": "32d0f26e0c6b92c5",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-07-27 18.43.47.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-07-27 18.43.47.excalidraw"
+            }
+          },
+          {
             "id": "566b3e868db6c8e1",
             "type": "leaf",
             "state": {
@@ -66,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -275,14 +287,16 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "fd3a910c8ea450bd",
+  "active": "32d0f26e0c6b92c5",
   "lastOpenFiles": [
+    "july-august-2026-calendar.png",
+    "Python/Argparse.md",
+    "Excalidraw/Drawing 2026-07-27 18.43.47.excalidraw.md",
     "Excalidraw/fly-in.md",
     "Networking/Subnetting.md",
     "Networking/OSI Model.md",
     "Networking/Network scaning.md",
     "Excalidraw/callmemaybe.md",
-    "Python/Argparse.md",
     "Python/RE.md",
     "Project/Fly-In.md",
     "Books Stations.md",
@@ -308,8 +322,6 @@
     "Web/Draft.md",
     "Excalidraw/ARP.md",
     "Excalidraw/Bitwize.excalidraw",
-    "Excalidraw/Http.md",
-    "Excalidraw/Impress-me.md",
     "Excalidraw/booting_process.excalidraw",
     "Media/Pasted Image 20260712232454_022.png",
     "Media/Pasted Image 20260712232158_962.png",
