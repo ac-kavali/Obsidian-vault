@@ -11,6 +11,8 @@ each core can excute instructions independently, A **core** is an independent pr
 A thread is a logical execution path.
    There are two meanings of "thread":
    - _Software thread_: A task created by a program or the operating system.
-   - _Hardware thread_ (logical processors):
-   can be also called a hyper thread 
----
+   - _Hardware thread_ (logical processors): A processing context provided by a CPU core. [[Computing#Logical processors]]
+   can be also called a hyper thread this part of the [video](https://youtu.be/cvcAxk0jvDk?si=8Rw_bcReW4lWoUE8&t=118) explain it carefuly
+
+<u>Question</u>: **Can one core have multiple hardware threads?**
+-  Yes, usually 2 with SMT/Hyper-Threading.
