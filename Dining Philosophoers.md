@@ -10,4 +10,7 @@ each core can excute instructions independently, A **core** is an independent pr
 **Thread**: 
 A thread is a logical execution path.
    There are two meanings of "thread":
-   - _Software thread_: A task
+   - _Software thread_: A task created by a program or the operating system.
+   - _Hardware thread_ (logical processors):
+---
+### Hyper-Threading
