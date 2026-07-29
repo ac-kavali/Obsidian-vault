@@ -1,0 +1,2 @@
+### CPU hirarchy:
+**CPU socket**:
