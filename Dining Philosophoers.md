@@ -14,4 +14,3 @@ A thread is a logical execution path.
    - _Hardware thread_ (logical processors):
    can be also called a hyper thread 
 ---
-### Hyper-Threading
