@@ -8,7 +8,7 @@ A core is an independent processing unit inside the CPU.
 each core can excute instructions independently, A **core** is an independent processing unit inside the CPU.
 
 **Threads**:
-A thread is a logical execution path.
+A thread is the smallest execution unite in a process where a single process consiste a multiple threads that runs indepently and executing there task but share resources like memory, registers ...
    There are two meanings of "thread":
    - _Software thread_: is the smallest unit of excution inside a program a single program can have multiple threads runing at the same time 
    - _Hardware thread_ (logical processors): A processing context provided by a CPU core. [[Computing#Logical processors]]
@@ -26,6 +26,8 @@ A thread is a logical execution path.
 ---
 ## Threads in code
 _The POSIX thread API gives you functions to control each stage_
+### pthread_create()
+Creates a new thread.
 
 
 ---
@@ -35,3 +37,8 @@ _The POSIX thread API gives you functions to control each stage_
 - [ ] why we need a cooldown delay?
 - [ ] what is a semaphore?
 - [ ] How to create separate monitor thread that checks whether a coder has burned out?
+- [ ] understand race condition and how to use the mutix to manually save data and lock variable units
+
+--- 
+#### cooldown : 
+there are d
