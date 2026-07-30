@@ -17,4 +17,11 @@ A thread is a logical execution path.
 <u>Question</u>: **Can one core have multiple hardware threads?**
 -  Yes, usually 2 with SMT/Hyper-Threading.
 ---
+### Run the program
+```bash
+./codexion <number_of_coders> <time_to_burnout> <time_to_compile> <time_to_debug> <time_to_refactor> <n_of_compiles_req> <dongle_cooldown> <sche> 
+```
+
+
+---
 ## Threads in 
