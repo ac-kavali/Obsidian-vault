@@ -33,6 +33,7 @@ Creates a new thread.
 ---
 - [x] What is a dongle? 
 - [x] What is a mutex?
+- [x] a race condition?
 - [ ] What is a cooldown ? 
 - [ ] allocate the dongles dynamicaly?
 - [ ] why we need a cooldown delay?
@@ -47,3 +48,15 @@ there are many dongle as the number of coders , after coder releases a dongle , 
 A dongle (struct with id, mutex, ...) is a shared resource in the simulation. In C, we represent each dongle with a `t_dongle` structure that stores all the information needed to manage that resource safely between threads.
 #### Mutex
 a special lock tool in computer programming, It's a simple object that can be in one of two states: **locked** or **unlocked**. It guarantees that only one thread at a time can hold it locked
+its like : 
+```c
+pthread_mutex_lock(&dongle->lock);
+if (dongle->in_use == 0)
+{
+    dongle->in_use = 1;
+}
+pthread_mutex_unlock(&dongle->lock);
+```
+This protect the resource from a deadlock and race conditions
+#### Race condition
+Without protection, both threads could read `in_use == 0` **at the exact same instant**, both think it's free, and both set it to 1 and walk away thinking they alone hold the dongle. That's a race condition
