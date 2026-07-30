@@ -24,11 +24,14 @@ A thread is a logical execution path.
 
 
 ---
-## Threads in 
+## Threads in code
+_The POSIX thread API gives you functions to control each stage_
 
 
+---
 - [ ] What is a dongle? 
 - [ ] What is a mutex?
 - [ ] What is a cooldown ? 
 - [ ] why we need a cooldown delay?
 - [ ] what is a semaphore?
+- [ ] How to create separate monitor thread that checks whether a coder has burned out?
