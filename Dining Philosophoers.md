@@ -46,4 +46,4 @@ there are many dongle as the number of coders , after coder releases a dongle , 
 #### Dongle
 A dongle (struct with id, mutex, ...) is a shared resource in the simulation. In C, we represent each dongle with a `t_dongle` structure that stores all the information needed to manage that resource safely between threads.
 #### Mutex
-a special lock tool in computer programming
+a special lock tool in computer programming, It's a simple object that can be in one of two states: **locked** or **unlocked**. It guarantees that only one thread at a time can hold it locked
