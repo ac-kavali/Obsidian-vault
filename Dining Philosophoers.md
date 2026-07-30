@@ -34,6 +34,7 @@ Creates a new thread.
 - [ ] What is a dongle? 
 - [ ] What is a mutex?
 - [ ] What is a cooldown ? 
+- [ ] allocate the dongles dynamicaly?
 - [ ] why we need a cooldown delay?
 - [ ] what is a semaphore?
 - [ ] How to create separate monitor thread that checks whether a coder has burned out?
@@ -41,4 +42,7 @@ Creates a new thread.
 
 --- 
 #### cooldown : 
-there are d
+there are many dongle as the number of coders , after coder releases a dongle , it enters a **cooldown** period before anyone can use
+
+#### Dongle:
+A dongle (struct with id, mutex, ...) is a shared resource in the simulation. In C, we represent each dongle with a `t_dongle` structure that stores all the information needed to manage that resource safely between threads.
