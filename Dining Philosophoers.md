@@ -25,3 +25,10 @@ A thread is a logical execution path.
 
 ---
 ## Threads in 
+
+
+- [ ] What is a dongle? 
+- [ ] What is a mutex?
+- [ ] What is a cooldown ? 
+- [ ] why we need a cooldown delay?
+- [ ] what is a semaphore?
