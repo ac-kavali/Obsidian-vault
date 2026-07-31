@@ -27,11 +27,11 @@ A thread is the smallest execution unite in a process where a single process con
 # Threads in code
 _The POSIX thread API gives you functions to control each stage_
 ### pthread_create()
-Creates a new thread.
+Creates a new thread
 
 
 ## Simulation data structs:
-
+### Dongle
 ```c
 typedef struct s_dongle{
 int id; // Which dongle is this?
@@ -41,6 +41,8 @@ int in_use; // 0 = free, 1 = occupied
 pthread_cond_t cond; // Lets threads wait efficiently
 } t_dongle;
 ```
+- `pthread_mutex_t` is a **data type provided by the POSIX threads (`pthread`) library** that represents a **mutex** (mutual exclusion lock).
+
 
 ---
 - [x] What is a dongle? 
