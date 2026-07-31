@@ -34,7 +34,7 @@ Creates a new thread.
 - [x] What is a dongle? 
 - [x] What is a mutex?
 - [x] a race condition?
-- [ ] What is a cooldown ? 
+- [x] What is a cooldown ? 
 - [ ] allocate the dongles dynamicaly?
 - [ ] why we need a cooldown delay?
 - [ ] what is a semaphore?
