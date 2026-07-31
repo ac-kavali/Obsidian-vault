@@ -24,11 +24,23 @@ A thread is the smallest execution unite in a process where a single process con
 
 
 ---
-## Threads in code
+# Threads in code
 _The POSIX thread API gives you functions to control each stage_
 ### pthread_create()
 Creates a new thread.
 
+
+## Simulation data structs:
+
+```c
+typedef struct s_dongle{
+int id; // Which dongle is this?
+pthread_mutex_t mutex; // Protects the dongle's state
+long cooldown_until; // When it can be used again
+int in_use; // 0 = free, 1 = occupied
+pthread_cond_t cond; // Lets threads wait efficiently
+} t_dongle;
+```
 
 ---
 - [x] What is a dongle? 
@@ -60,3 +72,5 @@ pthread_mutex_unlock(&dongle->lock);
 This protect the resource from a deadlock and race conditions
 #### Race condition
 Without protection, both threads could read `in_use == 0` **at the exact same instant**, both think it's free, and both set it to 1 and walk away thinking they alone hold the dongle. That's a race condition
+
+---
