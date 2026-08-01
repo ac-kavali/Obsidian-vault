@@ -109,8 +109,14 @@ int pthread_cond_wait(
 
 ### pthread_cond_timedwait()
 It waits for a condition **until a specific timeout time**. If nobody signals it before that time, it wakes up automatically.
+```c
+int pthread_cond_timedwait(
+    pthread_cond_t *cond,
+    pthread_mutex_t *mutex,
+    const struct timespec *abstime
+);
 ```
-```
+
 
 
 ---
