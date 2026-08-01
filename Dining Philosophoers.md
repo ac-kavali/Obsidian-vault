@@ -42,7 +42,7 @@ int pthread_create(
 - `start_routine`: This is the function the thread will execute.
 - `void *arg`:  This is the argument passed to the thread function, you can pass any thing but you should threat it in the function passed.
 
-### Pthread_join()
+### pthread_join()
 is the function used to wait for a thread to finish and optionally collect its return value.
 ```c
 int pthread_join( pthread_t thread, void **retval );
@@ -58,7 +58,11 @@ int pthread_mutex_init(
     const pthread_mutexattr_t *attr
 );
 ```
-`pthread_mutex_t *mutex`: This is the mutex you want to initialize. after you declared it using `pthread_mutex_t *mutex` in your code.
+- `pthread_mutex_t *mutex`: This is the mutex you want to initialize. after you declared it using `pthread_mutex_t *mutex` in your code.
+- `pthread_mutexattr_t`: This define mutex attribute, also NULL for your project.
+
+### pthread_mutex_lock()
+is the function that **takes ownership of a mutex (locks it)** so that only one thread can enter a protected section of code at a time.
 
 ---
 ## Simulation data structs:
