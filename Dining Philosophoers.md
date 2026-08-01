@@ -77,7 +77,40 @@ int pthread_mutex_unlock(pthread_mutex_t *mutex);
 
 
 ### pthread_mutex_distroy()
-is used to **delete a mutex when you no longer need it**.yyy
+is used to **delete a mutex when you no longer need it**.
+```c
+int pthread_mutex_destroy(pthread_mutex_t *mutex);
+```
+`pthread_mutex_t *mutex`: It takes the address of the mutex you want to distroy.
+
+
+### pthread_cond_init()
+ creates and initializes a **condition variable**.
+```c
+int pthread_cond_init(
+    pthread_cond_t *cond,
+    const pthread_condattr_t *attr
+);
+```
+`pthread_cond_t *cond`: the address of the condition  variable you want to initialize
+
+
+### pthread_cond_wait()
+is the function that makes a thread **sleep until another thread signals that something has changed**.
+```c
+int pthread_cond_wait(
+    pthread_cond_t *cond,
+    pthread_mutex_t *mutex
+);
+```
+`*cond`: the address of the condition variable you waiting on.
+`*mutex`: the address of the mutex protecting the shared data that is declared with  `pthread_mutex_t`
+
+
+### pthread_cond_timedwait()
+It waits for a condition **until a specific timeout time**. If nobody signals it before that time, it wakes up automatically.
+```
+```
 
 
 ---
