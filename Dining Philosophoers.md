@@ -58,7 +58,7 @@ int pthread_mutex_init(
     const pthread_mutexattr_t *attr
 );
 ```
-pthread_mutex_t *mutex
+`pthread_mutex_t *mutex`: 
 
 ---
 ## Simulation data structs:
