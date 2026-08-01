@@ -1,3 +1,26 @@
+## Table of content:
+- [[#CPU hirarchy:|CPU hirarchy:]]
+- [[#Run the program|Run the program]]
+- [[#pthread_create()|pthread_create()]]
+- [[#pthread_join()|pthread_join()]]
+- [[#pthread_mutex_init()|pthread_mutex_init()]]
+- [[#pthread_mutex_lock()|pthread_mutex_lock()]]
+- [[#pthread_mutex_unlock()|pthread_mutex_unlock()]]
+- [[#pthread_mutex_distroy()|pthread_mutex_distroy()]]
+- [[#pthread_cond_init()|pthread_cond_init()]]
+- [[#pthread_cond_wait()|pthread_cond_wait()]]
+- [[#pthread_cond_timedwait()|pthread_cond_timedwait()]]
+- [[#pthread_cond_signal()|pthread_cond_signal()]]
+- [[#pthread_cond_broadcast()|pthread_cond_broadcast()]]
+- [[#pthread_cond_destroy|pthread_cond_destroy]]
+- [[#gettimeofday()|gettimeofday()]]
+- [[#clock_gettime()|clock_gettime()]]
+- [[#usleep()|usleep()]]
+- [[#Simulation data structs:|Simulation data structs:]]
+- [[#Simulation data structs:#Dongle|Dongle]]
+
+
+---
 ### CPU hirarchy:
 **CPU socket**:
 - A CPU socket is the physical connector on the motherboard where the processor is installed.
@@ -195,7 +218,17 @@ clock_gettime(CLOCK_REALTIME, &ts);
 ```
 `CLOCK_TREALTIME`: **clock ID** (`clockid_t`) is the value that tells `clock_gettime()` **which clock source you want to read**.
 _common clock id_:
-`CLOCK_REALTIME`
+`CLOCK_REALTIME`: real time clock.
+`CLOCK_MONOTONIC`: It is a clock that starts from an unspecified point always increases never goes backward
+
+### usleep()
+ is a function that makes the **current thread sleep (pause execution) for a specified number**
+```c
+#include <unistd.h>
+
+int usleep(useconds_t usec);
+```
+`usec`: means **microseconds** and 1s = 1M microseconde
 
 ---
 ## Simulation data structs:
@@ -299,8 +332,6 @@ pthread_mutex_unlock(&dongle->lock);
 This protect the resource from a deadlock and race conditions
 #### Race condition
 Without protection, both threads could read `in_use == 0` **at the exact same instant**, both think it's free, and both set it to 1 and walk away thinking they alone hold the dongle. That's a race condition
-
-
 
 ---
 - [ ] The important point is that **the monitor does not care what the coder is currently doing**. It only checks **when they last started compiling**.
