@@ -29,7 +29,9 @@ _The POSIX thread API gives you functions to control each stage_
 ### pthread_create()
 Creates a new thread
 
+### Pthread_join()
 
+---
 ## Simulation data structs:
 ### Dongle
 ```c
@@ -66,9 +68,6 @@ typedef struct r_table_config
 - `sim_mutex` : a mutex that protect the simulation `stop` varabiale.
 - `msg_mutex` a mutex that protect the program output login.
 ---
-
-
-
 ```c
 typedef struct s_coder
 {
@@ -82,8 +81,9 @@ typedef struct s_coder
 	struct s_simulation *sim;
 } t_coder;
 ```
-
-
+- `pthread_t thread`: the representation of the coder as OS thread. created using `pthread_create`.
+- `t_dongle *right and *left`: Pointers to this coder's two neighboring dongles, the ones it must acquire _both_ of to compile
+- `last_compile_start`: 
 ---
 
 
