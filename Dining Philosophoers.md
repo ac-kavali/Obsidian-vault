@@ -26,10 +26,31 @@ A thread is the smallest execution unite in a process where a single process con
 ---
 # Threads in code
 _The POSIX thread API gives you functions to control each stage_
+
 ### pthread_create()
 Creates a new thread
+```c
+int pthread_create(
+    pthread_t *thread,
+    const pthread_attr_t *attr,
+    void *(*start_routine)(void *),
+    void *arg
+);
+```
+- `pthread_t *thread`: This is the variable where the system stores the identifier of the new thread.
+- `pthread_attr_t`: These are optional thread attributes, for almost every 42 project just set `NULL`. 
+- `start_routine`: This is the function the thread will execute.
+- `void *arg`:  This is the argument passed to the thread function, you can pass any thing but you should threat it in the function passed.
 
 ### Pthread_join()
+is the function used to wait for a thread to finish and optionally collect its return value.
+```c
+int pthread_join( pthread_t thread, void **retval );
+```
+- `pthread_t thread`: The ID of the thread you want to wait for. for multiple threards, you create a loop and call join for each one.
+- `void`: This receives the value returned by the thread function. 
+
+### o
 
 ---
 ## Simulation data structs:
@@ -134,5 +155,8 @@ This protect the resource from a deadlock and race conditions
 #### Race condition
 Without protection, both threads could read `in_use == 0` **at the exact same instant**, both think it's free, and both set it to 1 and walk away thinking they alone hold the dongle. That's a race condition
 
+
+
 ---
 - [ ] The important point is that **the monitor does not care what the coder is currently doing**. It only checks **when they last started compiling**.
+- [ ] The **monitor** is another thread.
