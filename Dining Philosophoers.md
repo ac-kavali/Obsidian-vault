@@ -147,7 +147,55 @@ int pthread_cond_broadcast(pthread_cond_t *cond);
 
 ### pthread_cond_destroy
 is used to **destroy (clean up) a condition variable** when you no longer need it.
+```c
+int pthread_cond_destroy(pthread_cond_t *cond);
+```
 
+
+
+### gettimeofday()
+It is commonly used in pthread simulations (like your Codexion project) to measure elapsed time.
+```c
+#include <sys/time.h>
+int gettimeofday(
+    struct timeval *tv,     //timeval struct 
+    struct timezone *tz    //time zone not being used to day, so you use just NULL.
+);
+```
+#### Example"
+```c
+#include <stdio.h>
+#include <sys/time.h>
+
+int main(void)
+{
+    struct timeval tv;
+
+    gettimeofday(&tv, NULL);
+
+    printf("Seconds: %ld\n", tv.tv_sec);
+    printf("Microseconds: %ld\n", tv.tv_usec);
+
+    return 0;
+}
+```
+
+
+### clock_gettime()
+is a function used to get the **current time from a clock source** with high precision.
+```c
+#include <time.h>
+int clock_gettime(
+    clockid_t clockid,
+    struct timespec *tp   // timespec struct 
+);
+
+//example
+clock_gettime(CLOCK_REALTIME, &ts);
+```
+`CLOCK_TREALTIME`: **clock ID** (`clockid_t`) is the value that tells `clock_gettime()` **which clock source you want to read**.
+_common clock id_:
+`CLOCK_REALTIME`
 
 ---
 ## Simulation data structs:
