@@ -142,6 +142,11 @@ is used to **wake up all threads waiting on a condition variable**.
 ```c
 int pthread_cond_broadcast(pthread_cond_t *cond);
 ```
+`cond`: The condition variable you want to signal .
+
+
+### pthread_cond_destroy
+is used to **destroy (clean up) a condition variable** when you no longer need it.
 
 
 ---
