@@ -116,7 +116,22 @@ int pthread_cond_timedwait(
     const struct timespec *abstime
 );
 ```
+`const struct timespec *abstime`: This is the timeout moment. its a struct timespec :
+```c
+//To call `pthread_cond_timedwait()`, you first need to create and fill a `struct timespec`.
+struct timespec timeout;
+// Get current time clock_gettime(CLOCK_REALTIME, &timeout);
+// Add 5 seconds to current time
+timeout.tv_sec += 5;
+pthread_mutex_lock(&mutex);
+int ret = pthread_cond_timedwait( &cond, &mutex, &timeout );
+```
 
+### pthread_cond_signal()
+is used to **wake up one thread that is waiting on a condition variable**.
+```c
+int pthread_cond_signal(pthread_cond_t *cond);
+```
 
 
 ---
