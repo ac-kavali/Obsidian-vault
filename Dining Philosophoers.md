@@ -83,7 +83,9 @@ typedef struct s_coder
 ```
 - `pthread_t thread`: the representation of the coder as OS thread. created using `pthread_create`.
 - `t_dongle *right and *left`: Pointers to this coder's two neighboring dongles, the ones it must acquire _both_ of to compile
-- `last_compile_start`: 
+- `last_compile_start`: This is the coder's personal burnout clock, So this field holds the timestamp of the most recent time this coder **began** compiling
+- `compile_count`:
+
 ---
 
 
