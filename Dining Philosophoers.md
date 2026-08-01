@@ -34,14 +34,104 @@ Creates a new thread
 ### Dongle
 ```c
 typedef struct s_dongle{
-int id; // Which dongle is this?
-pthread_mutex_t mutex; // Protects the dongle's state
-long cooldown_until; // When it can be used again
-int in_use; // 0 = free, 1 = occupied
-pthread_cond_t cond; // Lets threads wait efficiently
+	int             id; // Which dongle is this?
+	pthread_mutex_t mutex; // Protects the dongle's state
+	long            cooldown_until; // When it can be used again
+	int             in_use; // 0 = free, 1 = occupied
+	pthread_cond_t  cond; // Lets threads wait efficiently
 } t_dongle;
 ```
 - `pthread_mutex_t` is a **data type provided by the POSIX threads (`pthread`) library** that represents a **mutex** (mutual exclusion lock).
+- `mutex` the dongle resource locking and unlocking to garantee the safe access of the thread to the dongle.
+- `cooldown` time before a coder can use the dongle after a another one release it.
+- `in_use` the booleen 0 or 1 that indicate if it the dongle is used 
+- `pthread_cond_t` is a POSIX thread data type used as a **condition variable** resource to let threads wait until a specific condition becomes true and its
+  effecient cause it not use a for loop and poling, because this wasts cpu 
+---
+```c
+typedef struct r_table_config
+{
+	int    number_of_coders;
+	long   time_to_burnout;
+	long   time_to_compile;
+	long   time_to_debug;
+	long   time_to_refactor;
+	int    number_of_compiles_required;
+	long   dongle_cooldown;
+	t_scheduler  scheduler;
+	pthread_mutex_t sim_mutex;
+	pthread_mutex_t msg_mutex;
+}t_table_config;
+
+  
+
+typedef struct s_dongle
+
+{
+
+int id; // Which dongle is this?
+
+pthread_mutex_t mutex; // Protects the dongle's state
+
+long cooldown_until; // When it can be used again
+
+int in_use; // 0 = free, 1 = occupied
+
+pthread_cond_t cond; // Lets threads wait efficiently
+
+} t_dongle;
+
+  
+
+typedef struct s_coder
+
+{
+
+int id;
+
+pthread_t thread;
+
+t_dongle *left;
+
+t_dongle *right;
+
+long last_compile_start;
+
+int compile_count;
+
+pthread_mutex_t state_mutex;
+
+struct s_simulation *sim;
+
+} t_coder;
+
+  
+
+typedef struct s_simulation
+
+{
+
+t_table_config config;
+
+t_dongle *dongles;
+
+t_coder *coders;
+
+pthread_t monitor;
+
+long start_time;
+
+int stop;
+
+pthread_mutex_t stop_mutex;
+
+pthread_mutex_t print_mutex;
+
+  
+
+} t_simulation;
+
+```
 
 
 ---
