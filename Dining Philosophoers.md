@@ -131,6 +131,16 @@ int ret = pthread_cond_timedwait( &cond, &mutex, &timeout );
 is used to **wake up one thread that is waiting on a condition variable**.
 ```c
 int pthread_cond_signal(pthread_cond_t *cond);
+
+// if the waiting queue: [T1] [T2] [T3] [T4] [T5]
+// it wake up the [T1] and let the [T2] [T3] [T4] [T5]
+```
+`cond`: The condition variable you want to signal .
+
+### pthread_cond_broadcast()
+is used to **wake up all threads waiting on a condition variable**.
+```c
+int pthread_cond_broadcast(pthread_cond_t *cond);
 ```
 
 
@@ -242,3 +252,4 @@ Without protection, both threads could read `in_use == 0` **at the exact same in
 ---
 - [ ] The important point is that **the monitor does not care what the coder is currently doing**. It only checks **when they last started compiling**.
 - [ ] The **monitor** is another thread.
+- [ ] A condition variable is like a **waiting room**. Many threads can enter this waiting room and sleep until some event happens.
