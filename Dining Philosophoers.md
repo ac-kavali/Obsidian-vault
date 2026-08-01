@@ -58,7 +58,7 @@ int pthread_mutex_init(
     const pthread_mutexattr_t *attr
 );
 ```
-`pthread_mutex_t *mutex`: 
+`pthread_mutex_t *mutex`: This is the mutex you want to initialize. after you declared it using `pthread_mutex_t *mutex` in your code.
 
 ---
 ## Simulation data structs:
