@@ -62,50 +62,32 @@ typedef struct r_table_config
 	pthread_mutex_t sim_mutex;
 	pthread_mutex_t msg_mutex;
 }t_table_config;
+```
+- `sim_mutex` : a mutex that protect the simulation `stop` varabiale.
+- `msg_mutex` a mutex that protect the program output login.
+---
 
-  
 
-typedef struct s_dongle
 
-{
-
-int id; // Which dongle is this?
-
-pthread_mutex_t mutex; // Protects the dongle's state
-
-long cooldown_until; // When it can be used again
-
-int in_use; // 0 = free, 1 = occupied
-
-pthread_cond_t cond; // Lets threads wait efficiently
-
-} t_dongle;
-
-  
-
+```c
 typedef struct s_coder
-
 {
-
-int id;
-
-pthread_t thread;
-
-t_dongle *left;
-
-t_dongle *right;
-
-long last_compile_start;
-
-int compile_count;
-
-pthread_mutex_t state_mutex;
-
-struct s_simulation *sim;
-
+	int             id;
+	pthread_t       thread;
+	t_dongle        *left;
+	t_dongle        *right;
+	long            last_compile_start;
+	int             compile_count;
+	pthread_mutex_t state_mutex;
+	struct s_simulation *sim;
 } t_coder;
+```
 
-  
+
+---
+
+
+```c  
 
 typedef struct s_simulation
 
