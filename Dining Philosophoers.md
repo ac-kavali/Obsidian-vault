@@ -63,6 +63,22 @@ int pthread_mutex_init(
 
 ### pthread_mutex_lock()
 is the function that **takes ownership of a mutex (locks it)** so that only one thread can enter a protected section of code at a time.
+```c
+int pthread_mutex_lock(pthread_mutex_t *mutex);
+```
+`pthread_mutex_t *mutex`: the address of the mutex you want to lock
+
+### pthread_mutex_unlock()
+It **releases the mutex**, allowing other threads that are waiting for this mutex to continue.
+```c
+int pthread_mutex_unlock(pthread_mutex_t *mutex);
+```
+`pthread_mutex_t *mutex`: It takes the address of the mutex you want to unlock.
+
+
+### pthread_mutex_distroy()
+is used to **delete a mutex when you no longer need it**.yyy
+
 
 ---
 ## Simulation data structs:
