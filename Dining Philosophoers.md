@@ -83,38 +83,23 @@ typedef struct s_coder
 ```
 - `pthread_t thread`: the representation of the coder as OS thread. created using `pthread_create`.
 - `t_dongle *right and *left`: Pointers to this coder's two neighboring dongles, the ones it must acquire _both_ of to compile
-- `last_compile_start`: This is the coder's personal burnout clock, So this field holds the timestamp of the most recent time this coder **began** compiling
-- `compile_count`:
+- `last_compile_start`: This is the coder's personal burnout clock to not exeed So this field holds the timestamp of the most recent time this coder **began** compiling.
+- `compile_count`: number of compiles completed by this coder.
+- 
 
 ---
-
-
 ```c  
-
 typedef struct s_simulation
-
 {
-
-t_table_config config;
-
-t_dongle *dongles;
-
-t_coder *coders;
-
-pthread_t monitor;
-
-long start_time;
-
-int stop;
-
-pthread_mutex_t stop_mutex;
-
-pthread_mutex_t print_mutex;
-
-  
-
+	t_table_config   config;
+	t_dongle         *dongles;
+	t_coder          *coders;
+	pthread_t        monitor;
+	long             start_time;
+	int              stop;
+	pthread_mutex_t  stop_mutex;
+	pthread_mutex_t  print_mutex;
 } t_simulation;
-
 ```
 
 
@@ -150,3 +135,4 @@ This protect the resource from a deadlock and race conditions
 Without protection, both threads could read `in_use == 0` **at the exact same instant**, both think it's free, and both set it to 1 and walk away thinking they alone hold the dongle. That's a race condition
 
 ---
+- [ ] The important point is that **the monitor does not care what the coder is currently doing**. It only checks **when they last started compiling**.
