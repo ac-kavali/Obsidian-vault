@@ -50,7 +50,15 @@ int pthread_join( pthread_t thread, void **retval );
 - `pthread_t thread`: The ID of the thread you want to wait for. for multiple threards, you create a loop and call join for each one.
 - `void`: This receives the value returned by the thread function. 
 
-### o
+### pthread_mutex_init()
+is used to **create and initialize a mutex**.
+```c
+int pthread_mutex_init(
+    pthread_mutex_t *mutex,
+    const pthread_mutexattr_t *attr
+);
+```
+`pthread_mutex_t *mutex`: 
 
 ---
 ## Simulation data structs:
