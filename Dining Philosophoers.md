@@ -18,7 +18,7 @@
 - [[#usleep()|usleep()]]
 - [[#Simulation data structs:|Simulation data structs:]]
 - [[#Simulation data structs:#Dongle|Dongle]]
-
+- [[#Responsibilities of the monitor]]
 
 ---
 ### CPU hirarchy:
@@ -301,13 +301,23 @@ typedef struct s_simulation
 } t_simulation;
 ```
 
+---
+## Responsibilities of the monitor
+It repeatedly checks:
+1. **Has any coder burned out (died)?**
+2. **Has every coder compiled enough times?** (if the optional argument exists)
+If either condition is true:
+- Mark the simulation as finished.
+- Print the burnout message (only for the first coder that burns out).
+- Exit the monitor thread.
+
 
 ---
 - [x] What is a dongle? 
 - [x] What is a mutex?
 - [x] a race condition?
 - [x] What is a cooldown ? 
-- [ ] allocate the dongles dynamicaly?
+- [x] allocate the dongles dynamicaly?
 - [ ] why we need a cooldown delay?
 - [ ] what is a semaphore?
 - [ ] How to create separate monitor thread that checks whether a coder has burned out?
