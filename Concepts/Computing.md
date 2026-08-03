@@ -14,8 +14,8 @@ is when you create a regular c program it use just one thread. and called single
 if the core support hyper-threading : 
 ```
 Physical Core 
-├── Logical Processor 0 
-└── Logical Processor 1
+├── Logical Processor 0 # hardware thread
+└── Logical Processor 1 
 ```
 
 
