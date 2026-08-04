@@ -19,9 +19,22 @@ Physical Core
 ```
 
 
+---
+## Deadlock 
+A deadlock happens when threads are stuck forever because each one is waiting for something held by another thread.
+example : 
+```
+Thread A owns Resource 1
+Thread B owns Resource 2
+
+Thread A waits for Resource 2
+Thread B waits for Resource 1
+```
+a resource can be a variable locked by thread A by a mutex or a database row , or a file ...
 
 
 ## context switching
 --- 
 - [ ] That is **exactly correct**. You do not need to manually create, destroy, or manage threads to exploit Hyper-Threading
 - [ ] Why Manual Threading is Avoided
+
