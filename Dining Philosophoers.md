@@ -120,6 +120,7 @@ int pthread_cond_init(
 
 ### pthread_cond_wait()
 is the function that makes a thread **sleep until another thread signals that something has changed**.
+It only blocks **the current thread** that calls it.
 ```c
 int pthread_cond_wait(
     pthread_cond_t *cond,
@@ -128,6 +129,7 @@ int pthread_cond_wait(
 ```
 `*cond`: the address of the condition variable you waiting on.
 `*mutex`: the address of the mutex protecting the shared data that is declared with  `pthread_mutex_t`
+
 
 
 ### pthread_cond_timedwait()
