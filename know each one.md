@@ -1,7 +1,9 @@
-### take_dongle dongle()
+### take_dongle()
 
-- it lock the dongle (cause no other one can access it )
+- it lock the dongle (cause no other one can access it cause i will change the variable of `is_used` )
 - to a coder takes the dongles it should take the right one then the left one , 
+- i push the coder to get its place in the queue
+- while the dongle is taken or in cooldown state or 
 
 ---
 ### coder_routine()
