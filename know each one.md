@@ -1,4 +1,9 @@
 - [ ] Each time you need to use the mutex is because the variables shared between all the threads and to avoid race condition
+
+### initialize data
+- Allocating the dongles and the coders and initialize the variables 
+
+---
 ### take_dongle
 
 - it lock the dongle (cause no other one can access it cause i will change the variable of `is_used` )
@@ -13,7 +18,7 @@ coder routine where we see that they do there the concurrency to take the dongle
 -  converting the arguments from (void *) to (t_coder *)
 -  handle the case if there is just one coder and one dongle we give it its right dongle and wait until he burn out.
 - and while the simulation not ended and the coder not fully compiled it loop over `take_dongle()`, `coder_compile`, `release_dongle`
-- then check if the coder is fully compiled if yes break if not, debug and refactor. and loop again 
+- then check if the coder is fully compiled if yes break if not, debug and refactor. and loop again
 ![[Pasted image 20260804170429.png]]
 
 ---
