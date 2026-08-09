@@ -1,4 +1,5 @@
 [Practical lab](https://ipcisco.com/subnetting-quiz-1-n485hju/)
+[David Bombal Quize](https://ccnax.com/free-quiz/?utm_source=chatgpt.com)
 ## 1. Types of IP Addresses
 
 ### Classful Addressing
