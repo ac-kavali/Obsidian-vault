@@ -16,7 +16,6 @@ a device that access a service made available by a server
 
 ---
 ## Cables and interfaces
-
 ### Copper
 | speed    | common name      | IEEE standard | Informal Name | maximum length |
 | -------- | ---------------- | ------------- | ------------- | -------------- |
