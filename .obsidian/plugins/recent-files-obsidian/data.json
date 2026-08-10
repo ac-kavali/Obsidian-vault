@@ -9,6 +9,10 @@
       "path": "Networking/CCNA_preparations/Materiels.md"
     },
     {
+      "basename": "Questions",
+      "path": "Networking/CCNA_preparations/Questions.md"
+    },
+    {
       "basename": "fly-in",
       "path": "Excalidraw/fly-in.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Permissions",
       "path": "Linux/Permissions.md"
-    },
-    {
-      "basename": "Find",
-      "path": "Linux/Find.md"
     }
   ],
   "omittedPaths": [],
