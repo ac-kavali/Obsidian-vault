@@ -46,7 +46,6 @@ ___
 
 **Straight-through cable** — connects an MDI device to an MDI-X device (opposite types), so Tx lines up with Rx naturally.  
 Used for:
-
 - PC → Switch
 - PC → Hub
 - Router → Switch
