@@ -1,0 +1,12 @@
+{
+  "interfaceFontFamily": "DejaVu Sans,DejaVu Math TeX Gyre,DejaVu Serif",
+  "baseFontSize": 19,
+  "textFontFamily": "DejaVu Sans,DejaVu Math TeX Gyre,JetBrainsMono Nerd Font,Bodoni 72 Oldstyle,Linux Biolinum O,Source Code Pro",
+  "enabledCssSnippets": [
+    "colors",
+    "hide-tab-line"
+  ],
+  "theme": "obsidian",
+  "accentColor": "",
+  "cssTheme": "Vanilla AMOLED"
+}
