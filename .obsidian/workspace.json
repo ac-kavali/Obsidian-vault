@@ -54,9 +54,23 @@
               "icon": "lucide-file",
               "title": "Materiels"
             }
+          },
+          {
+            "id": "efeb231da2263395",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/CCNA_preparations/part1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "part1"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -267,11 +281,11 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "3f31406081a73f97",
+  "active": "efeb231da2263395",
   "lastOpenFiles": [
     "Networking/CCNA_preparations/Materiels.md",
-    "81o8+gPLrlL._AC_SL1500_.jpg",
     "Networking/CCNA_preparations/part1.md",
+    "81o8+gPLrlL._AC_SL1500_.jpg",
     "Excalidraw/fly-in.md",
     "Python/Argparse.md",
     "july-august-2026-calendar.png",

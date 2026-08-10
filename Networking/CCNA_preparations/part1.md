@@ -17,14 +17,22 @@ a device that access a service made available by a server
 ---
 ## Cables and interfaces
 
-**PC (MDI device)**
 
+
+### Copper
+| speed    | common name      | IEEE standard | Informal Name | maximum length |
+| -------- | ---------------- | ------------- | ------------- | -------------- |
+| 10 Mbps  | Ethernet         | 802.3i        | 10BASE-T      | 100m           |
+| 100 Mbps | Fast ethernet    | 802.3u        | 100BASE-T     | 100m           |
+| 1 Gbps   | Gigabit ethernet | 802.3ab       | 1000BASE-T    | 100m           |
+| 10Gbps   | 10 Gig Ethernet  | 802.3an       | 10GBASE-T     | 100m           |
+
+**PC (MDI device)**
 - Transmit at 1,2
 - Receive at 3,6
 - 4,5,7,8 not used for data
 
 **Switch / Hub (MDI-X device)**
-
 - Transmit at 3,6
 - Receive at 1,2
 - 4,5,7,8 not used for data
@@ -99,3 +107,15 @@ Even though Auto-MDIX makes the cable type largely irrelevant in real-world mode
 | -------------- | ------: | ------------------------------ | ----------: | -----------: | ----------- |
 | **1000BASE-T** |  1 Gbps | Cat5e or better                | **4 pairs** |    **100 m** | Full-duplex |
 | **10GBASE-T**  | 10 Gbps | Cat6a or better for full 100 m | **4 pairs** |    **100 m** | Full-duplex |
+
+---
+## Fiber-Optic 
+
+| Informal Name | IEEE standard | Speed  | Cable type               | Maximum Length    |
+| ------------- | ------------- | ------ | ------------------------ | ----------------- |
+| 1000 BASE-LX  | 802.3z        | 1 Gbps | Multimode or Single-mode | 550m(MM), 5Km(SM) |
+| 10G BASE-SR   | 802.3ae       | 10Gbps | Multimode                | 400 m             |
+| 10G Base-LR   | 802.3ae       | 10Gbps | Single-Mode              | 10 Km             |
+| 10G base-ER   | 802.3ae       | 10Gbps | Single-Mode              | 30 Km             |
+
+
