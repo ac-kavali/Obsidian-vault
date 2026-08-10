@@ -5,6 +5,10 @@
       "path": "Networking/CCNA_preparations/day2.md"
     },
     {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
       "basename": "Materiels",
       "path": "Networking/CCNA_preparations/Materiels.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "Computing",
       "path": "Concepts/Computing.md"
-    },
-    {
-      "basename": "File Discriptor",
-      "path": "Concepts/File Discriptor.md"
     },
     {
       "basename": "fly-in",
@@ -195,10 +195,6 @@
     {
       "basename": "Expremer",
       "path": "fr/Expremer.md"
-    },
-    {
-      "basename": "module08",
-      "path": "Python/module08.md"
     }
   ],
   "omittedPaths": [],
