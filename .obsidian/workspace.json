@@ -24,59 +24,39 @@
             }
           },
           {
-            "id": "f6e189adefdb1889",
+            "id": "3f31406081a73f97",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Enum.md",
+                "file": "Networking/CCNA_preparations/part1.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Enum"
+              "title": "part1"
             }
           },
           {
-            "id": "3f31406081a73f97",
+            "id": "9e59a7d416ab3ac5",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Argparse.md",
-                "mode": "preview",
+                "file": "Networking/CCNA_preparations/Materiels.md",
+                "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "Argparse"
-            }
-          },
-          {
-            "id": "32d0f26e0c6b92c5",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "566b3e868db6c8e1",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/fly-in.md"
-              },
-              "icon": "lucide-ghost",
-              "title": "excalidraw"
+              "title": "Materiels"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -287,12 +267,15 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "32d0f26e0c6b92c5",
+  "active": "3f31406081a73f97",
   "lastOpenFiles": [
-    "july-august-2026-calendar.png",
-    "Python/Argparse.md",
-    "Excalidraw/Drawing 2026-07-27 18.43.47.excalidraw.md",
+    "Networking/CCNA_preparations/Materiels.md",
+    "81o8+gPLrlL._AC_SL1500_.jpg",
+    "Networking/CCNA_preparations/part1.md",
     "Excalidraw/fly-in.md",
+    "Python/Argparse.md",
+    "july-august-2026-calendar.png",
+    "Excalidraw/Drawing 2026-07-27 18.43.47.excalidraw.md",
     "Networking/Subnetting.md",
     "Networking/OSI Model.md",
     "Networking/Network scaning.md",
@@ -319,16 +302,12 @@
     "Excalidraw/Tmux.md",
     "Python/Polymorphism.md",
     "Python/Module 05.md",
-    "Web/Draft.md",
-    "Excalidraw/ARP.md",
     "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/booting_process.excalidraw",
     "Media/Pasted Image 20260712232454_022.png",
     "Media/Pasted Image 20260712232158_962.png",
     "Media/Pasted Image 20260712232135_032.png",
     "Networking/CCNA_preparations",
-    "Media/100baset-hub.svg",
-    "Media/pin.png",
     "Excalidraw/Untitled",
     "fr",
     "SQL/Untitled",

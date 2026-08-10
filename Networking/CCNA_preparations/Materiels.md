@@ -29,3 +29,8 @@
 ## Firepower 2100
 
 ![[Pasted image 20260809201830.png|627]]
+
+
+## SFP Transceiver
+
+![[81o8+gPLrlL._AC_SL1500_.jpg|700]]

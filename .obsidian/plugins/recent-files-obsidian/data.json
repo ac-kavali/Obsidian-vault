@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Drawing 2026-07-27 18.43.47.excalidraw",
-      "path": "Excalidraw/Drawing 2026-07-27 18.43.47.excalidraw.md"
+      "basename": "part1",
+      "path": "Networking/CCNA_preparations/part1.md"
+    },
+    {
+      "basename": "Materiels",
+      "path": "Networking/CCNA_preparations/Materiels.md"
+    },
+    {
+      "basename": "fly-in",
+      "path": "Excalidraw/fly-in.md"
     },
     {
       "basename": "Argparse",
       "path": "Python/Argparse.md"
     },
     {
-      "basename": "fly-in",
-      "path": "Excalidraw/fly-in.md"
+      "basename": "Drawing 2026-07-27 18.43.47.excalidraw",
+      "path": "Excalidraw/Drawing 2026-07-27 18.43.47.excalidraw.md"
     },
     {
       "basename": "Subnetting",
@@ -191,14 +199,6 @@
     {
       "basename": "Find",
       "path": "Linux/Find.md"
-    },
-    {
-      "basename": "pin",
-      "path": "Media/pin.png"
-    },
-    {
-      "basename": "Module 04",
-      "path": "Python/Module 04.md"
     }
   ],
   "omittedPaths": [],
