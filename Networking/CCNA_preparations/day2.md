@@ -114,5 +114,3 @@ Even though Auto-MDIX makes the cable type largely irrelevant in real-world mode
 | 10G BASE-SR   | 802.3ae       | 10Gbps | Multimode                | 400 m             |
 | 10G Base-LR   | 802.3ae       | 10Gbps | Single-Mode              | 10 Km             |
 | 10G base-ER   | 802.3ae       | 10Gbps | Single-Mode              | 30 Km             |
-
-
