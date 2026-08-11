@@ -108,3 +108,9 @@ Router(config)# enable secret <password>
 > `service password-encryption` = prevents passwords from appearing as plain text in the configuration.
 
 ---
+### Cancel a command 
+just type `no` before the command you enter
+Example: 
+```
+no service password-encryption
+```
