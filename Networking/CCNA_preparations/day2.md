@@ -152,6 +152,7 @@ Even though Auto-MDIX makes the cable type largely irrelevant in real-world mode
 
 ---
 ## Fiber-Optic 
+ adafafafaf
 
 | Informal Name | IEEE standard | Speed  | Cable type               | Maximum Length    |
 | ------------- | ------------- | ------ | ------------------------ | ----------------- |
