@@ -2,7 +2,7 @@
 
 
 ## Console Cables
-### RJ45 - DB-9 
+### RJ45 - DB-9 <!--also refered as DE-9-->
 **DB-9 = one physical face implementation of RS-232 serial communication standard (you 'll find RS-232 on cisco packet tracer)** 
  ![[51z24BHjLuL.jpg|400]]
 
