@@ -84,9 +84,19 @@
               "icon": "lucide-file",
               "title": "Day4"
             }
+          },
+          {
+            "id": "f64d7ed8f0cf75aa",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -190,7 +200,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Subnetting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +209,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Subnetting"
+              "title": "Backlinks"
             }
           },
           {
@@ -257,8 +266,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "18b915b080dd329c",
@@ -297,12 +305,13 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "a2771704e983c69f",
+  "active": "f64d7ed8f0cf75aa",
   "lastOpenFiles": [
+    "Excalidraw/rcp_game-d.md",
+    "Networking/CCNA_preparations/Day4.md",
     "Networking/CCNA_preparations/Day3.md",
     "Media/cisco_catalyst9200.jpg",
     "Media/Pasted image 20260809201813.png",
-    "Networking/CCNA_preparations/Day4.md",
     "CAB-CONSOLE-USB-3-800x800.jpg",
     "51z24BHjLuL.jpg",
     "Networking/Application, Presentation.md",
