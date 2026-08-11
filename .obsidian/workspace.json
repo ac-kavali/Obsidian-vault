@@ -72,15 +72,17 @@
           {
             "id": "a2771704e983c69f",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/CCNA_preparations/Day3.md",
+                "file": "Networking/CCNA_preparations/Day4.md",
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "Day3"
+              "title": "Day4"
             }
           }
         ],
@@ -297,8 +299,12 @@
   },
   "active": "a2771704e983c69f",
   "lastOpenFiles": [
-    "Media/cisco_catalyst9200.jpg",
     "Networking/CCNA_preparations/Day3.md",
+    "Media/cisco_catalyst9200.jpg",
+    "Media/Pasted image 20260809201813.png",
+    "Networking/CCNA_preparations/Day4.md",
+    "CAB-CONSOLE-USB-3-800x800.jpg",
+    "51z24BHjLuL.jpg",
     "Networking/Application, Presentation.md",
     "Networking/ARP.md",
     "Networking/OSI Model.md",
@@ -314,7 +320,6 @@
     "Project/Rock-Paper-Scissors.md",
     "Project/GNL.md",
     "Python/RE.md",
-    "Media/Pasted image 20260809201813.png",
     "Media/81o8+gPLrlL._AC_SL1500_.jpg",
     "Networking/CCNA_preparations/my_inswers",
     "Concepts/File Discriptor.md",
@@ -326,16 +331,13 @@
     "Excalidraw/fly-in.md",
     "Python/Argparse.md",
     "july-august-2026-calendar.png",
-    "Excalidraw/Drawing 2026-07-27 18.43.47.excalidraw.md",
     "Screenshot from 2026-07-19 08-48-21.png",
     "Screenshot from 2026-07-19 08-48-45.png",
     "Screenshot from 2026-07-19 08-48-59.png",
     "Excalidraw/python_discorver#1.excalidraw",
     "Media/Pasted Image 20260712214855_866.png",
-    "Media/Pasted Image 20260712214218_290.png",
     "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/booting_process.excalidraw",
-    "Media/Pasted Image 20260712232454_022.png",
     "Networking/CCNA_preparations",
     "Excalidraw/Untitled",
     "fr",

@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Day4",
+      "path": "Networking/CCNA_preparations/Day4.md"
+    },
+    {
       "basename": "Day3",
       "path": "Networking/CCNA_preparations/Day3.md"
     },
     {
       "basename": "cisco_catalyst9200",
       "path": "Media/cisco_catalyst9200.jpg"
+    },
+    {
+      "basename": "Pasted image 20260809201813",
+      "path": "Media/Pasted image 20260809201813.png"
     },
     {
       "basename": "Application, Presentation",
@@ -67,10 +75,6 @@
     {
       "basename": "RE",
       "path": "Python/RE.md"
-    },
-    {
-      "basename": "Pasted image 20260809201813",
-      "path": "Media/Pasted image 20260809201813.png"
     },
     {
       "basename": "81o8+gPLrlL._AC_SL1500_",
@@ -195,10 +199,6 @@
     {
       "basename": "Network_basics",
       "path": "Excalidraw/Network_basics.md"
-    },
-    {
-      "basename": "booting_process",
-      "path": "Excalidraw/booting_process.excalidraw"
     }
   ],
   "omittedPaths": [],
