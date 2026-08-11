@@ -5,3 +5,4 @@
 
 - Each vendor start to develop there standards and protocols, then they decided to follow the IEEE rules and ISO 
 
+**Who acctually define the standard : IEEE, IETF**
