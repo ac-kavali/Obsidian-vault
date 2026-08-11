@@ -5,6 +5,10 @@
       "path": "Networking/CCNA_preparations/day2.md"
     },
     {
+      "basename": "Fly-In",
+      "path": "Project/Fly-In.md"
+    },
+    {
       "basename": "Untitled",
       "path": "Untitled.md"
     },
@@ -59,10 +63,6 @@
     {
       "basename": "callmemaybe",
       "path": "Excalidraw/callmemaybe.md"
-    },
-    {
-      "basename": "Fly-In",
-      "path": "Project/Fly-In.md"
     },
     {
       "basename": "Books Stations",

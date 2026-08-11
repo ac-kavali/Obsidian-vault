@@ -2,6 +2,9 @@
 is a digital telecomunication network which allows a nodes to share resources.
 or simply a number of devices connected to each other. 
 
+
+Which cable type reverses all 8 wires end-to-end (pin 1→8, pin 2→7, etc.) and is used strictly for CLI configuration access? A) Crossover B) Straight-through C) Rollover (console) cable
+
 **Full-duplex** means that two devices can **send and receive data at the same time**.
 ### Examples of network components:
 
@@ -17,6 +20,10 @@ a device that access a service made available by a server
 ---
 ## Cables and interfaces
 ### Copper
+
+- **10BASE-T & 100BASE-T** → only need **2 pairs / 4 wires** (they're slow enough that half the cable can just sit idle)
+- **1000BASE-T & 10GBASE-T** → need **all 4 pairs / 8 wires** (once you cross into Gigabit territory, every wire has to work)
+
 | speed    | common name      | IEEE standard | Informal Name | maximum length |
 | -------- | ---------------- | ------------- | ------------- | -------------- |
 | 10 Mbps  | Ethernet         | 802.3i        | 10BASE-T      | 100m           |
@@ -60,7 +67,7 @@ The suffixes are **i, u, ab, an**. Make them the first letters of a sentence, in
 
 Once that story is in your head, the table just falls out of it: speed → name writes itself, name → BASE-T writes itself, and "I Upgraded A Better Antenna" hands you the IEEE codes in order
 
-
+## Straight-throw vs crossover
 
 **PC (MDI device)**
 - Transmit at 1,2
@@ -151,11 +158,12 @@ Even though Auto-MDIX makes the cable type largely irrelevant in real-world mode
 | 1000 BASE-LX  | 802.3z        | 1 Gbps | Multimode or Single-mode | 550m(MM), 5Km(SM) |
 | 10G BASE-SR   | 802.3ae       | 10Gbps | Multimode                | 400 m             |
 | 10G Base-LR   | 802.3ae       | 10Gbps | Single-Mode              | 10 Km             |
-| 10G base-ER   | 802.3ae       | 10Gbps | Single-Mode              | 30 Km             |
+| 10G base-ER   | 802.3ae       | 10Gbps | Single-Mode              | 40 Km             |
 Fiber is actually kinder to your memory than copper, because the _letters themselves already tell the story_ — you just have to notice it.
 **Step one — the standard number splits into "the odd one" and "the trio":**
 - **1000BASE-LX** is alone on **802.3z** (it's the only Gigabit one, so it gets its own code)
 - **SR, LR, ER** — all three 10G ones — share **802.3ae**
+- +++++++++++++++777
 So the memory hook: _"Z is a solo act (1 Gig). AE is the 10-Gig trio."_ You only need to remember one oddball code (z) and one shared code (ae) for everything else.
 **Step two — the letters SR / LR / ER aren't random, they're literally English words in disguise:**
 - **S**R = **S**hort Range
