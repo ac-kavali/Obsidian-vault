@@ -83,9 +83,26 @@ Router# write memory
 ```
 
 **`copy running-config startup-config`** is the one I'd memorize.
+**Remember**
+- `enable password` = weakest, plain text
+- `enable secret` = hashes (MD5) the privileged mode password
 
 ---
 ### service password-encryption
+But here's the key thing: `enable secret` _only_ protects the privileged EXEC password. It does nothing for other passwords in your config.
+Think about what else has a password on a router:
+These are the **console line password** and **VTY (telnet/remote) line password** — completely separate from the enable password. They control who can even get to the `Router>` prompt in the first place.
+
+**There is no "secret" version of these.** Cisco IOS doesn't give you a `line password secret` option. These are _always_ stored as plain text by default, no matter what you do with `enable secret`.
+
+So if you run `show running-config` without `service password-encryption`, you'd see something like:
+```
+line console 0
+ password mypass123
+line vty 0 4
+ password mypass456
+```
+So the service encryption is usefull in this case
 
 A Cisco IOS global configuration command that **encrypts plaintext passwords** in the running/startup configuration.
 **Syntax:**
