@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Day3",
+      "path": "Networking/CCNA_preparations/Day3.md"
+    },
+    {
+      "basename": "cisco_catalyst9200",
+      "path": "Media/cisco_catalyst9200.jpg"
+    },
+    {
+      "basename": "Pasted image 20260809201813",
+      "path": "Media/Pasted image 20260809201813.png"
+    },
+    {
+      "basename": "81o8+gPLrlL._AC_SL1500_",
+      "path": "Media/81o8+gPLrlL._AC_SL1500_.jpg"
+    },
+    {
       "basename": "day2",
       "path": "Networking/CCNA_preparations/day2.md"
     },
@@ -183,18 +199,6 @@
     {
       "basename": "DB-CRUD",
       "path": "SQL/DB-CRUD.md"
-    },
-    {
-      "basename": "Module09",
-      "path": "Python/Module09.md"
-    },
-    {
-      "basename": "fr",
-      "path": "fr/fr.md"
-    },
-    {
-      "basename": "Expremer",
-      "path": "fr/Expremer.md"
     }
   ],
   "omittedPaths": [],

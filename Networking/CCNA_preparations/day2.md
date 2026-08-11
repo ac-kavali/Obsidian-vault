@@ -152,7 +152,6 @@ Even though Auto-MDIX makes the cable type largely irrelevant in real-world mode
 
 ---
 ## Fiber-Optic 
- adafafafaf
 
 | Informal Name | IEEE standard | Speed  | Cable type               | Maximum Length    |
 | ------------- | ------------- | ------ | ------------------------ | ----------------- |
@@ -164,7 +163,6 @@ Fiber is actually kinder to your memory than copper, because the _letters themse
 **Step one — the standard number splits into "the odd one" and "the trio":**
 - **1000BASE-LX** is alone on **802.3z** (it's the only Gigabit one, so it gets its own code)
 - **SR, LR, ER** — all three 10G ones — share **802.3ae**
-- +++++++++++++++777
 So the memory hook: _"Z is a solo act (1 Gig). AE is the 10-Gig trio."_ You only need to remember one oddball code (z) and one shared code (ae) for everything else.
 **Step two — the letters SR / LR / ER aren't random, they're literally English words in disguise:**
 - **S**R = **S**hort Range
