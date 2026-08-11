@@ -9,6 +9,66 @@
       "path": "Media/cisco_catalyst9200.jpg"
     },
     {
+      "basename": "Application, Presentation",
+      "path": "Networking/Application, Presentation.md"
+    },
+    {
+      "basename": "ARP",
+      "path": "Networking/ARP.md"
+    },
+    {
+      "basename": "OSI Model",
+      "path": "Networking/OSI Model.md"
+    },
+    {
+      "basename": "Ports",
+      "path": "Networking/Ports.md"
+    },
+    {
+      "basename": "Subnetting",
+      "path": "Networking/Subnetting.md"
+    },
+    {
+      "basename": "Basics",
+      "path": "Networking/Basics.md"
+    },
+    {
+      "basename": "Questions",
+      "path": "Networking/CCNA_preparations/Questions.md"
+    },
+    {
+      "basename": "day2",
+      "path": "Networking/CCNA_preparations/day2.md"
+    },
+    {
+      "basename": "Materiels",
+      "path": "Networking/CCNA_preparations/Materiels.md"
+    },
+    {
+      "basename": "Switch",
+      "path": "Networking/Switch.md"
+    },
+    {
+      "basename": "Fly-In",
+      "path": "Project/Fly-In.md"
+    },
+    {
+      "basename": "HTTP",
+      "path": "Web/HTTP.md"
+    },
+    {
+      "basename": "Rock-Paper-Scissors",
+      "path": "Project/Rock-Paper-Scissors.md"
+    },
+    {
+      "basename": "GNL",
+      "path": "Project/GNL.md"
+    },
+    {
+      "basename": "RE",
+      "path": "Python/RE.md"
+    },
+    {
       "basename": "Pasted image 20260809201813",
       "path": "Media/Pasted image 20260809201813.png"
     },
@@ -17,24 +77,8 @@
       "path": "Media/81o8+gPLrlL._AC_SL1500_.jpg"
     },
     {
-      "basename": "day2",
-      "path": "Networking/CCNA_preparations/day2.md"
-    },
-    {
-      "basename": "Fly-In",
-      "path": "Project/Fly-In.md"
-    },
-    {
       "basename": "Untitled",
       "path": "Untitled.md"
-    },
-    {
-      "basename": "Materiels",
-      "path": "Networking/CCNA_preparations/Materiels.md"
-    },
-    {
-      "basename": "Questions",
-      "path": "Networking/CCNA_preparations/Questions.md"
     },
     {
       "basename": "Bitwize",
@@ -43,10 +87,6 @@
     {
       "basename": "pointer to pointer",
       "path": "Concepts/pointer to pointer.md"
-    },
-    {
-      "basename": "Application, Presentation",
-      "path": "Networking/Application, Presentation.md"
     },
     {
       "basename": "Computing",
@@ -63,14 +103,6 @@
     {
       "basename": "Drawing 2026-07-27 18.43.47.excalidraw",
       "path": "Excalidraw/Drawing 2026-07-27 18.43.47.excalidraw.md"
-    },
-    {
-      "basename": "Subnetting",
-      "path": "Networking/Subnetting.md"
-    },
-    {
-      "basename": "OSI Model",
-      "path": "Networking/OSI Model.md"
     },
     {
       "basename": "Network scaning",
@@ -167,38 +199,6 @@
     {
       "basename": "booting_process",
       "path": "Excalidraw/booting_process.excalidraw"
-    },
-    {
-      "basename": "dns",
-      "path": "Excalidraw/dns.md"
-    },
-    {
-      "basename": "prim",
-      "path": "Excalidraw/prim.md"
-    },
-    {
-      "basename": "subnetting",
-      "path": "Excalidraw/subnetting.md"
-    },
-    {
-      "basename": "ARP",
-      "path": "Networking/ARP.md"
-    },
-    {
-      "basename": "fr_illustration",
-      "path": "Excalidraw/fr_illustration.md"
-    },
-    {
-      "basename": "100baset-hub",
-      "path": "Media/100baset-hub.svg"
-    },
-    {
-      "basename": "bash instructions",
-      "path": "Linux/Bash/bash instructions.md"
-    },
-    {
-      "basename": "DB-CRUD",
-      "path": "SQL/DB-CRUD.md"
     }
   ],
   "omittedPaths": [],
