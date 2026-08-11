@@ -42,7 +42,7 @@ steps to configure puTTY:
 4. the tab command complet you the command you type in a new line
 5. entering just a character make you execute the command like `en` will execute `enable` cause its the only one that start with `en`
 6. To see available command that start with a specific letter use `<letter+>?`
-
+---
 ### Global configuration mode 
 In a Cisco router CLI, **Global Configuration Mode** is the mode where you make changes to the **router's overall configuration**.
 _you enter it with:_
@@ -57,3 +57,54 @@ Router(config)#
 type : `enable password <your pass>` and press enter
 now you will be asked each time to enter it when you try to enable the Previlleged Exec mode 
 
+---
+### Config files
+*There are two separate configurationi files kept on the device at once* 
+- <span style="color:rgb(112, 48, 160)">Running config</span> = the current active configuration file one the device, as you enter commands on the cli you edit the active configuration.
+- <span style="color:rgb(112, 48, 160)">Startup configuration </span>= the configuration file that will be loaded uppon restart of the device.
+### Show running/Startup config
+```
+Router# show running-config
+or 
+Router# show startup-config
+```
+The router start with default configuratoin not the startup, in the begining there no startup-config 
+### Save the Running config to startup-config
+```
+Router# write
+```
+also 
+```
+Router# copy running-config startup-config
+```
+and 
+```
+Router# write memory
+```
+
+**`copy running-config startup-config`** is the one I'd memorize.
+
+---
+### service password-encryption
+
+A Cisco IOS global configuration command that **encrypts plaintext passwords** in the running/startup configuration.
+**Syntax:**
+```text
+Router(config)# service password-encryption
+```
+
+**Example:**
+```text
+Router(config)# service password-encryption
+```
+
+After enabling it, passwords such as console, VTY, and `enable password` are stored in the configuration in an encrypted/obfuscated form instead of plain text.
+**Important:** It provides only **weak encryption (Type 7)** and is **not considered strong security**. For the privileged EXEC password, prefer:
+```text
+Router(config)# enable secret <password>
+```
+
+**CCNA takeaway:**
+> `service password-encryption` = prevents passwords from appearing as plain text in the configuration.
+
+---

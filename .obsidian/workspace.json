@@ -84,19 +84,9 @@
               "icon": "lucide-file",
               "title": "Day4"
             }
-          },
-          {
-            "id": "f64d7ed8f0cf75aa",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -183,7 +173,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 205.5
+    "width": 205.5,
+    "collapsed": true
   },
   "right": {
     "id": "10424350b623bef2",
@@ -200,6 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Networking/CCNA_preparations/Day4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -287,7 +279,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 209.5
+    "width": 214.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -305,7 +297,7 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "f64d7ed8f0cf75aa",
+  "active": "a2771704e983c69f",
   "lastOpenFiles": [
     "Excalidraw/rcp_game-d.md",
     "Networking/CCNA_preparations/Day4.md",
