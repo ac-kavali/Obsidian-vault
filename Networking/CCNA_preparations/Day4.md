@@ -33,3 +33,9 @@ steps to configure puTTY:
   - `Stop`: `1`
   - `Parity`: `None`
   - `Flow controle`: 
+
+
+## Connection
+1. You connect to a user exec mode `router>` the distingusted by the `>` symbol
+2. Type `enable` to start _Previlleged Exec Mode_
+3. use ? to see available command to you.
