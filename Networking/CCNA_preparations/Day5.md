@@ -25,3 +25,7 @@ the destination MAC address and the source MAC address.
  - 0x806: ARP
  - 0x86DD: IPv6
  - 0x8100: 802.1Q(Vlan tagging)
+
+### Frame Check Sequence FCS
+Its the only part of the frame footer, with 4 bytes(32bit) in length, detecte currupted data by running a CRC algorithm over the received data
+CRC=Cyclic Redundency Check
