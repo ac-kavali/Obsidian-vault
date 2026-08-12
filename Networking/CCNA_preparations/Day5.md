@@ -24,4 +24,4 @@ the destination MAC address and the source MAC address.
  - 0x800: IPv4
  - 0x806: ARP
  - 0x86DD: IPv6
- - 0x8100:
+ - 0x8100: 802.1Q(Vlan tagging)
