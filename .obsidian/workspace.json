@@ -84,9 +84,23 @@
               "icon": "lucide-file",
               "title": "Day4"
             }
+          },
+          {
+            "id": "24bae36aaad5e145",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/CCNA_preparations/Day5.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Day5"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -173,8 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 205.5,
-    "collapsed": true
+    "width": 205.5
   },
   "right": {
     "id": "10424350b623bef2",
@@ -298,15 +311,16 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "a2771704e983c69f",
+  "active": "24bae36aaad5e145",
   "lastOpenFiles": [
-    "Excalidraw/rcp_game-d.md",
+    "Networking/CCNA_preparations/Day5.md",
     "Networking/CCNA_preparations/Day4.md",
+    "Excalidraw/rcp_game-d.md",
     "Networking/CCNA_preparations/Day3.md",
     "Media/cisco_catalyst9200.jpg",
     "Media/Pasted image 20260809201813.png",
-    "CAB-CONSOLE-USB-3-800x800.jpg",
-    "51z24BHjLuL.jpg",
+    "Networking/CAB-CONSOLE-USB-3-800x800.jpg",
+    "Networking/51z24BHjLuL.jpg",
     "Networking/Application, Presentation.md",
     "Networking/ARP.md",
     "Networking/OSI Model.md",
@@ -331,7 +345,6 @@
     "Linux/kali-setup.md",
     "Concepts/Computing.md",
     "Excalidraw/fly-in.md",
-    "Python/Argparse.md",
     "july-august-2026-calendar.png",
     "Screenshot from 2026-07-19 08-48-21.png",
     "Screenshot from 2026-07-19 08-48-45.png",

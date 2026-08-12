@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Day5",
+      "path": "Networking/CCNA_preparations/Day5.md"
+    },
+    {
       "basename": "Day4",
       "path": "Networking/CCNA_preparations/Day4.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Impress-me",
       "path": "Excalidraw/Impress-me.md"
-    },
-    {
-      "basename": "Network_basics",
-      "path": "Excalidraw/Network_basics.md"
     }
   ],
   "omittedPaths": [],
