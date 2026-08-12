@@ -18,5 +18,10 @@ the destination MAC address and the source MAC address.
 
 ### Length/Type 
 (EherType) this feild size is 2 Bytes, cames right after the source mac adress, before the data payload, this feild has dual meaning, depend on the value :
-- if its  <=1500 it represent the length
-- if its <
+- if its  <=1500 it represent the length: tells you how many bytes of data follows in the paylaod.
+- if its >= 1536 its represent the type : identifies which upper layer is carried in the paylaod.
+**Common EtherType values**:
+ - 0x800: IPv4
+ - 0x806: ARP
+ - 0x86DD: IPv6
+ - 0x8100:
