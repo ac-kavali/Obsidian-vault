@@ -15,3 +15,8 @@ Its length is 1byte(8bits), and marks the end of the syncronisation, and the sta
 
 ### Destination and Source MAC addresses
 the destination MAC address and the source MAC address.
+
+### Length/Type 
+(EherType) this feild size is 2 Bytes, cames right after the source mac adress, before the data payload, this feild has dual meaning, depend on the value :
+- if its  <=1500 it represent the length
+- if its <
