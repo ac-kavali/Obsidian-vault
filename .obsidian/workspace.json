@@ -89,14 +89,12 @@
             "id": "24bae36aaad5e145",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Networking/CCNA_preparations/Day5.md",
-                "mode": "source",
-                "source": false
+                "file": "Media/Pasted Image 20260406200602_187.png"
               },
-              "icon": "lucide-file",
-              "title": "Day5"
+              "icon": "lucide-image",
+              "title": "Pasted Image 20260406200602_187"
             }
           }
         ],
@@ -293,8 +291,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 215.5,
-    "collapsed": true
+    "width": 215.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -312,13 +309,17 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "24bae36aaad5e145",
+  "active": "364eed01b939fc76",
   "lastOpenFiles": [
-    "What_is_the_Structure_of_the_Ethernet_Frame_Format.png",
-    "Networking/CCNA_preparations/Day5.md",
+    "Media/Pasted Image 20260405182945_097.png",
+    "Media/GNL.png",
     "Networking/CCNA_preparations/Day4.md",
-    "Excalidraw/rcp_game-d.md",
     "Networking/CCNA_preparations/Day3.md",
+    "Networking/CCNA_preparations/Materiels.md",
+    "Networking/CCNA_preparations/Firewalls.md",
+    "Networking/CCNA_preparations/Day5.md",
+    "What_is_the_Structure_of_the_Ethernet_Frame_Format.png",
+    "Excalidraw/rcp_game-d.md",
     "Media/cisco_catalyst9200.jpg",
     "Media/Pasted image 20260809201813.png",
     "Networking/CAB-CONSOLE-USB-3-800x800.jpg",
@@ -331,7 +332,6 @@
     "Networking/Basics.md",
     "Networking/CCNA_preparations/Questions.md",
     "Networking/CCNA_preparations/day2.md",
-    "Networking/CCNA_preparations/Materiels.md",
     "Networking/Switch.md",
     "Project/Fly-In.md",
     "Web/HTTP.md",
@@ -345,13 +345,10 @@
     "Concepts/Bitwize.md",
     "Concepts/pointer to pointer.md",
     "Linux/kali-setup.md",
-    "Concepts/Computing.md",
     "july-august-2026-calendar.png",
     "Screenshot from 2026-07-19 08-48-21.png",
     "Screenshot from 2026-07-19 08-48-45.png",
-    "Screenshot from 2026-07-19 08-48-59.png",
     "Excalidraw/python_discorver#1.excalidraw",
-    "Media/Pasted Image 20260712214855_866.png",
     "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/booting_process.excalidraw",
     "Networking/CCNA_preparations",
