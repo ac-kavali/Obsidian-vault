@@ -74,7 +74,7 @@ R1(config-if)#no shutdown
 - 1st message → **Layer 1** came up → matches the **Status** column
 - 2nd message → **Line protocol** (Layer 2) came up → matches the **Protocol** column
 
-### Verifying from interface config mode
+### Verifying from interface config modef
 
 You can run privileged EXEC commands without leaving interface config mode by prefixing with `do`:
 
