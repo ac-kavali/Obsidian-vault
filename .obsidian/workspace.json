@@ -100,7 +100,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -311,17 +311,17 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "9e59a7d416ab3ac5",
+  "active": "4f4c6bfecd757f0a",
   "lastOpenFiles": [
+    "Networking/CCNA_preparations/Day4.md",
+    "Networking/CCNA_preparations/Materiels.md",
     "Networking/CCNA_preparations/Questions.md",
     "Networking/CCNA_preparations/Day6.md",
     "Networking/CCNA_preparations/Day5.md",
-    "Networking/CCNA_preparations/Day4.md",
     "Media/Pasted Image 20260406200602_187.png",
     "Media/Pasted Image 20260405182945_097.png",
     "Media/GNL.png",
     "Networking/CCNA_preparations/Day3.md",
-    "Networking/CCNA_preparations/Materiels.md",
     "Networking/CCNA_preparations/Firewalls.md",
     "What_is_the_Structure_of_the_Ethernet_Frame_Format.png",
     "Excalidraw/rcp_game-d.md",
