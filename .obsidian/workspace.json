@@ -84,21 +84,9 @@
               "icon": "lucide-file",
               "title": "Day4"
             }
-          },
-          {
-            "id": "24bae36aaad5e145",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Media/Pasted Image 20260406200602_187.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted Image 20260406200602_187"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -309,8 +297,9 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "364eed01b939fc76",
+  "active": "a2771704e983c69f",
   "lastOpenFiles": [
+    "Media/Pasted Image 20260406200602_187.png",
     "Media/Pasted Image 20260405182945_097.png",
     "Media/GNL.png",
     "Networking/CCNA_preparations/Day4.md",
@@ -347,7 +336,6 @@
     "Linux/kali-setup.md",
     "july-august-2026-calendar.png",
     "Screenshot from 2026-07-19 08-48-21.png",
-    "Screenshot from 2026-07-19 08-48-45.png",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/booting_process.excalidraw",
