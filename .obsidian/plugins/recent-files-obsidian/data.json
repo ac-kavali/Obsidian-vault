@@ -5,6 +5,10 @@
       "path": "Networking/CCNA_preparations/Day6.md"
     },
     {
+      "basename": "Day5",
+      "path": "Networking/CCNA_preparations/Day5.md"
+    },
+    {
       "basename": "Day4",
       "path": "Networking/CCNA_preparations/Day4.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "Questions",
       "path": "Networking/CCNA_preparations/Questions.md"
-    },
-    {
-      "basename": "Day5",
-      "path": "Networking/CCNA_preparations/Day5.md"
     },
     {
       "basename": "Pasted Image 20260406200602_187",
@@ -191,14 +191,6 @@
     {
       "basename": "Tmux",
       "path": "Excalidraw/Tmux.md"
-    },
-    {
-      "basename": "Polymorphism",
-      "path": "Python/Polymorphism.md"
-    },
-    {
-      "basename": "Module 05",
-      "path": "Python/Module 05.md"
     }
   ],
   "omittedPaths": [],

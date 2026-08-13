@@ -88,5 +88,5 @@ Switch(config)# mac address-table aging-time [seconds]
 
 ## Related Notes
 
-- [[Day 5]] — Ethernet Frame structure, EtherTypes
-- [[Day 7]] — IPv4 Addressing
+- [[Day5]] — Ethernet Frame structure, EtherTypes
+- [[Day7]] — IPv4 Addressing
