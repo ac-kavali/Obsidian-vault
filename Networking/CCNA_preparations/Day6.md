@@ -90,3 +90,7 @@ Switch(config)# mac address-table aging-time [seconds]
 
 - [[Day5]] — Ethernet Frame structure, EtherTypes
 - [[Day7]] — IPv4 Addressing
+
+### Questions:
+- how to view the whole mac address table .
+- view only dynamic view
