@@ -78,7 +78,6 @@ The concept name for dynamic MAC addresses being automatically removed from the 
 - Only entries with **no traffic seen from that MAC** during the timer window are removed — it's not a full-table wipe.
 - Any MAC actively sending frames has its timer reset continuously, so it never ages out while active.
 - Check/adjust the aging time:
-
 ```
 Switch# show mac address-table aging-time
 Switch(config)# mac address-table aging-time [seconds]
@@ -93,4 +92,9 @@ Switch(config)# mac address-table aging-time [seconds]
 
 ### Questions:
 - how to view the whole mac address table .
-- view only dynamic view
+- view only dynamic learned mac addresses
+- check the aging timer
+- clean all dynamic
+- clean entries on one port
+- clean one specific mac address 
+- change aging timer 
