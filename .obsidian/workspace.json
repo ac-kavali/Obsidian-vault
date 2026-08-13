@@ -84,9 +84,23 @@
               "icon": "lucide-file",
               "title": "Day4"
             }
+          },
+          {
+            "id": "4f4c6bfecd757f0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/CCNA_preparations/Day6.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Day6"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -297,16 +311,18 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "a2771704e983c69f",
+  "active": "9e59a7d416ab3ac5",
   "lastOpenFiles": [
+    "Networking/CCNA_preparations/Questions.md",
+    "Networking/CCNA_preparations/Day6.md",
+    "Networking/CCNA_preparations/Day5.md",
+    "Networking/CCNA_preparations/Day4.md",
     "Media/Pasted Image 20260406200602_187.png",
     "Media/Pasted Image 20260405182945_097.png",
     "Media/GNL.png",
-    "Networking/CCNA_preparations/Day4.md",
     "Networking/CCNA_preparations/Day3.md",
     "Networking/CCNA_preparations/Materiels.md",
     "Networking/CCNA_preparations/Firewalls.md",
-    "Networking/CCNA_preparations/Day5.md",
     "What_is_the_Structure_of_the_Ethernet_Frame_Format.png",
     "Excalidraw/rcp_game-d.md",
     "Media/cisco_catalyst9200.jpg",
@@ -319,7 +335,6 @@
     "Networking/Ports.md",
     "Networking/Subnetting.md",
     "Networking/Basics.md",
-    "Networking/CCNA_preparations/Questions.md",
     "Networking/CCNA_preparations/day2.md",
     "Networking/Switch.md",
     "Project/Fly-In.md",
@@ -335,7 +350,6 @@
     "Concepts/pointer to pointer.md",
     "Linux/kali-setup.md",
     "july-august-2026-calendar.png",
-    "Screenshot from 2026-07-19 08-48-21.png",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/booting_process.excalidraw",

@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Materiels",
+      "path": "Networking/CCNA_preparations/Materiels.md"
+    },
+    {
+      "basename": "Questions",
+      "path": "Networking/CCNA_preparations/Questions.md"
+    },
+    {
+      "basename": "Day6",
+      "path": "Networking/CCNA_preparations/Day6.md"
+    },
+    {
+      "basename": "Day5",
+      "path": "Networking/CCNA_preparations/Day5.md"
+    },
+    {
       "basename": "Day4",
       "path": "Networking/CCNA_preparations/Day4.md"
     },
@@ -21,16 +37,8 @@
       "path": "Networking/CCNA_preparations/Day3.md"
     },
     {
-      "basename": "Materiels",
-      "path": "Networking/CCNA_preparations/Materiels.md"
-    },
-    {
       "basename": "Firewalls",
       "path": "Networking/CCNA_preparations/Firewalls.md"
-    },
-    {
-      "basename": "Day5",
-      "path": "Networking/CCNA_preparations/Day5.md"
     },
     {
       "basename": "rcp_game-d",
@@ -67,10 +75,6 @@
     {
       "basename": "Basics",
       "path": "Networking/Basics.md"
-    },
-    {
-      "basename": "Questions",
-      "path": "Networking/CCNA_preparations/Questions.md"
     },
     {
       "basename": "day2",
@@ -195,10 +199,6 @@
     {
       "basename": "Module 05",
       "path": "Python/Module 05.md"
-    },
-    {
-      "basename": "Draft",
-      "path": "Web/Draft.md"
     }
   ],
   "omittedPaths": [],
