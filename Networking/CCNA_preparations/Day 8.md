@@ -26,14 +26,14 @@ R1#show ip interface brief
 
 ### Column breakdown
 
-|Column|Meaning|
-|---|---|
-|**Interface**|Lists all physical/logical interfaces on the device (e.g. `GigabitEthernet0/0`)|
-|**IP-Address**|Assigned IPv4 address, or `unassigned` if none|
-|**OK?**|Whether the address is "valid" — legacy field, should always show `YES`|
-|**Method**|How the IP was set — `manual`, `DHCP`, or `unset`|
-|**Status**|🔑 **Layer 1** status of the interface|
-|**Protocol**|🔑 **Layer 2** status of the interface|
+| Column         | Meaning                                                                         |
+| -------------- | ------------------------------------------------------------------------------- |
+| **Interface**  | Lists all physical/logical interfaces on the device (e.g. `GigabitEthernet0/0`) |
+| **IP-Address** | Assigned IPv4 address, or `unassigned` if none                                  |
+| **OK?**        | Whether the address is "valid" — legacy field, should always show `YES`         |
+| **Method**     | How the IP was set — `manual`, `DHCP`, or `unset`                               |
+| **Status**     | 🔑 **Layer 1** status of the interface                                          |
+| **Protocol**   | 🔑 **Layer 2** status of the interface                                          |
 
 > [!important] Status vs Protocol
 > 
