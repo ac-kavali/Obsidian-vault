@@ -44,7 +44,6 @@
 | **Options**                      | Variable (0–40 bytes) | Rarely used in practice (e.g., timestamps, security). Only present if IHL > 5.                                         |
 
 ---
-
 ## CCNA Exam Focus (what Jeremy emphasizes)
 
 - [ ] **TTL** — know it prevents routing loops, decremented per hop, packet dropped + ICMP "Time Exceeded" sent back when it reaches 0.
