@@ -91,12 +91,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/CCNA_preparations/Day 2.md",
+                "file": "Networking/CCNA_preparations/Day9.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day 2"
+              "title": "Day9"
             }
           }
         ],
@@ -313,8 +313,8 @@
   },
   "active": "4f4c6bfecd757f0a",
   "lastOpenFiles": [
+    "Networking/CCNA_preparations/Day8.md",
     "Networking/CCNA_preparations/Day9.md",
-    "Networking/CCNA_preparations/Day 2.md",
     "Networking/CCNA_preparations/Day6.md",
     "Day 7.md",
     "Networking/CCNA_preparations/Day5.md",
