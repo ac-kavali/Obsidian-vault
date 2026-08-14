@@ -37,7 +37,7 @@
 | **Flags**                        | 3 bits                | Fragmentation control: <br>• `DF` (Don't Fragment) <br>• `MF` (More Fragments) <br>• 1 reserved bit (unused, always 0) |
 | **Fragment Offset**              | 13 bits               | Tells where this fragment fits in the original (unfragmented) packet.                                                  |
 | **TTL** (Time to Live)           | 8 bits                | Decremented by **1 at every router hop**. Packet dropped when it hits 0 — prevents infinite routing loops.             |
-| **Protocol**                     | 8 bits                | What's inside the data payload. Key values to memorize: <br>• `1` = ICMP <br>• `6` = TCP <br>• `17` = UDP              |
+| **Protocol**                     | 8 bits                | What's inside the data payload. Key values to memorize: <br>• `1` = ICMP <br>• `6` = TCP<br>• `17` = UDP               |
 | **Header Checksum**              | 16 bits               | Error-checking for the **header only** (not the data). Recalculated by every router since TTL changes each hop.        |
 | **Source IP Address**            | 32 bits               | Sender's IP address.                                                                                                   |
 | **Destination IP Address**       | 32 bits               | Receiver's IP address.                                                                                                 |
