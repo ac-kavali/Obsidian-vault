@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Day10",
+      "path": "Networking/CCNA_preparations/Day10.md"
+    },
+    {
       "basename": "Day9",
       "path": "Networking/CCNA_preparations/Day9.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Conju",
       "path": "fr/Conju.md"
-    },
-    {
-      "basename": "Tmux",
-      "path": "Excalidraw/Tmux.md"
     }
   ],
   "omittedPaths": [],
