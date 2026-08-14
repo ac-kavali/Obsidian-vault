@@ -25,6 +25,7 @@
 
 ---
 
+
 ## Field-by-Field
 
 | Field                            | Size                  | What it means                                                                                                          |
@@ -42,7 +43,7 @@
 | **Source IP Address**            | 32 bits               | Sender's IP address.                                                                                                   |
 | **Destination IP Address**       | 32 bits               | Receiver's IP address.                                                                                                 |
 | **Options**                      | Variable (0–40 bytes) | Rarely used in practice (e.g., timestamps, security). Only present if IHL > 5.                                         |
-
+    
 ---
 ## CCNA Exam Focus (what Jeremy emphasizes)
 
