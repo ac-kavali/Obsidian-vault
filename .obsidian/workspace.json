@@ -91,12 +91,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/CCNA_preparations/Day10.md",
+                "file": "Networking/CCNA_preparations/Day 11.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day10"
+              "title": "Day 11"
             }
           }
         ],
@@ -187,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 205.5
+    "width": 205.5,
+    "collapsed": true
   },
   "right": {
     "id": "10424350b623bef2",
@@ -311,9 +312,11 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "45862676a191decc",
+  "active": "4f4c6bfecd757f0a",
   "lastOpenFiles": [
     "Networking/CCNA_preparations/Day10.md",
+    "Networking/CCNA_preparations/Day 11.md",
+    "Networking/51z24BHjLuL.jpg",
     "Networking/CCNA_preparations/Day9.md",
     "Networking/CCNA_preparations/Day8.md",
     "Networking/CCNA_preparations/Day6.md",
@@ -333,7 +336,6 @@
     "Media/cisco_catalyst9200.jpg",
     "Media/Pasted image 20260809201813.png",
     "Networking/CAB-CONSOLE-USB-3-800x800.jpg",
-    "Networking/51z24BHjLuL.jpg",
     "Networking/Application, Presentation.md",
     "Networking/ARP.md",
     "Networking/OSI Model.md",
@@ -346,7 +348,6 @@
     "Web/HTTP.md",
     "Project/Rock-Paper-Scissors.md",
     "Project/GNL.md",
-    "Python/RE.md",
     "Media/81o8+gPLrlL._AC_SL1500_.jpg",
     "Networking/CCNA_preparations/my_inswers",
     "july-august-2026-calendar.png",
