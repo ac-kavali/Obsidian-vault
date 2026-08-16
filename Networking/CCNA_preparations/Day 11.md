@@ -171,3 +171,133 @@ S*  0.0.0.0/0       via 192.168.1.1
 3. If two routes have the same prefix length, what's compared next?
 4. What happens if no route matches and there's no default route?
 5. What does `S*` mean in a routing table?
+
+---
+
+# 🧭 Static Routing
+
+> [!info] What is a Static Route? A route **manually configured** by an admin, instead of being learned automatically by a routing protocol. Simple, predictable, no CPU/bandwidth overhead — but doesn't adapt to network changes.
+
+
+## ⚡ The Command (memorize this)
+
+```
+ip route <destination-network> <subnet-mask> <next-hop-IP or exit-interface>
+```
+
+> [!example]
+> 
+> ```
+> R1(config)# ip route 192.168.2.0 255.255.255.0 10.0.0.2
+> ```
+> 
+> "To reach `192.168.2.0/24`, send packets to `10.0.0.2`."
+
+---
+
+## 🧩 3 Types of Static Routes
+
+|Type|Syntax|Notes|
+|---|---|---|
+|**Next-hop**|`ip route <net> <mask> <next-hop-IP>`|Most common. Router does a recursive lookup to find how to reach the next-hop IP.|
+|**Directly connected**|`ip route <net> <mask> <exit-interface>`|Only works on point-to-point links. ⚠️ Not recommended on multi-access networks (can cause ARP issues).|
+|**Fully specified**|`ip route <net> <mask> <exit-interface> <next-hop-IP>`|Best of both — avoids recursive lookup, works reliably everywhere.|
+
+> [!tip] Recursive Lookup With a next-hop-only static route, the router must look up **another route** in the table to figure out which interface reaches that next-hop IP. Extra lookup = tiny extra overhead. Fully specified routes skip this.
+
+---
+
+## 🌍 Default Route ("Gateway of Last Resort")
+
+Matches **any** destination not covered by a more specific route.
+
+```
+ip route 0.0.0.0 0.0.0.0 <next-hop-IP>
+```
+
+- Shown in `show ip route` as **`S*`**
+- Shortest possible prefix (`/0`) → **always least specific** → only used when nothing else matches
+- Common on edge routers pointing toward the ISP
+
+---
+
+## 🔍 Verification Shortcuts
+
+|Command|What it shows|
+|---|---|
+|`show ip route`|Full routing table|
+|`show ip route static`|Only static routes|
+|`show ip route <network>`|Details of one specific route|
+|`show run \| section ip route`|Static routes from the running-config|
+|`show ip interface brief` (`sh ip int br`)|Quick check interfaces are up/up|
+|`ping` / `traceroute`|Confirm the route actually works end-to-end|
+
+> [!tip] Jeremy-style shortcut habit Always run `sh ip int br` right after config changes — catches interfaces stuck in `down/down` before you waste time debugging routes.
+
+---
+
+## 🗑️ Removing a Static Route
+
+Just prepend `no`:
+
+```
+R1(config)# no ip route 192.168.2.0 255.255.255.0 10.0.0.2
+```
+
+⚠️ Must match the original command **exactly** (same network, mask, next-hop/interface).
+
+---
+
+## ⚖️ Administrative Distance (AD) of Static Routes
+
+- Default AD of a static route = **1**
+- Beats every dynamic routing protocol (OSPF=110, EIGRP=90, RIP=120) but loses to Connected (0)
+- You can manually set a **floating static route** by adding a custom AD at the end:
+
+```
+ip route 192.168.2.0 255.255.255.0 10.0.0.2 200
+```
+
+> [!info] Floating Static Route A backup route with a **higher AD** than the primary (dynamic) route. Sits inactive in the background — only becomes active if the primary route disappears. Common for backup WAN links.
+
+---
+
+## ✅ Static Routing: Pros & Cons
+
+|✅ Pros|❌ Cons|
+|---|---|
+|Simple to configure|Doesn't scale to large networks|
+|No CPU/bandwidth overhead|Manual — no auto-adapt to failures|
+|Predictable, secure (no routing updates to intercept)|Admin must update it manually if topology changes|
+|Good for small networks / stub networks / default routes|Tedious to maintain at scale|
+
+---
+
+## 🧠 Quick Recap
+
+- Syntax: `ip route <network> <mask> <next-hop/exit-int>`
+- 3 flavors: next-hop / directly-connected / fully-specified (fully-specified = safest)
+- `0.0.0.0 0.0.0.0 <next-hop>` = default route = catches everything unmatched
+- Default AD = **1** → beats dynamic protocols, loses to connected routes
+- Floating static = static route with AD raised above the dynamic protocol's AD, used as backup
+- `no` in front of the exact original command removes it
+
+---
+
+## ❓ Self-Test
+
+> [!question]- What's the default administrative distance of a static route? 1
+
+> [!question]- Which type of static route avoids a recursive lookup? Fully specified (exit-interface + next-hop IP together).
+
+> [!question]- What command creates a default route pointing to 203.0.113.1? `ip route 0.0.0.0 0.0.0.0 203.0.113.1`
+
+> [!question]- How do you make a static route act only as a backup to a dynamic route? Configure it as a floating static route by setting its AD higher than the dynamic protocol's AD.
+
+---
+
+## 🔗 Related Notes
+
+- [[CCNA - Routing Fundamentals]]
+- [[CCNA - IPv4 Addressing]]
+- [[CCNA - Dynamic Routing Protocols (OSPF, EIGRP)]]
