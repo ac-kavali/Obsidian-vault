@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Day 13",
+      "path": "Networking/CCNA_preparations/Day 13.md"
+    },
+    {
+      "basename": "Subnetting",
+      "path": "Networking/Subnetting.md"
+    },
+    {
       "basename": "Day 11",
       "path": "Networking/CCNA_preparations/Day 11.md"
     },
@@ -87,10 +95,6 @@
     {
       "basename": "Ports",
       "path": "Networking/Ports.md"
-    },
-    {
-      "basename": "Subnetting",
-      "path": "Networking/Subnetting.md"
     },
     {
       "basename": "Basics",
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted Image 20260712214855_866",
       "path": "Media/Pasted Image 20260712214855_866.png"
-    },
-    {
-      "basename": "Pasted Image 20260712214218_290",
-      "path": "Media/Pasted Image 20260712214218_290.png"
     }
   ],
   "omittedPaths": [],

@@ -70,33 +70,21 @@
             }
           },
           {
-            "id": "a2771704e983c69f",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "empty",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
             "id": "a6d60e3c5d9504ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/CCNA_preparations/Day 11.md",
-                "mode": "source",
+                "file": "Networking/CCNA_preparations/Day 13.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day 11"
+              "title": "Day 13"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -309,6 +297,9 @@
   },
   "active": "a6d60e3c5d9504ec",
   "lastOpenFiles": [
+    "Networking/Subnetting.md",
+    "Networking/CCNA_preparations/Day 13.md",
+    "Networking/CCNA_preparations/Day 11.md",
     "Networking/CCNA_preparations/Day10.md",
     "Networking/CCNA_preparations/day 11-12.md",
     "Networking/CCNA_preparations/Day9.md",
@@ -329,7 +320,6 @@
     "Web/JavaScript/Get-started.md",
     "Books Stations.md",
     "SQL/MySQL.md",
-    "Networking/Subnetting.md",
     "Day 7.md",
     "Day 5.md",
     "Networking/CCNA_preparations/Materiels.md",
@@ -337,12 +327,10 @@
     "Media/Pasted Image 20260405182945_097.png",
     "Media/GNL.png",
     "Networking/CCNA_preparations/Firewalls.md",
-    "Excalidraw/rcp_game-d.md",
     "Media/cisco_catalyst9200.jpg",
     "Media/Pasted image 20260809201813.png",
     "Networking/CAB-CONSOLE-USB-3-800x800.jpg",
     "Networking/51z24BHjLuL.jpg",
-    "Networking/Application, Presentation.md",
     "Media/81o8+gPLrlL._AC_SL1500_.jpg",
     "Networking/CCNA_preparations/my_inswers",
     "july-august-2026-calendar.png",
