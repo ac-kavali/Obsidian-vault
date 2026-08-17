@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Troubleshouting",
+      "path": "Networking/CCNA_preparations/Troubleshouting.md"
+    },
+    {
+      "basename": "Computing",
+      "path": "Concepts/Computing.md"
+    },
+    {
+      "basename": "Dining Philosophoers",
+      "path": "Project/Dining Philosophoers.md"
+    },
+    {
       "basename": "Day 13",
       "path": "Networking/CCNA_preparations/Day 13.md"
     },
@@ -145,10 +157,6 @@
       "path": "Concepts/pointer to pointer.md"
     },
     {
-      "basename": "Computing",
-      "path": "Concepts/Computing.md"
-    },
-    {
       "basename": "fly-in",
       "path": "Excalidraw/fly-in.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "vision",
       "path": "Excalidraw/vision.md"
-    },
-    {
-      "basename": "python_discorver#1",
-      "path": "Excalidraw/python_discorver#1.excalidraw"
-    },
-    {
-      "basename": "Pasted Image 20260712214855_866",
-      "path": "Media/Pasted Image 20260712214855_866.png"
     }
   ],
   "omittedPaths": [],

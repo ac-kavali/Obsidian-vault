@@ -1,0 +1,2 @@
+- the ip address notation like 192.162 instead of 192.168 hhhh
+- 
