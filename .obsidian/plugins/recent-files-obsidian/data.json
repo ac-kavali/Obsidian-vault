@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "VTP",
+      "path": "Networking/CCNA_preparations/VTP.md"
+    },
+    {
       "basename": "Troubleshouting",
       "path": "Networking/CCNA_preparations/Troubleshouting.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Dataclass",
       "path": "Python/Dataclass.md"
-    },
-    {
-      "basename": "vision",
-      "path": "Excalidraw/vision.md"
     }
   ],
   "omittedPaths": [],
