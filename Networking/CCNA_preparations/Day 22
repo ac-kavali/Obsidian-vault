@@ -1,0 +1,315 @@
+# Rapid Spanning Tree Protocol (RSTP) — Complete CCNA Study Notes
+
+**Based on:** Jeremy's IT Lab — CCNA 200-301 Complete Course, *Day 22: Rapid STP*
+**Standard:** IEEE 802.1w (now folded into 802.1D-2004)
+**Prerequisite:** Classic STP (802.1D) and PVST+ — Days 20–21 of the course
+
+---
+
+## 1. Why RSTP Exists (The Problem With Classic STP)
+
+Classic STP (802.1D) and Cisco's PVST+ are **reliable but slow**. With default timers, a topology change can take up to **50 seconds** to fully converge:
+
+| Timer | Default | What it does |
+|---|---|---|
+| Hello Time | 2 sec | How often the root sends BPDUs |
+| Forward Delay | 15 sec | Time spent in **Listening** state |
+| Forward Delay | 15 sec | Time spent in **Learning** state |
+| Max Age | 20 sec | How long a switch keeps BPDU info before considering it stale |
+
+Worst case: **Max Age (20s) + Listening (15s) + Learning (15s) ≈ 50 seconds** of a link being unusable while STP recalculates.
+
+Modern networks (data centers, voice, video) can't tolerate that. RSTP was created to converge in **under a second to a few seconds** in most cases, without abandoning the core STP algorithm (root bridge election, path cost, loop prevention still all work the same way).
+
+---
+
+## 2. The STP Family Tree (Version Comparison)
+
+| Protocol | Standard | Vendor | Instances | Convergence |
+|---|---|---|---|---|
+| **STP** | IEEE 802.1D | Open standard | 1 for entire network (CST) | Slow (~50s) |
+| **PVST+** | Cisco proprietary | Cisco | 1 per VLAN | Slow (~50s), but load-balances |
+| **RSTP** | IEEE 802.1w | Open standard | 1 for entire network | Fast (<10s, often <1s) |
+| **Rapid PVST+** | Cisco proprietary | Cisco | 1 per VLAN | Fast + load-balances (this is Cisco's default today) |
+| **MSTP** | IEEE 802.1s | Open standard | 1 per *group* of VLANs (instance) | Fast + scalable |
+
+**Key takeaway:** RSTP is to STP what Rapid PVST+ is to PVST+. Rapid PVST+ is simply RSTP running as a separate instance per VLAN — it's what real Cisco switches run by default (`spanning-tree mode rapid-pvst`).
+
+---
+
+## 3. What Stays Exactly the Same (STP/RSTP Similarities)
+
+RSTP is **not** a totally new algorithm — it reuses almost all of STP's decision-making logic:
+
+- **Bridge ID** (Priority + MAC address) — same format, same tiebreak rules.
+- **Root Bridge election** — lowest Bridge ID wins, same process.
+- **Root Path Cost** — same concept, cumulative cost to reach the root.
+- **Port cost values** — same cost table (see below).
+- **Tiebreakers** when costs are equal — lowest sender Bridge ID → lowest sender Port ID → same as STP.
+- **One instance per VLAN** when run as Rapid PVST+ — same as PVST+.
+
+What changes is **how fast** ports get from "blocked" to "forwarding," **how many port states/roles exist**, and **how topology changes are communicated**.
+
+---
+
+## 4. Port Costs (Unchanged From STP)
+
+| Link Speed | STP/RSTP Cost (short/default method) |
+|---|---|
+| 10 Mbps | 100 |
+| 100 Mbps | 19 |
+| 1 Gbps | 4 |
+| 10 Gbps | 2 |
+| 100 Gbps | 1 (rounding issue — see "long" method below) |
+
+Because higher-speed links round down to the same low numbers, Cisco also supports the **"long" (32-bit) cost method** for more granularity on very high-speed links, configured with `spanning-tree pathcost method long`. This detail is the same in both classic STP and RSTP — RSTP didn't change port cost math at all.
+
+---
+
+## 5. Port States: 5 → 3
+
+Classic STP has **5** port states. RSTP compresses this to **3**, because two of STP's states (Blocking and Listening) don't actually do anything different — neither forwards frames, learns MAC addresses, sends, or receives data traffic. RSTP merges them into one state called **Discarding**.
+
+| STP State | Forwards data? | Learns MACs? | RSTP Equivalent |
+|---|---|---|---|
+| Disabled | No | No | **Discarding** |
+| Blocking | No | No | **Discarding** |
+| Listening | No | No | **Discarding** |
+| Learning | No | Yes | **Learning** |
+| Forwarding | Yes | Yes | **Forwarding** |
+
+**Why this matters:** It's not just a naming change — it reflects that RSTP doesn't need a separate "listening" phase where a port does nothing but wait out a timer. RSTP's proposal/agreement process (Section 8) replaces that idle waiting with active negotiation.
+
+---
+
+## 6. Port Roles: Root, Designated, Alternate, Backup
+
+STP really only has 3 roles in practice (Root, Designated, and a catch-all "Blocking" for everything else). RSTP formally splits the "everything else" bucket into two distinct, meaningful roles:
+
+| Role | Definition | Port State |
+|---|---|---|
+| **Root Port (RP)** | The one port per non-root switch with the best (lowest) root path cost toward the root bridge. Exactly one per switch (the root bridge has none). | Forwarding |
+| **Designated Port (DP)** | The port on a given network segment that offers the best path to the root for that segment. Exactly one per segment. | Forwarding |
+| **Alternate Port** | A backup path **to the root bridge** — it hears a *superior* BPDU from a **different** switch than the one connected to its Root Port. If the Root Port fails, the Alternate Port can take over. | Discarding |
+| **Backup Port** | A backup **to a Designated Port on the same segment** — it hears a superior BPDU that originated from **its own switch** (this only happens when two ports on the same switch connect to the same shared segment, e.g. via a hub). | Discarding |
+
+### Alternate vs. Backup — the key distinction
+- **Alternate Port:** "There's a *better switch* than me providing this path — I'll stand by as backup to my own Root Port."
+- **Backup Port:** "*I* (my own switch) am already the Designated switch for this segment through another port — I'm a redundant/backup connection to my own segment."
+
+Backup ports are rare in modern switched networks (they require a hub or another shared-medium segment with two connections back to the *same* switch), but they're still testable on the CCNA exam.
+
+### Quick role logic
+- Root Bridge → every port is a **Designated Port**.
+- Every other switch → exactly **one Root Port**.
+- Every network segment → exactly **one Designated Port**.
+- Everything else that's blocked is either **Alternate** (better switch elsewhere) or **Backup** (better port, same switch).
+
+---
+
+## 7. Link Types: Point-to-Point, Shared, and Edge
+
+This is one of RSTP's most important new concepts, because **link type determines whether a port is even eligible for rapid (sub-second) transition.**
+
+| Link Type | Description | Auto-detected from | Eligible for rapid transition? |
+|---|---|---|---|
+| **Point-to-Point** | Directly connects exactly two switches (or a switch and one other bridge) | Full-duplex mode | ✅ Yes |
+| **Shared** | Connects to a shared/multi-access segment (e.g., an old hub) where more than 2 devices could be on the segment | Half-duplex mode | ❌ No — falls back to traditional timer-based STP transition |
+| **Edge Port** | Connects to a single end host (PC, printer, server) — never another switch. Conceptually identical to Cisco's legacy **PortFast** feature. | Manually configured (not auto-detected, for safety) | ✅ Yes — transitions to Forwarding **immediately**, no negotiation needed |
+
+**Important nuance:** Link type (point-to-point/shared) is separate from Edge Port status. A port can be point-to-point *and* an edge port (a switch port connected to one PC over a full-duplex link) — in fact this is the most common real-world case.
+
+**Safety mechanism:** If an Edge Port ever receives a BPDU, it immediately loses its edge status and starts participating in normal RSTP calculations (this protects against someone accidentally plugging a switch into what was assumed to be a host port — very similar to how **BPDU Guard**/legacy PortFast behaves, though RSTP's edge-port demotion and BPDU Guard are two separate, complementary safety features).
+
+---
+
+## 8. The Proposal/Agreement (Sync) Process — RSTP's Core Innovation
+
+This is the mechanism that actually delivers fast convergence. Instead of a port sitting in Listening/Learning for 30 seconds hoping no loop exists, RSTP **actively negotiates** with its neighbor.
+
+### Step-by-step (new point-to-point link comes up between two switches):
+
+1. **Both ports start as Designated, in the Discarding state.** Neither switch yet knows who's "in charge" of this link.
+2. Each switch sends the other a BPDU with the **Proposal bit** set (any Designated port in Discarding or Learning state sets this bit).
+3. Each switch compares the received BPDU to its own. The switch with the **worse** (inferior) Bridge ID/path-cost information realizes: *"This port should actually be my Root Port, not a Designated Port."*
+4. Before that switch can agree and jump straight to Forwarding, it must guarantee **no loop will form**. It does this via the **sync process**: it puts **all of its other non-edge Designated ports** into the Discarding state temporarily.
+   - Ports that are already Discarding, or are Edge Ports, are already "in sync" and don't need to change.
+   - If those other ports are themselves point-to-point links to further switches, **they in turn send their own Proposals downstream** — this is why the process is described as "cascading" or "rippling" through the tree.
+5. Once the switch has confirmed all of its ports are in-sync, it replies to the original proposal with a copy of the BPDU, but with the **Agreement bit** set instead of the Proposal bit.
+6. The switch that sent the original Proposal receives the Agreement and immediately moves that port straight to **Forwarding** — no Listening, no Learning, no waiting on Forward Delay timers at all.
+7. This handshake repeats outward, switch by switch, from the root toward the edges of the network — which is why convergence can complete in roughly the time it takes BPDUs to physically propagate through the topology, rather than a fixed 30–50 second timer.
+
+### Why this only works on point-to-point links
+The whole handshake depends on there being exactly one other device to negotiate with. On a **shared** segment (hub), a switch can't safely assume "if I get one Agreement, the segment is safe" — there could be other devices still catching up — so RSTP falls back to the old Listening/Learning timer-based approach on shared links.
+
+### If a proposal isn't answered
+If a Designated port sends a Proposal and gets no Agreement back (e.g., the neighbor is a legacy 802.1D switch that doesn't understand Proposal/Agreement), the port doesn't hang forever — it simply **falls back to the traditional Listening → Learning → Forwarding progression** with normal Forward Delay timers, exactly like STP.
+
+---
+
+## 9. Fast Failure Detection (No More Waiting on Max Age)
+
+Classic STP relies on the **root bridge** to originate BPDUs, and non-root switches largely just relay/refresh them. If a link fails somewhere upstream, downstream switches may have to wait for the **Max Age timer (20 sec default)** to expire before realizing information is stale.
+
+RSTP changes this in two ways:
+
+1. **Every RSTP switch generates and sends its own BPDUs** out every Hello interval (default 2 seconds) on all Designated and Root ports — it does not just wait to relay something from the root. This means link failures are detected locally and fast, not by waiting for a chain reaction back to the root.
+2. **Neighbor failure detection:** if a switch fails to receive a BPDU on a port for **3 consecutive Hello intervals (default 3 × 2 = 6 seconds)**, it assumes that neighbor/BPDU information is stale and immediately ages it out — instead of waiting the full 20-second Max Age used in classic STP.
+
+This is what the course refers to as RSTP's **"aging process"** — much faster detection of a dead neighbor without waiting on the old Max Age timer.
+
+---
+
+## 10. Topology Change (TC) Mechanism
+
+This is another area where RSTP is dramatically simplified and sped up compared to STP.
+
+### Classic STP's process (slow):
+1. A switch notices a topology change (a port that was blocking starts forwarding, for example).
+2. It sends a **TCN (Topology Change Notification) BPDU** — hop by hop, up toward the root.
+3. The root bridge, once notified, sets the **TC (Topology Change) flag** in its regular BPDUs and floods this out to the whole network.
+4. Every switch that sees the TC flag shortens its MAC address table aging time (to Forward Delay, ~15 sec) so stale entries clear out faster.
+5. This whole chain (leaf → root → whole network) takes time.
+
+### RSTP's process (fast):
+1. **Any switch** that experiences a topology change — specifically, a **non-edge port** transitioning to Forwarding, or a previously-forwarding port going down — can act immediately. (A change on an Edge Port does **not** trigger this, since edge ports are assumed to be end hosts, not other switches — plugging in/unplugging a PC shouldn't cause a network-wide flush.)
+2. That switch immediately:
+   - **Clears its own MAC address table** (except for entries learned on the port where the change happened).
+   - Sends a BPDU with the **TC bit set** out **all of its non-edge Designated ports and its Root Port** — not hop-by-hop toward the root, but flooded outward in every direction at once.
+3. Every switch that receives this TC BPDU does the same thing: clears its MAC table (except the receiving port) and re-floods the TC BPDU out its own non-edge ports.
+4. There's no separate TCN/TCA frame type anymore — it's just a flag bit in the same standard BPDU used for everything else, and it's flooded network-wide almost instantly rather than crawling to the root and back.
+
+**Net effect:** MAC address tables across the whole network flush almost immediately after a real topology change, so traffic doesn't get black-holed waiting on stale switching table entries.
+
+---
+
+## 11. RSTP BPDU Format Changes
+
+RSTP BPDUs look almost identical to STP BPDUs on the wire, with two key differences — this is the detail you'd confirm by inspecting BPDUs in Wireshark:
+
+| Field | STP (802.1D) | RSTP (802.1w) |
+|---|---|---|
+| Protocol Version ID | 0 | **2** |
+| BPDU Type | 0x00 (Configuration BPDU) | **0x02** (RST BPDU) |
+| Flags byte usage | Only 2 of 8 bits used (TC, TCA) | **All 8 bits used** |
+
+### RSTP Flags byte (bit meanings):
+| Bit | Meaning |
+|---|---|
+| 0 | Topology Change (TC) |
+| 1 | Proposal |
+| 2–3 | Port Role (00 = Unknown, 01 = Alternate/Backup, 10 = Root, 11 = Designated) |
+| 4 | Learning |
+| 5 | Forwarding |
+| 6 | Agreement |
+| 7 | Topology Change Acknowledgment (TCA) — kept only for backward compatibility |
+
+Packing the port's role and current state directly into every BPDU (instead of just topology-change flags) is what allows neighbors to make fast, informed decisions without extra round-trips — it's a big part of why the Proposal/Agreement exchange can complete in so few packets.
+
+---
+
+## 12. Backward Compatibility With Classic STP
+
+RSTP was designed to be dropped into existing 802.1D networks without breaking them, using **per-port** protocol detection:
+
+- Each port independently tracks whether its neighbor speaks RSTP or legacy STP.
+- If a port receives a **legacy (Version 0) STP BPDU**, that specific port falls back to behaving like a classic 802.1D port — full Listening/Learning states, normal Forward Delay timers — while every other port on the same switch can continue running RSTP normally.
+- This is sometimes called **Migration Delay** — the switch periodically re-checks whether it can go back to RSTP behavior on that port if it stops seeing legacy BPDUs.
+
+This means you can mix legacy switches into an RSTP network during a migration, and only the links actually touching a legacy switch lose the speed benefit — everywhere else stays fast.
+
+---
+
+## 13. Rapid PVST+ (Cisco's Real-World Default)
+
+Plain RSTP (802.1w) runs **one instance for the whole network** (like CST). Cisco doesn't ship that by default — instead Cisco switches typically run **Rapid PVST+**, which is:
+
+> RSTP's fast port-state machine and proposal/agreement mechanics **+** PVST+'s one-instance-per-VLAN model.
+
+This gives you both benefits at once: sub-second convergence **and** the ability to load-balance traffic by having different VLANs use different root bridges/blocked ports.
+
+---
+
+## 14. Configuration & Verification (IOS Commands)
+
+| Command | Purpose |
+|---|---|
+| `spanning-tree mode rapid-pvst` | Enable Rapid PVST+ (Cisco's RSTP implementation) globally |
+| `spanning-tree mode mst` | Enable MSTP instead (not covered in this video, but the other "rapid" option) |
+| `show spanning-tree [vlan <id>]` | Show root bridge, port roles/states, priorities, per VLAN |
+| `show spanning-tree summary` | Quick summary of mode and root status per VLAN |
+| `show spanning-tree interface <intf>` | Role/state for a specific interface |
+| `spanning-tree link-type point-to-point` | Manually force a port's link type (normally auto-detected from duplex) |
+| `spanning-tree link-type shared` | Manually force shared link type (disables rapid transition on that port) |
+| `spanning-tree portfast` (interface) | Mark a port as an Edge Port (host-facing) |
+| `spanning-tree portfast bpduguard default` | Auto shut down any edge/PortFast port that receives a BPDU |
+| `debug spanning-tree events` | Real-time view of role/state transitions (lab/troubleshooting use) |
+
+In `show spanning-tree` output, roles are typically abbreviated:
+- `Root` — Root Port
+- `Desg` — Designated Port
+- `Altn` — Alternate Port
+- `Back` — Backup Port
+
+And states appear abbreviated too:
+- `FWD` — Forwarding
+- `LRN` — Learning
+- `BLK` — Discarding (still often displayed/labeled as "blocking" in Cisco CLI output for familiarity, even though internally it's the RSTP "discarding" state)
+
+---
+
+## 15. Worked Example (Conceptual Walkthrough)
+
+Picture three switches, SW1 (Root), SW2, and SW3, connected in a triangle, all links point-to-point/full-duplex:
+
+1. **Root Bridge election:** SW1 has the lowest Bridge ID → SW1 becomes Root. All of SW1's ports become **Designated**.
+2. **Root Port election:** SW2 and SW3 each pick their lowest-cost port toward SW1 as their **Root Port**.
+3. **Designated Port election:** On the SW2–SW3 segment, whichever switch has the better root path cost (or lower Bridge ID as tiebreaker) becomes **Designated** on that segment; the other becomes **Alternate** (it hears a superior BPDU from the *other* switch, not from itself) and goes to **Discarding**.
+4. **Convergence:** Because every link is point-to-point, all of this happens via Proposal/Agreement handshakes almost instantly — SW2 and SW3's Root Ports go straight to Forwarding without ever sitting in Listening/Learning for 30 seconds.
+5. **If the SW2–SW3 link later fails and comes back up,** or if SW1 fails: SW2/SW3 re-run the same fast handshake instead of waiting on STP's timers, and the previously-Alternate port can take over quickly.
+
+---
+
+## 16. STP vs. RSTP — Quick Comparison Table
+
+| Feature | STP (802.1D) | RSTP (802.1w) |
+|---|---|---|
+| Port States | 5 (Disabled, Blocking, Listening, Learning, Forwarding) | 3 (Discarding, Learning, Forwarding) |
+| Port Roles | 3 (Root, Designated, Blocking) | 4 (Root, Designated, Alternate, Backup) |
+| Convergence time | ~30–50 sec | <1–10 sec typically |
+| Transition mechanism | Fixed timers (Forward Delay ×2) | Proposal/Agreement handshake on point-to-point links |
+| BPDU origination | Root originates; others relay | Every switch originates its own Hello BPDUs |
+| Neighbor-down detection | Max Age (20 sec) | 3 missed Hellos (6 sec default) |
+| Topology change propagation | TCN hop-by-hop to root, then flood | TC bit flooded directly and immediately by the detecting switch |
+| Link type awareness | None | Point-to-point / Shared / Edge, each treated differently |
+| Backward compatible | N/A | Yes, per-port fallback to 802.1D behavior |
+| Cisco default today | No (legacy) | Effectively yes, via Rapid PVST+ |
+
+---
+
+## 17. CCNA Exam Tips / Things to Memorize
+
+- **Know the port state count by heart:** STP = 5 states, RSTP = 3 states, and be able to map Blocking + Listening + Disabled → Discarding.
+- **Know all 4 port roles and the Alternate vs. Backup distinction** — this is a classic exam trap. Remember: Alternate = better *switch* elsewhere; Backup = better *port*, same switch (needs a shared/hub segment to even be possible).
+- **Link type drives speed:** rapid transition only happens on point-to-point (and edge) links; shared links fall back to old-school timers.
+- **Edge Port ≈ PortFast** conceptually — a host-facing port that skips straight to Forwarding, but instantly loses that status if it ever sees a BPDU.
+- **RSTP is backward compatible per-port**, not all-or-nothing for the whole switch.
+- **Rapid PVST+** is what real Cisco gear runs by default — it's RSTP + one instance per VLAN, not a separate protocol.
+- Root cost values, Bridge ID format, and the root bridge election process are **identical to classic STP** — don't relearn them, just carry them over.
+- If asked about a Wireshark capture: **Protocol Version = 2** and **BPDU Type = 0x02** identify an RSTP/Rapid-PVST+ BPDU versus a classic STP one (Version 0 / Type 0x00).
+
+---
+
+## 18. Glossary
+
+- **BPDU (Bridge Protocol Data Unit):** The message switches exchange to run the spanning tree algorithm.
+- **Bridge ID:** Priority + MAC address, used to elect the root bridge and break path-cost ties.
+- **Discarding:** RSTP's merged state covering STP's old Disabled, Blocking, and Listening states — port neither forwards nor learns.
+- **Edge Port:** A port known to connect only to an end host, not another switch or bridge; transitions to Forwarding instantly (RSTP's version of PortFast).
+- **Proposal / Agreement:** The two-message handshake RSTP uses to safely move a point-to-point port straight to Forwarding without timer delays.
+- **Sync:** The internal process where a switch temporarily discards its other non-edge Designated ports before agreeing to a Proposal, to guarantee no loop forms.
+- **TC (Topology Change):** A single flag bit in the RSTP BPDU that, when set, tells receiving switches to flush their MAC address tables quickly.
+
+---
+
+*These notes cover the concepts presented in Jeremy's IT Lab's "Rapid STP" lecture (Day 22 of the CCNA 200-301 course): version comparison, RSTP's relationship to STP/PVST+, port costs, port states, port roles, link types, the proposal/agreement (sync) process, topology change handling, BPDU structure, backward compatibility, and Rapid PVST+ configuration/verification.*
