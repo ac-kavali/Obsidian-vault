@@ -295,8 +295,9 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "364eed01b939fc76",
+  "active": "fd3a910c8ea450bd",
   "lastOpenFiles": [
+    "Untitled.md",
     "Networking/CCNA_preparations/VTP.md",
     "Networking/CCNA_preparations/Troubleshouting.md",
     "Concepts/Computing.md",
@@ -316,7 +317,6 @@
     "Networking/CCNA_preparations/day2.md",
     "recap road.md",
     "Media/What_is_the_Structure_of_the_Ethernet_Frame_Format.png",
-    "Untitled.md",
     "Web/JavaScript/DOM Manipulation.md",
     "Web/cURL.md",
     "Web/Web Exploite.md",
