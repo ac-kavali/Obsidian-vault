@@ -1,28 +1,160 @@
 {
   "recentFiles": [
     {
-      "basename": "Bash",
-      "path": "Linux/Bash/Bash.md"
+      "basename": "cURL",
+      "path": "Web/cURL.md"
     },
     {
-      "basename": "VTP",
-      "path": "Networking/CCNA_preparations/VTP.md"
+      "basename": "Memory Usage",
+      "path": "Web/JavaScript/Memory Usage.md"
     },
     {
       "basename": "vision",
       "path": "Excalidraw/vision.md"
     },
     {
-      "basename": "Troubleshouting",
-      "path": "Networking/CCNA_preparations/Troubleshouting.md"
+      "basename": "Argparse",
+      "path": "Python/Argparse.md"
+    },
+    {
+      "basename": "Fly-In",
+      "path": "Project/Fly-In.md"
+    },
+    {
+      "basename": "Dining Philosophoers",
+      "path": "Project/Dining Philosophoers.md"
+    },
+    {
+      "basename": "Switch",
+      "path": "Networking/Switch.md"
+    },
+    {
+      "basename": "CAB-CONSOLE-USB-3-800x800",
+      "path": "Networking/CAB-CONSOLE-USB-3-800x800.jpg"
+    },
+    {
+      "basename": "Application, Presentation",
+      "path": "Networking/Application, Presentation.md"
+    },
+    {
+      "basename": "Linux",
+      "path": "Linux/Linux.md"
+    },
+    {
+      "basename": "Linux Logs",
+      "path": "Linux/Linux Logs.md"
+    },
+    {
+      "basename": "Linux Admin Project",
+      "path": "Linux/Linux Admin Project.md"
+    },
+    {
+      "basename": "Links",
+      "path": "Linux/Links.md"
+    },
+    {
+      "basename": "Find",
+      "path": "Linux/Find.md"
+    },
+    {
+      "basename": "File transfer",
+      "path": "Linux/File transfer.md"
+    },
+    {
+      "basename": "File Securing",
+      "path": "Linux/File Securing.md"
+    },
+    {
+      "basename": "FTP",
+      "path": "Linux/FTP.md"
+    },
+    {
+      "basename": "Environment Variables",
+      "path": "Linux/Environment Variables.md"
+    },
+    {
+      "basename": "CTF",
+      "path": "Linux/CTF.md"
+    },
+    {
+      "basename": "Booting Process",
+      "path": "Linux/Booting Process.md"
+    },
+    {
+      "basename": "Archiving & Compressing",
+      "path": "Linux/Archiving & Compressing.md"
+    },
+    {
+      "basename": "Swap",
+      "path": "Linux/Disk & Filesystem/Swap.md"
+    },
+    {
+      "basename": "Inode",
+      "path": "Linux/Disk & Filesystem/Inode.md"
+    },
+    {
+      "basename": "file & operators",
+      "path": "Linux/Bash/file & operators.md"
+    },
+    {
+      "basename": "Variables",
+      "path": "Linux/Bash/Variables.md"
+    },
+    {
+      "basename": "bash instructions",
+      "path": "Linux/Bash/bash instructions.md"
+    },
+    {
+      "basename": "Top Commands",
+      "path": "Linux/Bash/Top Commands.md"
+    },
+    {
+      "basename": "Substitution",
+      "path": "Linux/Bash/Substitution.md"
+    },
+    {
+      "basename": "Standard Streams",
+      "path": "Linux/Bash/Standard Streams.md"
+    },
+    {
+      "basename": "Script Execution",
+      "path": "Linux/Bash/Script Execution.md"
+    },
+    {
+      "basename": "Loops",
+      "path": "Linux/Bash/Loops.md"
+    },
+    {
+      "basename": "If statement",
+      "path": "Linux/Bash/If statement.md"
+    },
+    {
+      "basename": "First scirpt",
+      "path": "Linux/Bash/First scirpt.md"
+    },
+    {
+      "basename": "Data types",
+      "path": "Linux/Bash/Data types.md"
+    },
+    {
+      "basename": "Bash",
+      "path": "Linux/Bash/Bash.md"
     },
     {
       "basename": "Computing",
       "path": "Concepts/Computing.md"
     },
     {
-      "basename": "Dining Philosophoers",
-      "path": "Project/Dining Philosophoers.md"
+      "basename": "File Discriptor",
+      "path": "Concepts/File Discriptor.md"
+    },
+    {
+      "basename": "VTP",
+      "path": "Networking/CCNA_preparations/VTP.md"
+    },
+    {
+      "basename": "Troubleshouting",
+      "path": "Networking/CCNA_preparations/Troubleshouting.md"
     },
     {
       "basename": "Day 13",
@@ -67,138 +199,6 @@
     {
       "basename": "Materiels",
       "path": "Networking/CCNA_preparations/Materiels.md"
-    },
-    {
-      "basename": "Questions",
-      "path": "Networking/CCNA_preparations/Questions.md"
-    },
-    {
-      "basename": "Pasted Image 20260406200602_187",
-      "path": "Media/Pasted Image 20260406200602_187.png"
-    },
-    {
-      "basename": "Pasted Image 20260405182945_097",
-      "path": "Media/Pasted Image 20260405182945_097.png"
-    },
-    {
-      "basename": "GNL",
-      "path": "Media/GNL.png"
-    },
-    {
-      "basename": "Day3",
-      "path": "Networking/CCNA_preparations/Day3.md"
-    },
-    {
-      "basename": "Firewalls",
-      "path": "Networking/CCNA_preparations/Firewalls.md"
-    },
-    {
-      "basename": "rcp_game-d",
-      "path": "Excalidraw/rcp_game-d.md"
-    },
-    {
-      "basename": "cisco_catalyst9200",
-      "path": "Media/cisco_catalyst9200.jpg"
-    },
-    {
-      "basename": "Pasted image 20260809201813",
-      "path": "Media/Pasted image 20260809201813.png"
-    },
-    {
-      "basename": "Application, Presentation",
-      "path": "Networking/Application, Presentation.md"
-    },
-    {
-      "basename": "ARP",
-      "path": "Networking/ARP.md"
-    },
-    {
-      "basename": "OSI Model",
-      "path": "Networking/OSI Model.md"
-    },
-    {
-      "basename": "Ports",
-      "path": "Networking/Ports.md"
-    },
-    {
-      "basename": "Basics",
-      "path": "Networking/Basics.md"
-    },
-    {
-      "basename": "day2",
-      "path": "Networking/CCNA_preparations/day2.md"
-    },
-    {
-      "basename": "Switch",
-      "path": "Networking/Switch.md"
-    },
-    {
-      "basename": "Fly-In",
-      "path": "Project/Fly-In.md"
-    },
-    {
-      "basename": "HTTP",
-      "path": "Web/HTTP.md"
-    },
-    {
-      "basename": "Rock-Paper-Scissors",
-      "path": "Project/Rock-Paper-Scissors.md"
-    },
-    {
-      "basename": "GNL",
-      "path": "Project/GNL.md"
-    },
-    {
-      "basename": "RE",
-      "path": "Python/RE.md"
-    },
-    {
-      "basename": "81o8+gPLrlL._AC_SL1500_",
-      "path": "Media/81o8+gPLrlL._AC_SL1500_.jpg"
-    },
-    {
-      "basename": "Bitwize",
-      "path": "Concepts/Bitwize.md"
-    },
-    {
-      "basename": "pointer to pointer",
-      "path": "Concepts/pointer to pointer.md"
-    },
-    {
-      "basename": "fly-in",
-      "path": "Excalidraw/fly-in.md"
-    },
-    {
-      "basename": "Argparse",
-      "path": "Python/Argparse.md"
-    },
-    {
-      "basename": "Drawing 2026-07-27 18.43.47.excalidraw",
-      "path": "Excalidraw/Drawing 2026-07-27 18.43.47.excalidraw.md"
-    },
-    {
-      "basename": "Network scaning",
-      "path": "Networking/Network scaning.md"
-    },
-    {
-      "basename": "callmemaybe",
-      "path": "Excalidraw/callmemaybe.md"
-    },
-    {
-      "basename": "Books Stations",
-      "path": "Books Stations.md"
-    },
-    {
-      "basename": "Diagno pro",
-      "path": "Diagno pro.md"
-    },
-    {
-      "basename": "overview",
-      "path": "overview.md"
-    },
-    {
-      "basename": "Enum",
-      "path": "Python/Enum.md"
     }
   ],
   "omittedPaths": [],
