@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Bash",
+      "path": "Linux/Bash/Bash.md"
+    },
+    {
       "basename": "VTP",
       "path": "Networking/CCNA_preparations/VTP.md"
+    },
+    {
+      "basename": "vision",
+      "path": "Excalidraw/vision.md"
     },
     {
       "basename": "Troubleshouting",
@@ -191,10 +199,6 @@
     {
       "basename": "Enum",
       "path": "Python/Enum.md"
-    },
-    {
-      "basename": "Dataclass",
-      "path": "Python/Dataclass.md"
     }
   ],
   "omittedPaths": [],
