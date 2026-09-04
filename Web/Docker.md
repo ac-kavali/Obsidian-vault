@@ -13,3 +13,26 @@ that they are caused by :
 ---
 ## How docker works
 Docker works by packaging an application and all of its dependencies into a lightweight, isolated unit called a container
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--- 
+<strong>Question to answer:</strong>
+- [ ] 
