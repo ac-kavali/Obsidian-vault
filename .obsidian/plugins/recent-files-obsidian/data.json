@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "DNS",
+      "path": "Networking/DNS.md"
+    },
+    {
       "basename": "Docker",
       "path": "Web/Docker.md"
     },

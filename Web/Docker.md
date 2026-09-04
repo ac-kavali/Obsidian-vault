@@ -16,15 +16,13 @@ Docker works by packaging an application and all of its dependencies into a ligh
 
 
 
-![[docker-on-linux-windows-mac.jpg]]
+![[docker-on-linux-windows-mac.jpg|1044]]
 
 
 ---
 ## Containers
 
-
-
-
+A **Container** 
 
 
 

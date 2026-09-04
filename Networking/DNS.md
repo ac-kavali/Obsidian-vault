@@ -35,9 +35,11 @@ An organization responsible for **running the name servers for a top-level domai
 
 
 --- 
-## The registrant 
+## The registrant  
 The **registrant** is the **person or organization that owns (uses) the domain name**.
 
 
 
-
+---
+### (important)
+![[Pasted image 20260904231418.png]]
