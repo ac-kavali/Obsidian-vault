@@ -11,3 +11,4 @@ that they are caused by :
 - the heaviness of virtual machines
 
 ---
+## How docker works
