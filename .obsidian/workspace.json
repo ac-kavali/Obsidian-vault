@@ -171,8 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "10424350b623bef2",
@@ -296,8 +295,9 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "a6d60e3c5d9504ec",
+  "active": "364eed01b939fc76",
   "lastOpenFiles": [
+    "Untitled",
     "Web/Docker.md",
     "Web/to_start.md",
     "Web/JavaScript/Special-Numbers.md",
@@ -324,7 +324,6 @@
     "Web/JavaScript/Memory Usage.md",
     "Web/JavaScript/Get-started.md",
     "Web/JavaScript/Functions&Parameters.md",
-    "Web/JavaScript/Errors.md",
     "Networking/51z24BHjLuL.jpg",
     "Networking/CAB-CONSOLE-USB-3-800x800.jpg",
     "Media/What_is_the_Structure_of_the_Ethernet_Frame_Format.png",

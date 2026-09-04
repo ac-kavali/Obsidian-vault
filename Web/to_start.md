@@ -106,5 +106,21 @@ For wordlists, alongside `/usr/share/wordlists/dirb/big.txt`, it's worth also ha
 
 
 ---
+## Public Exploits
 
+Once we identify the services running on ports identified from our `Nmap` scan, the first step is to look if any of the applications/services have any public exploits. Public exploits can be found for web applications and other applications running on open ports, like `SSH` or `ftp`.
 
+### Finding Public Exploits
+
+Many tools can help us search for public exploits for the various applications and services we may encounter during the enumeration phase. One way is to Google for the application name with `exploit` to see if we get any results:
+
+### Metasploit Primer
+
+The Metasploit Framework (MSF) is an excellent tool for pentesters. It contains many built-in exploits for many public vulnerabilities and provides an easy way to use these exploits against vulnerable targets. MSF has many other features, like:
+
+- Running reconnaissance scripts to enumerate remote hosts and compromised targets
+- Verification scripts to test the existence of a vulnerability without actually compromising the target
+- Meterpreter, which is a great tool to connect to shells and run commands on the compromised targets
+- Many post-exploitation and pivoting tools
+
+Let us take a basic example of searching for an exploit for an application we are attacking and how to exploit it. To run `Metasploit`, we can use the `msfconsole` command:
