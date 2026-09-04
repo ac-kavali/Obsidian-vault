@@ -1,6 +1,6 @@
 
 _Built from your notes vault (~20k lines). Goal: fast, high-signal recap, not a re-read._
-
+?Rest APIs
 ## The honest diagnosis first
 
 Your notes are strong on **general Linux/dev fundamentals** and **web app security basics**, but contain **nothing cloud-specific** — no AWS/Azure/GCP, no IAM, no container/Kubernetes security, no metadata-service attacks (169.254.169.254), no Terraform/IaC. If "cloud security practitioner" is the target, that's the biggest gap, not a revision item. Section 4 covers what to add.

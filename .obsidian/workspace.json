@@ -75,12 +75,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/cURL.md",
-                "mode": "preview",
+                "file": "Web/Docker.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cURL"
+              "title": "Docker"
             }
           }
         ],
@@ -146,8 +146,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "recent-files"
+              "icon": "clock",
+              "title": "Recent Files"
             }
           }
         ]
@@ -171,7 +171,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 205.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "10424350b623bef2",
@@ -297,40 +298,41 @@
   },
   "active": "a6d60e3c5d9504ec",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Web/Docker.md",
+    "Web/Vulns/Malicious File Upload.md",
+    "Web/Vulns/Broken Authentication.md",
+    "Excalidraw/Access controle.md",
+    "Web/Vulns/IDOR.md",
+    "Web/JavaScript/DOM Manipulation.md",
+    "Web/JavaScript/Arrays.md",
+    "Web/JavaScript/DOM.md",
+    "Web/Vulns/Business logic.md",
+    "Web/Vulns/XSS.md",
+    "Web/Vulns/Authentication.md",
+    "Web/Draft.md",
+    "Web/Vulns",
+    "Web/CSS/Get started.md",
+    "Web/WebServer/Web servers.md",
+    "Web/WebServer/Client-Server Arch.md",
+    "Web/JavaScript/Todo.md",
+    "Web/JavaScript/String Methods,Slicing.md",
     "Web/JavaScript/Special-Numbers.md",
+    "Web/JavaScript/Random.md",
     "Web/JavaScript/Memory Usage.md",
-    "Excalidraw/vision.md",
-    "Web/cURL.md",
-    "Python/Argparse.md",
-    "Project/Fly-In.md",
-    "Project/Dining Philosophoers.md",
-    "Networking/Switch.md",
+    "Web/JavaScript/Get-started.md",
+    "Web/JavaScript/Functions&Parameters.md",
+    "Web/JavaScript/Errors.md",
+    "Web/JavaScript/Async Programing.md",
+    "web-dev-revision-walkthrough.md",
+    "Networking/51z24BHjLuL.jpg",
     "Networking/CAB-CONSOLE-USB-3-800x800.jpg",
-    "Networking/Application, Presentation.md",
-    "Linux/Linux.md",
-    "Linux/Linux Logs.md",
-    "Linux/Linux Admin Project.md",
-    "Linux/Links.md",
-    "Linux/Find.md",
-    "Linux/File transfer.md",
-    "Linux/File Securing.md",
-    "Linux/FTP.md",
-    "Linux/Environment Variables.md",
-    "Linux/CTF.md",
-    "Linux/Booting Process.md",
-    "Linux/Archiving & Compressing.md",
-    "Linux/Disk & Filesystem/Swap.md",
-    "Linux/Disk & Filesystem/Inode.md",
-    "Linux/Bash/file & operators.md",
-    "Linux/Bash/Variables.md",
-    "Linux/Bash/bash instructions.md",
     "Media/What_is_the_Structure_of_the_Ethernet_Frame_Format.png",
     "Media/Pasted Image 20260406200602_187.png",
     "Media/Pasted Image 20260405182945_097.png",
     "Media/GNL.png",
     "Media/cisco_catalyst9200.jpg",
     "Media/Pasted image 20260809201813.png",
-    "Networking/51z24BHjLuL.jpg",
     "Media/81o8+gPLrlL._AC_SL1500_.jpg",
     "Networking/CCNA_preparations/my_inswers",
     "july-august-2026-calendar.png",
@@ -342,7 +344,6 @@
     "fr",
     "SQL/Untitled",
     "SQL",
-    "obsidian.tar.xz",
     "Untitled.canvas"
   ]
 }

@@ -10,4 +10,6 @@ The DOM it is not a physical object or software package. It is the **<span style
 Interacting with the DOM basically means **using JavaScript to read or change what’s on your page** while it’s running in the browser. Here’s the breakdown
 
 **JS + DOM methods = dynamic control over your page’s static HTML.**
-when am talking bout methods i will mention somthing like `getElementById` and `querySelector` that they are DOM methods implemented in the browser itself (this is why i mention them)
+when am talking bout methods i will mention somthing like `getElementById` and `querySelector` that they are DOM methods implemented in the browser itself (this is why i mention them) 
+
+

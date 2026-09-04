@@ -1,12 +1,152 @@
 {
   "recentFiles": [
     {
-      "basename": "cURL",
-      "path": "Web/cURL.md"
+      "basename": "Docker",
+      "path": "Web/Docker.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
+      "basename": "Malicious File Upload",
+      "path": "Web/Vulns/Malicious File Upload.md"
+    },
+    {
+      "basename": "Broken Authentication",
+      "path": "Web/Vulns/Broken Authentication.md"
+    },
+    {
+      "basename": "IDOR",
+      "path": "Web/Vulns/IDOR.md"
+    },
+    {
+      "basename": "DOM Manipulation",
+      "path": "Web/JavaScript/DOM Manipulation.md"
+    },
+    {
+      "basename": "Arrays",
+      "path": "Web/JavaScript/Arrays.md"
+    },
+    {
+      "basename": "DOM",
+      "path": "Web/JavaScript/DOM.md"
+    },
+    {
+      "basename": "Business logic",
+      "path": "Web/Vulns/Business logic.md"
+    },
+    {
+      "basename": "XSS",
+      "path": "Web/Vulns/XSS.md"
+    },
+    {
+      "basename": "Authentication",
+      "path": "Web/Vulns/Authentication.md"
+    },
+    {
+      "basename": "Draft",
+      "path": "Web/Draft.md"
+    },
+    {
+      "basename": "Get started",
+      "path": "Web/CSS/Get started.md"
+    },
+    {
+      "basename": "Web servers",
+      "path": "Web/WebServer/Web servers.md"
+    },
+    {
+      "basename": "Client-Server Arch",
+      "path": "Web/WebServer/Client-Server Arch.md"
+    },
+    {
+      "basename": "String Methods,Slicing",
+      "path": "Web/JavaScript/String Methods,Slicing.md"
+    },
+    {
+      "basename": "Special-Numbers",
+      "path": "Web/JavaScript/Special-Numbers.md"
+    },
+    {
+      "basename": "Random",
+      "path": "Web/JavaScript/Random.md"
     },
     {
       "basename": "Memory Usage",
       "path": "Web/JavaScript/Memory Usage.md"
+    },
+    {
+      "basename": "Get-started",
+      "path": "Web/JavaScript/Get-started.md"
+    },
+    {
+      "basename": "Functions&Parameters",
+      "path": "Web/JavaScript/Functions&Parameters.md"
+    },
+    {
+      "basename": "Errors",
+      "path": "Web/JavaScript/Errors.md"
+    },
+    {
+      "basename": "Async Programing",
+      "path": "Web/JavaScript/Async Programing.md"
+    },
+    {
+      "basename": "web-dev-revision-walkthrough",
+      "path": "web-dev-revision-walkthrough.md"
+    },
+    {
+      "basename": "Introduction",
+      "path": "Web/HTML/Introduction.md"
+    },
+    {
+      "basename": "Basics",
+      "path": "Web/HTML/Basics.md"
+    },
+    {
+      "basename": "Get_started",
+      "path": "Web/Burpsuite/Get_started.md"
+    },
+    {
+      "basename": "Web Exploite",
+      "path": "Web/Web Exploite.md"
+    },
+    {
+      "basename": "Introduction",
+      "path": "Web/Introduction.md"
+    },
+    {
+      "basename": "recap road",
+      "path": "recap road.md"
+    },
+    {
+      "basename": "Day 11",
+      "path": "Networking/CCNA_preparations/Day 11.md"
+    },
+    {
+      "basename": "Day5",
+      "path": "Networking/CCNA_preparations/Day5.md"
+    },
+    {
+      "basename": "51z24BHjLuL",
+      "path": "Networking/51z24BHjLuL.jpg"
+    },
+    {
+      "basename": "Day6",
+      "path": "Networking/CCNA_preparations/Day6.md"
+    },
+    {
+      "basename": "Day9",
+      "path": "Networking/CCNA_preparations/Day9.md"
+    },
+    {
+      "basename": "Day8",
+      "path": "Networking/CCNA_preparations/Day8.md"
+    },
+    {
+      "basename": "cURL",
+      "path": "Web/cURL.md"
     },
     {
       "basename": "vision",
@@ -59,146 +199,6 @@
     {
       "basename": "File transfer",
       "path": "Linux/File transfer.md"
-    },
-    {
-      "basename": "File Securing",
-      "path": "Linux/File Securing.md"
-    },
-    {
-      "basename": "FTP",
-      "path": "Linux/FTP.md"
-    },
-    {
-      "basename": "Environment Variables",
-      "path": "Linux/Environment Variables.md"
-    },
-    {
-      "basename": "CTF",
-      "path": "Linux/CTF.md"
-    },
-    {
-      "basename": "Booting Process",
-      "path": "Linux/Booting Process.md"
-    },
-    {
-      "basename": "Archiving & Compressing",
-      "path": "Linux/Archiving & Compressing.md"
-    },
-    {
-      "basename": "Swap",
-      "path": "Linux/Disk & Filesystem/Swap.md"
-    },
-    {
-      "basename": "Inode",
-      "path": "Linux/Disk & Filesystem/Inode.md"
-    },
-    {
-      "basename": "file & operators",
-      "path": "Linux/Bash/file & operators.md"
-    },
-    {
-      "basename": "Variables",
-      "path": "Linux/Bash/Variables.md"
-    },
-    {
-      "basename": "bash instructions",
-      "path": "Linux/Bash/bash instructions.md"
-    },
-    {
-      "basename": "Top Commands",
-      "path": "Linux/Bash/Top Commands.md"
-    },
-    {
-      "basename": "Substitution",
-      "path": "Linux/Bash/Substitution.md"
-    },
-    {
-      "basename": "Standard Streams",
-      "path": "Linux/Bash/Standard Streams.md"
-    },
-    {
-      "basename": "Script Execution",
-      "path": "Linux/Bash/Script Execution.md"
-    },
-    {
-      "basename": "Loops",
-      "path": "Linux/Bash/Loops.md"
-    },
-    {
-      "basename": "If statement",
-      "path": "Linux/Bash/If statement.md"
-    },
-    {
-      "basename": "First scirpt",
-      "path": "Linux/Bash/First scirpt.md"
-    },
-    {
-      "basename": "Data types",
-      "path": "Linux/Bash/Data types.md"
-    },
-    {
-      "basename": "Bash",
-      "path": "Linux/Bash/Bash.md"
-    },
-    {
-      "basename": "Computing",
-      "path": "Concepts/Computing.md"
-    },
-    {
-      "basename": "File Discriptor",
-      "path": "Concepts/File Discriptor.md"
-    },
-    {
-      "basename": "VTP",
-      "path": "Networking/CCNA_preparations/VTP.md"
-    },
-    {
-      "basename": "Troubleshouting",
-      "path": "Networking/CCNA_preparations/Troubleshouting.md"
-    },
-    {
-      "basename": "Day 13",
-      "path": "Networking/CCNA_preparations/Day 13.md"
-    },
-    {
-      "basename": "Subnetting",
-      "path": "Networking/Subnetting.md"
-    },
-    {
-      "basename": "Day 11",
-      "path": "Networking/CCNA_preparations/Day 11.md"
-    },
-    {
-      "basename": "Day10",
-      "path": "Networking/CCNA_preparations/Day10.md"
-    },
-    {
-      "basename": "51z24BHjLuL",
-      "path": "Networking/51z24BHjLuL.jpg"
-    },
-    {
-      "basename": "Day9",
-      "path": "Networking/CCNA_preparations/Day9.md"
-    },
-    {
-      "basename": "Day8",
-      "path": "Networking/CCNA_preparations/Day8.md"
-    },
-    {
-      "basename": "Day6",
-      "path": "Networking/CCNA_preparations/Day6.md"
-    },
-    {
-      "basename": "Day5",
-      "path": "Networking/CCNA_preparations/Day5.md"
-    },
-    {
-      "basename": "Day4",
-      "path": "Networking/CCNA_preparations/Day4.md"
-    },
-    {
-      "basename": "Materiels",
-      "path": "Networking/CCNA_preparations/Materiels.md"
     }
   ],
   "omittedPaths": [],

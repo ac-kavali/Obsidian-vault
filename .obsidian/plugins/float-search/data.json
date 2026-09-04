@@ -4,7 +4,7 @@
     "explainSearch": false,
     "extraContext": false,
     "matchingCase": false,
-    "query": "curl",
+    "query": "getElement",
     "sortOrder": "alphabetical"
   },
   "showFilePath": false,

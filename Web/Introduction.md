@@ -7,6 +7,7 @@ Starting with
 
 ---
 - JavaScript (ES6+)
+- Data access layer(DAL)?
 - DOM manipulation
 - Events
 - Fetch/APIs

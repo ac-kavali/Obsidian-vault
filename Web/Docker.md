@@ -1,0 +1,6 @@
+### What is docker :
+**Docker** is an open-source platform that uses **operating-system-level virtualization** to package software into lightweight, isolated units called **containers**
+
+### What problem docker solved ? 
+The main expression related on the problem that docker solved is : 
+"_It works on my machine, but it doesn't work on yours._"
