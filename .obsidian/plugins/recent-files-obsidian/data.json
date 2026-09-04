@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "to_start",
+      "path": "Web/to_start.md"
+    },
+    {
       "basename": "Docker",
       "path": "Web/Docker.md"
+    },
+    {
+      "basename": "Authentication",
+      "path": "Web/Vulns/Authentication.md"
+    },
+    {
+      "basename": "Exploite 2",
+      "path": "Web/Exploite 2.md"
+    },
+    {
+      "basename": "cURL",
+      "path": "Web/cURL.md"
     },
     {
       "basename": "Untitled",
@@ -11,10 +27,6 @@
     {
       "basename": "Malicious File Upload",
       "path": "Web/Vulns/Malicious File Upload.md"
-    },
-    {
-      "basename": "Broken Authentication",
-      "path": "Web/Vulns/Broken Authentication.md"
     },
     {
       "basename": "IDOR",
@@ -41,14 +53,6 @@
       "path": "Web/Vulns/XSS.md"
     },
     {
-      "basename": "Authentication",
-      "path": "Web/Vulns/Authentication.md"
-    },
-    {
-      "basename": "Draft",
-      "path": "Web/Draft.md"
-    },
-    {
       "basename": "Get started",
       "path": "Web/CSS/Get started.md"
     },
@@ -63,10 +67,6 @@
     {
       "basename": "String Methods,Slicing",
       "path": "Web/JavaScript/String Methods,Slicing.md"
-    },
-    {
-      "basename": "Special-Numbers",
-      "path": "Web/JavaScript/Special-Numbers.md"
     },
     {
       "basename": "Random",
@@ -145,10 +145,6 @@
       "path": "Networking/CCNA_preparations/Day8.md"
     },
     {
-      "basename": "cURL",
-      "path": "Web/cURL.md"
-    },
-    {
       "basename": "vision",
       "path": "Excalidraw/vision.md"
     },
@@ -195,10 +191,6 @@
     {
       "basename": "Find",
       "path": "Linux/Find.md"
-    },
-    {
-      "basename": "File transfer",
-      "path": "Linux/File transfer.md"
     }
   ],
   "omittedPaths": [],

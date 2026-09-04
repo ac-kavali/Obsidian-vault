@@ -30,8 +30,8 @@ editable element in html
 - directory gessing(bruteforcing)
 - robots.txt -> used to choose the pages that should not 
   being displayed by the search engines(web crawlers)
-
-## Directory Brute-force
+---
+## Directory Enumeration
 ### **Gobuster**
 key modes: 
 - **`dir`**: Directory/file brute-forcing.
@@ -51,5 +51,9 @@ gobuster dir -u http://target.com -w wordlist.txt -x php,html,txt -t 50
 
 ### **wfuzz**
 
+
+### fuff
+
+---
 
 
