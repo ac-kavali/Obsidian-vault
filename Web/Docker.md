@@ -29,14 +29,14 @@ Docker Engine
 ```
 The **daemon** is the important background service.
 
+![[dockerimages.png|690]]
 
 ### Docker Deamon
 is a background service, that runs on the host machine does the work of running and managing both containers and container images and orchestrate there operations.
 
 ## Containers
 
-A **Container** is a 
-
+A **Container** is a runnable instance of the image. You create, start, stop, move, delete containers with the Docker API or CLI.
 
 
 
