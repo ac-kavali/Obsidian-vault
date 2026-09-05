@@ -35,7 +35,6 @@ The **daemon** is the important background service.
 is a background service, that runs on the host machine does the work of running and managing both containers and container images and orchestrate there operations.
 
 ### Containers
-
 A **Container** is a runnable instance of the image. You create, start, stop, move, delete containers with the Docker API or CLI.
 
 
@@ -49,6 +48,14 @@ A **Container** is a runnable instance of the image. You create, start, stop, mo
 
 
 ### Docker Hub
+
+### Dockerfile
+Each instruction in a Dockerfile creates a layer in the image, hence the more instructions the larger the docker image.
+
+
+
+this means that the layers are stored together in the image but each
+layer identify what the changes starting from its previous layer
 
 --- 
 <strong>Question to answer:</strong>
