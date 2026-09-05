@@ -20,15 +20,30 @@ Docker works by packaging an application and all of its dependencies into a ligh
 
 
 ---
+## Docker Engine
+```
+Docker Engine 
+	├── Docker daemon (dockerd) 
+	├── Docker CLI (docker) 
+	└── container runtime components
+```
+The **daemon** is the important background service.
+
+
+## Docker
 ## Containers
 
-A **Container** 
+A **Container** is a 
 
 
 
 
 
-## Client
+## Docker Client
+
+
+
+## Docker Host
 
 
 --- 
