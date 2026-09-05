@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "DNS",
-      "path": "Networking/DNS.md"
-    },
-    {
       "basename": "Docker",
       "path": "Web/Docker.md"
+    },
+    {
+      "basename": "Questions",
+      "path": "Networking/CCNA_preparations/Questions.md"
+    },
+    {
+      "basename": "DNS",
+      "path": "Networking/DNS.md"
     },
     {
       "basename": "to see important",
@@ -195,10 +199,6 @@
     {
       "basename": "Links",
       "path": "Linux/Links.md"
-    },
-    {
-      "basename": "Find",
-      "path": "Linux/Find.md"
     }
   ],
   "omittedPaths": [],
