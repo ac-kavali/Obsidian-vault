@@ -50,7 +50,7 @@ A **Container** is a runnable instance of the image. You create, start, stop, mo
 ### Docker Hub
 
 ### Dockerfile
-Each instruction in a Dockerfile creates a layer in the image, hence the more instructions the larger the docker image.
+Each instruction in a Dockerfile creates a layer in the image, the more instructions the larger the docker image.
 
 
 
