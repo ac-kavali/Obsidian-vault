@@ -61,12 +61,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "web-dev-revision-walkthrough.md",
+                "file": "Web/SQL/Introduction.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "web-dev-revision-walkthrough"
+              "title": "Introduction"
             }
           }
         ],
@@ -157,7 +157,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 495.5
   },
   "right": {
     "id": "10424350b623bef2",
@@ -281,13 +281,20 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "c7f8d8e1645526af",
+  "active": "364eed01b939fc76",
   "lastOpenFiles": [
+    "Web/SQL/Constraints.md",
+    "Web/SQL/Joins.md",
+    "Web/Docker.md",
+    "Web/Burpsuite.md",
+    "Web/WebServer/Client-Server Arch.md",
+    "Postgresql.md",
+    "Python Backend.md",
+    "web-dev-revision-walkthrough.md",
     "Untitled.md",
     "Web/Introduction.md",
     "Linux/Linux Admin Project.md",
     "Web/Exploite 2.md",
-    "Postgresql.md",
     "Linux/Environment Variables.md",
     "Networking/CCNA_preparations/Materiels.md",
     "Project/MaZe.md",
@@ -295,22 +302,15 @@
     "Web/JavaScript/DOM Manipulation.md",
     "Web/JavaScript/Functions&Parameters.md",
     "Web/JavaScript/Get-started.md",
-    "Web/WebServer/Client-Server Arch.md",
     "Python/uv env_mgm.md",
     "Web/WebServer/Web servers.md",
     "Web/Vulns/XSS.md",
-    "Python Backend.md",
     "recap road.md",
     "Python/RE.md",
     "Python/Python Dicover.md",
     "Python/Comprhensive.md",
-    "Networking/CCNA_preparations/day2.md",
-    "Web/Framework.md",
-    "Networking/CCNA_preparations/Questions.md",
-    "Web/Docker.md",
     "Media/dockerimages.png",
     "Media/docker-image2.png",
-    "Networking/DNS.md",
     "Pasted image 20260904231418.png",
     "Media/docker-on-linux-windows-mac.jpg",
     "Untitled",

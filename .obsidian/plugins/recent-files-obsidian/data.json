@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "Introduction",
+      "path": "Web/SQL/Introduction.md"
+    },
+    {
+      "basename": "Constraints",
+      "path": "Web/SQL/Constraints.md"
+    },
+    {
+      "basename": "Joins",
+      "path": "Web/SQL/Joins.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "Web/Docker.md"
+    },
+    {
+      "basename": "Burpsuite",
+      "path": "Web/Burpsuite.md"
+    },
+    {
+      "basename": "Client-Server Arch",
+      "path": "Web/WebServer/Client-Server Arch.md"
+    },
+    {
+      "basename": "Postgresql",
+      "path": "Postgresql.md"
+    },
+    {
+      "basename": "Python Backend",
+      "path": "Python Backend.md"
+    },
+    {
       "basename": "web-dev-revision-walkthrough",
       "path": "web-dev-revision-walkthrough.md"
     },
@@ -21,10 +53,6 @@
       "path": "Web/Exploite 2.md"
     },
     {
-      "basename": "Postgresql",
-      "path": "Postgresql.md"
-    },
-    {
       "basename": "Materiels",
       "path": "Networking/CCNA_preparations/Materiels.md"
     },
@@ -39,10 +67,6 @@
     {
       "basename": "Get-started",
       "path": "Web/JavaScript/Get-started.md"
-    },
-    {
-      "basename": "Client-Server Arch",
-      "path": "Web/WebServer/Client-Server Arch.md"
     },
     {
       "basename": "uv env_mgm",
@@ -83,10 +107,6 @@
     {
       "basename": "Questions",
       "path": "Networking/CCNA_preparations/Questions.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "Web/Docker.md"
     },
     {
       "basename": "DNS",
@@ -179,26 +199,6 @@
     {
       "basename": "51z24BHjLuL",
       "path": "Networking/51z24BHjLuL.jpg"
-    },
-    {
-      "basename": "Day6",
-      "path": "Networking/CCNA_preparations/Day6.md"
-    },
-    {
-      "basename": "Day9",
-      "path": "Networking/CCNA_preparations/Day9.md"
-    },
-    {
-      "basename": "Day8",
-      "path": "Networking/CCNA_preparations/Day8.md"
-    },
-    {
-      "basename": "vision",
-      "path": "Excalidraw/vision.md"
-    },
-    {
-      "basename": "Argparse",
-      "path": "Python/Argparse.md"
     }
   ],
   "omittedPaths": [],
