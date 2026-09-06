@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "New project",
+      "path": "New project.md"
+    },
+    {
+      "basename": "day2",
+      "path": "Networking/CCNA_preparations/day2.md"
+    },
+    {
       "basename": "Framework",
       "path": "Web/Framework.md"
     },
     {
-      "basename": "Docker",
-      "path": "Web/Docker.md"
-    },
-    {
       "basename": "Questions",
       "path": "Networking/CCNA_preparations/Questions.md"
+    },
+    {
+      "basename": "Materiels",
+      "path": "Networking/CCNA_preparations/Materiels.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "Web/Docker.md"
     },
     {
       "basename": "DNS",
@@ -187,18 +199,6 @@
     {
       "basename": "Application, Presentation",
       "path": "Networking/Application, Presentation.md"
-    },
-    {
-      "basename": "Linux",
-      "path": "Linux/Linux.md"
-    },
-    {
-      "basename": "Linux Logs",
-      "path": "Linux/Linux Logs.md"
-    },
-    {
-      "basename": "Linux Admin Project",
-      "path": "Linux/Linux Admin Project.md"
     }
   ],
   "omittedPaths": [],

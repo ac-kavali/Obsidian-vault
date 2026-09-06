@@ -40,51 +40,21 @@
             }
           },
           {
-            "id": "9e59a7d416ab3ac5",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/CCNA_preparations/Materiels.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Materiels"
-            }
-          },
-          {
-            "id": "c7fb4fe43382973f",
+            "id": "7120357043a3d2de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/CCNA_preparations/Questions.md",
+                "file": "Untitled 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Questions"
-            }
-          },
-          {
-            "id": "6029b2604be5a8d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/Framework.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Framework"
+              "title": "Untitled 1"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -296,12 +266,16 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "6029b2604be5a8d8",
+  "active": "7120357043a3d2de",
   "lastOpenFiles": [
+    "Untitled 1.md",
+    "Networking/CCNA_preparations/day2.md",
+    "Web/Framework.md",
+    "Networking/CCNA_preparations/Questions.md",
+    "Networking/CCNA_preparations/Materiels.md",
     "Web/Docker.md",
     "Media/dockerimages.png",
     "Media/docker-image2.png",
-    "Networking/CCNA_preparations/Questions.md",
     "Networking/DNS.md",
     "Pasted image 20260904231418.png",
     "Networking/to see important.md",
@@ -326,9 +300,6 @@
     "Web/CSS/Get started.md",
     "Web/WebServer/Web servers.md",
     "Web/WebServer/Client-Server Arch.md",
-    "Web/JavaScript/Todo.md",
-    "Web/JavaScript/String Methods,Slicing.md",
-    "Web/JavaScript/Random.md",
     "Networking/51z24BHjLuL.jpg",
     "Networking/CAB-CONSOLE-USB-3-800x800.jpg",
     "Media/What_is_the_Structure_of_the_Ethernet_Frame_Format.png",
