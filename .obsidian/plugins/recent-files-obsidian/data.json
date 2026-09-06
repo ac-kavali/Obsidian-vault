@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Introduction",
+      "path": "Web/SQL/Introduction.md"
+    },
+    {
       "basename": "MySQL",
       "path": "Web/SQL/MySQL.md"
     },
     {
-      "basename": "Introduction",
-      "path": "Web/SQL/Introduction.md"
+      "basename": "Part-1",
+      "path": "Web/CSS/Part-1.md"
     },
     {
       "basename": "Postgresql",

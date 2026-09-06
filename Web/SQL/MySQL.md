@@ -1,7 +1,5 @@
 
 ## Table of contents:
-- [[#1. Installing MySQL|1. Installing MySQL]]
-- [[#2. Starting & Accessing MySQL|2. Starting & Accessing MySQL]]
 - [[#3. Securing the Installation|3. Securing the Installation]]
 - [[#4. Creating a Database|4. Creating a Database]]
 - [[#5. Data Types Overview|5. Data Types Overview]]
@@ -12,19 +10,8 @@
 
 ---
 
-## 1. Installing MySQL
+## 2. 
 
-### Ubuntu / Debian Linux
-
-```bash
-sudo apt update
-sudo apt install mysql-server -y
-```
-
-
----
-
-## 2. Starting & Accessing MySQL
 
 ### Starting the MySQL Service
 
@@ -48,7 +35,7 @@ sudo systemctl status mysql
 **From the terminal / command prompt:**
 
 ```bash
-mysql -u root -p
+
 ```
 
 You will be prompted to enter your root password. On success, you'll see the MySQL prompt:

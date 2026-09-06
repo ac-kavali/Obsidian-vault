@@ -26,19 +26,66 @@ makes data updating easier and ensure (prevent data inconsistency )
 ### **What is a record**
 A record, also called a row, is each individual entry that exists in a table. For example, there are 91 records in the above Customers table. A record is a horizontal entity in a table.
 
+
 ---
-## Install DBMS
+## Install DB Management System
 
 **What is** <strong>Database Managment System</strong>:
 it is software that acts as an interface between a database and its end-users or programs, it allows you to create, read, update, delete, and manage data efficiently and securely.
 it reads, processes, and executes those queries.
-
-
 ### Mariadb(mysql)
+1) Install using CLI
+```sh
+sudo apt install mysql-server -y
+```
+
+2) Starting & Accessing MySQL
+```sh
+sudo systemctl start mysql
+sudo systemctl enable mysql   # Auto-start on boot add --now to start it directy
+```
+
+3) Check the service if its running: 
+```sh
+sudo systemctl status mysql
+```
+
+4) Securing the installation
+After installing MySQL, run the built-in security script to remove defaults and set a strong root password.
+```bash
+sudo mysql_secure_installation
+```
+
+This interactive script will walk you through:
+
+| Prompt                              | Recommended Action                |
+| ----------------------------------- | --------------------------------- |
+| Set up VALIDATE PASSWORD component? | `Yes` — enforces strong passwords |
+| Change root password?               | `Yes` — set a strong password     |
+| Remove anonymous users?             | `Yes`                             |
+| Disallow root login remotely?       | `Yes` — for local development     |
+| Remove test database?               | `Yes`                             |
+| Reload privilege tables?            | `Yes`                             |
+5) Connecting to Mysql user 
+```sh
+mysql -u root -p
+```
 
 
+### Postgresql
+1) Install using CLI
+```sh
+sudo apt install postgresql 
+```
+2) Enable it. 
+```sh
+sudo systemctl enable --now postgresql
+```
+3) Enter the postgres cli 
+```sh
+sudo -u postgres psql
+```
 
-### Postgresql 
 ---
 ## Most important keys 
 - `SELECT` - extracts data from a database
