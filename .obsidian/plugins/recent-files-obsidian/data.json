@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Client-Server Arch",
+      "path": "Web/WebServer/Client-Server Arch.md"
+    },
+    {
+      "basename": "Framework",
+      "path": "Web/Framework.md"
+    },
+    {
+      "basename": "Burpsuite",
+      "path": "Web/Burpsuite.md"
+    },
+    {
+      "basename": "DB-CRUD",
+      "path": "Web/SQL/DB-CRUD.md"
+    },
+    {
       "basename": "Introduction",
       "path": "Web/SQL/Introduction.md"
+    },
+    {
+      "basename": "Import database",
+      "path": "Web/SQL/Import database.md"
     },
     {
       "basename": "Constraints",
@@ -15,14 +35,6 @@
     {
       "basename": "Docker",
       "path": "Web/Docker.md"
-    },
-    {
-      "basename": "Burpsuite",
-      "path": "Web/Burpsuite.md"
-    },
-    {
-      "basename": "Client-Server Arch",
-      "path": "Web/WebServer/Client-Server Arch.md"
     },
     {
       "basename": "Postgresql",
@@ -99,10 +111,6 @@
     {
       "basename": "day2",
       "path": "Networking/CCNA_preparations/day2.md"
-    },
-    {
-      "basename": "Framework",
-      "path": "Web/Framework.md"
     },
     {
       "basename": "Questions",
@@ -191,14 +199,6 @@
     {
       "basename": "Day 11",
       "path": "Networking/CCNA_preparations/Day 11.md"
-    },
-    {
-      "basename": "Day5",
-      "path": "Networking/CCNA_preparations/Day5.md"
-    },
-    {
-      "basename": "51z24BHjLuL",
-      "path": "Networking/51z24BHjLuL.jpg"
     }
   ],
   "omittedPaths": [],
