@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Introduction",
-      "path": "Web/SQL/Introduction.md"
+      "basename": "Joins",
+      "path": "Web/SQL/Joins.md"
     },
     {
-      "basename": "MySQL",
-      "path": "Web/SQL/MySQL.md"
+      "basename": "MySQL Setup",
+      "path": "Web/SQL/MySQL Setup.md"
+    },
+    {
+      "basename": "Random",
+      "path": "Python/Random.md"
+    },
+    {
+      "basename": "Introduction",
+      "path": "Web/SQL/Introduction.md"
     },
     {
       "basename": "Part-1",
@@ -63,10 +71,6 @@
     {
       "basename": "Constraints",
       "path": "Web/SQL/Constraints.md"
-    },
-    {
-      "basename": "Joins",
-      "path": "Web/SQL/Joins.md"
     },
     {
       "basename": "web-dev-revision-walkthrough",
@@ -195,10 +199,6 @@
     {
       "basename": "Get_started",
       "path": "Web/Burpsuite/Get_started.md"
-    },
-    {
-      "basename": "Day 11",
-      "path": "Networking/CCNA_preparations/Day 11.md"
     }
   ],
   "omittedPaths": [],

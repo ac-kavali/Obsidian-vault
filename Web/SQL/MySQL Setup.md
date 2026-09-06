@@ -1,6 +1,5 @@
 
 ## Table of contents:
-- [[#3. Securing the Installation|3. Securing the Installation]]
 - [[#4. Creating a Database|4. Creating a Database]]
 - [[#5. Data Types Overview|5. Data Types Overview]]
 - [[#6. Creating Your First Table|6. Creating Your First Table]]
@@ -9,71 +8,9 @@
 - [[#Full Setup Checklist|Full Setup Checklist]]
 
 ---
-
-## 2. 
-
-
-### Starting the MySQL Service
-
-**Linux:**
-
-```bash
-sudo systemctl start mysql
-sudo systemctl enable mysql   # Auto-start on boot
-```
-
-**Check if MySQL is running:**
-
-```bash
-sudo systemctl status mysql
-```
-
----
-
-### Connecting to MySQL
-
-**From the terminal / command prompt:**
-
-```bash
-
-```
-
-You will be prompted to enter your root password. On success, you'll see the MySQL prompt:
-
-```
-Welcome to the MySQL monitor. Commands end with ; or \g.
-mysql>
-```
-
-> **Tip:** Every SQL command inside the MySQL shell must end with a semicolon `;`.
-
----
-
-## 3. Securing the Installation
-
-After installing MySQL, run the built-in security script to remove defaults and set a strong root password.
-
-```bash
-sudo mysql_secure_installation
-```
-
-This interactive script will walk you through:
-
-| Prompt                              | Recommended Action                |
-| ----------------------------------- | --------------------------------- |
-| Set up VALIDATE PASSWORD component? | `Yes` — enforces strong passwords |
-| Change root password?               | `Yes` — set a strong password     |
-| Remove anonymous users?             | `Yes`                             |
-| Disallow root login remotely?       | `Yes` — for local development     |
-| Remove test database?               | `Yes`                             |
-| Reload privilege tables?            | `Yes`                             |
-
----
-
 ## 4. Creating a Database
 
 Before creating any tables, you need a **database** (also called a schema) to hold them.
-
 ### Create a New Database
 
 ```sql
