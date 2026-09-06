@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "web-dev-revision-walkthrough",
+      "path": "web-dev-revision-walkthrough.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
       "basename": "Introduction",
       "path": "Web/Introduction.md"
     },
@@ -101,10 +109,6 @@
       "path": "Web/cURL.md"
     },
     {
-      "basename": "Untitled",
-      "path": "Untitled.md"
-    },
-    {
       "basename": "Malicious File Upload",
       "path": "Web/Vulns/Malicious File Upload.md"
     },
@@ -147,10 +151,6 @@
     {
       "basename": "Async Programing",
       "path": "Web/JavaScript/Async Programing.md"
-    },
-    {
-      "basename": "web-dev-revision-walkthrough",
-      "path": "web-dev-revision-walkthrough.md"
     },
     {
       "basename": "Introduction",
