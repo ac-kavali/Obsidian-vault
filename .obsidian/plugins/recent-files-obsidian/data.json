@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Framework",
+      "path": "Web/Framework.md"
+    },
+    {
       "basename": "Docker",
       "path": "Web/Docker.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Linux Admin Project",
       "path": "Linux/Linux Admin Project.md"
-    },
-    {
-      "basename": "Links",
-      "path": "Linux/Links.md"
     }
   ],
   "omittedPaths": [],

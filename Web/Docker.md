@@ -51,11 +51,8 @@ A **Container** is a runnable instance of the image. You create, start, stop, mo
 
 ### Dockerfile
 Each instruction in a Dockerfile creates a layer in the image, the more instructions the larger the docker image.
-
-
-
 this means that the layers are stored together in the image but each
-layer identify what the changes starting from its previous layer
+layer identify what the added changes, starting from its previous layer
 
 --- 
 <strong>Question to answer:</strong>
