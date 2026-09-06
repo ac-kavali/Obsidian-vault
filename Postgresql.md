@@ -17,7 +17,16 @@ psql --version
 sudo -u postgres psql
 ```
 ---
-### Show databases
+##### Show databases
 ```sql
 \l
+```
+##### Create Database: 
+```sql
+CREATE DATABASE data_base;
+```
+
+##### Select database:
+```
+psql -d do_it
 ```
