@@ -1,5 +1,5 @@
 
-# Python Vertual Envirement:
+# Python Virtual Envirement:
 
 >A Python virtual environment is an isolated directory on your computer that contains a specific Python interpreter and its own set of installed packages, independent of other projects or the system's global Python installation
 

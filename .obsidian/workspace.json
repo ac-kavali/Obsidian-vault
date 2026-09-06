@@ -45,12 +45,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Backend.md",
+                "file": "Postgresql.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python Backend"
+              "title": "Postgresql"
             }
           }
         ],
@@ -141,8 +141,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "10424350b623bef2",
@@ -268,7 +267,21 @@
   },
   "active": "7120357043a3d2de",
   "lastOpenFiles": [
+    "Python/module08.md",
+    "Postgresql.md",
+    "Web/JavaScript/DOM Manipulation.md",
+    "Web/JavaScript/Functions&Parameters.md",
+    "Web/JavaScript/Get-started.md",
+    "Web/WebServer/Client-Server Arch.md",
+    "Linux/Environment Variables.md",
+    "Python/uv env_mgm.md",
+    "Web/WebServer/Web servers.md",
+    "Web/Vulns/XSS.md",
     "Python Backend.md",
+    "recap road.md",
+    "Python/RE.md",
+    "Python/Python Dicover.md",
+    "Python/Comprhensive.md",
     "Networking/CCNA_preparations/day2.md",
     "Web/Framework.md",
     "Networking/CCNA_preparations/Questions.md",
@@ -285,21 +298,7 @@
     "Web/JavaScript/Special-Numbers.md",
     "Web/Vulns/Broken Authentication.md",
     "Web/Vulns/Authentication.md",
-    "Web/Exploite 2.md",
-    "Web/cURL.md",
-    "Untitled.md",
-    "Web/Vulns/Malicious File Upload.md",
-    "Excalidraw/Access controle.md",
-    "Web/Vulns/IDOR.md",
-    "Web/JavaScript/DOM Manipulation.md",
-    "Web/JavaScript/Arrays.md",
-    "Web/JavaScript/DOM.md",
-    "Web/Vulns/Business logic.md",
-    "Web/Vulns/XSS.md",
     "Web/Vulns",
-    "Web/CSS/Get started.md",
-    "Web/WebServer/Web servers.md",
-    "Web/WebServer/Client-Server Arch.md",
     "Networking/51z24BHjLuL.jpg",
     "Networking/CAB-CONSOLE-USB-3-800x800.jpg",
     "Media/What_is_the_Structure_of_the_Ethernet_Frame_Format.png",

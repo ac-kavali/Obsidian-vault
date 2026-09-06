@@ -1,8 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "Python Backend",
-      "path": "Python Backend.md"
+      "basename": "Postgresql",
+      "path": "Postgresql.md"
+    },
+    {
+      "basename": "module08",
+      "path": "Python/module08.md"
+    },
+    {
+      "basename": "DOM Manipulation",
+      "path": "Web/JavaScript/DOM Manipulation.md"
+    },
+    {
+      "basename": "Get-started",
+      "path": "Web/JavaScript/Get-started.md"
+    },
+    {
+      "basename": "Client-Server Arch",
+      "path": "Web/WebServer/Client-Server Arch.md"
+    },
+    {
+      "basename": "Environment Variables",
+      "path": "Linux/Environment Variables.md"
+    },
+    {
+      "basename": "uv env_mgm",
+      "path": "Python/uv env_mgm.md"
+    },
+    {
+      "basename": "Web servers",
+      "path": "Web/WebServer/Web servers.md"
+    },
+    {
+      "basename": "XSS",
+      "path": "Web/Vulns/XSS.md"
+    },
+    {
+      "basename": "recap road",
+      "path": "recap road.md"
+    },
+    {
+      "basename": "RE",
+      "path": "Python/RE.md"
+    },
+    {
+      "basename": "Python Dicover",
+      "path": "Python/Python Dicover.md"
+    },
+    {
+      "basename": "Comprhensive",
+      "path": "Python/Comprhensive.md"
     },
     {
       "basename": "day2",
@@ -61,10 +109,6 @@
       "path": "Web/Vulns/IDOR.md"
     },
     {
-      "basename": "DOM Manipulation",
-      "path": "Web/JavaScript/DOM Manipulation.md"
-    },
-    {
       "basename": "Arrays",
       "path": "Web/JavaScript/Arrays.md"
     },
@@ -77,20 +121,8 @@
       "path": "Web/Vulns/Business logic.md"
     },
     {
-      "basename": "XSS",
-      "path": "Web/Vulns/XSS.md"
-    },
-    {
       "basename": "Get started",
       "path": "Web/CSS/Get started.md"
-    },
-    {
-      "basename": "Web servers",
-      "path": "Web/WebServer/Web servers.md"
-    },
-    {
-      "basename": "Client-Server Arch",
-      "path": "Web/WebServer/Client-Server Arch.md"
     },
     {
       "basename": "String Methods,Slicing",
@@ -103,14 +135,6 @@
     {
       "basename": "Memory Usage",
       "path": "Web/JavaScript/Memory Usage.md"
-    },
-    {
-      "basename": "Get-started",
-      "path": "Web/JavaScript/Get-started.md"
-    },
-    {
-      "basename": "Functions&Parameters",
-      "path": "Web/JavaScript/Functions&Parameters.md"
     },
     {
       "basename": "Errors",
@@ -145,10 +169,6 @@
       "path": "Web/Introduction.md"
     },
     {
-      "basename": "recap road",
-      "path": "recap road.md"
-    },
-    {
       "basename": "Day 11",
       "path": "Networking/CCNA_preparations/Day 11.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "Argparse",
       "path": "Python/Argparse.md"
-    },
-    {
-      "basename": "Fly-In",
-      "path": "Project/Fly-In.md"
-    },
-    {
-      "basename": "Dining Philosophoers",
-      "path": "Project/Dining Philosophoers.md"
-    },
-    {
-      "basename": "Switch",
-      "path": "Networking/Switch.md"
-    },
-    {
-      "basename": "CAB-CONSOLE-USB-3-800x800",
-      "path": "Networking/CAB-CONSOLE-USB-3-800x800.jpg"
-    },
-    {
-      "basename": "Application, Presentation",
-      "path": "Networking/Application, Presentation.md"
     }
   ],
   "omittedPaths": [],

@@ -33,3 +33,9 @@
               │ notes          │
               └────────────────┘
 ```
+
+## SQLAchemy
+Its the python SQL database toolkit 
+
+--- 
+## PostgreSQL
