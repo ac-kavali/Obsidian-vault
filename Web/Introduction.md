@@ -17,7 +17,7 @@ Starting with
 - command injection
 - BURBSUIT
 - developer toolkit
-- curl generation 
+- curl web requests
 - inside a webserver
 - xss
 

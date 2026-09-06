@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Introduction",
+      "path": "Web/Introduction.md"
+    },
+    {
+      "basename": "Linux Admin Project",
+      "path": "Linux/Linux Admin Project.md"
+    },
+    {
+      "basename": "Exploite 2",
+      "path": "Web/Exploite 2.md"
+    },
+    {
       "basename": "Postgresql",
       "path": "Postgresql.md"
+    },
+    {
+      "basename": "Materiels",
+      "path": "Networking/CCNA_preparations/Materiels.md"
     },
     {
       "basename": "module08",
@@ -19,10 +35,6 @@
     {
       "basename": "Client-Server Arch",
       "path": "Web/WebServer/Client-Server Arch.md"
-    },
-    {
-      "basename": "Environment Variables",
-      "path": "Linux/Environment Variables.md"
     },
     {
       "basename": "uv env_mgm",
@@ -65,10 +77,6 @@
       "path": "Networking/CCNA_preparations/Questions.md"
     },
     {
-      "basename": "Materiels",
-      "path": "Networking/CCNA_preparations/Materiels.md"
-    },
-    {
       "basename": "Docker",
       "path": "Web/Docker.md"
     },
@@ -87,10 +95,6 @@
     {
       "basename": "Authentication",
       "path": "Web/Vulns/Authentication.md"
-    },
-    {
-      "basename": "Exploite 2",
-      "path": "Web/Exploite 2.md"
     },
     {
       "basename": "cURL",
@@ -163,10 +167,6 @@
     {
       "basename": "Web Exploite",
       "path": "Web/Web Exploite.md"
-    },
-    {
-      "basename": "Introduction",
-      "path": "Web/Introduction.md"
     },
     {
       "basename": "Day 11",

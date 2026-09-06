@@ -5,4 +5,8 @@
 ```sh
 sudo apt install postgresql postgresql-contrib
 ```
-2) 
+2) Start service and check version
+```sh
+sudo systemctl start postgresql 
+psql --version
+```
