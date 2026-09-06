@@ -27,6 +27,11 @@ CREATE DATABASE data_base;
 ```
 
 ##### Select database:
-```
+```sql
+--from the os shell
 psql -d do_it
+
+--from the postres interactive session 
+\c data_base
 ```
+

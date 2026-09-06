@@ -131,7 +131,8 @@
               "title": "Plugin no longer active"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -261,8 +262,9 @@
   },
   "active": "6eed8afd94b38d61",
   "lastOpenFiles": [
-    "Python Backend.md",
+    "Web/SQL/Introduction.md",
     "Postgresql.md",
+    "Python Backend.md",
     "Networking/CCNA_preparations/day2.md",
     "Project/Fly-In.md",
     "recap road.md",
@@ -272,7 +274,6 @@
     "Web/SQL/Joins.md",
     "Web/SQL/MySQL Setup.md",
     "Python/Random.md",
-    "Web/SQL/Introduction.md",
     "Web/CSS/Part-1.md",
     "Web Exploite.md",
     "Exploite 2.md",

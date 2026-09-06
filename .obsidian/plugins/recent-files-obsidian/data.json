@@ -5,6 +5,10 @@
       "path": "Postgresql.md"
     },
     {
+      "basename": "Introduction",
+      "path": "Web/SQL/Introduction.md"
+    },
+    {
       "basename": "Python Backend",
       "path": "Python Backend.md"
     },
@@ -43,10 +47,6 @@
     {
       "basename": "Random",
       "path": "Python/Random.md"
-    },
-    {
-      "basename": "Introduction",
-      "path": "Web/SQL/Introduction.md"
     },
     {
       "basename": "Part-1",
