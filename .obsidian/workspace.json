@@ -104,10 +104,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse",
-                "autoReveal": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "sortOrder": "byCreatedTimeReverse"
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -146,8 +143,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ]
@@ -287,12 +284,11 @@
       "command-palette:Open command palette": true,
       "publish:Publish changes...": true,
       "graph:Open graph view": false,
-      "omnisearch:Omnisearch": false,
       "daily-notes:Open today's daily note": false,
-      "bases:Create new base": false,
       "audio-recorder:Start/stop recording": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false,
       "float-search:Search obsidian in modal view": false
     }
   },
