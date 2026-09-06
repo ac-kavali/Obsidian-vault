@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Firewalls",
+      "path": "Networking/CCNA_preparations/Firewalls.md"
+    },
+    {
       "basename": "Postgresql",
       "path": "Postgresql.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Errors",
       "path": "Web/JavaScript/Errors.md"
-    },
-    {
-      "basename": "Async Programing",
-      "path": "Web/JavaScript/Async Programing.md"
     }
   ],
   "omittedPaths": [],
