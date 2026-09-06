@@ -1,24 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "Client-Server Arch",
-      "path": "Web/WebServer/Client-Server Arch.md"
+      "basename": "MySQL",
+      "path": "Web/SQL/MySQL.md"
     },
     {
-      "basename": "Framework",
-      "path": "Web/Framework.md"
+      "basename": "Introduction",
+      "path": "Web/SQL/Introduction.md"
+    },
+    {
+      "basename": "Postgresql",
+      "path": "Postgresql.md"
+    },
+    {
+      "basename": "Web Exploite",
+      "path": "Web Exploite.md"
+    },
+    {
+      "basename": "Python Backend",
+      "path": "Python Backend.md"
+    },
+    {
+      "basename": "Pasted image 20260904231418",
+      "path": "Media/Pasted image 20260904231418.png"
+    },
+    {
+      "basename": "recap road",
+      "path": "recap road.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "Web/Docker.md"
     },
     {
       "basename": "Burpsuite",
       "path": "Web/Burpsuite.md"
     },
     {
-      "basename": "DB-CRUD",
-      "path": "Web/SQL/DB-CRUD.md"
+      "basename": "Introduction",
+      "path": "Web/Introduction.md"
     },
     {
-      "basename": "Introduction",
-      "path": "Web/SQL/Introduction.md"
+      "basename": "HTTP",
+      "path": "Web/HTTP.md"
+    },
+    {
+      "basename": "Client-Server Arch",
+      "path": "Web/WebServer/Client-Server Arch.md"
+    },
+    {
+      "basename": "DB-CRUD",
+      "path": "Web/SQL/DB-CRUD.md"
     },
     {
       "basename": "Import database",
@@ -33,36 +65,12 @@
       "path": "Web/SQL/Joins.md"
     },
     {
-      "basename": "Docker",
-      "path": "Web/Docker.md"
-    },
-    {
-      "basename": "Postgresql",
-      "path": "Postgresql.md"
-    },
-    {
-      "basename": "Python Backend",
-      "path": "Python Backend.md"
-    },
-    {
       "basename": "web-dev-revision-walkthrough",
       "path": "web-dev-revision-walkthrough.md"
     },
     {
-      "basename": "Untitled",
-      "path": "Untitled.md"
-    },
-    {
-      "basename": "Introduction",
-      "path": "Web/Introduction.md"
-    },
-    {
       "basename": "Linux Admin Project",
       "path": "Linux/Linux Admin Project.md"
-    },
-    {
-      "basename": "Exploite 2",
-      "path": "Web/Exploite 2.md"
     },
     {
       "basename": "Materiels",
@@ -93,10 +101,6 @@
       "path": "Web/Vulns/XSS.md"
     },
     {
-      "basename": "recap road",
-      "path": "recap road.md"
-    },
-    {
       "basename": "RE",
       "path": "Python/RE.md"
     },
@@ -123,10 +127,6 @@
     {
       "basename": "to see important",
       "path": "Networking/to see important.md"
-    },
-    {
-      "basename": "to_start",
-      "path": "Web/to_start.md"
     },
     {
       "basename": "Authentication",
@@ -191,10 +191,6 @@
     {
       "basename": "Get_started",
       "path": "Web/Burpsuite/Get_started.md"
-    },
-    {
-      "basename": "Web Exploite",
-      "path": "Web/Web Exploite.md"
     },
     {
       "basename": "Day 11",

@@ -1,4 +1,3 @@
-Starting with 
 ## Questions 
 - What represent the buttons and there behavior 
 - How Java-script controls the DOM and the DOM methods used 
@@ -31,6 +30,10 @@ then developer tools then start learning the popular web vulnirablities
    read [MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP), [The web hacker handbook](https://www.beiruteyecenter.com/uploads/3794_1008_4334.pdf),[Try hack me video](https://youtu.be/iWoiwFRLV4I?si=IQJFphCIMCajref1), [SQL Injection](https://youtu.be/qUSf3rqN6qo?si=yNRV65bNreXViyVv)
 ---
 2) Use Burp Suite's "Repeater" tool to manually craft requests and see how changing a GET to a POST, or modifying a User-Agent header, affects the server's response . Understand the difference between cookies and sessions.
+
+## Frameworks 
+When we talk about **front-end**, a **framework** is basically a **pre-built structure + tools + rules** that help you build websites faster and in a more organized way.
+
 ---
 ## other resources
 

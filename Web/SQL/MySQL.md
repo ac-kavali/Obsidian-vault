@@ -1,17 +1,14 @@
 
-A step-by-step guide to installing MySQL, configuring it, and creating your very first database table.
-
-## Table of Contents
-
-1. [Installing MySQL](#1-installing-mysql)
-2. [Starting & Accessing MySQL](#2-starting--accessing-mysql)
-3. [Securing the Installation](#3-securing-the-installation)
-4. [Creating a Database](#4-creating-a-database)
-5. [Data Types Overview](#5-data-types-overview)
-6. [Creating Your First Table](#6-creating-your-first-table)
-7. [Viewing & Describing Tables](#7-viewing--describing-tables)
-8. [Constraints Reference](#8-constraints-reference)
-9. [Dropping a Table or Database](#9-dropping-a-table-or-database)
+## Table of contents:
+- [[#1. Installing MySQL|1. Installing MySQL]]
+- [[#2. Starting & Accessing MySQL|2. Starting & Accessing MySQL]]
+- [[#3. Securing the Installation|3. Securing the Installation]]
+- [[#4. Creating a Database|4. Creating a Database]]
+- [[#5. Data Types Overview|5. Data Types Overview]]
+- [[#6. Creating Your First Table|6. Creating Your First Table]]
+- [[#7. Viewing & Describing Tables|7. Viewing & Describing Tables]]
+- [[#8. Constraints Reference|8. Constraints Reference]]
+- [[#Full Setup Checklist|Full Setup Checklist]]
 
 ---
 

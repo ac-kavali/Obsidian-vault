@@ -1,16 +1,21 @@
-<span style="color:rgb(0, 176, 80)">Structured Query Language</span>
+## Table of contents:
+- [[#What is SQL|What is SQL]]
+- [[#Why Databases|Why Databases]]
+- [[#Install DBMS]]
+- [[#Most important keys|Most important keys]]
+- [[#Comments|Comments]]
+- [[#SQL vs NoSQL|SQL vs NoSQL]]
+- [[#Aggregate Functions|Aggregate Functions]]
 
+---
+## What is SQL
+<span style="color:rgb(0, 176, 80)">Structured Query Language</span> : is a standard  language or (queries) used to manage, create, and store databases.
 
-
-<span style="color:rgb(0, 176, 240)">SQL </span>= language used to talk to databases.
+**You need to know also:**
 <span style="color:rgb(255, 0, 0)">Database Management Systems (DBMS)</span> like mySQL, postgreSQL
-
 ```
 Browser → HTTP Request → Backend (PHP/Python/Node) → SQL Query → Database
 ```
-
-SQL is a standard language for storing, manipulating and retrieving data in databases.
-
 ---
 ## Why Databases 
 We store data in database to used later, and give us the ability to take the right discisions.
@@ -21,6 +26,19 @@ makes data updating easier and ensure (prevent data inconsistency )
 ### **What is a record**
 A record, also called a row, is each individual entry that exists in a table. For example, there are 91 records in the above Customers table. A record is a horizontal entity in a table.
 
+---
+## Install DBMS
+
+**What is** <strong>Database Managment System</strong>:
+it is software that acts as an interface between a database and its end-users or programs, it allows you to create, read, update, delete, and manage data efficiently and securely.
+it reads, processes, and executes those queries.
+
+
+### Mariadb(mysql)
+
+
+
+### Postgresql 
 ---
 ## Most important keys 
 - `SELECT` - extracts data from a database

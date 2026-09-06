@@ -12,22 +12,52 @@
       "MySQL.md"
     ],
     "Web": [
+      "Introduction.md",
+      "HTTP.md",
+      "WebServer",
       "Burpsuite",
       "CSS",
       "HTML",
       "JavaScript",
       "SQL",
       "Vulns",
-      "WebServer",
-      "Introduction.md",
       "Burpsuite.md",
       "Docker.md",
-      "Exploite 2.md",
-      "Framework.md",
-      "HTTP.md",
+      "cURL.md"
+    ],
+    "/": [
+      "Concepts",
+      "Excalidraw",
+      "Linux",
+      "Media",
+      "Networking",
+      "Project",
+      "Python",
+      "Web",
+      "Books Stations.md",
+      "recap road.md",
+      "web-dev-revision-walkthrough.md",
+      "Python Backend.md",
+      "Postgresql.md",
       "Web Exploite.md",
-      "cURL.md",
-      "to_start.md"
+      "to_start.md",
+      "Exploite 2.md"
+    ],
+    "Web/JavaScript": [
+      "Introduction.md",
+      "Get-started.md",
+      "DOM.md",
+      "DOM Manipulation.md",
+      "Random.md",
+      "String Methods,Slicing.md",
+      "Errors.md",
+      "Arrays.md",
+      "Async Programing.md",
+      "Classes and Objects.md",
+      "Conding-Js-1",
+      "Functions&Parameters.md",
+      "Memory Usage.md",
+      "Special-Numbers.md"
     ]
   }
 }
