@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "Postgresql",
+      "path": "Postgresql.md"
+    },
+    {
+      "basename": "Python Backend",
+      "path": "Python Backend.md"
+    },
+    {
+      "basename": "day2",
+      "path": "Networking/CCNA_preparations/day2.md"
+    },
+    {
+      "basename": "Fly-In",
+      "path": "Project/Fly-In.md"
+    },
+    {
+      "basename": "recap road",
+      "path": "recap road.md"
+    },
+    {
+      "basename": "File Discriptor",
+      "path": "Concepts/File Discriptor.md"
+    },
+    {
+      "basename": "Get-started",
+      "path": "Web/JavaScript/Get-started.md"
+    },
+    {
+      "basename": "Introduction",
+      "path": "Web/JavaScript/Introduction.md"
+    },
+    {
       "basename": "Joins",
       "path": "Web/SQL/Joins.md"
     },
@@ -21,24 +53,12 @@
       "path": "Web/CSS/Part-1.md"
     },
     {
-      "basename": "Postgresql",
-      "path": "Postgresql.md"
-    },
-    {
       "basename": "Web Exploite",
       "path": "Web Exploite.md"
     },
     {
-      "basename": "Python Backend",
-      "path": "Python Backend.md"
-    },
-    {
       "basename": "Pasted image 20260904231418",
       "path": "Media/Pasted image 20260904231418.png"
-    },
-    {
-      "basename": "recap road",
-      "path": "recap road.md"
     },
     {
       "basename": "Docker",
@@ -93,10 +113,6 @@
       "path": "Web/JavaScript/DOM Manipulation.md"
     },
     {
-      "basename": "Get-started",
-      "path": "Web/JavaScript/Get-started.md"
-    },
-    {
       "basename": "uv env_mgm",
       "path": "Python/uv env_mgm.md"
     },
@@ -119,10 +135,6 @@
     {
       "basename": "Comprhensive",
       "path": "Python/Comprhensive.md"
-    },
-    {
-      "basename": "day2",
-      "path": "Networking/CCNA_preparations/day2.md"
     },
     {
       "basename": "Questions",
@@ -187,18 +199,6 @@
     {
       "basename": "Async Programing",
       "path": "Web/JavaScript/Async Programing.md"
-    },
-    {
-      "basename": "Introduction",
-      "path": "Web/HTML/Introduction.md"
-    },
-    {
-      "basename": "Basics",
-      "path": "Web/HTML/Basics.md"
-    },
-    {
-      "basename": "Get_started",
-      "path": "Web/Burpsuite/Get_started.md"
     }
   ],
   "omittedPaths": [],

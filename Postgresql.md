@@ -10,3 +10,14 @@ sudo apt install postgresql postgresql-contrib
 sudo systemctl start postgresql 
 psql --version
 ```
+
+
+###### Enter psql CLI
+```sh
+sudo -u postgres psql
+```
+---
+### Show databases
+```sql
+\l
+```

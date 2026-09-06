@@ -1,3 +1,11 @@
+## Table of contents
+- [[#Definition:|Definition:]]
+- [[#Uses of JavaScript|Uses of JavaScript]]
+  - [[#Uses of JavaScript#On the Front-End (Browser Side)|On the Front-End (Browser Side)]]
+  - [[#Uses of JavaScript#Building Web & Mobile Applications|Building Web & Mobile Applications]]
+  - [[#Uses of JavaScript#Back-End Development|Back-End Development]]
+- [[#ECMA Script|ECMA Script]]
+---
 ## Definition:
 JavaScript is a scripting language or programming language used on both the server-side and client-side to create engaging website elements.
 [Full Difinition](https://brainstation.io/learn/javascript/what-is-javascript-used-for#what-is-javascript-used-for) and memory resuscitation
