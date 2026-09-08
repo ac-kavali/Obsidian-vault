@@ -1,20 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Firewalls",
-      "path": "Networking/CCNA_preparations/Firewalls.md"
+      "basename": "Web Proxies",
+      "path": "Web Proxies.md"
+    },
+    {
+      "basename": "Web Exploite",
+      "path": "Web Exploite.md"
     },
     {
       "basename": "Postgresql",
       "path": "Postgresql.md"
     },
     {
-      "basename": "Introduction",
-      "path": "Web/SQL/Introduction.md"
-    },
-    {
       "basename": "Python Backend",
       "path": "Python Backend.md"
+    },
+    {
+      "basename": "web-dev-revision-walkthrough",
+      "path": "web-dev-revision-walkthrough.md"
+    },
+    {
+      "basename": "recap road",
+      "path": "recap road.md"
+    },
+    {
+      "basename": "Firewalls",
+      "path": "Networking/CCNA_preparations/Firewalls.md"
+    },
+    {
+      "basename": "Introduction",
+      "path": "Web/SQL/Introduction.md"
     },
     {
       "basename": "day2",
@@ -23,10 +39,6 @@
     {
       "basename": "Fly-In",
       "path": "Project/Fly-In.md"
-    },
-    {
-      "basename": "recap road",
-      "path": "recap road.md"
     },
     {
       "basename": "File Discriptor",
@@ -55,10 +67,6 @@
     {
       "basename": "Part-1",
       "path": "Web/CSS/Part-1.md"
-    },
-    {
-      "basename": "Web Exploite",
-      "path": "Web Exploite.md"
     },
     {
       "basename": "Pasted image 20260904231418",
@@ -95,10 +103,6 @@
     {
       "basename": "Constraints",
       "path": "Web/SQL/Constraints.md"
-    },
-    {
-      "basename": "web-dev-revision-walkthrough",
-      "path": "web-dev-revision-walkthrough.md"
     },
     {
       "basename": "Linux Admin Project",
@@ -195,10 +199,6 @@
     {
       "basename": "Memory Usage",
       "path": "Web/JavaScript/Memory Usage.md"
-    },
-    {
-      "basename": "Errors",
-      "path": "Web/JavaScript/Errors.md"
     }
   ],
   "omittedPaths": [],
