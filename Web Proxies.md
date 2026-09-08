@@ -71,7 +71,17 @@ Without this: HTTPS traffic breaks or Firefox nags you to "accept the risk" cons
 
 Proxy configured + CA cert trusted → all Firefox traffic flows through Burp/ZAP for inspection and manipulation.
 
----
+## 4. Intercepting & Manipulating Requests
+
+- **Burp:** Intercept is **ON** by default (`Proxy → Intercept`). Click **Forward** to release each request (may need multiple Forwards to skip other traffic).
+
+``- **ZAP:** Intercept is **OFF** by default. Toggle via the green button or `Ctrl+B`. The **HUD** lets you intercept from inside the browser — **Step** (send + inspect next) vs **Continue** (release the rest).``
+
+> [!example] Command injection test
+
+> Ping form only accepts numbers → intercept request → change `ip=1` to `ip=;ls;` → forward → server returns a file listing instead of ping output. Front-end JS validation ≠ back-end validation.
+
+**Use cases:** SQLi, command injection, upload/auth bypass, XSS, XXE, deserialization.
 
 ## Related Notes
 

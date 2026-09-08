@@ -57,12 +57,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Proxies.md",
+                "file": "Burp-Intruder.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Web Proxies"
+              "title": "Burp-Intruder"
             }
           }
         ],
@@ -261,8 +261,11 @@
   },
   "active": "6eed8afd94b38d61",
   "lastOpenFiles": [
-    "Web Exploite.md",
+    "encoding_fundamentals.md",
+    "proxychain.md",
     "Web Proxies.md",
+    "Burp-Intruder.md",
+    "Web Exploite.md",
     "Untitled",
     "Postgresql.md",
     "Python Backend.md",
@@ -286,8 +289,6 @@
     "Web/Burpsuite.md",
     "Web/Introduction.md",
     "Web/HTTP.md",
-    "Web/Framework.md",
-    "Web/WebServer/Client-Server Arch.md",
     "Media/dockerimages.png",
     "Media/docker-image2.png",
     "Media/docker-on-linux-windows-mac.jpg",

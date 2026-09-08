@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Burp-Intruder",
+      "path": "Burp-Intruder.md"
+    },
+    {
+      "basename": "encoding_fundamentals",
+      "path": "encoding_fundamentals.md"
+    },
+    {
+      "basename": "proxychain",
+      "path": "proxychain.md"
+    },
+    {
       "basename": "Web Proxies",
       "path": "Web Proxies.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Get started",
       "path": "Web/CSS/Get started.md"
-    },
-    {
-      "basename": "String Methods,Slicing",
-      "path": "Web/JavaScript/String Methods,Slicing.md"
-    },
-    {
-      "basename": "Random",
-      "path": "Web/JavaScript/Random.md"
-    },
-    {
-      "basename": "Memory Usage",
-      "path": "Web/JavaScript/Memory Usage.md"
     }
   ],
   "omittedPaths": [],
