@@ -7,4 +7,12 @@ are software applications that filter traffic entring and exiting a host machine
 
 
 ---
-**1) Packet filtering firewall**
+### 1) Packet filtering firewall
+- Inspects packets based on **IP, port, protocol, direction**, etc.
+- Usually operates mainly at **Layer 3/4**.
+- Fast, but doesn't understand the content of the connection.
+
+**Example:** Allow TCP port 443, deny TCP port 23
+
+---
+**2) Stateful Firewall**
