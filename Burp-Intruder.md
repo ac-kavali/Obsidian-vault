@@ -99,6 +99,7 @@ title: Burp Intruder
 > `sudo gunzip /usr/share/wordlists/rockyou.txt.gz`
 
 ---
+**The information that i've learned with the hard way is that the the same target ressources can give you different users using just the cookies**
 
 ## Related Notes
 - [[Web-Proxy-Setup-Burp-ZAP]]
