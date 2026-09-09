@@ -12,7 +12,7 @@ Not every tool has a `--proxy` flag. Scripts, compiled binaries, thick clients, 
 
 ---
 
-## ⚠️ Version note: use `proxychains-ng` (`proxychains4`)
+## Version note: use `proxychains-ng` (`proxychains4`)
 
 The original `proxychains` project is unmaintained. What you actually want is **`proxychains-ng`**, whose binary is called `proxychains4` — this is what ships in Kali and is the actively maintained version. Keep in mind:
 
