@@ -57,12 +57,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Burp-Intruder.md",
-                "mode": "preview",
+                "file": "HTB/Burp Scanner.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Burp-Intruder"
+              "title": "Burp Scanner"
             }
           }
         ],
@@ -261,12 +261,13 @@
   },
   "active": "6eed8afd94b38d61",
   "lastOpenFiles": [
-    "encoding_fundamentals.md",
-    "proxychain.md",
-    "Web Proxies.md",
-    "Burp-Intruder.md",
+    "HTB/Web Proxies.md",
+    "HTB/Burp Scanner.md",
+    "HTB/Burp-Intruder.md",
+    "HTB",
     "Web Exploite.md",
-    "Untitled",
+    "HTB/encoding_fundamentals.md",
+    "HTB/proxychain.md",
     "Postgresql.md",
     "Python Backend.md",
     "web-dev-revision-walkthrough.md",
@@ -288,7 +289,6 @@
     "Web/Docker.md",
     "Web/Burpsuite.md",
     "Web/Introduction.md",
-    "Web/HTTP.md",
     "Media/dockerimages.png",
     "Media/docker-image2.png",
     "Media/docker-on-linux-windows-mac.jpg",

@@ -40,8 +40,7 @@
       "Python Backend.md",
       "Postgresql.md",
       "Web Exploite.md",
-      "to_start.md",
-      "Exploite 2.md"
+      "HTB"
     ],
     "Web/JavaScript": [
       "Introduction.md",
@@ -58,6 +57,12 @@
       "Functions&Parameters.md",
       "Memory Usage.md",
       "Special-Numbers.md"
+    ],
+    "HTB": [
+      "Web Proxies.md",
+      "proxychain.md",
+      "encoding_fundamentals.md",
+      "Burp-Intruder.md"
     ]
   }
 }

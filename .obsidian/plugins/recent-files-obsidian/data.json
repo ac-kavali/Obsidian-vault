@@ -1,24 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Burp-Intruder",
-      "path": "Burp-Intruder.md"
-    },
-    {
-      "basename": "encoding_fundamentals",
-      "path": "encoding_fundamentals.md"
-    },
-    {
-      "basename": "proxychain",
-      "path": "proxychain.md"
+      "basename": "Burp Scanner",
+      "path": "HTB/Burp Scanner.md"
     },
     {
       "basename": "Web Proxies",
-      "path": "Web Proxies.md"
+      "path": "HTB/Web Proxies.md"
+    },
+    {
+      "basename": "Burp-Intruder",
+      "path": "HTB/Burp-Intruder.md"
     },
     {
       "basename": "Web Exploite",
       "path": "Web Exploite.md"
+    },
+    {
+      "basename": "encoding_fundamentals",
+      "path": "HTB/encoding_fundamentals.md"
+    },
+    {
+      "basename": "proxychain",
+      "path": "HTB/proxychain.md"
     },
     {
       "basename": "Postgresql",
@@ -195,10 +199,6 @@
     {
       "basename": "Business logic",
       "path": "Web/Vulns/Business logic.md"
-    },
-    {
-      "basename": "Get started",
-      "path": "Web/CSS/Get started.md"
     }
   ],
   "omittedPaths": [],
