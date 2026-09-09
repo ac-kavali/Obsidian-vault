@@ -57,12 +57,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Burp Scanner.md",
+                "file": "HTB/ZAP Scanner.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Burp Scanner"
+              "title": "ZAP Scanner"
             }
           }
         ],
@@ -262,7 +262,7 @@
   "active": "6eed8afd94b38d61",
   "lastOpenFiles": [
     "HTB/Web Proxies.md",
-    "HTB/Burp Scanner.md",
+    "HTB/ZAP Scanner.md",
     "HTB/Burp-Intruder.md",
     "HTB",
     "Web Exploite.md",
