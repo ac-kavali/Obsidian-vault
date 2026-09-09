@@ -10,18 +10,18 @@ All steps below use the **main ZAP desktop app** (Sites tab / History tab / top 
 
 ## 🧠 Vocabulary (simple definitions)
 
-|Term|Plain-English meaning|
-|---|---|
-|**Spider**|ZAP's crawler — follows links/forms to map out a website. Same idea as Burp's Crawler.|
-|**Ajax Spider**|A smarter spider that can also find links loaded dynamically by JavaScript (things a normal spider would miss).|
-|**Passive Scan**|ZAP reads pages it has _already_ seen and looks for obvious problems. It sends **no attack traffic** — totally safe.|
-|**Active Scan**|ZAP actively sends attack payloads (SQLi, XSS, command injection, etc.) to every page/parameter it found. This is what actually confirms vulnerabilities — and it's noisy/riskier.|
-|**Site Tree**|The folder-like map of the target website, built by the Spider. Found in the **Sites** tab.|
-|**Scope**|The list of URLs/sites ZAP is allowed to test.|
-|**Alert**|A single finding/issue ZAP reports (e.g. "Missing X-Frame-Options header").|
-|**Risk**|How dangerous an alert is: **High / Medium / Low / Informational**.|
-|**Confidence**|How sure ZAP is that the alert is real (not a false positive).|
-|**HUD**|An in-browser overlay version of ZAP's controls. This guide skips it and uses the desktop app instead.|
+| Term             | Plain-English meaning                                                                                                                                                              |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Spider**       | ZAP's crawler — follows links/forms to map out a website. Same idea as Burp's Crawler.                                                                                             |
+| **Ajax Spider**  | A smarter spider that can also find links loaded dynamically by JavaScript (things a normal spider would miss).                                                                    |
+| **Passive Scan** | ZAP reads pages it has _already_ seen and looks for obvious problems. It sends **no attack traffic** — totally safe.                                                               |
+| **Active Scan**  | ZAP actively sends attack payloads (SQLi, XSS, command injection, etc.) to every page/parameter it found. This is what actually confirms vulnerabilities — and it's noisy/riskier. |
+| **Site Tree**    | The folder-like map of the target website, built by the Spider. Found in the **Sites** tab.                                                                                        |
+| **Scope**        | The list of URLs/sites ZAP is allowed to test.                                                                                                                                     |
+| **Alert**        | A single finding/issue ZAP reports (e.g. "Missing X-Frame-Options header").                                                                                                        |
+| **Risk**         | How dangerous an alert is: **High / Medium / Low / Informational**.                                                                                                                |
+| **Confidence**   | How sure ZAP is that the alert is real (not a false positive).                                                                                                                     |
+| **HUD**          | An in-browser overlay version of ZAP's controls. This guide skips it and uses the desktop app instead.                                                                             |
 
 ---
 

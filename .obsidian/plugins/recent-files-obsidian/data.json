@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "proxychain",
+      "path": "HTB/proxychain.md"
+    },
+    {
       "basename": "ZAP Scanner",
       "path": "HTB/ZAP Scanner.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "encoding_fundamentals",
       "path": "HTB/encoding_fundamentals.md"
-    },
-    {
-      "basename": "proxychain",
-      "path": "HTB/proxychain.md"
     },
     {
       "basename": "Postgresql",
