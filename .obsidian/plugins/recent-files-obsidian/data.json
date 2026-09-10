@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Windows htb",
+      "path": "Windows htb.md"
+    },
+    {
+      "basename": "Books Stations",
+      "path": "Books Stations.md"
+    },
+    {
+      "basename": "Python Backend",
+      "path": "Python Backend.md"
+    },
+    {
+      "basename": "Postgresql",
+      "path": "Web/Postgresql.md"
+    },
+    {
+      "basename": "Web Exploite",
+      "path": "Web Exploite.md"
+    },
+    {
       "basename": "day2",
       "path": "Networking/CCNA_preparations/day2.md"
     },
@@ -61,28 +81,8 @@
       "path": "Web/HTB/proxychain.md"
     },
     {
-      "basename": "Python Backend",
-      "path": "Python Backend.md"
-    },
-    {
-      "basename": "Postgresql",
-      "path": "Postgresql.md"
-    },
-    {
-      "basename": "Web Exploite",
-      "path": "Web Exploite.md"
-    },
-    {
       "basename": "Web Proxies",
       "path": "Web/HTB/Web Proxies.md"
-    },
-    {
-      "basename": "web-dev-revision-walkthrough",
-      "path": "web-dev-revision-walkthrough.md"
-    },
-    {
-      "basename": "recap road",
-      "path": "recap road.md"
     },
     {
       "basename": "Firewalls",

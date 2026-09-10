@@ -57,12 +57,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/CCNA_preparations/day2.md",
-                "mode": "preview",
+                "file": "Windows htb.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "day2"
+              "title": "Windows htb"
             }
           }
         ],
@@ -261,6 +261,14 @@
   },
   "active": "6eed8afd94b38d61",
   "lastOpenFiles": [
+    "Books Stations.md",
+    "Windows htb.md",
+    "Python Backend.md",
+    "Web/Postgresql.md",
+    "Web Exploite.md",
+    "recap road.md",
+    "web-dev-revision-walkthrough.md",
+    "Networking/CCNA_preparations/day2.md",
     "Networking/ARP.md",
     "Media/51z24BHjLuL.jpg",
     "Networking/CCNA_preparations/VTP.md",
@@ -275,19 +283,12 @@
     "Web/HTB/Burp-Intruder.md",
     "Web/HTB/encoding_fundamentals.md",
     "Web/HTB/proxychain.md",
-    "Python Backend.md",
-    "Postgresql.md",
-    "Web Exploite.md",
     "Web/HTB/Web Proxies.md",
     "Web/HTB",
-    "web-dev-revision-walkthrough.md",
-    "recap road.md",
     "Networking/CCNA_preparations/Firewalls.md",
     "Web/SQL/Introduction.md",
-    "Networking/CCNA_preparations/day2.md",
     "Project/Fly-In.md",
     "Concepts/File Discriptor.md",
-    "Web/JavaScript/Get-started.md",
     "Media/Pasted image 20260904231418.png",
     "Media/dockerimages.png",
     "Media/docker-image2.png",
