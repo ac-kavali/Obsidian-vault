@@ -39,8 +39,7 @@
       "web-dev-revision-walkthrough.md",
       "Python Backend.md",
       "Postgresql.md",
-      "Web Exploite.md",
-      "HTB"
+      "Web Exploite.md"
     ],
     "Web/JavaScript": [
       "Introduction.md",
@@ -58,7 +57,7 @@
       "Memory Usage.md",
       "Special-Numbers.md"
     ],
-    "HTB": [
+    "Web/HTB": [
       "Web Proxies.md",
       "proxychain.md",
       "encoding_fundamentals.md",

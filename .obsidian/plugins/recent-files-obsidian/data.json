@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "proxychain",
-      "path": "HTB/proxychain.md"
+      "basename": "ZAP Scanner",
+      "path": "Web/HTB/ZAP Scanner.md"
     },
     {
-      "basename": "ZAP Scanner",
-      "path": "HTB/ZAP Scanner.md"
+      "basename": "Burp-Intruder",
+      "path": "Web/HTB/Burp-Intruder.md"
+    },
+    {
+      "basename": "encoding_fundamentals",
+      "path": "Web/HTB/encoding_fundamentals.md"
+    },
+    {
+      "basename": "proxychain",
+      "path": "Web/HTB/proxychain.md"
     },
     {
       "basename": "Python Backend",
@@ -22,15 +30,7 @@
     },
     {
       "basename": "Web Proxies",
-      "path": "HTB/Web Proxies.md"
-    },
-    {
-      "basename": "Burp-Intruder",
-      "path": "HTB/Burp-Intruder.md"
-    },
-    {
-      "basename": "encoding_fundamentals",
-      "path": "HTB/encoding_fundamentals.md"
+      "path": "Web/HTB/Web Proxies.md"
     },
     {
       "basename": "web-dev-revision-walkthrough",
