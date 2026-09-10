@@ -1,6 +1,50 @@
 {
   "recentFiles": [
     {
+      "basename": "day2",
+      "path": "Networking/CCNA_preparations/day2.md"
+    },
+    {
+      "basename": "ARP",
+      "path": "Networking/ARP.md"
+    },
+    {
+      "basename": "51z24BHjLuL",
+      "path": "Media/51z24BHjLuL.jpg"
+    },
+    {
+      "basename": "VTP",
+      "path": "Networking/CCNA_preparations/VTP.md"
+    },
+    {
+      "basename": "Troubleshouting",
+      "path": "Networking/CCNA_preparations/Troubleshouting.md"
+    },
+    {
+      "basename": "Questions",
+      "path": "Networking/CCNA_preparations/Questions.md"
+    },
+    {
+      "basename": "Day6",
+      "path": "Networking/CCNA_preparations/Day6.md"
+    },
+    {
+      "basename": "Day5",
+      "path": "Networking/CCNA_preparations/Day5.md"
+    },
+    {
+      "basename": "Day4",
+      "path": "Networking/CCNA_preparations/Day4.md"
+    },
+    {
+      "basename": "Day3",
+      "path": "Networking/CCNA_preparations/Day3.md"
+    },
+    {
+      "basename": "Day9",
+      "path": "Networking/CCNA_preparations/Day9.md"
+    },
+    {
       "basename": "ZAP Scanner",
       "path": "Web/HTB/ZAP Scanner.md"
     },
@@ -47,10 +91,6 @@
     {
       "basename": "Introduction",
       "path": "Web/SQL/Introduction.md"
-    },
-    {
-      "basename": "day2",
-      "path": "Networking/CCNA_preparations/day2.md"
     },
     {
       "basename": "Fly-In",
@@ -159,46 +199,6 @@
     {
       "basename": "Comprhensive",
       "path": "Python/Comprhensive.md"
-    },
-    {
-      "basename": "Questions",
-      "path": "Networking/CCNA_preparations/Questions.md"
-    },
-    {
-      "basename": "DNS",
-      "path": "Networking/DNS.md"
-    },
-    {
-      "basename": "to see important",
-      "path": "Networking/to see important.md"
-    },
-    {
-      "basename": "Authentication",
-      "path": "Web/Vulns/Authentication.md"
-    },
-    {
-      "basename": "cURL",
-      "path": "Web/cURL.md"
-    },
-    {
-      "basename": "Malicious File Upload",
-      "path": "Web/Vulns/Malicious File Upload.md"
-    },
-    {
-      "basename": "IDOR",
-      "path": "Web/Vulns/IDOR.md"
-    },
-    {
-      "basename": "Arrays",
-      "path": "Web/JavaScript/Arrays.md"
-    },
-    {
-      "basename": "DOM",
-      "path": "Web/JavaScript/DOM.md"
-    },
-    {
-      "basename": "Business logic",
-      "path": "Web/Vulns/Business logic.md"
     }
   ],
   "omittedPaths": [],

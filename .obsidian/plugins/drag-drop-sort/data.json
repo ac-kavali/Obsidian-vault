@@ -62,6 +62,21 @@
       "proxychain.md",
       "encoding_fundamentals.md",
       "Burp-Intruder.md"
+    ],
+    "Networking": [
+      "CCNA_preparations",
+      "ARP.md",
+      "Application, Presentation.md",
+      "Basics.md",
+      "Network scaning.md",
+      "OSI Model.md",
+      "Ports.md",
+      "Subnetting.md",
+      "Switch.md",
+      "CAB-CONSOLE-USB-3-800x800.jpg",
+      "DNS.md",
+      "Network Types.md",
+      "to see important.md"
     ]
   }
 }
