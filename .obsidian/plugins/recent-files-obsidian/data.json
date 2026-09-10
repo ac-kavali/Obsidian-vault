@@ -9,6 +9,18 @@
       "path": "HTB/ZAP Scanner.md"
     },
     {
+      "basename": "Python Backend",
+      "path": "Python Backend.md"
+    },
+    {
+      "basename": "Postgresql",
+      "path": "Postgresql.md"
+    },
+    {
+      "basename": "Web Exploite",
+      "path": "Web Exploite.md"
+    },
+    {
       "basename": "Web Proxies",
       "path": "HTB/Web Proxies.md"
     },
@@ -17,20 +29,8 @@
       "path": "HTB/Burp-Intruder.md"
     },
     {
-      "basename": "Web Exploite",
-      "path": "Web Exploite.md"
-    },
-    {
       "basename": "encoding_fundamentals",
       "path": "HTB/encoding_fundamentals.md"
-    },
-    {
-      "basename": "Postgresql",
-      "path": "Postgresql.md"
-    },
-    {
-      "basename": "Python Backend",
-      "path": "Python Backend.md"
     },
     {
       "basename": "web-dev-revision-walkthrough",

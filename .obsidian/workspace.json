@@ -58,7 +58,7 @@
               "type": "markdown",
               "state": {
                 "file": "HTB/proxychain.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -262,14 +262,14 @@
   "active": "6eed8afd94b38d61",
   "lastOpenFiles": [
     "HTB/ZAP Scanner.md",
+    "Python Backend.md",
+    "Postgresql.md",
+    "Web Exploite.md",
+    "HTB/proxychain.md",
     "HTB/Web Proxies.md",
     "HTB/Burp-Intruder.md",
     "HTB",
-    "Web Exploite.md",
     "HTB/encoding_fundamentals.md",
-    "HTB/proxychain.md",
-    "Postgresql.md",
-    "Python Backend.md",
     "web-dev-revision-walkthrough.md",
     "recap road.md",
     "Networking/CCNA_preparations/Firewalls.md",
