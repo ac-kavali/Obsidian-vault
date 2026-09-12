@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "Commands",
+      "path": "Networking/Commands.md"
+    },
+    {
+      "basename": "Switch",
+      "path": "Networking/Switch.md"
+    },
+    {
+      "basename": "Ports",
+      "path": "Networking/Ports.md"
+    },
+    {
+      "basename": "OSI Model",
+      "path": "Networking/OSI Model.md"
+    },
+    {
+      "basename": "Network scaning",
+      "path": "Networking/Network scaning.md"
+    },
+    {
+      "basename": "Basics",
+      "path": "Networking/Basics.md"
+    },
+    {
+      "basename": "Application, Presentation",
+      "path": "Networking/Application, Presentation.md"
+    },
+    {
+      "basename": "ARP",
+      "path": "Networking/ARP.md"
+    },
+    {
       "basename": "to see important",
       "path": "Networking/to see important.md"
     },
@@ -27,10 +59,6 @@
     {
       "basename": "day2",
       "path": "Networking/CCNA_preparations/day2.md"
-    },
-    {
-      "basename": "ARP",
-      "path": "Networking/ARP.md"
     },
     {
       "basename": "51z24BHjLuL",
@@ -171,34 +199,6 @@
     {
       "basename": "Materiels",
       "path": "Networking/CCNA_preparations/Materiels.md"
-    },
-    {
-      "basename": "module08",
-      "path": "Python/module08.md"
-    },
-    {
-      "basename": "DOM Manipulation",
-      "path": "Web/JavaScript/DOM Manipulation.md"
-    },
-    {
-      "basename": "uv env_mgm",
-      "path": "Python/uv env_mgm.md"
-    },
-    {
-      "basename": "Web servers",
-      "path": "Web/WebServer/Web servers.md"
-    },
-    {
-      "basename": "XSS",
-      "path": "Web/Vulns/XSS.md"
-    },
-    {
-      "basename": "RE",
-      "path": "Python/RE.md"
-    },
-    {
-      "basename": "Python Dicover",
-      "path": "Python/Python Dicover.md"
     }
   ],
   "omittedPaths": [],
