@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "to see important",
+      "path": "Networking/to see important.md"
+    },
+    {
       "basename": "Windows htb",
       "path": "Windows htb.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Python Dicover",
       "path": "Python/Python Dicover.md"
-    },
-    {
-      "basename": "Comprhensive",
-      "path": "Python/Comprhensive.md"
     }
   ],
   "omittedPaths": [],

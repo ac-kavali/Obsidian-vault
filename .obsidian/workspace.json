@@ -57,12 +57,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows htb.md",
+                "file": "Networking/to see important.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Windows htb"
+              "title": "to see important"
             }
           }
         ],
@@ -135,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5,
-    "collapsed": true
+    "width": 245.5
   },
   "right": {
     "id": "10424350b623bef2",
@@ -262,8 +261,8 @@
   },
   "active": "6eed8afd94b38d61",
   "lastOpenFiles": [
-    "Books Stations.md",
     "Windows htb.md",
+    "Books Stations.md",
     "Python Backend.md",
     "Web/Postgresql.md",
     "Web Exploite.md",

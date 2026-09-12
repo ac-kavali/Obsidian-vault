@@ -44,3 +44,7 @@
 | Internet Key Exchange                             | `IKE`       | IKE is a protocol used to set up a secure connection between two computers. It is used in virtual private networks (VPNs) to provide authentication and encryption for data transmission, protecting the data from outside eavesdropping and tampering.                                        |
 | Generic Routing Encapsulation                     | `GRE`       | This protocol is used to encapsulate the data being transmitted within the VPN tunnel.                                                                                                                                                                                                         |
 | Remote Shell                                      | `RSH`       | It is a program under Unix that allows executing commands and programs on a remote computer.                                                                                                                                                                                                   |
+
+
+
+Redundency 
