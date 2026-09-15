@@ -30,3 +30,7 @@ switchport trunk encapsulation encapsulation-type
 ```sh
 
 ```
+
+```
+for i in 
+```

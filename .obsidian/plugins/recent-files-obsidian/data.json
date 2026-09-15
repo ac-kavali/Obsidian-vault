@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Introduction",
+      "path": "Web/SQL/Introduction.md"
+    },
+    {
       "basename": "Commands",
       "path": "Networking/Commands.md"
     },
@@ -119,10 +123,6 @@
     {
       "basename": "Firewalls",
       "path": "Networking/CCNA_preparations/Firewalls.md"
-    },
-    {
-      "basename": "Introduction",
-      "path": "Web/SQL/Introduction.md"
     },
     {
       "basename": "Fly-In",
