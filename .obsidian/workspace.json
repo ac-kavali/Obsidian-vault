@@ -37,12 +37,14 @@
             "id": "cf4b97b1e6192f1e",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Network_basics.md"
+                "file": "Web Exploite.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Network_basics"
+              "icon": "lucide-file",
+              "title": "Web Exploite"
             }
           },
           {
@@ -251,6 +253,8 @@
   },
   "active": "cf4b97b1e6192f1e",
   "lastOpenFiles": [
+    "Python Backend.md",
+    "Excalidraw/Network_basics.md",
     "Networking/Basics.md",
     "Networking/Application, Presentation.md",
     "Networking/CCNA_preparations/BPDU filter.md",
@@ -264,7 +268,6 @@
     "Networking/to see important.md",
     "Windows htb.md",
     "Books Stations.md",
-    "Python Backend.md",
     "Web/Postgresql.md",
     "Web Exploite.md",
     "recap road.md",
@@ -277,7 +280,6 @@
     "Networking/CCNA_preparations/Day6.md",
     "Networking/CCNA_preparations/Day5.md",
     "Networking/CCNA_preparations/Day4.md",
-    "Networking/CCNA_preparations/Day3.md",
     "Web/HTB",
     "Media/Pasted image 20260904231418.png",
     "Media/dockerimages.png",
