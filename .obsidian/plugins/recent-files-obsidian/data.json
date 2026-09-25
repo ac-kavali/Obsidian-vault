@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "BPDU filter",
+      "path": "Networking/CCNA_preparations/BPDU filter.md"
+    },
+    {
       "basename": "Introduction",
       "path": "Web/SQL/Introduction.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Linux Admin Project",
       "path": "Linux/Linux Admin Project.md"
-    },
-    {
-      "basename": "Materiels",
-      "path": "Networking/CCNA_preparations/Materiels.md"
     }
   ],
   "omittedPaths": [],
