@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Exploite.md",
-                "mode": "preview",
+                "file": "Windows htb.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Web Exploite"
+              "title": "Windows htb"
             }
           },
           {
@@ -253,6 +253,7 @@
   },
   "active": "cf4b97b1e6192f1e",
   "lastOpenFiles": [
+    "Web Exploite.md",
     "Python Backend.md",
     "Excalidraw/Network_basics.md",
     "Networking/Basics.md",
@@ -269,7 +270,6 @@
     "Windows htb.md",
     "Books Stations.md",
     "Web/Postgresql.md",
-    "Web Exploite.md",
     "recap road.md",
     "web-dev-revision-walkthrough.md",
     "Networking/CCNA_preparations/day2.md",

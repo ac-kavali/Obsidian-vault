@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Windows htb",
+      "path": "Windows htb.md"
+    },
+    {
       "basename": "Web Exploite",
       "path": "Web Exploite.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "to see important",
       "path": "Networking/to see important.md"
-    },
-    {
-      "basename": "Windows htb",
-      "path": "Windows htb.md"
     },
     {
       "basename": "Books Stations",

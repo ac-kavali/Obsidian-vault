@@ -13,3 +13,7 @@ Get-WmiObject -Class win32_OperatingSystem | select Version,BuildNumber
 - `remote desktop` the client of rdp by defaul installed on windows
 ---
 ## Operating System Structure
+
+
+---
+
