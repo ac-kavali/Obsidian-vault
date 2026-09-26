@@ -17,6 +17,7 @@ Get-WmiObject -Class win32_OperatingSystem | select Version,BuildNumber
 
 
 ## ICACLS and permissions
+Enheritance 
 
 
 ## Services and service permissions
