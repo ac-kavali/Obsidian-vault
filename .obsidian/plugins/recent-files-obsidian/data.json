@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "github",
+      "path": "github.md"
+    },
+    {
       "basename": "Windows htb",
       "path": "Windows htb.md"
     },
     {
-      "basename": "Web Exploite",
-      "path": "Web Exploite.md"
+      "basename": "Books Stations",
+      "path": "Books Stations.md"
     },
     {
       "basename": "Python Backend",
       "path": "Python Backend.md"
+    },
+    {
+      "basename": "Web Exploite",
+      "path": "Web Exploite.md"
     },
     {
       "basename": "Network_basics",
@@ -59,10 +67,6 @@
     {
       "basename": "to see important",
       "path": "Networking/to see important.md"
-    },
-    {
-      "basename": "Books Stations",
-      "path": "Books Stations.md"
     },
     {
       "basename": "Postgresql",
@@ -195,10 +199,6 @@
     {
       "basename": "Import database",
       "path": "Web/SQL/Import database.md"
-    },
-    {
-      "basename": "Constraints",
-      "path": "Web/SQL/Constraints.md"
     }
   ],
   "omittedPaths": [],
