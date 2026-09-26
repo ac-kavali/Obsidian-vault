@@ -12,6 +12,10 @@ Get-WmiObject -Class win32_OperatingSystem | select Version,BuildNumber
 - default port of rdp : `3389`
 - `remote desktop` the client of rdp by defaul installed on windows
 ---
+## Create user using GUI and CLI 
+
+
+
 ## Operating System Structure and navigation
 
 
