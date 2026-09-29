@@ -1,0 +1,56 @@
+# Windows Filesystem Navigation & Management
+
+## 1. Navigation
+
+| Command      | Description                                                          |
+| ------------ | -------------------------------------------------------------------- |
+| `cd <path>`  | Change the current directory                                         |
+| `cd ..`      | Move to the parent directory                                         |
+| `cd \`       | Move to the root of the current drive                                |
+| `ls` / `dir` | List files and directories (`Get-ChildItem` in PowerShell)           |
+| `pwd`        | Display the current working directory (`Get-Location` in PowerShell) |
+| `tree`       | Display the directory structure as a tree                            |
+
+## 2. Creating Files & Directories
+
+| Command                | Description                                             |
+| ---------------------- | ------------------------------------------------------- |
+| `mkdir <name>`         | Create a directory                                      |
+| `type nul > file.txt`  | Create an empty file (CMD)                              |
+| `type file.txt`        | Display file contents in CMD; similar to `cat` on Linux |
+| `Get-Content file.txt` | Display file contents in PowerShell                     |
+
+## 3. Deleting Files & Directories
+
+| Command                                 | Description                                                        |
+| --------------------------------------- | ------------------------------------------------------------------ |
+| `del file.txt`                          | Delete a file                                                      |
+| `rmdir directory`                       | Delete an empty directory                                          |
+| `rmdir /s /q directory`                 | Delete a directory and all its contents without confirmation (CMD) |
+| `Remove-Item directory -Recurse -Force` | Delete a directory and its contents (PowerShell)                   |
+
+> [!warning] Be careful
+> Recursive deletion can permanently remove files and subdirectories. Verify the target path before executing the command.
+
+## 4. Renaming
+
+| Command                       | Description                              |
+| ----------------------------- | ---------------------------------------- |
+| `ren old.txt new.txt`         | Rename a file or directory in CMD        |
+| `Rename-Item old.txt new.txt` | Rename a file or directory in PowerShell |
+
+## 5. Linux vs. Windows Command Equivalents
+
+| Linux                         | CMD                      | PowerShell                    |
+| ----------------------------- | ------------------------ | ----------------------------- |
+| `ls`                          | `dir`                    | `Get-ChildItem`               |
+| `pwd`                         | `cd` (without arguments) | `Get-Location`                |
+| `cat file.txt`                | `type file.txt`          | `Get-Content file.txt`        |
+| `mkdir test`                  | `mkdir test`             | `mkdir test`                  |
+| `rm file.txt`                 | `del file.txt`           | `Remove-Item file.txt`        |
+| `mv old.txt new.txt` (rename) | `ren old.txt new.txt`    | `Rename-Item old.txt new.txt` |
+| `cd ..`                       | `cd ..`                  | `cd ..`                       |
+| `tree`                        | `tree`                   | `tree`                        |
+
+> [!note] Important distinction
+> PowerShell supports many familiar aliases, including `ls`, `dir`, `pwd`, `cat`, and `rm`. These map to PowerShell cmdlets such as `Get-ChildItem`, `Get-Location`, `Get-Content`, and `Remove-Item`. They are aliases, not the original Linux commands.
