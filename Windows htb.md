@@ -8,6 +8,8 @@ some commands to see informations about the system :
 Get-WmiObject -Class win32_OperatingSystem | select Version,BuildNumber
 ```
 
+
+
 **Overview about MSPs and MSSPs**
 - default port of rdp : `3389`
   
@@ -30,7 +32,15 @@ You'll be prompted to enter a password for it
 ```powershell
 net user /delete <user>
 ```
+### List all existant users  
+```powershell
+net user 
+```
 
+### Show details about a specific user
+```
+net user <user>
+```
 
 ## Operating System Structure and navigation
 
