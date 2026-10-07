@@ -5,6 +5,10 @@
       "path": "Windows htb.md"
     },
     {
+      "basename": "cURL",
+      "path": "Web/cURL.md"
+    },
+    {
       "basename": "github",
       "path": "github.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "DB-CRUD",
       "path": "Web/SQL/DB-CRUD.md"
-    },
-    {
-      "basename": "Import database",
-      "path": "Web/SQL/Import database.md"
     }
   ],
   "omittedPaths": [],

@@ -54,3 +54,6 @@ Enheritance
 
 ---
 
+```powershell
+Invoke-WebRequest http://<ip>:<port>/resouces
+```
