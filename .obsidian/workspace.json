@@ -105,7 +105,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 245.5,
+    "collapsed": true
   },
   "right": {
     "id": "10424350b623bef2",
@@ -211,7 +212,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -229,8 +231,9 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "fd3a910c8ea450bd",
+  "active": "3742719b0520516f",
   "lastOpenFiles": [
+    "Pasted image 20261008163629.png",
     "Networking/CCNA_preparations/RIP and EIGRP.md",
     "OSPF.md",
     "Windows htb.md",
@@ -257,7 +260,6 @@
     "Networking/CCNA_preparations/day2.md",
     "Media/51z24BHjLuL.jpg",
     "Networking/CCNA_preparations/VTP.md",
-    "Networking/CCNA_preparations/Troubleshouting.md",
     "Web/HTB",
     "Media/Pasted image 20260904231418.png",
     "Media/dockerimages.png",
