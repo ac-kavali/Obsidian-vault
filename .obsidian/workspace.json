@@ -211,8 +211,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200.5,
-    "collapsed": true
+    "width": 200.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -230,7 +229,7 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "3742719b0520516f",
+  "active": "fd3a910c8ea450bd",
   "lastOpenFiles": [
     "Networking/CCNA_preparations/RIP and EIGRP.md",
     "OSPF.md",
