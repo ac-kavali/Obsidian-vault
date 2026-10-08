@@ -5,6 +5,8 @@
 - 
 ### RIPng 
 
+   
+
 
 ### RIP configuration
 >Enter RIP configuration mode
@@ -12,6 +14,15 @@
 (config)# router rip
 
 ```
+
+
+### Modify the administrative destance
+```
+(config)# distance [distance]
+```
+
+### RIP messages types
+- request: router
 ---
 ### EIGRP router ID selection
 1. manually configured

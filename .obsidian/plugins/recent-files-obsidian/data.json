@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "OSPF",
+      "path": "OSPF.md"
+    },
+    {
       "basename": "RIP and EIGRP",
       "path": "Networking/CCNA_preparations/RIP and EIGRP.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "HTTP",
       "path": "Web/HTTP.md"
-    },
-    {
-      "basename": "Client-Server Arch",
-      "path": "Web/WebServer/Client-Server Arch.md"
     }
   ],
   "omittedPaths": [],
