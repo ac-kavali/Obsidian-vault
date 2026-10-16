@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "303080bc3121efb9",
+        "id": "c26208fb5b186f19",
         "type": "tabs",
         "children": [
           {
-            "id": "cf4b97b1e6192f1e",
+            "id": "4dd9eac9f1e00102",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "OSPF network types.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OSPF network types"
             }
           }
         ]
@@ -29,6 +33,7 @@
       {
         "id": "1eef5fe6e198baf0",
         "type": "tabs",
+        "dimension": 76.01156069364163,
         "children": [
           {
             "id": "364eed01b939fc76",
@@ -83,10 +88,27 @@
             }
           }
         ]
+      },
+      {
+        "id": "4670a9da9a14899b",
+        "type": "tabs",
+        "dimension": 23.98843930635838,
+        "children": [
+          {
+            "id": "cf4b97b1e6192f1e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 271.5
   },
   "right": {
     "id": "10424350b623bef2",
@@ -210,7 +232,7 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "cf4b97b1e6192f1e",
+  "active": "4dd9eac9f1e00102",
   "lastOpenFiles": [
     "Books Stations.md",
     "OSPF troubleshoot.md",
