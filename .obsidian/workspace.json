@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSPF network types.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OSPF network types"
+              "title": "Untitled"
             }
           }
         ]
@@ -33,7 +33,7 @@
       {
         "id": "1eef5fe6e198baf0",
         "type": "tabs",
-        "dimension": 76.01156069364163,
+        "dimension": 76.01156069364161,
         "children": [
           {
             "id": "364eed01b939fc76",
@@ -234,9 +234,10 @@
   },
   "active": "4dd9eac9f1e00102",
   "lastOpenFiles": [
-    "Books Stations.md",
     "OSPF troubleshoot.md",
+    "Untitled.md",
     "OSPF network types.md",
+    "Books Stations.md",
     "OSPF.md",
     "Windows htb.md",
     "Media/Pasted image 20261008163629.png",
@@ -262,7 +263,6 @@
     "Networking/CCNA_preparations/BPDU filter.md",
     "Web/SQL/Introduction.md",
     "Networking/Commands.md",
-    "Networking/Switch.md",
     "Media/51z24BHjLuL.jpg",
     "Web/HTB",
     "Media/Pasted image 20260904231418.png",

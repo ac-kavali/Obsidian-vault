@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Public exploits",
+      "path": "Public exploits.md"
+    },
+    {
+      "basename": "OSPF troubleshoot",
+      "path": "OSPF troubleshoot.md"
+    },
+    {
       "basename": "OSPF network types",
       "path": "OSPF network types.md"
     },
     {
       "basename": "Books Stations",
       "path": "Books Stations.md"
-    },
-    {
-      "basename": "OSPF troubleshoot",
-      "path": "OSPF troubleshoot.md"
     },
     {
       "basename": "OSPF",
@@ -195,10 +199,6 @@
     {
       "basename": "proxychain",
       "path": "Web/HTB/proxychain.md"
-    },
-    {
-      "basename": "Web Proxies",
-      "path": "Web/HTB/Web Proxies.md"
     }
   ],
   "omittedPaths": [],
