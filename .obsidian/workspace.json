@@ -11,32 +11,13 @@
             "id": "cf4b97b1e6192f1e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "github.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "github"
-            }
-          },
-          {
-            "id": "3742719b0520516f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OSPF.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "OSPF"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,8 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5,
-    "collapsed": true
+    "width": 245.5
   },
   "right": {
     "id": "10424350b623bef2",
@@ -212,8 +192,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -231,35 +210,38 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "3742719b0520516f",
+  "active": "fd3a910c8ea450bd",
   "lastOpenFiles": [
-    "Pasted image 20261008163629.png",
-    "Networking/CCNA_preparations/RIP and EIGRP.md",
+    "Books Stations.md",
+    "OSPF troubleshoot.md",
+    "OSPF network types.md",
     "OSPF.md",
     "Windows htb.md",
-    "Web/cURL.md",
+    "Media/Pasted image 20261008163629.png",
+    "OSPF Adjacencies.md",
     "github.md",
-    "Books Stations.md",
-    "Python Backend.md",
+    "Web/SQL/DB-CRUD.md",
+    "Excalidraw/ARP.md",
+    "Networking/CCNA_preparations/Day 11.md",
     "Web Exploite.md",
+    "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Network_basics.md",
+    "Excalidraw/dns.md",
+    "Excalidraw/codexion.md",
+    "Excalidraw/Tmux.md",
+    "Excalidraw/Http.md",
+    "Excalidraw/Bitwize.excalidraw",
     "Networking/Basics.md",
+    "Web/cURL.md",
+    "Web/Vulns/Malicious File Upload.md",
+    "Networking/CCNA_preparations/RIP and EIGRP.md",
+    "Python Backend.md",
     "Networking/Application, Presentation.md",
     "Networking/CCNA_preparations/BPDU filter.md",
     "Web/SQL/Introduction.md",
     "Networking/Commands.md",
     "Networking/Switch.md",
-    "Networking/Ports.md",
-    "Networking/OSI Model.md",
-    "Networking/Network scaning.md",
-    "Networking/ARP.md",
-    "Networking/to see important.md",
-    "Web/Postgresql.md",
-    "recap road.md",
-    "web-dev-revision-walkthrough.md",
-    "Networking/CCNA_preparations/day2.md",
     "Media/51z24BHjLuL.jpg",
-    "Networking/CCNA_preparations/VTP.md",
     "Web/HTB",
     "Media/Pasted image 20260904231418.png",
     "Media/dockerimages.png",
@@ -270,10 +252,7 @@
     "Media/What_is_the_Structure_of_the_Ethernet_Frame_Format.png",
     "Media/Pasted Image 20260406200602_187.png",
     "Media/Pasted Image 20260405182945_097.png",
-    "Media/GNL.png",
     "Networking/CCNA_preparations/my_inswers",
-    "Excalidraw/python_discorver#1.excalidraw",
-    "Excalidraw/Bitwize.excalidraw",
     "Excalidraw/booting_process.excalidraw",
     "Networking/CCNA_preparations",
     "Excalidraw/Untitled",

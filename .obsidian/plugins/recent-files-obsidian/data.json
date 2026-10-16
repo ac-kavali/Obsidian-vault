@@ -1,44 +1,100 @@
 {
   "recentFiles": [
     {
-      "basename": "OSPF",
-      "path": "OSPF.md"
+      "basename": "Books Stations",
+      "path": "Books Stations.md"
     },
     {
-      "basename": "RIP and EIGRP",
-      "path": "Networking/CCNA_preparations/RIP and EIGRP.md"
+      "basename": "OSPF troubleshoot",
+      "path": "OSPF troubleshoot.md"
+    },
+    {
+      "basename": "OSPF network types",
+      "path": "OSPF network types.md"
+    },
+    {
+      "basename": "OSPF",
+      "path": "OSPF.md"
     },
     {
       "basename": "Windows htb",
       "path": "Windows htb.md"
     },
     {
-      "basename": "cURL",
-      "path": "Web/cURL.md"
+      "basename": "Pasted image 20261008163629",
+      "path": "Media/Pasted image 20261008163629.png"
+    },
+    {
+      "basename": "OSPF Adjacencies",
+      "path": "OSPF Adjacencies.md"
     },
     {
       "basename": "github",
       "path": "github.md"
     },
     {
-      "basename": "Books Stations",
-      "path": "Books Stations.md"
+      "basename": "DB-CRUD",
+      "path": "Web/SQL/DB-CRUD.md"
     },
     {
-      "basename": "Python Backend",
-      "path": "Python Backend.md"
+      "basename": "ARP",
+      "path": "Excalidraw/ARP.md"
+    },
+    {
+      "basename": "Day 11",
+      "path": "Networking/CCNA_preparations/Day 11.md"
     },
     {
       "basename": "Web Exploite",
       "path": "Web Exploite.md"
     },
     {
+      "basename": "python_discorver#1",
+      "path": "Excalidraw/python_discorver#1.excalidraw"
+    },
+    {
       "basename": "Network_basics",
       "path": "Excalidraw/Network_basics.md"
     },
     {
+      "basename": "dns",
+      "path": "Excalidraw/dns.md"
+    },
+    {
+      "basename": "codexion",
+      "path": "Excalidraw/codexion.md"
+    },
+    {
+      "basename": "Tmux",
+      "path": "Excalidraw/Tmux.md"
+    },
+    {
+      "basename": "Http",
+      "path": "Excalidraw/Http.md"
+    },
+    {
+      "basename": "Bitwize",
+      "path": "Excalidraw/Bitwize.excalidraw"
+    },
+    {
       "basename": "Basics",
       "path": "Networking/Basics.md"
+    },
+    {
+      "basename": "cURL",
+      "path": "Web/cURL.md"
+    },
+    {
+      "basename": "Malicious File Upload",
+      "path": "Web/Vulns/Malicious File Upload.md"
+    },
+    {
+      "basename": "RIP and EIGRP",
+      "path": "Networking/CCNA_preparations/RIP and EIGRP.md"
+    },
+    {
+      "basename": "Python Backend",
+      "path": "Python Backend.md"
     },
     {
       "basename": "Application, Presentation",
@@ -143,62 +199,6 @@
     {
       "basename": "Web Proxies",
       "path": "Web/HTB/Web Proxies.md"
-    },
-    {
-      "basename": "Firewalls",
-      "path": "Networking/CCNA_preparations/Firewalls.md"
-    },
-    {
-      "basename": "Fly-In",
-      "path": "Project/Fly-In.md"
-    },
-    {
-      "basename": "File Discriptor",
-      "path": "Concepts/File Discriptor.md"
-    },
-    {
-      "basename": "Get-started",
-      "path": "Web/JavaScript/Get-started.md"
-    },
-    {
-      "basename": "Introduction",
-      "path": "Web/JavaScript/Introduction.md"
-    },
-    {
-      "basename": "Joins",
-      "path": "Web/SQL/Joins.md"
-    },
-    {
-      "basename": "MySQL Setup",
-      "path": "Web/SQL/MySQL Setup.md"
-    },
-    {
-      "basename": "Random",
-      "path": "Python/Random.md"
-    },
-    {
-      "basename": "Part-1",
-      "path": "Web/CSS/Part-1.md"
-    },
-    {
-      "basename": "Pasted image 20260904231418",
-      "path": "Media/Pasted image 20260904231418.png"
-    },
-    {
-      "basename": "Docker",
-      "path": "Web/Docker.md"
-    },
-    {
-      "basename": "Burpsuite",
-      "path": "Web/Burpsuite.md"
-    },
-    {
-      "basename": "Introduction",
-      "path": "Web/Introduction.md"
-    },
-    {
-      "basename": "HTTP",
-      "path": "Web/HTTP.md"
     }
   ],
   "omittedPaths": [],
