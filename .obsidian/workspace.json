@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FHRP.md",
-                "mode": "source",
+                "file": "Windows htb.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FHRP"
+              "title": "Windows htb"
             }
           }
         ]
@@ -234,8 +234,8 @@
   },
   "active": "4dd9eac9f1e00102",
   "lastOpenFiles": [
-    "OSPF troubleshoot.md",
     "FHRP.md",
+    "OSPF troubleshoot.md",
     "Public exploits.md",
     "Linux/File transfer.md",
     "Linux/Netcat.md",
