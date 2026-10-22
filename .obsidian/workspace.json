@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Public exploits.md",
+                "file": "FHRP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Public exploits"
+              "title": "FHRP"
             }
           }
         ]
@@ -92,7 +92,7 @@
       {
         "id": "4670a9da9a14899b",
         "type": "tabs",
-        "dimension": 23.98843930635838,
+        "dimension": 23.988439306358384,
         "children": [
           {
             "id": "cf4b97b1e6192f1e",
@@ -108,8 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5,
-    "collapsed": true
+    "width": 271.5
   },
   "right": {
     "id": "10424350b623bef2",
@@ -236,7 +235,15 @@
   "active": "4dd9eac9f1e00102",
   "lastOpenFiles": [
     "OSPF troubleshoot.md",
+    "FHRP.md",
     "Public exploits.md",
+    "Linux/File transfer.md",
+    "Linux/Netcat.md",
+    "Linux/Linux Admin Project.md",
+    "Linux/File Securing.md",
+    "Linux/FTP.md",
+    "Linux/Environment Variables.md",
+    "Linux/Archiving & Compressing.md",
     "OSPF network types.md",
     "Books Stations.md",
     "OSPF.md",
@@ -256,14 +263,6 @@
     "Excalidraw/Http.md",
     "Excalidraw/Bitwize.excalidraw",
     "Networking/Basics.md",
-    "Web/cURL.md",
-    "Web/Vulns/Malicious File Upload.md",
-    "Networking/CCNA_preparations/RIP and EIGRP.md",
-    "Python Backend.md",
-    "Networking/Application, Presentation.md",
-    "Networking/CCNA_preparations/BPDU filter.md",
-    "Web/SQL/Introduction.md",
-    "Networking/Commands.md",
     "Media/51z24BHjLuL.jpg",
     "Web/HTB",
     "Media/Pasted image 20260904231418.png",
