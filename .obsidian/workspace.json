@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TCP & UDP.md",
+                "file": "TCP-and-UDP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TCP & UDP"
+              "title": "TCP-and-UDP"
             }
           }
         ]
@@ -216,8 +216,9 @@
   },
   "active": "4dd9eac9f1e00102",
   "lastOpenFiles": [
-    "OSPF troubleshoot.md",
     "TCP & UDP.md",
+    "TCP-and-UDP.md",
+    "OSPF troubleshoot.md",
     "OSPF Adjacencies.md",
     "OSPF network types.md",
     "Media/Pasted image 20260809201240.png",
@@ -252,7 +253,6 @@
     "Excalidraw/Network_basics.md",
     "Excalidraw/dns.md",
     "Excalidraw/codexion.md",
-    "Excalidraw/Tmux.md",
     "Excalidraw/Bitwize.excalidraw",
     "Web/HTB",
     "Web/Vulns",
