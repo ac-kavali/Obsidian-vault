@@ -402,19 +402,19 @@ These are the **usual service ports and transports** to learn for networking rev
 
 ### Mainly TCP
 
-| Service | Port | Purpose / note |
-| --- | --- | --- |
-| **FTP control** | **21 TCP** | Commands and control connection |
-| **FTP active-mode data** | **20 TCP** | Server's usual source port for active-mode data; passive FTP uses a negotiated server port |
-| **SSH** | **22 TCP** | Secure remote terminal; also used by SFTP/SCP |
-| **Telnet** | **23 TCP** | Unencrypted remote terminal |
-| **SMTP** | **25 TCP** | Mail transfer between mail servers |
-| **HTTP** | **80 TCP** | Unencrypted web traffic |
-| **POP3** | **110 TCP** | Mail retrieval |
-| **IMAP** | **143 TCP** | Mail access and synchronization |
-| **HTTPS — HTTP/1.1 and HTTP/2** | **443 TCP** | Web traffic protected with TLS |
-| **SMB** | **445 TCP** | File and printer sharing |
-| **BGP** | **179 TCP** | Routing sessions between BGP peers |
+| Service                         | Port        | Purpose / note                                                                             |
+| ------------------------------- | ----------- | ------------------------------------------------------------------------------------------ |
+| **FTP data**                    | **20 TCP**  | Server's usual source port for active-mode data; passive FTP uses a negotiated server port |
+| **FTP control**                 | **20 TCP**  | Commands and control connection                                                            |
+| **SSH**                         | **22 TCP**  | Secure remote terminal; also used by SFTP/SCP                                              |
+| **Telnet**                      | **23 TCP**  | Unencrypted remote terminal                                                                |
+| **SMTP**                        | **25 TCP**  | Mail transfer between mail servers                                                         |
+| **HTTP**                        | **80 TCP**  | Unencrypted web traffic                                                                    |
+| **POP3**                        | **110 TCP** | Mail retrieval                                                                             |
+| **IMAP**                        | **143 TCP** | Mail access and synchronization                                                            |
+| **HTTPS — HTTP/1.1 and HTTP/2** | **443 TCP** | Web traffic protected with TLS                                                             |
+| **SMB**                         | **445 TCP** | File and printer sharing                                                                   |
+| **BGP**                         | **179 TCP** | Routing sessions between BGP peers                                                         |
 
 ### Mainly UDP
 
