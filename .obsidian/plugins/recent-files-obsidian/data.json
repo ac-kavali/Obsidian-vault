@@ -1,16 +1,80 @@
 {
   "recentFiles": [
     {
-      "basename": "FHRP",
-      "path": "FHRP.md"
+      "basename": "TCP & UDP",
+      "path": "TCP & UDP.md"
+    },
+    {
+      "basename": "OSPF troubleshoot",
+      "path": "OSPF troubleshoot.md"
+    },
+    {
+      "basename": "OSPF Adjacencies",
+      "path": "OSPF Adjacencies.md"
+    },
+    {
+      "basename": "OSPF network types",
+      "path": "OSPF network types.md"
+    },
+    {
+      "basename": "Pasted image 20260802125130",
+      "path": "Media/Pasted image 20260802125130.png"
+    },
+    {
+      "basename": "Pasted image 20260809201240",
+      "path": "Media/Pasted image 20260809201240.png"
+    },
+    {
+      "basename": "Pasted image 20260809201318",
+      "path": "Media/Pasted image 20260809201318.png"
+    },
+    {
+      "basename": "Pasted image 20260809201330",
+      "path": "Media/Pasted image 20260809201330.png"
+    },
+    {
+      "basename": "Pasted image 20260809201714",
+      "path": "Media/Pasted image 20260809201714.png"
+    },
+    {
+      "basename": "Pasted image 20260809201813",
+      "path": "Media/Pasted image 20260809201813.png"
+    },
+    {
+      "basename": "Pasted image 20260809201830",
+      "path": "Media/Pasted image 20260809201830.png"
+    },
+    {
+      "basename": "Pasted Image 20260731132100_208",
+      "path": "Media/Pasted Image 20260731132100_208.png"
+    },
+    {
+      "basename": "Pasted Image 20260712232158_962",
+      "path": "Media/Pasted Image 20260712232158_962.png"
+    },
+    {
+      "basename": "Pasted Image 20260405182945_097",
+      "path": "Media/Pasted Image 20260405182945_097.png"
+    },
+    {
+      "basename": "Web Exploite",
+      "path": "Web Exploite.md"
+    },
+    {
+      "basename": "MySQL Setup",
+      "path": "Web/SQL/MySQL Setup.md"
+    },
+    {
+      "basename": "OSPF",
+      "path": "OSPF.md"
     },
     {
       "basename": "Windows htb",
       "path": "Windows htb.md"
     },
     {
-      "basename": "OSPF troubleshoot",
-      "path": "OSPF troubleshoot.md"
+      "basename": "FHRP",
+      "path": "FHRP.md"
     },
     {
       "basename": "Public exploits",
@@ -45,24 +109,12 @@
       "path": "Linux/Archiving & Compressing.md"
     },
     {
-      "basename": "OSPF network types",
-      "path": "OSPF network types.md"
-    },
-    {
       "basename": "Books Stations",
       "path": "Books Stations.md"
     },
     {
-      "basename": "OSPF",
-      "path": "OSPF.md"
-    },
-    {
       "basename": "Pasted image 20261008163629",
       "path": "Media/Pasted image 20261008163629.png"
-    },
-    {
-      "basename": "OSPF Adjacencies",
-      "path": "OSPF Adjacencies.md"
     },
     {
       "basename": "github",
@@ -79,10 +131,6 @@
     {
       "basename": "Day 11",
       "path": "Networking/CCNA_preparations/Day 11.md"
-    },
-    {
-      "basename": "Web Exploite",
-      "path": "Web Exploite.md"
     },
     {
       "basename": "python_discorver#1",
@@ -151,54 +199,6 @@
     {
       "basename": "Switch",
       "path": "Networking/Switch.md"
-    },
-    {
-      "basename": "Ports",
-      "path": "Networking/Ports.md"
-    },
-    {
-      "basename": "OSI Model",
-      "path": "Networking/OSI Model.md"
-    },
-    {
-      "basename": "Network scaning",
-      "path": "Networking/Network scaning.md"
-    },
-    {
-      "basename": "ARP",
-      "path": "Networking/ARP.md"
-    },
-    {
-      "basename": "to see important",
-      "path": "Networking/to see important.md"
-    },
-    {
-      "basename": "Postgresql",
-      "path": "Web/Postgresql.md"
-    },
-    {
-      "basename": "day2",
-      "path": "Networking/CCNA_preparations/day2.md"
-    },
-    {
-      "basename": "51z24BHjLuL",
-      "path": "Media/51z24BHjLuL.jpg"
-    },
-    {
-      "basename": "VTP",
-      "path": "Networking/CCNA_preparations/VTP.md"
-    },
-    {
-      "basename": "Troubleshouting",
-      "path": "Networking/CCNA_preparations/Troubleshouting.md"
-    },
-    {
-      "basename": "Questions",
-      "path": "Networking/CCNA_preparations/Questions.md"
-    },
-    {
-      "basename": "Day6",
-      "path": "Networking/CCNA_preparations/Day6.md"
     }
   ],
   "omittedPaths": [],

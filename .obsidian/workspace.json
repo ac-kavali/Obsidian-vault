@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FHRP.md",
-                "mode": "preview",
+                "file": "TCP & UDP.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FHRP"
+              "title": "TCP & UDP"
             }
           }
         ]
@@ -33,7 +33,6 @@
       {
         "id": "1eef5fe6e198baf0",
         "type": "tabs",
-        "dimension": 76.01156069364161,
         "children": [
           {
             "id": "364eed01b939fc76",
@@ -85,23 +84,6 @@
               "state": {},
               "icon": "lucide-file",
               "title": "Plugin no longer active"
-            }
-          }
-        ]
-      },
-      {
-        "id": "4670a9da9a14899b",
-        "type": "tabs",
-        "dimension": 23.988439306358384,
-        "children": [
-          {
-            "id": "cf4b97b1e6192f1e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
             }
           }
         ]
@@ -234,9 +216,25 @@
   },
   "active": "4dd9eac9f1e00102",
   "lastOpenFiles": [
+    "OSPF troubleshoot.md",
+    "TCP & UDP.md",
+    "OSPF Adjacencies.md",
+    "OSPF network types.md",
+    "Media/Pasted image 20260809201240.png",
+    "Media/Pasted image 20260809201318.png",
+    "Media/Pasted image 20260809201330.png",
+    "Media/Pasted image 20260809201714.png",
+    "Media/Pasted image 20260809201813.png",
+    "Media/Pasted image 20260809201830.png",
+    "Media/Pasted image 20260802125130.png",
+    "Media/Pasted Image 20260731132100_208.png",
+    "Media/Pasted Image 20260712232158_962.png",
+    "Media/Pasted Image 20260405182945_097.png",
+    "Web Exploite.md",
+    "Web/SQL/MySQL Setup.md",
+    "OSPF.md",
     "Windows htb.md",
     "FHRP.md",
-    "OSPF troubleshoot.md",
     "Public exploits.md",
     "Linux/File transfer.md",
     "Linux/Netcat.md",
@@ -245,35 +243,19 @@
     "Linux/FTP.md",
     "Linux/Environment Variables.md",
     "Linux/Archiving & Compressing.md",
-    "OSPF network types.md",
     "Books Stations.md",
-    "OSPF.md",
-    "Media/Pasted image 20261008163629.png",
-    "OSPF Adjacencies.md",
     "github.md",
     "Web/SQL/DB-CRUD.md",
     "Excalidraw/ARP.md",
     "Networking/CCNA_preparations/Day 11.md",
-    "Web Exploite.md",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Network_basics.md",
     "Excalidraw/dns.md",
     "Excalidraw/codexion.md",
     "Excalidraw/Tmux.md",
-    "Excalidraw/Http.md",
     "Excalidraw/Bitwize.excalidraw",
-    "Networking/Basics.md",
-    "Media/51z24BHjLuL.jpg",
     "Web/HTB",
-    "Media/Pasted image 20260904231418.png",
-    "Media/dockerimages.png",
-    "Media/docker-image2.png",
-    "Media/docker-on-linux-windows-mac.jpg",
     "Web/Vulns",
-    "Networking/CAB-CONSOLE-USB-3-800x800.jpg",
-    "Media/What_is_the_Structure_of_the_Ethernet_Frame_Format.png",
-    "Media/Pasted Image 20260406200602_187.png",
-    "Media/Pasted Image 20260405182945_097.png",
     "Networking/CCNA_preparations/my_inswers",
     "Excalidraw/booting_process.excalidraw",
     "Networking/CCNA_preparations",
