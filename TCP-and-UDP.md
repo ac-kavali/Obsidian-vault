@@ -409,6 +409,9 @@ These are the **usual service ports and transports** to learn for networking rev
 | **SSH**                         | **22 TCP**  | Secure remote terminal; also used by SFTP/SCP                                              |
 | **Telnet**                      | **23 TCP**  | Unencrypted remote terminal                                                                |
 | **SMTP**                        | **25 TCP**  | Mail transfer between mail servers                                                         |
+| **DHCP Server**                 | **67 UDP**  | DHCP server                                                                                |
+| **DHCP Client**                 | **68 UDP**  | DHCP Cient                                                                                 |
+| **TFTP**                        | **69 UDP**  | TFTP                                                                                       |
 | **HTTP**                        | **80 TCP**  | Unencrypted web traffic                                                                    |
 | **POP3**                        | **110 TCP** | Mail retrieval                                                                             |
 | **IMAP**                        | **143 TCP** | Mail access and synchronization                                                            |

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "IPv6",
+      "path": "IPv6.md"
+    },
+    {
       "basename": "TCP-and-UDP",
       "path": "TCP-and-UDP.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Commands",
       "path": "Networking/Commands.md"
-    },
-    {
-      "basename": "Switch",
-      "path": "Networking/Switch.md"
     }
   ],
   "omittedPaths": [],
