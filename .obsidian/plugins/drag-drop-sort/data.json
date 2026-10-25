@@ -34,15 +34,9 @@
       "Project",
       "Python",
       "Web",
+      "filesystem&nav",
       "Books Stations.md",
-      "Python Backend.md",
-      "Web Exploite.md",
-      "github.md",
-      "OSPF Adjacencies.md",
-      "OSPF network types.md",
-      "OSPF.md",
-      "Windows htb.md",
-      "filesystem&nav"
+      "github.md"
     ],
     "Web/JavaScript": [
       "Introduction.md",

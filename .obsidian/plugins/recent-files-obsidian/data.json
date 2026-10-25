@@ -1,24 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "IPv6",
-      "path": "IPv6.md"
-    },
-    {
       "basename": "TCP-and-UDP",
-      "path": "TCP-and-UDP.md"
-    },
-    {
-      "basename": "OSPF troubleshoot",
-      "path": "OSPF troubleshoot.md"
+      "path": "Networking/CCNA_preparations/TCP-and-UDP.md"
     },
     {
       "basename": "OSPF Adjacencies",
-      "path": "OSPF Adjacencies.md"
+      "path": "Networking/CCNA_preparations/OSPF Adjacencies.md"
+    },
+    {
+      "basename": "github",
+      "path": "github.md"
+    },
+    {
+      "basename": "Python Backend",
+      "path": "Web/Python Backend.md"
+    },
+    {
+      "basename": "Books Stations",
+      "path": "Books Stations.md"
+    },
+    {
+      "basename": "Web Exploite",
+      "path": "Web/Web Exploite.md"
     },
     {
       "basename": "OSPF network types",
-      "path": "OSPF network types.md"
+      "path": "Networking/CCNA_preparations/OSPF network types.md"
+    },
+    {
+      "basename": "OSPF",
+      "path": "Networking/CCNA_preparations/OSPF.md"
+    },
+    {
+      "basename": "Windows htb",
+      "path": "Networking/CCNA_preparations/Windows htb.md"
+    },
+    {
+      "basename": "FHRP",
+      "path": "Networking/CCNA_preparations/FHRP.md"
+    },
+    {
+      "basename": "IPv6",
+      "path": "Networking/CCNA_preparations/IPv6.md"
+    },
+    {
+      "basename": "OSPF troubleshoot",
+      "path": "Networking/CCNA_preparations/OSPF troubleshoot.md"
     },
     {
       "basename": "Pasted image 20260802125130",
@@ -61,28 +89,8 @@
       "path": "Media/Pasted Image 20260405182945_097.png"
     },
     {
-      "basename": "Web Exploite",
-      "path": "Web Exploite.md"
-    },
-    {
       "basename": "MySQL Setup",
       "path": "Web/SQL/MySQL Setup.md"
-    },
-    {
-      "basename": "OSPF",
-      "path": "OSPF.md"
-    },
-    {
-      "basename": "Windows htb",
-      "path": "Windows htb.md"
-    },
-    {
-      "basename": "FHRP",
-      "path": "FHRP.md"
-    },
-    {
-      "basename": "Public exploits",
-      "path": "Public exploits.md"
     },
     {
       "basename": "File transfer",
@@ -113,16 +121,8 @@
       "path": "Linux/Archiving & Compressing.md"
     },
     {
-      "basename": "Books Stations",
-      "path": "Books Stations.md"
-    },
-    {
       "basename": "Pasted image 20261008163629",
       "path": "Media/Pasted image 20261008163629.png"
-    },
-    {
-      "basename": "github",
-      "path": "github.md"
     },
     {
       "basename": "DB-CRUD",
@@ -179,10 +179,6 @@
     {
       "basename": "RIP and EIGRP",
       "path": "Networking/CCNA_preparations/RIP and EIGRP.md"
-    },
-    {
-      "basename": "Python Backend",
-      "path": "Python Backend.md"
     },
     {
       "basename": "Application, Presentation",

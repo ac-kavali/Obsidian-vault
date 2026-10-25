@@ -1,1 +1,0 @@
-RIR: Regional Internet Registry.
