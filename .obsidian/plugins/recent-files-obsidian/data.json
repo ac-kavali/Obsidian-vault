@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Printf",
+      "path": "Project/Printf.md"
+    },
+    {
       "basename": "IPv6",
       "path": "IPv6.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "BPDU filter",
       "path": "Networking/CCNA_preparations/BPDU filter.md"
-    },
-    {
-      "basename": "Introduction",
-      "path": "Web/SQL/Introduction.md"
     }
   ],
   "omittedPaths": [],

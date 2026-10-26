@@ -1,5 +1,5 @@
 ### <span class="color-red">Variadic Functions</span>
-##### **<span class="color-cyan">A variadic function is a function which accepts a variable number of arguments</span>.
+##### <span class="color-cyan">A variadic function is a function which accepts a variable number of arguments</span>.
 1. The library to include is : <span class="color-orange">stdarg.h</span>
 2. format : 
 ```c 
