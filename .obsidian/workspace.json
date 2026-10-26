@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pac-Man/studying The game.md",
-                "mode": "source",
+                "file": "Networking/CCNA_preparations/FHRP.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "studying The game"
+              "title": "FHRP"
             }
           },
           {
@@ -230,9 +230,9 @@
   },
   "active": "4dd9eac9f1e00102",
   "lastOpenFiles": [
+    "Pac-Man/studying The game.md",
     "Pac-Man",
     "github.md",
-    "Pac-Man/studying The game.md",
     "Books Stations.md",
     "Networking/CCNA_preparations/TCP-and-UDP.md",
     "Networking/CCNA_preparations/OSPF Adjacencies.md",
@@ -275,7 +275,6 @@
     "Networking/CCNA_preparations",
     "Excalidraw/Untitled",
     "fr",
-    "SQL/Untitled",
     "Untitled.canvas"
   ]
 }
