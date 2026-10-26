@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/CCNA_preparations/FHRP.md",
+                "file": "IPv6.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FHRP"
+              "title": "IPv6"
             }
           },
           {
@@ -230,18 +230,18 @@
   },
   "active": "4dd9eac9f1e00102",
   "lastOpenFiles": [
+    "Networking/CCNA_preparations/TCP-and-UDP.md",
+    "Networking/CCNA_preparations/FHRP.md",
     "Pac-Man/studying The game.md",
     "Pac-Man",
     "github.md",
     "Books Stations.md",
-    "Networking/CCNA_preparations/TCP-and-UDP.md",
     "Networking/CCNA_preparations/OSPF Adjacencies.md",
     "Web/Python Backend.md",
     "Web/Web Exploite.md",
     "Networking/CCNA_preparations/OSPF network types.md",
     "Networking/CCNA_preparations/OSPF.md",
     "Networking/CCNA_preparations/Windows htb.md",
-    "Networking/CCNA_preparations/FHRP.md",
     "Networking/CCNA_preparations/IPv6.md",
     "Networking/CCNA_preparations/OSPF troubleshoot.md",
     "Public exploits.md",

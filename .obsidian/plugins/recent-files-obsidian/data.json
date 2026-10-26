@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "IPv6",
+      "path": "IPv6.md"
+    },
+    {
+      "basename": "TCP-and-UDP",
+      "path": "Networking/CCNA_preparations/TCP-and-UDP.md"
+    },
+    {
       "basename": "FHRP",
       "path": "Networking/CCNA_preparations/FHRP.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "Books Stations",
       "path": "Books Stations.md"
-    },
-    {
-      "basename": "TCP-and-UDP",
-      "path": "Networking/CCNA_preparations/TCP-and-UDP.md"
     },
     {
       "basename": "OSPF Adjacencies",
@@ -195,10 +199,6 @@
     {
       "basename": "Introduction",
       "path": "Web/SQL/Introduction.md"
-    },
-    {
-      "basename": "Commands",
-      "path": "Networking/Commands.md"
     }
   ],
   "omittedPaths": [],
