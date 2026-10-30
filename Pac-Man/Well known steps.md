@@ -16,4 +16,7 @@
 
 ![[Pasted image 20261030105612.png|458]]
 
-You have the base code of the [main.py](https://github.com/ac-kavali/Pac-man-game-with-python/blob/main/code_base), You should replace every title with appropriate peice of code 
+You have the base code of the [main.py](https://github.com/ac-kavali/Pac-man-game-with-python/blob/main/code_base), You should replace every title with appropriate peice of code
+
+## Logic behind Graphics 
+_The main loop continuously updates and draws the game. Each completed image displayed on the screen is called a frame._
