@@ -20,3 +20,4 @@ You have the base code of the [main.py](https://github.com/ac-kavali/Pac-man-gam
 
 ## Logic behind Graphics 
 _The main loop continuously updates and draws the game. Each completed image displayed on the screen is called a frame._
+![[Pasted image 20261030111535.png]]
