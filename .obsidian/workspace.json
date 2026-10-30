@@ -10,32 +10,37 @@
           {
             "id": "4dd9eac9f1e00102",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/Printf.md",
+                "file": "Networking/CCNA_preparations/OSPF network types.md",
                 "mode": "preview",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "Printf"
+              "title": "OSPF network types"
             }
           },
           {
             "id": "2f295a682ad345b1",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Networking/CCNA_preparations/TCP-and-UDP.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "TCP-and-UDP"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ospf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -100,7 +105,8 @@
               "title": "Plugin no longer active"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -228,20 +234,24 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "4dd9eac9f1e00102",
+  "active": "2f295a682ad345b1",
   "lastOpenFiles": [
-    "IPv6.md",
+    "Networking/CCNA_preparations/OSPF network types.md",
+    "Networking/CCNA_preparations/OSPF Adjacencies.md",
+    "Networking/CCNA_preparations/OSPF.md",
+    "Networking/CCNA_preparations/Day 11.md",
     "Networking/CCNA_preparations/TCP-and-UDP.md",
+    "IPv6.md",
+    "Excalidraw/codexion.md",
+    "Web/WebServer/Client-Server Arch.md",
+    "Project/Printf.md",
     "Networking/CCNA_preparations/FHRP.md",
     "Pac-Man/studying The game.md",
     "Pac-Man",
     "github.md",
     "Books Stations.md",
-    "Networking/CCNA_preparations/OSPF Adjacencies.md",
     "Web/Python Backend.md",
     "Web/Web Exploite.md",
-    "Networking/CCNA_preparations/OSPF network types.md",
-    "Networking/CCNA_preparations/OSPF.md",
     "Networking/CCNA_preparations/Windows htb.md",
     "Networking/CCNA_preparations/IPv6.md",
     "Networking/CCNA_preparations/OSPF troubleshoot.md",
@@ -263,10 +273,6 @@
     "Linux/Linux Admin Project.md",
     "Linux/File Securing.md",
     "Linux/FTP.md",
-    "Linux/Environment Variables.md",
-    "Linux/Archiving & Compressing.md",
-    "Web/SQL/DB-CRUD.md",
-    "Excalidraw/ARP.md",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Bitwize.excalidraw",
     "Web/HTB",

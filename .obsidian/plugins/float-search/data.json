@@ -4,7 +4,7 @@
     "explainSearch": false,
     "extraContext": false,
     "matchingCase": false,
-    "query": "sql",
+    "query": "path:\"Networking/CCNA_preparations/\"  ospf",
     "sortOrder": "alphabetical"
   },
   "showFilePath": false,

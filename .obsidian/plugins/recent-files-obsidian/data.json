@@ -1,16 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Printf",
-      "path": "Project/Printf.md"
+      "basename": "TCP-and-UDP",
+      "path": "Networking/CCNA_preparations/TCP-and-UDP.md"
+    },
+    {
+      "basename": "OSPF network types",
+      "path": "Networking/CCNA_preparations/OSPF network types.md"
+    },
+    {
+      "basename": "OSPF Adjacencies",
+      "path": "Networking/CCNA_preparations/OSPF Adjacencies.md"
+    },
+    {
+      "basename": "OSPF",
+      "path": "Networking/CCNA_preparations/OSPF.md"
+    },
+    {
+      "basename": "Day 11",
+      "path": "Networking/CCNA_preparations/Day 11.md"
     },
     {
       "basename": "IPv6",
       "path": "IPv6.md"
     },
     {
-      "basename": "TCP-and-UDP",
-      "path": "Networking/CCNA_preparations/TCP-and-UDP.md"
+      "basename": "codexion",
+      "path": "Excalidraw/codexion.md"
+    },
+    {
+      "basename": "Printf",
+      "path": "Project/Printf.md"
     },
     {
       "basename": "FHRP",
@@ -29,24 +49,12 @@
       "path": "Books Stations.md"
     },
     {
-      "basename": "OSPF Adjacencies",
-      "path": "Networking/CCNA_preparations/OSPF Adjacencies.md"
-    },
-    {
       "basename": "Python Backend",
       "path": "Web/Python Backend.md"
     },
     {
       "basename": "Web Exploite",
       "path": "Web/Web Exploite.md"
-    },
-    {
-      "basename": "OSPF network types",
-      "path": "Networking/CCNA_preparations/OSPF network types.md"
-    },
-    {
-      "basename": "OSPF",
-      "path": "Networking/CCNA_preparations/OSPF.md"
     },
     {
       "basename": "Windows htb",
@@ -145,10 +153,6 @@
       "path": "Excalidraw/ARP.md"
     },
     {
-      "basename": "Day 11",
-      "path": "Networking/CCNA_preparations/Day 11.md"
-    },
-    {
       "basename": "python_discorver#1",
       "path": "Excalidraw/python_discorver#1.excalidraw"
     },
@@ -159,10 +163,6 @@
     {
       "basename": "dns",
       "path": "Excalidraw/dns.md"
-    },
-    {
-      "basename": "codexion",
-      "path": "Excalidraw/codexion.md"
     },
     {
       "basename": "Tmux",
