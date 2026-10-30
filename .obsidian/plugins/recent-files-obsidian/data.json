@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Graphic knowlege",
+      "path": "Pac-Man/Graphic knowlege.md"
+    },
+    {
+      "basename": "studying The game",
+      "path": "Pac-Man/studying The game.md"
+    },
+    {
+      "basename": "to see important",
+      "path": "Networking/to see important.md"
+    },
+    {
       "basename": "TCP-and-UDP",
       "path": "Networking/CCNA_preparations/TCP-and-UDP.md"
     },
@@ -35,10 +47,6 @@
     {
       "basename": "FHRP",
       "path": "Networking/CCNA_preparations/FHRP.md"
-    },
-    {
-      "basename": "studying The game",
-      "path": "Pac-Man/studying The game.md"
     },
     {
       "basename": "github",
@@ -191,14 +199,6 @@
     {
       "basename": "RIP and EIGRP",
       "path": "Networking/CCNA_preparations/RIP and EIGRP.md"
-    },
-    {
-      "basename": "Application, Presentation",
-      "path": "Networking/Application, Presentation.md"
-    },
-    {
-      "basename": "BPDU filter",
-      "path": "Networking/CCNA_preparations/BPDU filter.md"
     }
   ],
   "omittedPaths": [],
