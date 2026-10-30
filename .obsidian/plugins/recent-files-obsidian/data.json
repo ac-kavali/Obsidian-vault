@@ -13,12 +13,24 @@
       "path": "Pac-Man/studying The game.md"
     },
     {
-      "basename": "to see important",
-      "path": "Networking/to see important.md"
+      "basename": "IPv6",
+      "path": "IPv6.md"
+    },
+    {
+      "basename": "Pasted image 20261030105612",
+      "path": "Media/Pasted image 20261030105612.png"
+    },
+    {
+      "basename": "Pasted image 20261030111535",
+      "path": "Media/Pasted image 20261030111535.png"
     },
     {
       "basename": "TCP-and-UDP",
       "path": "Networking/CCNA_preparations/TCP-and-UDP.md"
+    },
+    {
+      "basename": "to see important",
+      "path": "Networking/to see important.md"
     },
     {
       "basename": "OSPF network types",
@@ -35,10 +47,6 @@
     {
       "basename": "Day 11",
       "path": "Networking/CCNA_preparations/Day 11.md"
-    },
-    {
-      "basename": "IPv6",
-      "path": "IPv6.md"
     },
     {
       "basename": "codexion",
@@ -191,14 +199,6 @@
     {
       "basename": "Basics",
       "path": "Networking/Basics.md"
-    },
-    {
-      "basename": "cURL",
-      "path": "Web/cURL.md"
-    },
-    {
-      "basename": "Malicious File Upload",
-      "path": "Web/Vulns/Malicious File Upload.md"
     }
   ],
   "omittedPaths": [],
