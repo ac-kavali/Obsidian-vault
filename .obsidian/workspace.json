@@ -46,7 +46,7 @@
               "type": "markdown",
               "state": {
                 "file": "Pac-Man/Well known steps.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -250,8 +250,9 @@
   "active": "b5d75b64bfd0a2d1",
   "lastOpenFiles": [
     "Pac-Man/Graphic knowlege.md",
-    "Pac-Man/Well known steps.md",
     "Pac-Man/studying The game.md",
+    "Pac-Man/Well known steps.md",
+    "Pasted image 20261030105612.png",
     "Networking/to see important.md",
     "Networking/CCNA_preparations/TCP-and-UDP.md",
     "Networking/CCNA_preparations/OSPF network types.md",
@@ -282,10 +283,8 @@
     "Media/Pasted image 20260802125130.png",
     "Media/Pasted Image 20260731132100_208.png",
     "Media/Pasted Image 20260712232158_962.png",
-    "Media/Pasted Image 20260405182945_097.png",
     "Web/SQL/MySQL Setup.md",
     "Linux/File transfer.md",
-    "Linux/Netcat.md",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Bitwize.excalidraw",
     "Web/HTB",
