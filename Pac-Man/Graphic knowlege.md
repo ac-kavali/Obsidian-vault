@@ -1,0 +1,1 @@
+- am getting how to use the configuration endpointes in my pov to complete the project check the conversation to know how 
