@@ -31,3 +31,25 @@ What I need now
 config = parser.parse_config(input_json, default_param)
 game = Game(config)
 ```
+
+
+--- 
+## Calling the maze generator
+```
+# Pseudocode — these are not verified package methods.
+settings = config["level"][level_index]
+
+maze = generate_with_assigned_package(
+    width=settings["width"],
+    height=settings["height"],
+    seed=config["seed"] if level_index == 0 else random_seed,
+    perfect=False,
+)
+
+level = Level(
+    maze=maze,
+    time_limit=config["level_max_time"],
+)
+```
+
+`Level` would be your own class. It receives the generated maze; it does not replace the maze generator.

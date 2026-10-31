@@ -45,16 +45,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pac-Man/studying The game.md",
-                "mode": "source",
+                "file": "Pac-Man/Well known steps.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "studying The game"
+              "title": "Well known steps"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -247,10 +247,12 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "b5d75b64bfd0a2d1",
+  "active": "2f295a682ad345b1",
   "lastOpenFiles": [
-    "Pac-Man/Graphic knowlege.md",
     "Pac-Man/Well known steps.md",
+    "Networking/Network scaning.md",
+    "Networking/Subnetting.md",
+    "Pac-Man/Graphic knowlege.md",
     "Pac-Man/studying The game.md",
     "IPv6.md",
     "Media/Pasted image 20261030105612.png",
@@ -284,7 +286,6 @@
     "Media/Pasted image 20260809201830.png",
     "Media/Pasted image 20260802125130.png",
     "Web/SQL/MySQL Setup.md",
-    "Linux/File transfer.md",
     "Excalidraw/python_discorver#1.excalidraw",
     "Excalidraw/Bitwize.excalidraw",
     "Web/HTB",

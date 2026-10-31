@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "studying The game",
-      "path": "Pac-Man/studying The game.md"
+      "basename": "TCP-and-UDP",
+      "path": "Networking/CCNA_preparations/TCP-and-UDP.md"
+    },
+    {
+      "basename": "Well known steps",
+      "path": "Pac-Man/Well known steps.md"
+    },
+    {
+      "basename": "Network scaning",
+      "path": "Networking/Network scaning.md"
+    },
+    {
+      "basename": "Subnetting",
+      "path": "Networking/Subnetting.md"
     },
     {
       "basename": "Graphic knowlege",
       "path": "Pac-Man/Graphic knowlege.md"
     },
     {
-      "basename": "Well known steps",
-      "path": "Pac-Man/Well known steps.md"
+      "basename": "studying The game",
+      "path": "Pac-Man/studying The game.md"
     },
     {
       "basename": "IPv6",
@@ -23,10 +35,6 @@
     {
       "basename": "Pasted image 20261030111535",
       "path": "Media/Pasted image 20261030111535.png"
-    },
-    {
-      "basename": "TCP-and-UDP",
-      "path": "Networking/CCNA_preparations/TCP-and-UDP.md"
     },
     {
       "basename": "to see important",
@@ -191,14 +199,6 @@
     {
       "basename": "Http",
       "path": "Excalidraw/Http.md"
-    },
-    {
-      "basename": "Bitwize",
-      "path": "Excalidraw/Bitwize.excalidraw"
-    },
-    {
-      "basename": "Basics",
-      "path": "Networking/Basics.md"
     }
   ],
   "omittedPaths": [],

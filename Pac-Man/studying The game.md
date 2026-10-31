@@ -6,3 +6,6 @@
 
 ----
 ### Pacgums (pac-dots):
+
+
+### Super-pacgums (Power Pellets):
