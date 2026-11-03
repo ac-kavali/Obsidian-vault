@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "ARP",
+      "path": "Networking/ARP.md"
+    },
+    {
+      "basename": "Subnetting",
+      "path": "Networking/Subnetting.md"
+    },
+    {
+      "basename": "Ports",
+      "path": "Networking/Ports.md"
+    },
+    {
+      "basename": "Network Types",
+      "path": "Networking/Network Types.md"
+    },
+    {
+      "basename": "to see important",
+      "path": "Networking/to see important.md"
+    },
+    {
+      "basename": "Switch",
+      "path": "Networking/Switch.md"
+    },
+    {
       "basename": "TCP-and-UDP",
       "path": "Networking/CCNA_preparations/TCP-and-UDP.md"
     },
@@ -11,10 +35,6 @@
     {
       "basename": "Network scaning",
       "path": "Networking/Network scaning.md"
-    },
-    {
-      "basename": "Subnetting",
-      "path": "Networking/Subnetting.md"
     },
     {
       "basename": "Graphic knowlege",
@@ -35,10 +55,6 @@
     {
       "basename": "Pasted image 20261030111535",
       "path": "Media/Pasted image 20261030111535.png"
-    },
-    {
-      "basename": "to see important",
-      "path": "Networking/to see important.md"
     },
     {
       "basename": "OSPF network types",
@@ -183,22 +199,6 @@
     {
       "basename": "python_discorver#1",
       "path": "Excalidraw/python_discorver#1.excalidraw"
-    },
-    {
-      "basename": "Network_basics",
-      "path": "Excalidraw/Network_basics.md"
-    },
-    {
-      "basename": "dns",
-      "path": "Excalidraw/dns.md"
-    },
-    {
-      "basename": "Tmux",
-      "path": "Excalidraw/Tmux.md"
-    },
-    {
-      "basename": "Http",
-      "path": "Excalidraw/Http.md"
     }
   ],
   "omittedPaths": [],
