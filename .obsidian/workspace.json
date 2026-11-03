@@ -59,12 +59,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "withdraw.md",
-                "mode": "source",
+                "file": "CCNA-TCP-UDP-and-IPv6.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "withdraw"
+              "title": "CCNA-TCP-UDP-and-IPv6"
             }
           }
         ],
@@ -263,10 +263,11 @@
   },
   "active": "af3d2bf10d022a7c",
   "lastOpenFiles": [
-    "Networking/Basics.md",
-    "withdraw.md",
-    "Web_Scheduling_of_3_months.md",
+    "IPv6.md",
     "Networking/ARP.md",
+    "withdraw.md",
+    "Networking/Basics.md",
+    "Web_Scheduling_of_3_months.md",
     "Networking/Subnetting.md",
     "Networking/Ports.md",
     "Networking/Network Types.md",
@@ -277,7 +278,6 @@
     "Networking/Network scaning.md",
     "Pac-Man/Graphic knowlege.md",
     "Pac-Man/studying The game.md",
-    "IPv6.md",
     "Media/Pasted image 20261030105612.png",
     "Media/Pasted image 20261030111535.png",
     "Media/Pasted image 20261030111516.png",

@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "CCNA-TCP-UDP-and-IPv6",
+      "path": "CCNA-TCP-UDP-and-IPv6.md"
+    },
+    {
+      "basename": "IPv6",
+      "path": "IPv6.md"
+    },
+    {
+      "basename": "ARP",
+      "path": "Networking/ARP.md"
+    },
+    {
       "basename": "withdraw",
       "path": "withdraw.md"
     },
@@ -11,10 +23,6 @@
     {
       "basename": "Web_Scheduling_of_3_months",
       "path": "Web_Scheduling_of_3_months.md"
-    },
-    {
-      "basename": "ARP",
-      "path": "Networking/ARP.md"
     },
     {
       "basename": "Subnetting",
@@ -55,10 +63,6 @@
     {
       "basename": "studying The game",
       "path": "Pac-Man/studying The game.md"
-    },
-    {
-      "basename": "IPv6",
-      "path": "IPv6.md"
     },
     {
       "basename": "Pasted image 20261030105612",
@@ -195,10 +199,6 @@
     {
       "basename": "Archiving & Compressing",
       "path": "Linux/Archiving & Compressing.md"
-    },
-    {
-      "basename": "Pasted image 20261008163629",
-      "path": "Media/Pasted image 20261008163629.png"
     }
   ],
   "omittedPaths": [],
