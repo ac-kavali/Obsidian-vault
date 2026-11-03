@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "withdraw",
+      "path": "withdraw.md"
+    },
+    {
+      "basename": "Basics",
+      "path": "Networking/Basics.md"
+    },
+    {
+      "basename": "Web_Scheduling_of_3_months",
+      "path": "Web_Scheduling_of_3_months.md"
+    },
+    {
       "basename": "ARP",
       "path": "Networking/ARP.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Pasted image 20261008163629",
       "path": "Media/Pasted image 20261008163629.png"
-    },
-    {
-      "basename": "DB-CRUD",
-      "path": "Web/SQL/DB-CRUD.md"
-    },
-    {
-      "basename": "ARP",
-      "path": "Excalidraw/ARP.md"
-    },
-    {
-      "basename": "python_discorver#1",
-      "path": "Excalidraw/python_discorver#1.excalidraw"
     }
   ],
   "omittedPaths": [],
