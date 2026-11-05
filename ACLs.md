@@ -1,9 +1,3 @@
----
-tags:
-  - ccna
-  - security
-  - acl
----
 
 # ACLs — Access Control Lists
 
@@ -40,9 +34,9 @@ When a packet reaches an interface and direction with an ACL:
 Every IPv4 ACL has an invisible final rule that rejects unmatched packets:
 
 | ACL type | Equivalent final rule |
-| --- | --- |
-| Standard | `deny any` |
-| Extended | `deny ip any any` |
+| -------- | --------------------- |
+| Standard | `deny any`            |
+| Extended | `deny ip any any`     |
 
 You do **not** configure this rule. It normally does not appear in `show running-config`.
 
@@ -64,12 +58,12 @@ To allow only selected sources, add their permit rules and let implicit deny rej
 
 ### Standard vs extended
 
-| Feature | Standard IPv4 ACL | Extended IPv4 ACL |
-| --- | --- | --- |
-| Matches | **Source IPv4 address only** | Source, destination, IP protocol, and TCP/UDP ports where applicable |
-| Number ranges | **1–99**, **1300–1999** | **100–199**, **2000–2699** |
+| Feature         | Standard IPv4 ACL                              | Extended IPv4 ACL                                     |
+| --------------- | ---------------------------------------------- | ----------------------------------------------------- |
+| Matches         | **Source IPv4 address only**                   | Source, destination, protocol, ports numbers          |
+| Number ranges   | **1–99**, **1300–1999**                        | **100–199**, **2000–2699**                            |
 | Example purpose | Block a source from reaching a destination LAN | Block HTTP to one server while allowing other traffic |
-| Usual placement | Near the **destination** | Near the **source** |
+| Usual placement | Near the **destination**                       | Near the **source**                                   |
 
 A standard ACL cannot distinguish destinations. Placing it near the source could block access to other networks too. An extended ACL can identify the intended destination/service, so early filtering avoids carrying unwanted traffic.
 
