@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "ACLs",
+      "path": "ACLs.md"
+    },
+    {
+      "basename": "Web_Scheduling_of_3_months",
+      "path": "Web_Scheduling_of_3_months.md"
+    },
+    {
       "basename": "CCNA-TCP-UDP-and-IPv6",
       "path": "CCNA-TCP-UDP-and-IPv6.md"
+    },
+    {
+      "basename": "TCP-and-UDP",
+      "path": "Networking/CCNA_preparations/TCP-and-UDP.md"
     },
     {
       "basename": "IPv6",
@@ -13,16 +25,8 @@
       "path": "Networking/ARP.md"
     },
     {
-      "basename": "withdraw",
-      "path": "withdraw.md"
-    },
-    {
       "basename": "Basics",
       "path": "Networking/Basics.md"
-    },
-    {
-      "basename": "Web_Scheduling_of_3_months",
-      "path": "Web_Scheduling_of_3_months.md"
     },
     {
       "basename": "Subnetting",
@@ -43,10 +47,6 @@
     {
       "basename": "Switch",
       "path": "Networking/Switch.md"
-    },
-    {
-      "basename": "TCP-and-UDP",
-      "path": "Networking/CCNA_preparations/TCP-and-UDP.md"
     },
     {
       "basename": "Well known steps",
@@ -195,10 +195,6 @@
     {
       "basename": "Environment Variables",
       "path": "Linux/Environment Variables.md"
-    },
-    {
-      "basename": "Archiving & Compressing",
-      "path": "Linux/Archiving & Compressing.md"
     }
   ],
   "omittedPaths": [],
