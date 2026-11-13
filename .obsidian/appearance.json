@@ -8,5 +8,6 @@
   ],
   "theme": "obsidian",
   "accentColor": "",
-  "cssTheme": "Vanilla AMOLED"
+  "cssTheme": "Vanilla AMOLED",
+  "showRibbon": true
 }

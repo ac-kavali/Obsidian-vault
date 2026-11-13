@@ -34,11 +34,18 @@
       "Project",
       "Python",
       "Web",
-      "filesystem&nav",
       "Books Stations.md",
       "github.md",
       "Pac-Man",
-      "IPv6.md"
+      "IPv6.md",
+      "ACLs.md",
+      "CCNA-TCP-UDP-and-IPv6.md",
+      "Pasted Image 20261108203437_930.png",
+      "Pasted Image 20261108203437_938.png",
+      "Web_Scheduling_of_3_months.md",
+      "filesystem&nav",
+      "withdraw.md",
+      "Drawing 2026-11-08 20.34.32.excalidraw.md"
     ],
     "Web/JavaScript": [
       "Introduction.md",
@@ -76,6 +83,25 @@
       "DNS.md",
       "Network Types.md",
       "to see important.md"
+    ],
+    "Excalidraw": [
+      "ARP.md",
+      "Bitwize.excalidraw",
+      "Http.md",
+      "Network_basics.md",
+      "Impress-me.md",
+      "booting_process.excalidraw",
+      "Tmux.md",
+      "callmemaybe.md",
+      "codexion.md",
+      "dns.md",
+      "fly-in.md",
+      "prim.md",
+      "fr_illustration.md",
+      "python_discorver#1.excalidraw",
+      "rcp_game-d.md",
+      "subnetting.md",
+      "vision.md"
     ]
   }
 }

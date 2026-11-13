@@ -1,32 +1,84 @@
 {
   "recentFiles": [
     {
-      "basename": "ACLs",
-      "path": "ACLs.md"
+      "basename": "Extended ACLs",
+      "path": "Extended ACLs.md"
+    },
+    {
+      "basename": "lldp_cdp",
+      "path": "Excalidraw/lldp_cdp.md"
+    },
+    {
+      "basename": "vision",
+      "path": "Excalidraw/vision.md"
     },
     {
       "basename": "Web_Scheduling_of_3_months",
       "path": "Web_Scheduling_of_3_months.md"
     },
     {
-      "basename": "CCNA-TCP-UDP-and-IPv6",
-      "path": "CCNA-TCP-UDP-and-IPv6.md"
+      "basename": "Pasted Image 20261108203437_938",
+      "path": "Pasted Image 20261108203437_938.png"
     },
     {
-      "basename": "TCP-and-UDP",
-      "path": "Networking/CCNA_preparations/TCP-and-UDP.md"
+      "basename": "CCNA_CDP_LLDP_Notes",
+      "path": "CCNA_CDP_LLDP_Notes.md"
     },
     {
       "basename": "IPv6",
       "path": "IPv6.md"
     },
     {
-      "basename": "ARP",
-      "path": "Networking/ARP.md"
+      "basename": "Dining Philosophoers",
+      "path": "Project/Dining Philosophoers.md"
+    },
+    {
+      "basename": "codexion",
+      "path": "Excalidraw/codexion.md"
+    },
+    {
+      "basename": "studying The game",
+      "path": "Pac-Man/studying The game.md"
+    },
+    {
+      "basename": "Well known steps",
+      "path": "Pac-Man/Well known steps.md"
+    },
+    {
+      "basename": "Graphic knowlege",
+      "path": "Pac-Man/Graphic knowlege.md"
+    },
+    {
+      "basename": "File Discriptor",
+      "path": "Concepts/File Discriptor.md"
+    },
+    {
+      "basename": "GNL",
+      "path": "Project/GNL.md"
+    },
+    {
+      "basename": "ACLs",
+      "path": "ACLs.md"
+    },
+    {
+      "basename": "withdraw",
+      "path": "withdraw.md"
     },
     {
       "basename": "Basics",
       "path": "Networking/Basics.md"
+    },
+    {
+      "basename": "Application, Presentation",
+      "path": "Networking/Application, Presentation.md"
+    },
+    {
+      "basename": "ARP",
+      "path": "Networking/ARP.md"
+    },
+    {
+      "basename": "TCP-and-UDP",
+      "path": "Networking/CCNA_preparations/TCP-and-UDP.md"
     },
     {
       "basename": "Subnetting",
@@ -49,20 +101,8 @@
       "path": "Networking/Switch.md"
     },
     {
-      "basename": "Well known steps",
-      "path": "Pac-Man/Well known steps.md"
-    },
-    {
       "basename": "Network scaning",
       "path": "Networking/Network scaning.md"
-    },
-    {
-      "basename": "Graphic knowlege",
-      "path": "Pac-Man/Graphic knowlege.md"
-    },
-    {
-      "basename": "studying The game",
-      "path": "Pac-Man/studying The game.md"
     },
     {
       "basename": "Pasted image 20261030105612",
@@ -87,10 +127,6 @@
     {
       "basename": "Day 11",
       "path": "Networking/CCNA_preparations/Day 11.md"
-    },
-    {
-      "basename": "codexion",
-      "path": "Excalidraw/codexion.md"
     },
     {
       "basename": "Printf",
@@ -159,42 +195,6 @@
     {
       "basename": "Pasted Image 20260731132100_208",
       "path": "Media/Pasted Image 20260731132100_208.png"
-    },
-    {
-      "basename": "Pasted Image 20260712232158_962",
-      "path": "Media/Pasted Image 20260712232158_962.png"
-    },
-    {
-      "basename": "Pasted Image 20260405182945_097",
-      "path": "Media/Pasted Image 20260405182945_097.png"
-    },
-    {
-      "basename": "MySQL Setup",
-      "path": "Web/SQL/MySQL Setup.md"
-    },
-    {
-      "basename": "File transfer",
-      "path": "Linux/File transfer.md"
-    },
-    {
-      "basename": "Netcat",
-      "path": "Linux/Netcat.md"
-    },
-    {
-      "basename": "Linux Admin Project",
-      "path": "Linux/Linux Admin Project.md"
-    },
-    {
-      "basename": "File Securing",
-      "path": "Linux/File Securing.md"
-    },
-    {
-      "basename": "FTP",
-      "path": "Linux/FTP.md"
-    },
-    {
-      "basename": "Environment Variables",
-      "path": "Linux/Environment Variables.md"
     }
   ],
   "omittedPaths": [],
