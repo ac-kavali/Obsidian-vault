@@ -71,10 +71,7 @@
       "Ports.md",
       "Subnetting.md",
       "Switch.md",
-      "CAB-CONSOLE-USB-3-800x800.jpg",
-      "DNS.md",
-      "Network Types.md",
-      "to see important.md"
+      "DNS.md"
     ],
     "Excalidraw": [
       "ARP.md",
@@ -96,6 +93,7 @@
       "vision.md"
     ],
     "Networking/CCNA_preparations": [
+      "General Informations.md",
       "Day 11.md",
       "Day 13.md",
       "Day 22",
@@ -110,6 +108,7 @@
       "Firewalls.md",
       "Questions.md",
       "Troubleshouting.md",
+      "Commands.md",
       "VTP.md",
       "day2.md",
       "BPDU filter.md",
@@ -118,14 +117,13 @@
       "OSPF.md",
       "OSPF Adjacencies.md",
       "OSPF network types.md",
-      "ACLs.md",
-      "Extended ACLs.md",
-      "IPv6.md",
-      "OSPF troubleshoot.md",
-      "CCNA_CDP_LLDP_Notes.md",
       "FHRP.md",
-      "Commands.md",
-      "TCP-and-UDP.md"
+      "TCP-and-UDP.md",
+      "Extended ACLs.md",
+      "OSPF troubleshoot.md",
+      "IPv6.md",
+      "CCNA_CDP_LLDP_Notes.md",
+      "ACLs.md"
     ]
   }
 }

@@ -87,12 +87,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/to see important.md",
+                "file": "Networking/CCNA_preparations/General Informations.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "to see important"
+              "title": "General Informations"
             }
           }
         ],
@@ -289,7 +289,7 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "ba76d3338d210146",
+  "active": "364eed01b939fc76",
   "lastOpenFiles": [
     "Networking/Network Types.md",
     "Networking/DNS.md",
