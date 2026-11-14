@@ -1,8 +1,48 @@
 {
   "recentFiles": [
     {
+      "basename": "github",
+      "path": "github.md"
+    },
+    {
+      "basename": "Books Stations",
+      "path": "Books Stations.md"
+    },
+    {
+      "basename": "ACLs",
+      "path": "Networking/ACLs.md"
+    },
+    {
+      "basename": "CCNA_CDP_LLDP_Notes",
+      "path": "Networking/CCNA_CDP_LLDP_Notes.md"
+    },
+    {
+      "basename": "GNL",
+      "path": "Project/GNL.md"
+    },
+    {
+      "basename": "callmemaybe",
+      "path": "Excalidraw/callmemaybe.md"
+    },
+    {
+      "basename": "codexion",
+      "path": "Excalidraw/codexion.md"
+    },
+    {
+      "basename": "Bitwize",
+      "path": "Excalidraw/Bitwize.excalidraw"
+    },
+    {
+      "basename": "ARP",
+      "path": "Excalidraw/ARP.md"
+    },
+    {
       "basename": "Extended ACLs",
-      "path": "Extended ACLs.md"
+      "path": "Networking/Extended ACLs.md"
+    },
+    {
+      "basename": "Dining Philosophoers",
+      "path": "Project/Dining Philosophoers.md"
     },
     {
       "basename": "lldp_cdp",
@@ -13,28 +53,8 @@
       "path": "Excalidraw/vision.md"
     },
     {
-      "basename": "Web_Scheduling_of_3_months",
-      "path": "Web_Scheduling_of_3_months.md"
-    },
-    {
-      "basename": "Pasted Image 20261108203437_938",
-      "path": "Pasted Image 20261108203437_938.png"
-    },
-    {
-      "basename": "CCNA_CDP_LLDP_Notes",
-      "path": "CCNA_CDP_LLDP_Notes.md"
-    },
-    {
       "basename": "IPv6",
-      "path": "IPv6.md"
-    },
-    {
-      "basename": "Dining Philosophoers",
-      "path": "Project/Dining Philosophoers.md"
-    },
-    {
-      "basename": "codexion",
-      "path": "Excalidraw/codexion.md"
+      "path": "Networking/IPv6.md"
     },
     {
       "basename": "studying The game",
@@ -51,18 +71,6 @@
     {
       "basename": "File Discriptor",
       "path": "Concepts/File Discriptor.md"
-    },
-    {
-      "basename": "GNL",
-      "path": "Project/GNL.md"
-    },
-    {
-      "basename": "ACLs",
-      "path": "ACLs.md"
-    },
-    {
-      "basename": "withdraw",
-      "path": "withdraw.md"
     },
     {
       "basename": "Basics",
@@ -137,14 +145,6 @@
       "path": "Networking/CCNA_preparations/FHRP.md"
     },
     {
-      "basename": "github",
-      "path": "github.md"
-    },
-    {
-      "basename": "Books Stations",
-      "path": "Books Stations.md"
-    },
-    {
       "basename": "Python Backend",
       "path": "Web/Python Backend.md"
     },
@@ -187,14 +187,6 @@
     {
       "basename": "Pasted image 20260809201813",
       "path": "Media/Pasted image 20260809201813.png"
-    },
-    {
-      "basename": "Pasted image 20260809201830",
-      "path": "Media/Pasted image 20260809201830.png"
-    },
-    {
-      "basename": "Pasted Image 20260731132100_208",
-      "path": "Media/Pasted Image 20260731132100_208.png"
     }
   ],
   "omittedPaths": [],
