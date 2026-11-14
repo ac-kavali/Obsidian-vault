@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "to see important",
+      "path": "Networking/to see important.md"
+    },
+    {
+      "basename": "DNS",
+      "path": "Networking/DNS.md"
+    },
+    {
+      "basename": "Commands",
+      "path": "Networking/CCNA_preparations/Commands.md"
+    },
+    {
+      "basename": "IPv6",
+      "path": "Networking/CCNA_preparations/IPv6.md"
+    },
+    {
       "basename": "github",
       "path": "github.md"
     },
@@ -10,11 +26,11 @@
     },
     {
       "basename": "ACLs",
-      "path": "Networking/ACLs.md"
+      "path": "Networking/CCNA_preparations/ACLs.md"
     },
     {
       "basename": "CCNA_CDP_LLDP_Notes",
-      "path": "Networking/CCNA_CDP_LLDP_Notes.md"
+      "path": "Networking/CCNA_preparations/CCNA_CDP_LLDP_Notes.md"
     },
     {
       "basename": "GNL",
@@ -38,7 +54,7 @@
     },
     {
       "basename": "Extended ACLs",
-      "path": "Networking/Extended ACLs.md"
+      "path": "Networking/CCNA_preparations/Extended ACLs.md"
     },
     {
       "basename": "Dining Philosophoers",
@@ -51,10 +67,6 @@
     {
       "basename": "vision",
       "path": "Excalidraw/vision.md"
-    },
-    {
-      "basename": "IPv6",
-      "path": "Networking/IPv6.md"
     },
     {
       "basename": "studying The game",
@@ -95,14 +107,6 @@
     {
       "basename": "Ports",
       "path": "Networking/Ports.md"
-    },
-    {
-      "basename": "Network Types",
-      "path": "Networking/Network Types.md"
-    },
-    {
-      "basename": "to see important",
-      "path": "Networking/to see important.md"
     },
     {
       "basename": "Switch",
@@ -155,10 +159,6 @@
     {
       "basename": "Windows htb",
       "path": "Networking/CCNA_preparations/Windows htb.md"
-    },
-    {
-      "basename": "IPv6",
-      "path": "Networking/CCNA_preparations/IPv6.md"
     },
     {
       "basename": "OSPF troubleshoot",

@@ -94,6 +94,38 @@
       "rcp_game-d.md",
       "subnetting.md",
       "vision.md"
+    ],
+    "Networking/CCNA_preparations": [
+      "Day 11.md",
+      "Day 13.md",
+      "Day 22",
+      "Day10.md",
+      "Day3.md",
+      "Day4.md",
+      "Day6.md",
+      "Day5.md",
+      "Day8.md",
+      "Day9.md",
+      "Materiels.md",
+      "Firewalls.md",
+      "Questions.md",
+      "Troubleshouting.md",
+      "VTP.md",
+      "day2.md",
+      "BPDU filter.md",
+      "Windows htb.md",
+      "RIP and EIGRP.md",
+      "OSPF.md",
+      "OSPF Adjacencies.md",
+      "OSPF network types.md",
+      "ACLs.md",
+      "Extended ACLs.md",
+      "IPv6.md",
+      "OSPF troubleshoot.md",
+      "CCNA_CDP_LLDP_Notes.md",
+      "FHRP.md",
+      "Commands.md",
+      "TCP-and-UDP.md"
     ]
   }
 }
