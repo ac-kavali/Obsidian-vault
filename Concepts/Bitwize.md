@@ -6,10 +6,10 @@
 # Byte ordering(endianness)
 In Computer science when we want to define how a bytes or a data type store we mostly depend on what byte ordering in our System 
 - **Big-endian**: Stores data bites from left to right, MSB is in the right that match most of memroy adderesses layout in modern systems 
-![[Pasted image 20261115112915.png|1277]]
+![[Pasted image 20261115112915.png|896]]
 
 - **Little-endian**: MSF is in the right, the opposite of the big-endian, this make it more overhead to read and interpret for human, but its wildely used in most of modern system rather than the big-indian 
-![[Pasted image 20261115112825.png|1277]]
+![[Pasted image 20261115112825.png|907]]
 
 **We maked the memory level representation clear, but we need also to get an idea about the CPU, ALU how it interpret it :** 
 ### CPU Ar
@@ -34,10 +34,7 @@ EAX: is a 32-bit register that can hold a typical int
 <span style="color:rgb(255, 255, 0)">Now: </span> We need instructions :
 - Instructions like addition (`ADD`) or shifting (`SHL`/`SHR`) that are defined in assembly
 - Are stored in<span style="color:rgb(252, 100, 0)"> the Instruction Register (IR)</span> to be executed by the ALU(Arithmetic Logical Unite)
-
-
-
-
+And those steps are combined and done by the CPU and the result got placed into the memory again (RAM).
 
 ---
 # Bit Shifting
