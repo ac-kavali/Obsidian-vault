@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Bitwize",
+      "path": "Concepts/Bitwize.md"
+    },
+    {
+      "basename": "Libft",
+      "path": "Project/Libft.md"
+    },
+    {
+      "basename": "GNL",
+      "path": "Project/GNL.md"
+    },
+    {
+      "basename": "NTP",
+      "path": "Networking/CCNA_preparations/NTP.md"
+    },
+    {
       "basename": "General Informations",
       "path": "Networking/CCNA_preparations/General Informations.md"
     },
@@ -31,10 +47,6 @@
     {
       "basename": "CCNA_CDP_LLDP_Notes",
       "path": "Networking/CCNA_preparations/CCNA_CDP_LLDP_Notes.md"
-    },
-    {
-      "basename": "GNL",
-      "path": "Project/GNL.md"
     },
     {
       "basename": "callmemaybe",
@@ -183,10 +195,6 @@
     {
       "basename": "Pasted image 20260809201714",
       "path": "Media/Pasted image 20260809201714.png"
-    },
-    {
-      "basename": "Pasted image 20260809201813",
-      "path": "Media/Pasted image 20260809201813.png"
     }
   ],
   "omittedPaths": [],

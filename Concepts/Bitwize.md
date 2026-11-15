@@ -1,6 +1,23 @@
 # Operations
 
 ![[bitwizeOperators.png]]
+
+---
+# Byte ordering(endianness)
+In Computer science when we want to define how a bytes or a data type store we mostly depend on what byte ordering in our System 
+- **Big-endian**: Stores data bites from left to right, MSB is in the right that match most of memroy adderesses layout in modern systems 
+![[Pasted image 20261115112915.png|1277]]
+
+- **Little-endian**: MSF is in the right, the opposite of the big-endian, this make it more overhead to read and interpret for human, but its wildely used in most of modern system rather than the big-indian 
+![[Pasted image 20261115112825.png|1277]]
+
+**We maked the memory level representation clear, but we need also to get an idea about the CPU, ALU how it interpret it : 
+### CPU 
+We'll use a typical x86-64 Linux computer as our example
+
+
+
+---
 # Bit Shifting
 
 It is sliding the digits of a binary number left or right using `<<` or `>>` operators.
