@@ -14,6 +14,18 @@ In Computer science when we want to define how a bytes or a data type store we m
 **We maked the memory level representation clear, but we need also to get an idea about the CPU, ALU how it interpret it :** 
 ### CPU 
 We'll use a typical x86-64 Linux computer as our example
+- <span style="color:rgb(0, 176, 80)">Little-endian</span> or <span style="color:rgb(0, 176, 80)">big-endian</span> are just how the multi-bytes data stored in memory, it not affect or controle how the CPU do its are
+##### Taking for example:
+```c
+int a = 10;
+```
+In memory will be: 
+```
+0x2001      0x2002    0x2003     0x2004
+00001010 | 00000000 | 00000000 | 00000000| ... 
+```
+
+
 
 
 
