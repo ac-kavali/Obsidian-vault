@@ -62,16 +62,16 @@
       "Burp-Intruder.md"
     ],
     "Networking": [
-      "CCNA_preparations",
+      "Basics.md",
       "ARP.md",
       "Application, Presentation.md",
-      "Basics.md",
       "Network scaning.md",
       "OSI Model.md",
       "Ports.md",
       "Subnetting.md",
       "Switch.md",
-      "DNS.md"
+      "DNS.md",
+      "CCNA_preparations"
     ],
     "Excalidraw": [
       "ARP.md",

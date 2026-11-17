@@ -1,8 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "Bitwize",
-      "path": "Concepts/Bitwize.md"
+      "basename": "DNS-CCNA",
+      "path": "DNS-CCNA.md"
+    },
+    {
+      "basename": "Network_basics",
+      "path": "Excalidraw/Network_basics.md"
+    },
+    {
+      "basename": "Impress-me",
+      "path": "Excalidraw/Impress-me.md"
+    },
+    {
+      "basename": "Http",
+      "path": "Excalidraw/Http.md"
+    },
+    {
+      "basename": "DNS",
+      "path": "Networking/DNS.md"
+    },
+    {
+      "basename": "Well known steps",
+      "path": "Pac-Man/Well known steps.md"
+    },
+    {
+      "basename": "Graphic knowlege",
+      "path": "Pac-Man/Graphic knowlege.md"
+    },
+    {
+      "basename": "studying The game",
+      "path": "Pac-Man/studying The game.md"
+    },
+    {
+      "basename": "Books Stations",
+      "path": "Books Stations.md"
+    },
+    {
+      "basename": "MaZe",
+      "path": "Project/MaZe.md"
+    },
+    {
+      "basename": "Printf",
+      "path": "Project/Printf.md"
     },
     {
       "basename": "Libft",
@@ -13,16 +53,68 @@
       "path": "Project/GNL.md"
     },
     {
+      "basename": "Bitwize",
+      "path": "Concepts/Bitwize.md"
+    },
+    {
+      "basename": "Computing",
+      "path": "Concepts/Computing.md"
+    },
+    {
+      "basename": "File Discriptor",
+      "path": "Concepts/File Discriptor.md"
+    },
+    {
+      "basename": "GDB",
+      "path": "Concepts/GDB.md"
+    },
+    {
+      "basename": "Linked lists",
+      "path": "Concepts/Linked lists.md"
+    },
+    {
+      "basename": "Dining Philosophoers",
+      "path": "Project/Dining Philosophoers.md"
+    },
+    {
+      "basename": "OSPF network types",
+      "path": "Networking/CCNA_preparations/OSPF network types.md"
+    },
+    {
+      "basename": "Switch",
+      "path": "Networking/Switch.md"
+    },
+    {
+      "basename": "Basics",
+      "path": "Networking/Basics.md"
+    },
+    {
+      "basename": "Application, Presentation",
+      "path": "Networking/Application, Presentation.md"
+    },
+    {
+      "basename": "ARP",
+      "path": "Networking/ARP.md"
+    },
+    {
+      "basename": "Bitwize",
+      "path": "Excalidraw/Bitwize.excalidraw"
+    },
+    {
+      "basename": "ARP",
+      "path": "Excalidraw/ARP.md"
+    },
+    {
+      "basename": "pointer to pointer",
+      "path": "Concepts/pointer to pointer.md"
+    },
+    {
       "basename": "NTP",
       "path": "Networking/CCNA_preparations/NTP.md"
     },
     {
       "basename": "General Informations",
       "path": "Networking/CCNA_preparations/General Informations.md"
-    },
-    {
-      "basename": "DNS",
-      "path": "Networking/DNS.md"
     },
     {
       "basename": "Commands",
@@ -35,10 +127,6 @@
     {
       "basename": "github",
       "path": "github.md"
-    },
-    {
-      "basename": "Books Stations",
-      "path": "Books Stations.md"
     },
     {
       "basename": "ACLs",
@@ -57,20 +145,8 @@
       "path": "Excalidraw/codexion.md"
     },
     {
-      "basename": "Bitwize",
-      "path": "Excalidraw/Bitwize.excalidraw"
-    },
-    {
-      "basename": "ARP",
-      "path": "Excalidraw/ARP.md"
-    },
-    {
       "basename": "Extended ACLs",
       "path": "Networking/CCNA_preparations/Extended ACLs.md"
-    },
-    {
-      "basename": "Dining Philosophoers",
-      "path": "Project/Dining Philosophoers.md"
     },
     {
       "basename": "lldp_cdp",
@@ -79,34 +155,6 @@
     {
       "basename": "vision",
       "path": "Excalidraw/vision.md"
-    },
-    {
-      "basename": "studying The game",
-      "path": "Pac-Man/studying The game.md"
-    },
-    {
-      "basename": "Well known steps",
-      "path": "Pac-Man/Well known steps.md"
-    },
-    {
-      "basename": "Graphic knowlege",
-      "path": "Pac-Man/Graphic knowlege.md"
-    },
-    {
-      "basename": "File Discriptor",
-      "path": "Concepts/File Discriptor.md"
-    },
-    {
-      "basename": "Basics",
-      "path": "Networking/Basics.md"
-    },
-    {
-      "basename": "Application, Presentation",
-      "path": "Networking/Application, Presentation.md"
-    },
-    {
-      "basename": "ARP",
-      "path": "Networking/ARP.md"
     },
     {
       "basename": "TCP-and-UDP",
@@ -121,10 +169,6 @@
       "path": "Networking/Ports.md"
     },
     {
-      "basename": "Switch",
-      "path": "Networking/Switch.md"
-    },
-    {
       "basename": "Network scaning",
       "path": "Networking/Network scaning.md"
     },
@@ -135,10 +179,6 @@
     {
       "basename": "Pasted image 20261030111535",
       "path": "Media/Pasted image 20261030111535.png"
-    },
-    {
-      "basename": "OSPF network types",
-      "path": "Networking/CCNA_preparations/OSPF network types.md"
     },
     {
       "basename": "OSPF Adjacencies",
@@ -153,48 +193,12 @@
       "path": "Networking/CCNA_preparations/Day 11.md"
     },
     {
-      "basename": "Printf",
-      "path": "Project/Printf.md"
-    },
-    {
       "basename": "FHRP",
       "path": "Networking/CCNA_preparations/FHRP.md"
     },
     {
       "basename": "Python Backend",
       "path": "Web/Python Backend.md"
-    },
-    {
-      "basename": "Web Exploite",
-      "path": "Web/Web Exploite.md"
-    },
-    {
-      "basename": "Windows htb",
-      "path": "Networking/CCNA_preparations/Windows htb.md"
-    },
-    {
-      "basename": "OSPF troubleshoot",
-      "path": "Networking/CCNA_preparations/OSPF troubleshoot.md"
-    },
-    {
-      "basename": "Pasted image 20260802125130",
-      "path": "Media/Pasted image 20260802125130.png"
-    },
-    {
-      "basename": "Pasted image 20260809201240",
-      "path": "Media/Pasted image 20260809201240.png"
-    },
-    {
-      "basename": "Pasted image 20260809201318",
-      "path": "Media/Pasted image 20260809201318.png"
-    },
-    {
-      "basename": "Pasted image 20260809201330",
-      "path": "Media/Pasted image 20260809201330.png"
-    },
-    {
-      "basename": "Pasted image 20260809201714",
-      "path": "Media/Pasted image 20260809201714.png"
     }
   ],
   "omittedPaths": [],

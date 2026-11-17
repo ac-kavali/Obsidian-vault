@@ -51,7 +51,7 @@ A thread is the smallest execution unite in a process where a single process con
 _The POSIX thread API gives you functions to control each stage_
 
 ### pthread_create()
-Creates a new thread
+Creates a new thread and return its Identifier.
 ```c
 int pthread_create(
     pthread_t *thread,

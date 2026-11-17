@@ -18,6 +18,29 @@ Physical Core
 └── Logical Processor 1 
 ```
 
+## Posix Threads in C 
+```c
+#include <pthread.h>
+
+int instructions1(char *var, int var2){
+	block of code ...
+}
+
+int instructions2(char *somthign...){
+	block of code ...
+}
+
+int main(){
+	pthread t1;
+	pthread t2;
+	
+	pthread_create(&t1, NULL, &instructions1, NULL);
+	pthread_create(&t2, NULL, &instructions2, NULL);
+}
+
+```
+
+**Creating two threads gives the OS scheduler two independent execution contexts to schedule, instead of one.** This gives the scheduler the opportunity to execute them in parallel, but doesn't guarantee it.
 
 ---
 ## Deadlock 
@@ -33,8 +56,5 @@ Thread B waits for Resource 1
 a resource can be a variable locked by thread A by a mutex or a database row , or a file ...
 
 
-## context switching
 --- 
-- [ ] That is **exactly correct**. You do not need to manually create, destroy, or manage threads to exploit Hyper-Threading
-- [ ] Why Manual Threading is Avoided
-
+- [ ] That is **exactly correct**. You do not need to manually create, destroy, or manage threads to exploit Hyper-Threading its implimented by cpu archetecture. 
