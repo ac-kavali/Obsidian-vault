@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Well known steps",
+      "path": "Pac-Man/Well known steps.md"
+    },
+    {
+      "basename": "Graphic knowlege",
+      "path": "Pac-Man/Graphic knowlege.md"
+    },
+    {
+      "basename": "studying The game",
+      "path": "Pac-Man/studying The game.md"
+    },
+    {
       "basename": "DHCP-CCNA",
       "path": "DHCP-CCNA.md"
+    },
+    {
+      "basename": "DNS-CCNA",
+      "path": "DNS-CCNA.md"
     },
     {
       "basename": "OSPF troubleshoot",
@@ -21,10 +37,6 @@
       "path": "Networking/CCNA_preparations/Troubleshouting.md"
     },
     {
-      "basename": "DNS-CCNA",
-      "path": "DNS-CCNA.md"
-    },
-    {
       "basename": "Network_basics",
       "path": "Excalidraw/Network_basics.md"
     },
@@ -39,18 +51,6 @@
     {
       "basename": "DNS",
       "path": "Networking/DNS.md"
-    },
-    {
-      "basename": "Well known steps",
-      "path": "Pac-Man/Well known steps.md"
-    },
-    {
-      "basename": "Graphic knowlege",
-      "path": "Pac-Man/Graphic knowlege.md"
-    },
-    {
-      "basename": "studying The game",
-      "path": "Pac-Man/studying The game.md"
     },
     {
       "basename": "Books Stations",
