@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "DHCP-CCNA",
+      "path": "DHCP-CCNA.md"
+    },
+    {
+      "basename": "OSPF troubleshoot",
+      "path": "Networking/CCNA_preparations/OSPF troubleshoot.md"
+    },
+    {
+      "basename": "OSPF Adjacencies",
+      "path": "Networking/CCNA_preparations/OSPF Adjacencies.md"
+    },
+    {
+      "basename": "Commands",
+      "path": "Networking/CCNA_preparations/Commands.md"
+    },
+    {
+      "basename": "Troubleshouting",
+      "path": "Networking/CCNA_preparations/Troubleshouting.md"
+    },
+    {
       "basename": "DNS-CCNA",
       "path": "DNS-CCNA.md"
     },
@@ -117,10 +137,6 @@
       "path": "Networking/CCNA_preparations/General Informations.md"
     },
     {
-      "basename": "Commands",
-      "path": "Networking/CCNA_preparations/Commands.md"
-    },
-    {
       "basename": "IPv6",
       "path": "Networking/CCNA_preparations/IPv6.md"
     },
@@ -181,24 +197,8 @@
       "path": "Media/Pasted image 20261030111535.png"
     },
     {
-      "basename": "OSPF Adjacencies",
-      "path": "Networking/CCNA_preparations/OSPF Adjacencies.md"
-    },
-    {
       "basename": "OSPF",
       "path": "Networking/CCNA_preparations/OSPF.md"
-    },
-    {
-      "basename": "Day 11",
-      "path": "Networking/CCNA_preparations/Day 11.md"
-    },
-    {
-      "basename": "FHRP",
-      "path": "Networking/CCNA_preparations/FHRP.md"
-    },
-    {
-      "basename": "Python Backend",
-      "path": "Web/Python Backend.md"
     }
   ],
   "omittedPaths": [],

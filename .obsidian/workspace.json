@@ -43,12 +43,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DNS-CCNA.md",
-                "mode": "preview",
+                "file": "DHCP-CCNA.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DNS-CCNA"
+              "title": "DHCP-CCNA"
             }
           }
         ],
@@ -227,8 +227,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5,
-    "collapsed": true
+    "width": 277.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -248,8 +247,13 @@
   },
   "active": "1c42df63565c9d3b",
   "lastOpenFiles": [
-    "Excalidraw/Network_basics.md",
+    "Networking/CCNA_preparations/OSPF troubleshoot.md",
+    "DHCP-CCNA.md",
+    "Networking/CCNA_preparations/OSPF Adjacencies.md",
+    "Networking/CCNA_preparations/Commands.md",
+    "Networking/CCNA_preparations/Troubleshouting.md",
     "DNS-CCNA.md",
+    "Excalidraw/Network_basics.md",
     "Excalidraw/Impress-me.md",
     "Excalidraw/Http.md",
     "Networking/DNS.md",
@@ -270,12 +274,7 @@
     "Project/Dining Philosophoers.md",
     "Networking/CCNA_preparations/OSPF network types.md",
     "Networking/Switch.md",
-    "Networking/Basics.md",
-    "Networking/Application, Presentation.md",
-    "Networking/ARP.md",
     "Excalidraw/Bitwize.excalidraw",
-    "Excalidraw/ARP.md",
-    "Concepts/pointer to pointer.md",
     "Media/Pasted image 20261115112915.png",
     "Pasted image 20261115112320.png",
     "Media/Pasted image 20261115112825.png",
