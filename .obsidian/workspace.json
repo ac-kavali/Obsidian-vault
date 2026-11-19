@@ -43,12 +43,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pac-Man/Well known steps.md",
+                "file": "DHCP-CCNA.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Well known steps"
+              "title": "DHCP-CCNA"
             }
           }
         ],
@@ -247,10 +247,11 @@
   },
   "active": "1c42df63565c9d3b",
   "lastOpenFiles": [
+    "DNS-CCNA.md",
+    "DHCP-CCNA.md",
+    "Pac-Man/Well known steps.md",
     "Pac-Man/Graphic knowlege.md",
     "Pac-Man/studying The game.md",
-    "DHCP-CCNA.md",
-    "DNS-CCNA.md",
     "Networking/CCNA_preparations/OSPF troubleshoot.md",
     "Networking/CCNA_preparations/OSPF Adjacencies.md",
     "Networking/CCNA_preparations/Commands.md",
@@ -259,7 +260,6 @@
     "Excalidraw/Impress-me.md",
     "Excalidraw/Http.md",
     "Networking/DNS.md",
-    "Pac-Man/Well known steps.md",
     "Pasted image 20261116113259.png",
     "Books Stations.md",
     "Project/MaZe.md",
