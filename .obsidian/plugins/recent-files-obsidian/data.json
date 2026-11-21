@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Variables and datatypes",
-      "path": "Python/Variables and datatypes.md"
+      "basename": "Operators",
+      "path": "Python/Operators.md"
+    },
+    {
+      "basename": "Module 04",
+      "path": "Python/Module 04.md"
+    },
+    {
+      "basename": "Enum",
+      "path": "Python/Enum.md"
     },
     {
       "basename": "Dataclass",
       "path": "Python/Dataclass.md"
+    },
+    {
+      "basename": "Variables and datatypes",
+      "path": "Python/Variables and datatypes.md"
     },
     {
       "basename": "Comprhensive",
@@ -187,18 +199,6 @@
     {
       "basename": "vision",
       "path": "Excalidraw/vision.md"
-    },
-    {
-      "basename": "TCP-and-UDP",
-      "path": "Networking/CCNA_preparations/TCP-and-UDP.md"
-    },
-    {
-      "basename": "Subnetting",
-      "path": "Networking/Subnetting.md"
-    },
-    {
-      "basename": "Ports",
-      "path": "Networking/Ports.md"
     }
   ],
   "omittedPaths": [],

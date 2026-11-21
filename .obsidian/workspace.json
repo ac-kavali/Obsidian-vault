@@ -43,12 +43,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Variables and datatypes.md",
-                "mode": "source",
+                "file": "Python/Operators.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Variables and datatypes"
+              "title": "Operators"
             }
           }
         ],
@@ -247,6 +247,9 @@
   },
   "active": "1c42df63565c9d3b",
   "lastOpenFiles": [
+    "Python/Module 04.md",
+    "Python/Operators.md",
+    "Python/Enum.md",
     "Python/Dataclass.md",
     "Python/Variables and datatypes.md",
     "Python/Comprhensive.md",
@@ -272,9 +275,6 @@
     "Project/Libft.md",
     "Project/GNL.md",
     "Concepts/Bitwize.md",
-    "Concepts/Computing.md",
-    "Concepts/File Discriptor.md",
-    "Concepts/GDB.md",
     "Excalidraw/Bitwize.excalidraw",
     "Media/Pasted image 20261115112915.png",
     "Pasted image 20261115112320.png",

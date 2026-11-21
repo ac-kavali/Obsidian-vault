@@ -124,6 +124,27 @@
       "IPv6.md",
       "CCNA_CDP_LLDP_Notes.md",
       "ACLs.md"
+    ],
+    "Python": [
+      "Variables and datatypes.md",
+      "Operators.md",
+      "Comprhensive.md",
+      "Argparse.md",
+      "Dataclass.md",
+      "Enum.md",
+      "Module 04.md",
+      "Module 05.md",
+      "Module 6.md",
+      "Module09.md",
+      "Module10.md",
+      "Polymorphism.md",
+      "Python Dicover.md",
+      "Python Essentiel Syntax.md",
+      "Python.md",
+      "RE.md",
+      "Random.md",
+      "module08.md",
+      "uv env_mgm.md"
     ]
   }
 }
