@@ -43,12 +43,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Operators.md",
+                "file": "Python/Discover python.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Operators"
+              "title": "Discover python"
             }
           }
         ],
@@ -245,10 +245,10 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "1c42df63565c9d3b",
+  "active": "364eed01b939fc76",
   "lastOpenFiles": [
-    "Python/Module 04.md",
     "Python/Operators.md",
+    "Python/Module 04.md",
     "Python/Enum.md",
     "Python/Dataclass.md",
     "Python/Variables and datatypes.md",

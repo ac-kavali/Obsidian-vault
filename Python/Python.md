@@ -3,5 +3,5 @@
 [[Module09]]
 [[Module 6]]
 [[Polymorphism]]
-[[Python Dicover]]
+[[Discover python]]
 [[Python Essentiel Syntax]]

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Discover python",
+      "path": "Python/Discover python.md"
+    },
+    {
       "basename": "Operators",
       "path": "Python/Operators.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "lldp_cdp",
       "path": "Excalidraw/lldp_cdp.md"
-    },
-    {
-      "basename": "vision",
-      "path": "Excalidraw/vision.md"
     }
   ],
   "omittedPaths": [],

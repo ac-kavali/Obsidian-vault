@@ -126,6 +126,7 @@
       "ACLs.md"
     ],
     "Python": [
+      "Discover python.md",
       "Variables and datatypes.md",
       "Operators.md",
       "Comprhensive.md",
@@ -138,7 +139,6 @@
       "Module09.md",
       "Module10.md",
       "Polymorphism.md",
-      "Python Dicover.md",
       "Python Essentiel Syntax.md",
       "Python.md",
       "RE.md",
