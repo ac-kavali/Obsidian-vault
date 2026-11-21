@@ -28,7 +28,7 @@ When you run a program:
 Both `python` and `python3` are themselves programs - they are executable files that contain instructions for interpreting and running your Python code. When you execute `python script.py`, the Python interpreter program is loaded into RAM, and it then reads your `script.py` file and executes your Python code.
 
 ### Python Virtual Machine
-The Pvm resposible to decode the Bytecode at run time and execute it instruction by instruction.
+The Pvm resposible of decode the Bytecode at run time and execute it instruction by instruction.
 PVM code is written by c.
 
 ### Byte Code
