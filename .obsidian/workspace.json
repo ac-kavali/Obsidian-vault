@@ -43,12 +43,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DHCP-CCNA.md",
-                "mode": "preview",
+                "file": "Python/Variables and datatypes.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DHCP-CCNA"
+              "title": "Variables and datatypes"
             }
           }
         ],
@@ -245,11 +245,15 @@
       "float-search:Search obsidian in modal view": false
     }
   },
-  "active": "fd3a910c8ea450bd",
+  "active": "1c42df63565c9d3b",
   "lastOpenFiles": [
-    "Media/dora-cast.png",
-    "DNS-CCNA.md",
+    "Python/Dataclass.md",
+    "Python/Variables and datatypes.md",
+    "Python/Comprhensive.md",
+    "Python/Argparse.md",
     "DHCP-CCNA.md",
+    "DNS-CCNA.md",
+    "Media/dora-cast.png",
     "Pac-Man/Well known steps.md",
     "Pac-Man/Graphic knowlege.md",
     "Pac-Man/studying The game.md",
@@ -271,9 +275,6 @@
     "Concepts/Computing.md",
     "Concepts/File Discriptor.md",
     "Concepts/GDB.md",
-    "Concepts/Linked lists.md",
-    "Project/Dining Philosophoers.md",
-    "Networking/CCNA_preparations/OSPF network types.md",
     "Excalidraw/Bitwize.excalidraw",
     "Media/Pasted image 20261115112915.png",
     "Pasted image 20261115112320.png",
@@ -283,7 +284,6 @@
     "Pasted Image 20261108203437_930.png",
     "Media/Pasted image 20261030105612.png",
     "Media/Pasted image 20261030111535.png",
-    "Media/Pasted image 20261030111516.png",
     "Pac-Man",
     "Excalidraw/python_discorver#1.excalidraw",
     "Web/HTB",

@@ -6,4 +6,3 @@ name: str
 x: int 
 y: int
 ```
-
