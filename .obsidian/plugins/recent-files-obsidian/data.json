@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Well known steps",
+      "path": "Pac-Man/Well known steps.md"
+    },
+    {
+      "basename": "uv env_mgm",
+      "path": "Python/uv env_mgm.md"
+    },
+    {
       "basename": "File handling",
       "path": "Python/File handling.md"
     },
@@ -39,10 +47,6 @@
     {
       "basename": "DNS-CCNA",
       "path": "DNS-CCNA.md"
-    },
-    {
-      "basename": "Well known steps",
-      "path": "Pac-Man/Well known steps.md"
     },
     {
       "basename": "Graphic knowlege",
@@ -195,10 +199,6 @@
     {
       "basename": "Extended ACLs",
       "path": "Networking/CCNA_preparations/Extended ACLs.md"
-    },
-    {
-      "basename": "lldp_cdp",
-      "path": "Excalidraw/lldp_cdp.md"
     }
   ],
   "omittedPaths": [],

@@ -43,12 +43,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/File handling.md",
+                "file": "Pac-Man/Well known steps.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "File handling"
+              "title": "Well known steps"
             }
           }
         ],
@@ -117,8 +117,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -248,9 +247,10 @@
   },
   "active": "1c42df63565c9d3b",
   "lastOpenFiles": [
+    "Python/uv env_mgm.md",
+    "Python/File handling.md",
     "Python/Discover python.md",
     "Python/Operators.md",
-    "Python/File handling.md",
     "Python/Enum.md",
     "Python/Dataclass.md",
     "Python/Variables and datatypes.md",
@@ -275,7 +275,6 @@
     "Project/MaZe.md",
     "Project/Printf.md",
     "Project/Libft.md",
-    "Project/GNL.md",
     "Excalidraw/Bitwize.excalidraw",
     "Media/Pasted image 20261115112915.png",
     "Pasted image 20261115112320.png",
