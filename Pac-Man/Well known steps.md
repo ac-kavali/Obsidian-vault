@@ -57,3 +57,7 @@ level = Level(
 
 `Level` would be your own class. It receives the generated maze; it does not replace the maze generator.
 
+---
+- [ ] Draw the maze graphically 
+	- use the `build_maze_view(maze, top_margin)` that initial coordinates to be synced with the windows pixels each level cause each level you change the maze.
+	
